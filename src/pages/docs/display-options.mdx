@@ -1,0 +1,62 @@
+---
+title: Display Options
+description: Learn how to control which information about the generated Pokémon is displayed and how it is styled.
+date: 2024-07-30
+---
+
+import Image from 'next/image'
+
+# Display Options
+The display options allow you to control which information about the generated Pokémon is displayed and how it is styled.
+
+<Image src="/img/docs/pokemon-card.png" alt="pokemon-display-card" width={250} height={380} 
+style={{margin: 'auto',marginTop:20}}/>
+
+## Basic Display Options
+- **`Generation`**: Choose to display the game generation of the Pokémon.
+- **`Region`**: Select to display the region where the Pokémon appears.
+- **<span style={{color:'#ff6ecf'}}>`Natures`</span>**: Whether to randomly assign a nature to each generated Pokémon.
+- **`BackImg`**: Background image is based on the type of Pokemon's first slot, to enhance the visual appeal.<br/>
+Images of types are shown below.
+
+### Images of Types
+
+| type | image |
+|-------|-------|
+| bug | ![image of type bug](/img/background-types/type_background_bug.png) |
+| dark | ![image of type dark](/img/background-types/type_background_dark.png) |
+| dragon | ![image of type dragon](/img/background-types/type_background_dragon.png) |
+| electric | ![image of type electric](/img/background-types/type_background_electric.png) |
+| fairy | ![image of type fairy](/img/background-types/type_background_fairy.png) |
+| fighting | ![image of type fighting](/img/background-types/type_background_fighting.png) |
+| fire | ![image of type fire](/img/background-types/type_background_fire.png) |
+| flying | ![image of type flying](/img/background-types/type_background_flying.png) |
+| ghost | ![image of type ghost](/img/background-types/type_background_ghost.png) |
+| grass | ![image of type grass](/img/background-types/type_background_grass.png) |
+| ground | ![image of type ground](/img/background-types/type_background_ground.png) |
+| ice | ![image of type ice](/img/background-types/type_background_ice.png) |
+| normal | ![image of type normal](/img/background-types/type_background_normal.png) |
+| poison | ![image of type poison](/img/background-types/type_background_poison.png) |
+| psychic | ![image of type psychic](/img/background-types/type_background_psychic.png) |
+| rock | ![image of type rock](/img/background-types/type_background_rock.png) |
+| steel | ![image of type steel](/img/background-types/type_background_steel.png) |
+| water | ![image of type water](/img/background-types/type_background_water.png) |
+
+## Advanced Display Options
+- **`BaseColor`**: Whether to display the background color for the Pokémon, which depends on the color of pokemon.
+- **`Abilities`**: Display the abilities of the Pokémon.
+- **`Sprites`**: Show sprite images of the Pokémon.
+- **`Rarity`**: Whether to display the rarity level of the Pokémon, include Normal, Legendary and Mythical.
+- **`Types`**: Display the type(s) of the Pokémon.
+- **`BaseStats`**: Show base stats of Pokémon, including HP, Attack, Defense, Special Attack, Special Defense, and Speed.
+- **`EVs`**: Display effort values of the Pokémon.
+- **<span style={{color:'#ff6ecf'}}>`IVs`</span>**: Whether to randomly assign individual values of the Pokémon.
+- **`Cries`**: Include the cries (sounds) of the Pokémon.
+- **`Shiny`**: Set the probability of generating Shiny Pokémon.
+- **`Shiny tip`**: Display a pop-up notification when encountering a shiny Pokémon, allowing for quick access to a list of previously acquired shiny Pokémon.
+
+## Display Options Guide
+1. **Access Display Options**: Enter the display options area on the website.
+2. **Select Desired Display Conditions**: Choose the basic and advanced options you want to display.
+3. **Set Display Preferences**: Adjust settings such as base color, abilities, base stats, etc.
+4. **Generate Pokémon**: Click the “Generate” button to create Pokémon that meet your display preferences.

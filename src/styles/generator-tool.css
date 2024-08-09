@@ -1,0 +1,1456 @@
+/* latin */
+@font-face {
+	font-family: 'Fredoka One';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(/fonts/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html,
+body {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.generator-tool {
+	/* background: #fffef5; */
+	color: #333;
+	font: .875em/1.5 "Helvetica Neue", Arial, sans-serif;
+	text-align: center
+}
+
+input[type="number"],
+select {
+	border: 1px solid #ccc !important;
+	border-radius: .25em;
+}
+
+.generator-tool {
+	max-width: 63em;
+	margin: 0 auto;
+	padding: .5em
+}
+
+/* body {
+	max-width: 63em;
+	margin: 0 auto;
+	padding: .5em
+} */
+
+h1 {
+	font-weight: 700;
+	font-size: 2em;
+	margin: 0
+}
+
+.generator-tool h2 {
+	padding: 10px;
+	/* background-color: #f4f4f4; */
+	margin: 0;
+	text-align: left;
+	display: block !important;
+	/* clear: both; */
+	font-weight: bold;
+	/* color: #666; */
+	font-size: 1em !important;
+	font-family: Georgia, serif;
+	margin: .25em 0 .5em
+}
+
+.feature-desc-content a {
+	color: #E600A1;
+	text-decoration: underline;
+}
+
+.generator-tool button {
+	border: 1px solid #ccc;
+	border-radius: .5em;
+	padding: 0 .5em;
+	background-color: #f2f2f2;
+}
+
+.panel-top-bar-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	/* width: 100%; */
+	clear: both;
+	margin: 0;
+	padding: 0 0.5em;
+}
+
+.panel-top-tool-bar-container {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.panel-top-tool-bar-container button {
+	height: 1.5em;
+	background-color: #f2f2f2;
+}
+
+h2.panel-label {
+	display: inline-block;
+	margin: 0 0.5em 0 0;
+	padding: 0;
+	height: 1.3em;
+	clear: both;
+	/* font-size: 1em !important; */
+	/* font-family: 'Fredoka One', sans-serif; */
+	color: black;
+	font-weight: lighter
+		/* color: #ffcb05;
+	text-shadow: 1.5px 1.5px #3b4cca, -1.5px 1.5px #3b4cca, 1.5px -1.5px #3b4cca, -1.5px -1.5px 2px #3b4cca; */
+}
+
+#show-option-panel-top-bar {
+	margin-top: 2em;
+}
+
+h1.pokemon-title {
+	font-family: 'Fredoka One', sans-serif;
+	color: #ffcb05;
+	text-shadow: 1.5px 1.5px #3b4cca, -1.5px 1.5px #3b4cca, 1.5px -1.5px #3b4cca, -1.5px -1.5px 2px #3b4cca;
+	/* margin-bottom: 20px; */
+	font-size: 2em;
+}
+
+.tip-marker {
+	font-size: .5em;
+	color: #a4a4a1;
+}
+
+.menu,
+.menu:before {
+	border: 1px solid #000;
+	border-radius: 2px
+}
+
+.menu {
+	padding: .5em .5em;
+	border-bottom-width: 2px;
+	position: relative;
+	margin: 0 auto;
+	z-index: revert-layer;
+	/* overflow: auto; */
+	/* box-sizing: border-box; */
+}
+
+.menu:before {
+	border-top-width: 2px;
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: -1;
+	top: 1px;
+	left: 1px;
+	right: 1px;
+	bottom: 1px
+}
+
+.options-panel {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* 数字范围输入控件组 */
+.num_rangecontainer {
+	width: 60%;
+	display: inline-flex;
+	justify-content: center;
+}
+
+.num_range {
+	width: 100%;
+	height: 1.5em;
+	padding: 0em;
+	margin: 0;
+	display: inline-flex;
+	align-items: center;
+	/* border: 1px solid #CCC; */
+	line-height: 1;
+	overflow: invisible;
+	justify-content: center;
+}
+
+.num_range>input[type="number"] {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.num_range>input:nth-of-type(1) {
+	width: 45%;
+}
+
+.num_range>input:nth-of-type(2) {
+	width: 45%;
+}
+
+.num_range>label:nth-of-type(1) {
+	margin: 0;
+	width: 10%;
+	text-align: center;
+}
+
+.more-button {
+	display: inline-block;
+	float: right;
+	height: 1.4em;
+	padding: 0em !important;
+	width: 8.5em;
+	font-size: 1em;
+	/* color: #FFF; */
+	/* background-color: rgb(213, 211, 211); */
+	border-radius: 0.3em;
+	border: 1px solid #CCC;
+}
+
+.more-button:hover {
+	background-color: #b0b0b0;
+}
+
+.default-invisible {
+	display: none;
+}
+
+.n_generator {
+	clear: both;
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1.8em;
+	position: relative;
+}
+
+.generator-tool a.feedback-link {
+	width: auto;
+	display: inline-block;
+	margin: 1em 0 0 0;
+	font-size: smaller;
+	text-decoration: none;
+	color: grey;
+}
+
+a.feedback-link:hover {
+	color: #3e3d3d;
+}
+
+/* 数字范围输入控件组 */
+
+.option-unit,
+.option-unit-medium,
+.option-unit-small {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	margin: .3em 0em;
+}
+
+.option-unit-small input[type="number"] {
+	width: 3em;
+}
+
+.option-unit,
+.option-unit-medium {
+	width: 33%;
+}
+
+.option-unit-small {
+	width: 16%;
+}
+
+.option-unit>label {
+	max-width: 40%;
+}
+
+.option-unit-medium>label {
+	max-width: 30%;
+}
+
+.option-unit-medium>.num_rangecontainer {
+	width: 40% !important;
+}
+
+.option-unit-medium>.dropdown {
+	width: 30% !important;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	width: 60%;
+}
+
+.dropdown>button:after {
+	content: "";
+	border: .3em solid transparent;
+	border-top-color: currentColor;
+	display: inline-block;
+	margin-left: .25em;
+	transform: translateY(0.15em)
+}
+
+.dropdown .popup {
+	position: absolute;
+	top: calc(100%);
+	background: #EEE;
+	box-shadow: 0 0 .25em currentColor;
+	line-height: 1.5;
+	text-align: left;
+	display: none;
+	padding: .5em;
+	border-radius: 2px;
+	z-index: 20
+}
+
+.dropdown .popup.visible {
+	display: block
+}
+
+.dropdown>.popup ul {
+	margin: 0;
+	padding: 0
+}
+
+.dropdown>.popup li {
+	list-style: none;
+	margin: .25em 0
+}
+
+.dropdown>button {
+	width: 100%;
+	max-width: 100%;
+	height: 1.5em;
+	overflow: invisible;
+	white-space: nowrap;
+	padding: 0.1em;
+	background-color: #f2f2f2;
+}
+
+/* 提示图标 */
+.info-icon {
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	color: rgb(213, 213, 213);
+	text-align: center;
+	line-height: 30px;
+	font-size: 10px;
+	cursor: pointer;
+	margin-left: 5px;
+	/* 将图标与标签内容分开 */
+}
+
+.info-icon::after {
+	content: "i";
+}
+
+.info-tooltip {
+	position: absolute;
+	top: 0;
+	left: calc(100% + 10px);
+	/* 相对于图标的位置 */
+	background-color: #333;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	white-space: nowrap;
+	display: none;
+	/* 初始隐藏提示信息 */
+}
+
+.generator-tool .container {
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+
+/* #n {
+	display: inline-block;
+	clear: both;
+} */
+
+/* 提示图标 */
+
+/* p,
+ul,
+ol {
+	margin: 0 0 1em 1em;
+} */
+
+.generator-tool p,
+#features-container p {
+	text-indent: 1em;
+	text-align: start;
+}
+
+/* ul,
+ol {
+	padding-left: 1em;
+} */
+
+article,
+section {
+	margin: 1em 0
+}
+
+button.text {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #AAA
+}
+
+.generator-tool a {
+	color: #0064ff;
+	font-weight: bold;
+}
+
+.generator-tool a:hover,
+button.text:hover {
+	color: #666
+}
+
+label {
+	white-space: nowrap;
+	margin: 0 0.2em 0 0;
+	overflow: invisible;
+	text-align: right;
+}
+
+.dotted-underline {
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-thickness: 0.8px;
+	text-underline-offset: 3px;
+}
+
+select {
+	margin-right: 1em
+}
+
+input[type="checkbox"] {
+	vertical-align: baseline;
+	margin-right: .25em
+}
+
+.generator-tool button,
+.generator-tool input[type="button"],
+.generator-tool input[type="submit"] {
+	cursor: pointer;
+}
+
+#filter-options-form input[type="submit"] {
+	font-size: 1em;
+	padding: .125em .25em
+}
+
+
+abbr {
+	cursor: help;
+	border-bottom: 1px dotted;
+	text-decoration: none
+}
+
+.generate-button {
+	background: linear-gradient(145deg, #ffd700, #ffa500);
+	border: 1px solid transparent;
+	border-radius: 0.9em;
+	box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.7);
+	color: #1c1cc4;
+	font-size: 1.2em;
+	font-weight: bold;
+	/* padding: 0.5em; */
+	text-align: center;
+	transition: all 0.1s ease-in-out;
+	width: 8rem;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.generate-button:hover {
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.7);
+}
+
+.generate-button:active {
+	box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+	transform: translateY(1px);
+}
+
+/* .generate-button {
+	background: linear-gradient(145deg, #ffd700, #ffa500);
+	border: 1px solid transparent;
+	border-radius: 0.6em;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.7), inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(0, 0, 0, 0.1);
+	color: #2b2b6c;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0.3em 1em;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+	margin-top: 0;
+}
+
+.generate-button:hover {
+	background: linear-gradient(145deg, #ffa500, #ffd700);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+		-2px -2px 4px rgba(255, 255, 255, 0.7),
+		inset -1px -1px 2px rgba(255, 255, 255, 0.5),
+		inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.generate-button:active {
+	background: linear-gradient(145deg, #ffa500, #ffd700);
+	box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2),
+		inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+	transform: translateY(2px);
+} */
+
+.clear {
+	clear: both
+}
+
+.invisible {
+	visibility: hidden
+}
+
+.hidden {
+	display: none
+}
+
+.generator-tool .sub-title {
+	margin: 0 0 .7em 0;
+	font-size: .8em;
+}
+
+.loading:after {
+	position: absolute;
+	top: 65%;
+	left: calc(50% + 8em);
+	z-index: 1;
+	content: "";
+	width: 1.5em;
+	height: 1.5em;
+	margin: -1em 0 0;
+	border-radius: 1.5em;
+	border: .25em solid;
+	border-color: currentColor transparent;
+	animation: 1.25s linear infinite rotate, .5s ease-out 0s 1 fadeIn;
+}
+
+#history {
+	margin: 0;
+	display: flex;
+	justify-content: space-between
+}
+
+button.text {
+	background: transparent;
+	color: inherit;
+	border: 0;
+	padding: 0
+}
+
+.display-pokemon-container ol {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.display-pokemon-container li {
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0 0 1em 0;
+	height: auto;
+	/* padding-top: 128px; */
+	width: 33%;
+	/* margin-bottom: 1em; */
+	position: relative;
+	list-style: none;
+	animation: 0.5s ease-out 0s 1 fadeIn
+}
+
+.display-pokemon-container .nature {
+	color: #888
+}
+
+.star {
+	color: #F4D04D
+}
+
+.display-pokemon-container li.shiny:before,
+.display-pokemon-container li.shiny:after,
+.display-pokemon-container li.shiny .star:before,
+.display-pokemon-container li.shiny .star:after {
+	content: "\2605";
+	position: absolute;
+	top: 64px;
+	left: 50%;
+	font-size: .75em;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 100
+}
+
+.display-pokemon-container li.shiny:before {
+	animation: .6s steps(8) .075s 1 rotateStar, .075s alternate steps(2) infinite shine;
+	font-size: 1.5em
+}
+
+.display-pokemon-container li.shiny:after {
+	animation: .6s steps(8) .150s 1 rotateStar, .075s alternate steps(2) infinite shine
+}
+
+.display-pokemon-container li.shiny .star:before {
+	animation: .6s steps(8) .225s 1 rotateStar, .075s alternate steps(2) infinite shine
+}
+
+.display-pokemon-container li.shiny .star:after {
+	animation: .6s steps(8) .300s 1 rotateStar, .075s alternate steps(2) infinite shine
+}
+
+/* .display-pokemon-container img {
+	position: absolute;
+	bottom: 3em;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 10em;
+	height: 10em;
+} */
+
+.display-pokemon-container li.imageless {
+	font-weight: 700;
+	margin: 2em 0;
+	height: auto;
+	padding: 0
+}
+
+#shiny-toggler {
+	margin-bottom: .5em
+}
+
+#shinies {
+	margin-top: 1em
+}
+
+#shiny-container button.text {
+	margin-bottom: 1em
+}
+
+#shiny-toggler.is-showing .is-hiding,
+#shiny-toggler.is-hiding .is-showing {
+	display: none
+}
+
+footer {
+	font-size: .875em;
+	padding: 3em 0;
+	color: #666;
+	clear: both
+}
+
+/* 单选按钮组 */
+.radio-group {
+	margin-bottom: 15px;
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid #CCC;
+}
+
+.radio-group>p {
+	margin: 0;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.radio-group label {
+	margin-right: 10px;
+}
+
+.radio-group input[type="radio"] {
+	margin-right: 5px;
+}
+
+/* 单选按钮组 */
+
+/* 页面内容 */
+
+.arrow {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 10px;
+	border: solid #000 2px;
+	border-bottom-width: 0;
+	transform: rotate(-45deg);
+}
+
+.content {
+	padding: 10px;
+	display: none;
+	text-align: justify;
+	font-family: geistSansFont, arial;
+}
+
+.carousel {
+	position: relative;
+	width: 100%;
+	overflow: invisible;
+	height: 150px;
+}
+
+.carousel-inner {
+	display: flex;
+	animation: scroll_1 20s linear infinite;
+}
+
+.carousel-inner>div {
+	min-width: 20%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.arrow-icon {
+	margin-right: 10px;
+}
+
+.actions {
+	width: 18em;
+	display: flex;
+	justify-content: flex-end;
+	height: 1.4em;
+}
+
+/* results styles */
+.pokecard-containter {
+	margin: 0 0 1em 0;
+	padding: 0;
+	width: 18em;
+	height: fit-content;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: rgb(255, 255, 0);
+}
+
+.pokecard {
+	width: 91%;
+	background-color: transparent;
+	border: 1px solid #ddd;
+	border-radius: 0.5em;
+	margin: 4.5%;
+	padding: 0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	font-family: Arial, sans-serif;
+	overflow: invisible;
+
+}
+
+.pokecard-header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	height: 1.5em;
+	overflow: invisible;
+}
+
+.pokecard-header-rarity {
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	width: 6em;
+	height: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-size: 0.9em;
+	/* color: #ffe512; */
+	color: #ffffff;
+	background: #80808073;
+	/* -webkit-background-clip: text; */
+	/* -webkit-text-fill-color: transparent; */
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 0.9em;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	/* text-align: center; */
+	font-weight: bold;
+}
+
+.pokecard-header-shiny {
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	width: 4.5em;
+	height: 1.5em;
+	border-radius: 0.9em;
+	display: flex;
+	color: #FFEF00;
+	background-color: #5f5f5ab3;
+	font-size: 0.9em;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+
+.pokecard-pokeimage-container {
+	width: 100%;
+	padding-bottom: 100%;
+	position: relative;
+}
+
+.pokecard-pokeimage-container img.pokecard-pokeimage {
+	width: 94%;
+	height: 94%;
+	background: transparent;
+	border-radius: 8px;
+	position: absolute;
+	inset: 3%;
+}
+
+.pokecard-pokeimage-container img.pokecard-pokeimage-back {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border-radius: 8px;
+	position: absolute;
+	inset: 0;
+}
+
+.pokecard-types-container {
+	width: 4.5em;
+	height: 1.2em;
+	bottom: 0;
+	left: 2%;
+	border-radius: 20% / 100%;
+	border: 1px white solid;
+	position: absolute;
+	/* background: linear-gradient(105deg, green 48%, red calc(48% + 1px)); */
+	display: flex;
+	justify-content: space-between;
+	overflow: invisible;
+	/* opacity: 0.7; */
+}
+
+.pokecard-cries {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	right: 1%;
+	bottom: 1%;
+	padding: 0.3em;
+	border: 1px solid #ddd;
+	border-radius: .5em;
+	width: 2em;
+	height: 1.2em;
+}
+
+.pokecard-types-container>.pokecard-type {
+	height: 100%;
+	width: 50%;
+}
+
+/* fist type */
+.pokecard-types-container>.pokecard-type:nth-of-type(1) {
+	display: inline-flex;
+	justify-content: start;
+	padding-left: 10%;
+}
+
+/* second type */
+.pokecard-types-container>.pokecard-type:nth-of-type(2) {
+	display: inline-flex;
+	justify-content: end;
+	padding-right: 10%;
+}
+
+/* 外层容器包裹住内层滚动容器，主要作用是让内层居中显示，并设置背景色 */
+.pokecard-infobar-container {
+	width: 100%;
+	margin: 0.5% 0;
+	line-height: 1.2em;
+	font-size: 1em;
+	border-radius: 0.5em;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.pokecard-infobar-container-title {
+	background-color: rgba(255, 192, 203, 1);
+}
+
+.pokecard-infobar-container-genregion {
+	background-color: transparent;
+}
+
+.pokecard-infobar-container-abilities {
+	background-color: rgb(227, 239, 249);
+}
+
+/* 可滚动信息展示横条内部容器，主要负责滚动 */
+.pokecard-infobar {
+	max-width: 100%;
+	white-space: nowrap;
+	padding: 0 2%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 0.5em;
+	/* animation: scroll_title 5s linear infinite; */
+}
+
+.pokecard-titile {
+	color: #333;
+	font-weight: bold;
+}
+
+.pokecard-infobar-container-generation {
+	min-width: 25%;
+	max-width: 100%;
+	font-size: 0.9em;
+	font-weight: bold;
+	background-color: #f9ebeb;
+}
+
+.pokecard-generation-arabic {
+	color: red;
+}
+
+.pokecard-infobar-container-region {
+	min-width: 75%;
+	max-width: 100%;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: green;
+	background-color: #e8fde2;
+}
+
+.pokecard-titile-natrue {
+	font-size: 0.9em;
+	color: #595959;
+}
+
+.pokecard-abilities {
+	font-size: 90%;
+	color: #0951ec;
+	font-weight: bold;
+}
+
+/* .light-scrollbar:hover {
+	overflow: auto;
+} */
+.light-scrollbar {
+	overflow: auto;
+}
+
+.light-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/*
+.light-scrollbar::-webkit-scrollbar-thumb {
+	background: linear-gradient(to bottom right, #4d7fff 0%, #1a56ff 100%);
+	border-radius: 5px;
+}
+
+.light-scrollbar::-webkit-scrollbar-track {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+}
+
+.light-scrollbar::-webkit-scrollbar-button {
+	background-color: #4d7fff;
+	border-radius: 5px;
+}
+
+.light-scrollbar::-webkit-scrollbar-button:hover {
+	background-color: #999999;
+} */
+
+
+.pokecard-stats {
+	width: 100%;
+	font-size: 50%;
+	border-radius: 0.9em;
+	border: 1px solid #ccc;
+	overflow: invisible;
+}
+
+.pokecard-stats table,
+.pokecard-stats tbody,
+.pokecard-stats tr,
+.pokecard-stats td,
+.pokecard-stats th {
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/* border-spacing: 0; */
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-size: 1.15em;
+}
+
+.pokecard-stats td,
+.pokecard-stats th {
+	width: 12.5%;
+	padding: 0;
+	margin: 0;
+}
+
+.col-hp {
+	background-color: #9ee865;
+}
+
+.col-atk {
+	background-color: #f5de69;
+}
+
+.col-def {
+	background-color: #f09a65;
+}
+
+.col-spa {
+	background-color: #66d8f6;
+}
+
+.col-spd {
+	background-color: #899eea;
+}
+
+.col-spe {
+	background-color: #e46cca;
+}
+
+.col-totle {
+	background-color: #ee9b80;
+}
+
+/* 提示元素基本样式 */
+.click-tip {
+	position: relative;
+	cursor: help;
+	/* 鼠标指针变成带问号的图标 */
+}
+
+/* 提示框样式 */
+.click-tip-tooltip {
+	position: absolute;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin: 0;
+	padding: 0 0.3em;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+	display: none;
+	/* 默认隐藏 */
+	font-size: 0.9em;
+}
+
+/* results styles */
+
+/* 弹窗背景遮罩 */
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+}
+
+/* 弹窗样式 */
+.modal {
+	width: 25em;
+	background: #fff;
+	padding: 1em;
+	border-radius: 0.5em;
+	font-size: 1.1em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	z-index: 1001;
+}
+
+.modal .modal-title {
+	margin: auto;
+	margin-top: 0.5em;
+	display: flex;
+	justify-content: end;
+}
+
+.modal-title-text {
+	margin: 0 auto;
+}
+
+.not-show-shinyTip-btn {
+	margin-left: auto !important;
+	margin: 0 !important;
+	background: lightgrey;
+}
+
+.modal .modal-content {
+	margin: 1em auto;
+	text-align: center;
+}
+
+.modal .modal-buttons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.modal .shiny-tip-highlight {
+	color: #ffa500;
+	font-size: 1.5em;
+}
+
+.modal>p {
+	text-align: center;
+	text-indent: 0;
+}
+
+.modal button {
+	height: 2em;
+	margin: 2em 0.8em 0 0.8em;
+	padding: 0 1em;
+	font-weight: bold;
+	font-size: 1em;
+	border-radius: 0.9em;
+}
+
+.modal #confirmBtn {
+	color: white;
+	background-color: #1A73E8;
+}
+
+.modal button:hover {
+	background-color: #ccf8fb;
+	color: black;
+}
+
+#features-container {
+	width: 100%;
+}
+
+#features-container h2 {
+	max-width: 40em;
+	font-size: 1.75em !important;
+	font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 700;
+	text-align: center;
+	padding: 1em;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 2em;
+}
+
+#why-choose-us {
+	padding: 0 1em;
+}
+
+#why-choose-us p {
+	font-size: 1.3em;
+	padding: 0 1em;
+}
+
+#features-container h3 {
+	margin-left: 1em;
+	text-align: start;
+	font-size: 1.3em;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	font-weight: bold;
+	unicode-bidi: isolate;
+}
+
+.feature-card {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2em;
+	box-sizing: border-box;
+	margin: 1em;
+}
+
+#features-container>.feature-card:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.feature-background {
+	background-color: #fff8f8;
+}
+
+.feature-block {
+	width: 50%;
+	margin: auto;
+}
+
+.feature-card img {
+	opacity: 0.8;
+	object-fit: contain;
+	max-width: 600px;
+	margin: auto;
+}
+
+.feature-desc-title {
+	font-size: 2em;
+}
+
+.feature-desc-content {
+	font-size: 1.3em;
+	padding: 0 0.5em;
+}
+
+#features-container #conclusion {
+	font-size: 1.3em;
+	padding: 1em;
+}
+
+#features-container #conclusion img {
+	width: 5em;
+	margin: 0;
+	display: inline-block;
+}
+
+#footer p {
+	text-align: center;
+}
+
+button:hover,
+button:active {
+	background-color: #ccf8fb;
+}
+
+@keyframes scroll_1 {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-2000%);
+	}
+}
+
+/* 页面内容 */
+
+/* 适配不同屏幕大小 */
+
+@media screen and (max-width:63em) {
+	.feature-block {
+		width: 100%;
+	}
+
+	.feature-card {
+		flex-direction: column !important;
+	}
+}
+
+@media screen and (max-width:27em) {
+	header {
+		font-size: .75em
+	}
+}
+
+@media screen and (max-width:21em) {
+	header {
+		font-size: .625em
+	}
+}
+
+@media screen and (max-width:859px) {
+
+	#more-options .option-unit,
+	#more-options .option-unit-medium {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width:839px) {
+	.display-pokemon-container li {
+		width: 48%;
+		margin: .5em 1%;
+	}
+}
+
+@media screen and (max-width:729px) {
+
+	#main-show-options .option-unit-small,
+	#more-show-options .option-unit-small {
+		width: 19.5%;
+	}
+}
+
+@media screen and (max-width:699px) {
+
+	#main-options .option-unit {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width:599px) {
+
+	#main-show-options .option-unit-small,
+	#more-show-options .option-unit-small {
+		width: 24.5%;
+	}
+}
+
+@media screen and (max-width:549px) {
+
+	#more-options .option-unit,
+	#more-options .option-unit-medium {
+		width: 98%;
+	}
+}
+
+@media screen and (max-width:539px) {
+	.display-pokemon-container li {
+		width: 98%;
+	}
+}
+
+@media screen and (max-width:479px) {
+
+	#main-show-options .option-unit-small,
+	#more-show-options .option-unit-small {
+		width: 33%;
+	}
+
+}
+
+@media screen and (max-width:359px) {
+
+	#main-show-options .option-unit-small,
+	#more-show-options .option-unit-small {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width:329px) {
+
+	#main-options .option-unit {
+		width: 98%;
+	}
+}
+
+@media screen and (max-width:249px) {
+
+	#main-show-options .option-unit-small,
+	#more-show-options .option-unit-small {
+		width: 98%;
+	}
+}
+
+/* 适配不同屏幕大小 */
+
+@media screen and (prefers-color-scheme: dark) {
+	html {
+		background: #222;
+		color: #FFF
+	}
+
+	h2,
+	footer {
+		color: #CCC
+	}
+
+	.menu,
+	.menu:before {
+		border-color: #FFF
+	}
+
+	a,
+	button.text {
+		color: #DDD;
+		border-bottom-color: #777
+	}
+
+	a:hover,
+	button.text:hover {
+		color: #FFF
+	}
+}
+
+/* Mobile Safari doesn't display this animation smoothly unless I add another CSS declaration. */
+@keyframes fadeIn {
+	from {
+		opacity: 0
+	}
+
+	to {
+		opacity: 1;
+		color: inherit
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg)
+	}
+
+	to {
+		transform: rotate(360deg)
+	}
+}
+
+@keyframes shine {
+	from {
+		color: #F8F838;
+		text-shadow: 2px 0 #F88008, -2px 0 #F88008, 0 2px #F88008, 0 -2px #F88008
+	}
+
+	to {
+		color: #F8F8F8;
+		text-shadow: 2px 0 #F8F838, -2px 0 #F8F838, 0 2px #F8F838, 0 -2px #F8F838
+	}
+}
+
+@keyframes rotateStar {
+	from {
+		opacity: 1;
+		transform: rotate(.4turn) translate(45px) rotate(-.4turn)
+	}
+
+	to {
+		opacity: 1;
+		transform: rotate(-.5turn) translate(45px) rotate(.5turn)
+	}
+}

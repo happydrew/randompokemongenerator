@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://randompokegen.cc
+
+# Sitemaps
+Sitemap: https://randompokegen.cc/sitemap.xml
