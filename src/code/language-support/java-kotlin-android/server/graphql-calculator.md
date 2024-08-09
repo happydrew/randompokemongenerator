@@ -54,4 +54,4 @@ query parseFetchedValueToAnotherFieldArgumentMap($itemIds: [Int]) {
 }
 ```
 
-See [graphql-calculator README](https://github.com/graphql-calculator/graphql-calculator) for more information.
+See [graphql-calculator README](https://github.com/happydrew/randompokemongenerator-calculator/graphql-calculator) for more information.

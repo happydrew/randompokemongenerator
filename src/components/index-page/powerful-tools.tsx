@@ -10,7 +10,7 @@ export function PowerFulTools() {
           take advantage of improved code intelligence. GraphQL makes it easy to
           build powerful tools like{" "}
           <a
-            href="https://github.com/graphql/graphiql"
+            href="https://github.com/happydrew/randompokemongenerator/graphiql"
             target="_blank"
             rel="noopener"
             className="text-primary hover:underline"

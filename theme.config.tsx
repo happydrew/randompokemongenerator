@@ -83,7 +83,7 @@ function Footer() {
         {/* <List
           title="Code"
           items={[
-            { title: "GitHub", url: "https://github.com/graphql" },
+            { title: "GitHub", url: "https://github.com/happydrew/randompokemongenerator" },
             {
               title: "GraphQL Specification",
               url: "https://spec.graphql.org",
@@ -126,7 +126,7 @@ function Footer() {
         <p className="text-sm">
           Copyright © {new Date().getFullYear()} DrewGrant. All
           rights reserved.
-          <br />
+          {/* <br />
           For web site terms of use, trademark policy and general project
           policies please see{" "}
           <a
@@ -136,16 +136,16 @@ function Footer() {
             className={`text-primary ${classes.link}`}
           >
             https://lfprojects.org
-          </a>
+          </a> */}
         </p>
         <div className="flex flex-col gap-4 lg:items-end">
           <ul className="flex gap-5">
             {[
-              { url: "https://github.com/graphql", icon: GitHubIcon },
-              { url: "https://discord.graphql.org", icon: DiscordIcon },
-              { url: "https://twitter.com/graphql", icon: TwitterIcon },
+              { url: "https://github.com/happydrew/randompokemongenerator", icon: GitHubIcon },
+              { url: "", icon: DiscordIcon },
+              { url: "https://x.com/happydrewgrant", icon: TwitterIcon },
               {
-                url: "http://stackoverflow.com/questions/tagged/graphql",
+                url: "",
                 icon: StackOverflowIcon,
               },
             ].map(({ url, icon: Icon }) => (
@@ -233,7 +233,7 @@ export default {
   // },
   logo: logo,
   docsRepositoryBase:
-    "https://github.com/happydrew/randompokemongenerator",
+    "https://github.com/happydrew/randompokemongenerator/tree/main",
   color: {
     hue: 318,
     saturation: 100,

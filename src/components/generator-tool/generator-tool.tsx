@@ -142,7 +142,7 @@ const GeneratorTool: React.FC = () => {
                 <input className="generate-button" form="filter-options-form" value="Generate" type="submit" />
             </div>
             <Link className="feedback-link" target="_blank" rel="noopener"
-                href="https://github.com/happydrew/RandomPokemonGeneratorNew/issues/new?title=Feedback&labels=feedback">Question?
+                href="https://github.com/happydrew/randompokemongenerator/issues/new?title=Feedback&labels=feedback">Question?
                 Give us feedback →</Link>
 
             <nav id="history">

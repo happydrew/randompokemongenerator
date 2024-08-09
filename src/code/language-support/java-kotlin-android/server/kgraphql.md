@@ -43,7 +43,7 @@ See [KGraphQL docs](https://kgraphql.io/Installation/) for more in depth usage.
 
 ## Ktor Plugin
 
-KGraphQL has a Ktor plugin which gives you a fully functional GraphQL server with a single [install](https://ktor.io/docs/zfeatures.html) function call. Example below shows how to set up a GraphQL server within Ktor and it will give you a [GraphQL Playground](https://github.com/graphql/graphql-playground) out of the box by entering `localhost:8080/graphql`.
+KGraphQL has a Ktor plugin which gives you a fully functional GraphQL server with a single [install](https://ktor.io/docs/zfeatures.html) function call. Example below shows how to set up a GraphQL server within Ktor and it will give you a [GraphQL Playground](https://github.com/happydrew/randompokemongenerator/graphql-playground) out of the box by entering `localhost:8080/graphql`.
 
 ```kotlin
 fun Application.module() {

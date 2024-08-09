@@ -13,7 +13,7 @@ github: grails/gorm-graphql
 
 - Generates the schema at startup with spring bean configuration to make it easy to extend.
 
-- Includes a [GraphiQL](https://github.com/graphql/graphiql) browser enabled by default in development. The browser is accessible at /graphql/browser.
+- Includes a [GraphiQL](https://github.com/happydrew/randompokemongenerator/graphiql) browser enabled by default in development. The browser is accessible at /graphql/browser.
 
 - Overrides the default data binder to use the data binding provided by Grails
 - Provides a [trait](https://grails.github.io/gorm-graphql/latest/api/org/grails/gorm/graphql/plugin/testing/GraphQLSpec.html) to make integration testing of your GraphQL endpoints easier
