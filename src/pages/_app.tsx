@@ -48,7 +48,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       </Head>
       {/* Google Tag Manager */}
-      {/* <Script
+      <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-7P1N0JZ42G"
         strategy="afterInteractive"
       />
@@ -59,7 +59,7 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('js', new Date());
           gtag('config', 'G-7P1N0JZ42G');
         `}
-      </Script> */}
+      </Script>
       <Component {...pageProps} />
     </>
   )
