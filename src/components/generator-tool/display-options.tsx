@@ -11,7 +11,8 @@ const showGeneration: TipLabelCheckboxProps = {
         dataClickTip: "Whether to display the generation of the Pokémon.",
         labelContent: "Generation"
     },
-    checkboxId: "showGeneration"
+    checkboxId: "showGeneration",
+    defaultChecked: false
 };
 
 const ShowGeneration: React.FC = () => {
@@ -23,7 +24,8 @@ const showRegion: TipLabelCheckboxProps = {
         dataClickTip: "Whether to show the region where the Pokémon maybe found.",
         labelContent: "Region"
     },
-    checkboxId: "showRegion"
+    checkboxId: "showRegion",
+    defaultChecked: false
 };
 
 const ShowRegion: React.FC = () => {
@@ -47,7 +49,8 @@ const backImg: TipLabelCheckboxProps = {
         dataClickTip: "Background image is based on the type of Pokemon's first slot, to enhance the visual appeal.",
         labelContent: "BackImg"
     },
-    checkboxId: "backImg"
+    checkboxId: "backImg",
+    defaultChecked: false
 };
 
 const BackImg: React.FC = () => {
@@ -59,7 +62,8 @@ const backColor: TipLabelCheckboxProps = {
         dataClickTip: "Whether to display the background color for the Pokémon, based on pokemon's color.",
         labelContent: "BackColor"
     },
-    checkboxId: "backColor"
+    checkboxId: "backColor",
+    defaultChecked: false
 };
 
 const BackColor: React.FC = () => {
@@ -71,7 +75,8 @@ const showAblilites: TipLabelCheckboxProps = {
         dataClickTip: "Whether to display the Pokémon's abilities.",
         labelContent: "Ablilites"
     },
-    checkboxId: "showAblilites"
+    checkboxId: "showAblilites",
+    defaultChecked: false
 };
 
 const ShowAblilites: React.FC = () => {
@@ -95,7 +100,8 @@ const showRarity: TipLabelCheckboxProps = {
         dataClickTip: "Whether to display the rarity level of the Pokémon.",
         labelContent: "Rarity"
     },
-    checkboxId: "showRarity"
+    checkboxId: "showRarity",
+    defaultChecked: false
 };
 
 const ShowRarity: React.FC = () => {
@@ -107,7 +113,8 @@ const showTypes: TipLabelCheckboxProps = {
         dataClickTip: "Whether to show the type(s) of the Pokémon.",
         labelContent: "Types"
     },
-    checkboxId: "showTypes"
+    checkboxId: "showTypes",
+    defaultChecked: false
 };
 
 const ShowTypes: React.FC = () => {
@@ -119,7 +126,8 @@ const showStats: TipLabelCheckboxProps = {
         dataClickTip: "Whether to display the base stats of the Pokémon.",
         labelContent: "BaseStats"
     },
-    checkboxId: "showStats"
+    checkboxId: "showStats",
+    defaultChecked: false
 };
 
 const ShowStats: React.FC = () => {
@@ -131,7 +139,8 @@ const evs: TipLabelCheckboxProps = {
         dataClickTip: "Whether to show the effort values for the Pokémon.",
         labelContent: "Evs"
     },
-    checkboxId: "evs"
+    checkboxId: "evs",
+    defaultChecked: false
 };
 
 const Evs: React.FC = () => {
@@ -143,7 +152,8 @@ const ivs: TipLabelCheckboxProps = {
         dataClickTip: "Whether to randomly assign individual values for the Pokémon.",
         labelContent: "Ivs"
     },
-    checkboxId: "ivs"
+    checkboxId: "ivs",
+    defaultChecked: false
 };
 
 const Ivs: React.FC = () => {
@@ -155,7 +165,8 @@ const cries: TipLabelCheckboxProps = {
         dataClickTip: "Toggle to show or hide the play button for the Pokémon's cry sound.",
         labelContent: "Cries"
     },
-    checkboxId: "cries"
+    checkboxId: "cries",
+    defaultChecked: false
 };
 
 const Cries: React.FC = () => {

@@ -767,8 +767,17 @@ footer {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	text-align: center;
 	font-family: Arial, sans-serif;
-	overflow: invisible;
+	overflow: hidden;
+}
 
+.pokecard-minimalist {
+	width: 91%;
+	background-color: transparent;
+	margin: 4.5%;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	overflow: hidden;
 }
 
 .pokecard-header {
@@ -905,7 +914,7 @@ footer {
 	align-items: center;
 }
 
-.pokecard-infobar-container-title {
+.pokecard-infobar-title {
 	background-color: rgba(255, 192, 203, 1);
 }
 

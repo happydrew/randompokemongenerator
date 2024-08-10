@@ -111,10 +111,22 @@ class DisplayPokemon {
 		}
 	}
 
+	/**
+	 * 
+	 * @returns 是否极简模式
+	 */
+	isMinimalist(): boolean {
+		return !this.showParams.showGeneration && !this.showParams.showRegion &&
+			!this.showParams.background_image && !this.showParams.background_color &&
+			!this.showParams.showRarity && !this.showParams.showTypes &&
+			!this.showParams.showStats && !this.showParams.evs && !this.showParams.ivs &&
+			!this.showParams.showAblilites && !this.showParams.cries;
+	}
+
 	toHtml(): string {
 		return `<li>
 				<div class="pokecard-containter" id="${this.id.toString()}" style="${this.showParams.background_color ? `background-color:${this.getBackgroudColorHex()};` : `background-color:transparent;border:none`}">
-					<div class="pokecard">
+					<div class=${this.isMinimalist() ? "pokecard-minimalist" : "pokecard"}>
 						<div class="pokecard-pokeimage-container">
 						    ${this.showParams.background_image ? `<img class="pokecard-pokeimage-back" src="${this.getBackgroundImage()}" alt=${this.pokemonDetail ? `"back image of pokemon type ${this.getTypesArray()[0]}"` : `""`}>` : ""}
 						    ${this.showParams.sprites ? `
@@ -146,7 +158,7 @@ class DisplayPokemon {
 								</svg>
 							</button>`: ""}
 						</div>
-						<div class="pokecard-infobar-container pokecard-infobar-container-title">
+						<div class="pokecard-infobar-container${this.isMinimalist() ? "" : " pokecard-infobar-title"}">
 						  <div class="pokecard-infobar pokecard-titile light-scrollbar">
 						  ${this.showParams.natures ? `<span class="pokecard-titile-natrue">${this.nature}</span>&nbsp;` : ""}
 						  <a href="https://bulbapedia.bulbagarden.net/wiki/${this.name.split("-")[0]}" target="_blank">${this.name}</a>
@@ -570,8 +582,8 @@ function displayPokemon(displayPokemons: DisplayPokemon[] | null, resultsContain
 		resultsContainer.innerHTML = "An error occurred while generating Pok&eacute;mon.";
 	} else if (displayPokemons.length > 0) {
 		resultsContainer.innerHTML = toHtml(displayPokemons);
-	}else{
-		resultsContainer.innerHTML="No Pok&eacute;mon found.";
+	} else {
+		resultsContainer.innerHTML = "No Pok&eacute;mon found.";
 	}
 	return resultsContainer;
 }

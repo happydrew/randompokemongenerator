@@ -6,13 +6,14 @@ import { TipLabel, TipLabelProps } from "./tiplabel";
 interface TipLabelCheckboxProps {
     tipLabelProps: TipLabelProps;
     checkboxId: string;
+    defaultChecked?: boolean;
 }
 
-const TipLabelCheckbox: React.FC<TipLabelCheckboxProps> = ({ tipLabelProps, checkboxId }) => {
+const TipLabelCheckbox: React.FC<TipLabelCheckboxProps> = ({ tipLabelProps, checkboxId, defaultChecked = true }) => {
     return (
         <div className="option-unit-small">
             <TipLabel {...tipLabelProps} />
-            <input type="checkbox" id={checkboxId} defaultChecked />
+            <input type="checkbox" id={checkboxId} defaultChecked={defaultChecked} />
         </div>
     )
 }
