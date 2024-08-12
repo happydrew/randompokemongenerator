@@ -1,9 +1,11 @@
+import { get } from "http";
+
 export {
     toggleDropdownsOnButtonClick, displayYearsInFooter, getRandomElement, removeRandomElement,
     shuffle, randomInteger, markLoading, setDropdownIfValid, parseBoolean, deepClone, expandMoreOptions,
     collapseMoreOptions, imgOnerror, getDropdownOptions, setSelectIfValid, getNumrangeOptions,
     setNumrangeIfValid, getTrueByProbability, getCheckboxValueById, setCheckbox,
-    expandMoreShowOptions, collapseMoreShowOptions
+    expandMoreShowOptions, collapseMoreShowOptions, generateRandomType
 };
 
 function getRandomElement<T>(arr: T[]): T {
@@ -315,4 +317,57 @@ function getRandomNormal(mean: number, stdDev: number): number {
     while (u === 0) u = Math.random(); // 避免 log(0)
     while (v === 0) v = Math.random();
     return Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v) * stdDev + mean;
+}
+
+/**
+ * remove element from array,and return new array, 
+ * not modify the original array
+ * @param arr 
+ * @param element 
+ * @returns 
+ */
+function removeElement<T>(arr: T[], element: T): T[] {
+    return arr.filter(e => e !== element);
+}
+
+function addElement<T>(arr: T[], element: T): T[] {
+    return [...arr, element];
+}
+
+function capitalizeFirstLetter(str: string): string {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+const types = ["normal", "fighting", "flying", "poison", "ground", "rock", "bug", "ghost", "steel", "fire", "water", "grass", "electric", "psychic", "ice", "dragon", "dark", "fairy", "stellar"]
+/**
+ * 随机生成type
+ * @param n 随机生成type的数量，1或者2,或者r，r表示随机生成1-2个type
+ * @param firstType the first slot type
+ */
+function generateRandomType(n: string, firstType?: string): string[] {
+    if (n == "1") {
+        return [capitalizeFirstLetter(getRandomElement(types))];
+    } else if (n == "2") {
+        // the first slot type has been specified
+        if (firstType && types.includes(firstType.toLowerCase())) {
+            const secondType = getRandomElement(removeElement(types, firstType));
+            return [capitalizeFirstLetter(firstType.toLowerCase()), capitalizeFirstLetter(secondType)];
+        } else {
+            const firstGeneratedType = getRandomElement(types);
+            const secondType = getRandomElement(removeElement(types, firstGeneratedType));
+            return [capitalizeFirstLetter(firstGeneratedType), capitalizeFirstLetter(secondType)];
+        }
+    } else if (n == "r") {
+        const firstGeneratedType = getRandomElement(types);
+        // probability of not generating a second type is 1/10
+        if (getTrueByProbability(0.1)) {
+            return [capitalizeFirstLetter(firstGeneratedType)];
+        } else {
+            // the second type can  be the same as the first type
+            const secondType = getRandomElement(removeElement(types, firstGeneratedType));
+            return [capitalizeFirstLetter(firstGeneratedType), capitalizeFirstLetter(secondType)];
+        }
+    } else {
+        throw new Error("n must be 1 or 2");
+    }
 }

@@ -1,5 +1,3 @@
-import { title } from "process";
-
 export default {
   index: {
     type: "page",
@@ -35,6 +33,16 @@ export default {
       layout: "raw",
     },
   },
+  tools: {
+    type: "menu",
+    title: "Tools",
+    items: {
+      "random-type-generator": {
+        title: "Random Pokemon Type Generator",
+        // href: "/community/resources/official-channels"
+      }
+    }
+  }
   // codeofconduct: {
   //   display: "hidden",
   //   theme: {

@@ -36,7 +36,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "src/pages/index.mdx"  ],
+, "src/pages/index.mdx", "src/pages/tools/random-type-generator.mdx"  ],
   "exclude": [
     "node_modules"
   ]
