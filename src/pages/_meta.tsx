@@ -40,6 +40,10 @@ export default {
       "random-type-generator": {
         title: "Random Pokemon Type Generator",
         // href: "/community/resources/official-channels"
+      },
+      "random-pokemon-generator": {
+        title: "Random Pokemon Generator",
+        href: "/"
       }
     }
   }
