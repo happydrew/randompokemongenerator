@@ -37,13 +37,13 @@ export default {
     type: "menu",
     title: "Tools",
     items: {
-      "random-type-generator": {
-        title: "Random Pokemon Type Generator",
-        // href: "/community/resources/official-channels"
-      },
       "random-pokemon-generator": {
         title: "Random Pokemon Generator",
         href: "/"
+      },
+      "random-pokemon-type-generator": {
+        title: "Random Pokemon Type Generator",
+        href: "/tools/random-pokemon-type-generator"
       }
     }
   }

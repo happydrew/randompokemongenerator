@@ -1,5 +1,5 @@
 export default {
-  "random-type-generator": {
+  "random-pokemon-type-generator": {
     type: "page",
     title: "Random Pokemon Type Generator"
   }
