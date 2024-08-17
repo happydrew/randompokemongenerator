@@ -130,7 +130,7 @@ class DisplayPokemon {
 						<div class="pokecard-pokeimage-container">
 						    ${this.showParams.background_image ? `<img class="pokecard-pokeimage-back" src="${this.getBackgroundImage()}" alt=${this.pokemonDetail ? `"back image of pokemon type ${this.getTypesArray()[0]}"` : `""`}>` : ""}
 						    ${this.showParams.sprites ? `
-							  <img class="pokecard-pokeimage" src="${this.getSpritePath()}"
+							  <img class="pokecard-pokeimage" src="${this.getSpritePathWebp()}"
 								alt="random generated pokemon ${this.name}">` : ""}
 							${(this.showParams.showRarity && (this.getRarity() === "Mythical" || this.getRarity() === "Legendary")) ? `<div class="pokecard-header-rarity" style="background-color: ${this.getRarityColor()}">${this.getRarity()}</div>` : ""}	
 							${this.shiny ? `<div class="pokecard-header-shiny"><span class="star">&starf;</span>Shiny</div>` : ""}  
@@ -529,7 +529,7 @@ class DisplayPokemon {
 	toImage(): string {
 		// 后续支持用户选择展示哪种图片
 		//const altText = (this.shiny ? "Shiny " : "") + this.name;
-		return `<img src="${this.getSpritePath("home")}" alt="${this.name}" title="${this.name}" onerror="this.src='favicon.ico'" />`;
+		return `<img src="${this.getSpritePathWebp("home")}" alt="${this.name}" title="${this.name}" onerror="this.src='favicon.ico'" />`;
 	}
 
 	private getSpritePath(verison: string = "home"): string {
@@ -562,8 +562,72 @@ class DisplayPokemon {
 			default:
 				throw new Error("Invalid sprite version: " + verison);
 		}
-		//return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/' + this.id + '.png';
-		//return '/sprites/normal/' + this.name.toLowerCase() + '.png';
+	}
+
+	private getSpritePathWebp(verison: string = "home"): string {
+		// 暂时默认使用PokeApi提供的home_front_default, 如果图片访问比较慢，看看别的paokemon数据库，比如Bulbapedia的图片
+		switch (verison) {
+			case "home": {
+				let imgName;
+				switch (this.id) {
+					case 10182:
+						imgName = "845-gulping.webp";
+						break;
+					case 10183:
+						imgName = "845-gorging.webp";
+						break;
+					case 10187:
+						imgName = "877-hangry.webp";
+						break;
+					case 10192:
+						imgName = "893-dada.webp";
+						break;
+					default:
+						imgName = this.id + ".webp";
+				}
+				if (this.shiny) {
+					//return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/' + imgName;
+					return '/img/sprites/master/sprites/pokemon/other/home/shiny/' + imgName;
+				} else {
+					//return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/' + imgName;
+					return '/img/sprites/master/sprites/pokemon/other/home/' + imgName;
+				}
+			}
+			default:
+				throw new Error("Invalid sprite version: " + verison);
+		}
+	}
+
+	private getSpritePathBackup(verison: string = "home"): string {
+		// 暂时默认使用PokeApi提供的home_front_default, 如果图片访问比较慢，看看别的paokemon数据库，比如Bulbapedia的图片
+		switch (verison) {
+			case "home": {
+				let imgName;
+				switch (this.id) {
+					case 10182:
+						imgName = "845-gulping.png";
+						break;
+					case 10183:
+						imgName = "845-gorging.png";
+						break;
+					case 10187:
+						imgName = "877-hangry.png";
+						break;
+					case 10192:
+						imgName = "893-dada.png";
+						break;
+					default:
+						imgName = this.id + ".png";
+				}
+				if (this.shiny) {
+					return 'https://happydrew.github.io/randompokemongenerator-images/sprites/master/sprites/pokemon/other/home/shiny/' + imgName;
+				} else {
+					return 'https://happydrew.github.io/randompokemongenerator-images/sprites/master/sprites/pokemon/other/home/' + imgName;
+				}
+			}
+			default:
+				throw new Error("Invalid sprite version: " + verison);
+		}
 	}
 
 }

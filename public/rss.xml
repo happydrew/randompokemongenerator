@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+
+<channel>
+
+<title>Random Pokemon Generator Feed</title>
+<description>Learn about updates to the website.</description>
+<link>https://randompokegen.cc/</link>
+
+<item>
+<title>Convert images to webp, reduce size and optimize for web</title>
+<pubDate>Sat, 17 Aug 2024 21:43:00 EST</pubDate>
+<description>I Converted all the images to webp format, reduced the size of the images, 
+and optimized them for web. This will accelerate the loading time of the sprite images.
+Go try it now https://randompokegen.cc/, hope you have fun.
+Looking forward to your feedback and suggestions!
+</description>
+<link>https://randompokegen.cc/</link>
+<guid isPermaLink="false">2021-04-26</guid>
+</item>
+
+<item>
+<title>We've launched our blog.</title>
+<pubDate>Sun, 11 Aug 2024 16:43:00 EST</pubDate>
+<description>We've launched our blog, check it out at https://randompokegen.cc/blog. 
+We'll be posting regular updates and tutorials on how to use the Random Pokemon Generator.
+Go try it now https://randompokegen.cc/, hope you have fun.
+Looking forward to your feedback and suggestions!
+</description>
+<link>https://randompokegen.cc/</link>
+<guid isPermaLink="false">2021-04-26</guid>
+</item>
+
+<item>
+<title>New Documentation for the Random Pokemon Generator</title>
+<pubDate>Sat, 3 Aug 2024 16:43:00 EST</pubDate>
+<description>We're excited to announce the release of detailed documentation 
+that provides a complete overview of our random Pokémon generator. By migrating to Next.js + Nextra, 
+we've been able to create a more modern and user-friendly website with significantly faster load times.
+Go try it now https://randompokegen.cc/, hope you have fun.
+Looking forward to your feedback and suggestions!
+</description>
+<link>https://randompokegen.cc/</link>
+<guid isPermaLink="false">2021-04-26</guid>
+</item>
+
+<item>
+<title>Options Reset and Shiny pokemons!</title>
+<pubDate>Sun, 7 Jul 2024 22:43:00 EST</pubDate>
+<description>As the title says, i add two new features to the Random Pokemon Generator.
+The first one is the ability to reset the options to the default values; 
+the second one is the ability to save shiny pokemons that you encountered, 
+you can view them in the "Shiny Pokemons" section at the bottom of the page.
+Go try it now https://randompokegen.cc/, hope you have fun.
+Looking forward to your feedback and suggestions!
+</description>
+<link>https://randompokegen.cc/</link>
+<guid isPermaLink="false">2021-04-26</guid>
+</item>
+
+<item>
+<title>A big update to the Random Pokemon Generator</title>
+<pubDate>Sun, 1 Jul 2024 22:43:00 EST</pubDate>
+<description>A really big update !! I added a lot more filter options and many show options, 
+and improved the showing of pokemons, to make it more fun and interesting. 
+Go try it now https://randompokegen.cc/, hope you have fun.
+Looking forward to your feedback and suggestions!
+</description>
+<link>https://randompokegen.cc/</link>
+<guid isPermaLink="false">2021-04-26</guid>
+</item>
+
+<item>
+<title>A big update to the Random Pokemon Generator</title>
+<pubDate>Sat, 22 Jun 2024 22:43:00 EST</pubDate>
+<description>I added a lot more filters to the Random Pokemon Generator, 
+and i hope it useful for you. Go try it now https://randompokegen.cc/, hope you have fun.
+Looking forward to your feedback and suggestions!
+</description>
+<link>https://randompokegen.cc/</link>
+<guid isPermaLink="false">2021-04-26</guid>
+</item>
+
+<item>
+<title>Add More Option panel for the Random Pokemon Generator</title>
+<pubDate>Tue, 18 Jun 2024 21:54:00 EST</pubDate>
+<description>I added a More-Option-Panel to the Random Pokemon Generator, 
+to make it easier to operate and Keep a clean and simple interface! Hope you like it!
+Looking forward to your feedback and suggestions!
+</description>
+<link>https://randompokegen.cc/</link>
+<guid isPermaLink="false">2021-04-26</guid>
+</item>
+
+<item>
+<title>More Filters for the Random Pokemon Generator</title>
+<pubDate>Fri, 14 Jun 2024 20:54:00 EST</pubDate>
+<description>I added more filters to the Random Pokemon Generator, 
+including a filter for the region of the Pokemon, 
+the ability of the Pokemon, and the type of the Pokemon.</description>
+<link>https://randompokegen.cc/</link>
+<guid isPermaLink="false">2021-04-26</guid>
+</item>
+
+<item>
+<title>A new Random Pokemon Generator borned</title>
+<pubDate>Fri, 7 Jun 2024 18:37:00 EST</pubDate>
+<description>I'm happy to announce the birth of a new Random Pokemon Generator! 
+This website is a project I've been working on for a while, 
+and I'm excited to see it grow and become more useful to the community.</description>
+<link>https://randompokegen.cc/</link>
+</item>
+</channel>
+</rss>
