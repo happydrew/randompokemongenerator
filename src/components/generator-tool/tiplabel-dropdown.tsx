@@ -22,7 +22,8 @@ interface TipLabelDropdownProps {
     // 全选时显示的内容
     buttonDefaultShow: string;
     // 选项值数组
-    options: DropdownOption[];
+    options: DropdownOption[],
+    defaultSelected?: string[];
 }
 
 const TipLabelDropdown: React.FC<TipLabelDropdownProps> = ({
@@ -32,7 +33,8 @@ const TipLabelDropdown: React.FC<TipLabelDropdownProps> = ({
     dataPluralName,
     dataAllowShowingTwo,
     buttonDefaultShow,
-    options: optionValues }: TipLabelDropdownProps) => {
+    options,
+    defaultSelected }: TipLabelDropdownProps) => {
 
     return (
         <div className="option-unit">
@@ -45,7 +47,8 @@ const TipLabelDropdown: React.FC<TipLabelDropdownProps> = ({
                 dataPluralName={dataPluralName}
                 dataAllowShowingTwo={dataAllowShowingTwo}
                 buttonDefaultShow={buttonDefaultShow}
-                options={optionValues} />
+                options={options}
+                defaultSelected={defaultSelected} />
         </div>
     );
 };

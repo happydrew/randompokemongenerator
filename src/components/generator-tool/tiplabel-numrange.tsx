@@ -11,7 +11,7 @@ interface TipLabelNumRangeProps {
 
 const TipLabelNumRange: React.FC<TipLabelNumRangeProps> = ({
     tipLabelProps,
-    numRangeProps,
+    numRangeProps
 }) => {
     return (
         <div className="option-unit">

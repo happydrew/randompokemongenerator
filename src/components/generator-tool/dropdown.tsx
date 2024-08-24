@@ -25,7 +25,9 @@ interface DropdownProps {
     // 全选时显示的内容
     buttonDefaultShow: string;
     // 选项值数组
-    options: DropdownOption[];
+    options: DropdownOption[],
+    // 默认选中的值数组，这个选项会覆盖options里面的defaultChecked属性
+    defaultSelected?: string[];
 }
 
 /**
@@ -49,7 +51,8 @@ const Dropdown: React.FC<DropdownProps> = ({
     dataPluralName,
     dataAllowShowingTwo,
     buttonDefaultShow,
-    options }: DropdownProps) => {
+    options,
+    defaultSelected }: DropdownProps) => {
 
     const dropdownElement = useRef<HTMLDivElement>(null);
     const buttonElement = useRef<HTMLButtonElement>(null);
@@ -100,7 +103,7 @@ const Dropdown: React.FC<DropdownProps> = ({
                                     value={optionValue.value}
                                     {...(optionValue.dataSelectAll && { "data-select-all": "true" })}
                                     {...(optionValue.dataShortName && { "data-short-name": optionValue.dataShortName })}
-                                    defaultChecked={optionValue.defaultChecked}
+                                    defaultChecked={(defaultSelected != undefined && defaultSelected != null) ? defaultSelected.includes(optionValue.value) : optionValue.defaultChecked}
                                 />
                                 <span {...(optionValue.labelTip && { title: optionValue.labelTip })}>{optionValue.label}</span>
                             </label>

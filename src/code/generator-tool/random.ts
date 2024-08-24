@@ -48,9 +48,9 @@ const pokemonDetailsMapCache: { [key: string]: PokemonDetail } = {};
 let pokemonDetailsLoaded: boolean = false;
 // pokemon详情数据缓存
 
-//const backEndDomain = "http://localhost:3000";
+const backEndDomain = "http://localhost:3001";
 //const backEndDomain = "https://randompokemonbackend-zhuges-projects-c7e0a445.vercel.app";
-const backEndDomain = "https://api.randompokegen.cc";
+//const backEndDomain = "https://api.randompokegen.cc";
 
 // document.addEventListener("DOMContentLoaded", onDOMContentLoad);
 

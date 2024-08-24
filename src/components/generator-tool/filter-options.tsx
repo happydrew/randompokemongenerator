@@ -140,7 +140,12 @@ const regionsOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const RegionsOption: React.FC = () => {
+const RegionsOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        regionsOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...regionsOptionProps} />
 }
 
@@ -289,7 +294,12 @@ const typesOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const TypesOption: React.FC = () => {
+const TypesOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        typesOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...typesOptionProps} />
 }
 
@@ -340,7 +350,12 @@ const formsOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const FormsOption: React.FC = () => {
+const FormsOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        formsOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...formsOptionProps} />
 }
 
@@ -361,30 +376,56 @@ const rarityOptionProps: TipLabelDropdownProps = {
             dataSelectAll: "true",
         },
         {
-            value: "normal",
+            value: "0",
             dataShortName: "Norm",
             defaultChecked: true,
             labelTip: "",
             label: "Normal"
         },
         {
-            value: "legendary",
+            value: "1",
+            dataShortName: "SubL",
+            defaultChecked: true,
+            labelTip: "",
+            label: "SubLegendary"
+        },
+        {
+            value: "2",
             dataShortName: "Legd",
             defaultChecked: true,
             labelTip: "",
             label: "Legendary"
         },
         {
-            value: "mythical",
+            value: "3",
             dataShortName: "Myth",
             defaultChecked: true,
             labelTip: "",
             label: "Mythical"
+        },
+        {
+            value: "4",
+            dataShortName: "Para",
+            defaultChecked: true,
+            labelTip: "",
+            label: "Paradox"
+        },
+        {
+            value: "5",
+            dataShortName: "UltrB",
+            defaultChecked: true,
+            labelTip: "",
+            label: "UltraBeast"
         }
     ]
 }
 
-const RarityOption: React.FC = () => {
+const RarityOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        rarityOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...rarityOptionProps} />
 }
 
@@ -513,7 +554,12 @@ const generationOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const GenerationOption: React.FC = () => {
+const GenerationOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        generationOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...generationOptionProps} />
 }
 
@@ -606,7 +652,12 @@ const colorsOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const ColorsOption: React.FC = () => {
+const ColorsOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        colorsOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...colorsOptionProps} />
 }
 
@@ -650,7 +701,12 @@ const envolvesOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const EnvolvesOption: React.FC = () => {
+const EnvolvesOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        envolvesOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...envolvesOptionProps} />
 }
 
@@ -687,7 +743,12 @@ const babyOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const BabyOption: React.FC = () => {
+const BabyOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        babyOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...babyOptionProps} />
 }
 
@@ -750,7 +811,12 @@ const growthRateProps: TipLabelDropdownProps = {
     ]
 }
 
-const GrowthRateOption: React.FC = () => {
+const GrowthRateOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        growthRateProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...growthRateProps} />
 }
 
@@ -843,7 +909,12 @@ const habitatsOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const HabitatsOption: React.FC = () => {
+const HabitatsOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        habitatsOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...habitatsOptionProps} />
 }
 
@@ -978,7 +1049,12 @@ const eggGroupOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const EggGroupOption: React.FC = () => {
+const EggGroupOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        eggGroupOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...eggGroupOptionProps} />
 }
 
@@ -1057,10 +1133,14 @@ const genderRateOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const GenderRateOption: React.FC = () => {
+const GenderRateOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        genderRateOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...genderRateOptionProps} />
 }
-
 // shape option
 const shapeOptionProps: TipLabelDropdownProps = {
     id: "shape",
@@ -1169,7 +1249,12 @@ const shapeOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const ShapeOption: React.FC = () => {
+const ShapeOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        shapeOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...shapeOptionProps} />
 }
 
@@ -1204,7 +1289,12 @@ const defaultFormOptionProps: TipLabelDropdownProps = {
 
 }
 
-const DefaultFormOption: React.FC = () => {
+const DefaultFormOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        defaultFormOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...defaultFormOptionProps} />
 }
 
@@ -1238,7 +1328,12 @@ const formSwitchableOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const FormSwitchOption: React.FC = () => {
+const FormSwitchOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        formSwitchableOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...formSwitchableOptionProps} />
 }
 
@@ -1272,7 +1367,12 @@ const hasGenderDiffOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const GenderDiffOption: React.FC = () => {
+const GenderDiffOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        hasGenderDiffOptionProps.defaultSelected = defaultSelected
+    }
     return <TipLabelDropdown {...hasGenderDiffOptionProps} />
 }
 
@@ -1332,7 +1432,12 @@ const hpProps: TipLabelNumRangeDropdownProps = {
     }
 }
 
-const BaseStatHpOption: React.FC = () => {
+const BaseStatHpOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        hpProps.dropdownProps.defaultSelected = defaultSelected
+    }
     return <TipLabelNumRangeDropdown {...hpProps} />
 }
 
@@ -1392,7 +1497,12 @@ const attackProps: TipLabelNumRangeDropdownProps = {
     }
 }
 
-const BaseStatAtkOption: React.FC = () => {
+const BaseStatAtkOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        attackProps.dropdownProps.defaultSelected = defaultSelected
+    }
     return <TipLabelNumRangeDropdown {...attackProps} />
 }
 
@@ -1452,7 +1562,12 @@ const defenseProps: TipLabelNumRangeDropdownProps = {
     }
 }
 
-const BaseStatDefOption: React.FC = () => {
+const BaseStatDefOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        defenseProps.dropdownProps.defaultSelected = defaultSelected
+    }
     return <TipLabelNumRangeDropdown {...defenseProps} />
 }
 
@@ -1512,7 +1627,12 @@ const spAtkProps: TipLabelNumRangeDropdownProps = {
     }
 }
 
-const SpAtkOption: React.FC = () => {
+const SpAtkOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        spAtkProps.dropdownProps.defaultSelected = defaultSelected
+    }
     return <TipLabelNumRangeDropdown {...spAtkProps} />
 }
 
@@ -1572,7 +1692,12 @@ const spDefProps: TipLabelNumRangeDropdownProps = {
     }
 }
 
-const SpDefOption: React.FC = () => {
+const SpDefOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        spDefProps.dropdownProps.defaultSelected = defaultSelected
+    }
     return <TipLabelNumRangeDropdown {...spDefProps} />
 }
 
@@ -1632,7 +1757,12 @@ const speedProps: TipLabelNumRangeDropdownProps = {
     }
 }
 
-const BaseStatSpeedOption: React.FC = () => {
+const BaseStatSpeedOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    if (defaultSelected != undefined && defaultSelected != null) {
+        speedProps.dropdownProps.defaultSelected = defaultSelected
+    }
     return <TipLabelNumRangeDropdown {...speedProps} />
 }
 
