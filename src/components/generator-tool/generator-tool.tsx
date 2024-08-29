@@ -67,7 +67,7 @@ interface GeneratorToolProps {
     gameVersionDefaultSelected?: string[];
     nDefaultSelected?: number;
     ssgHtml?: string;
-    initGenerate: boolean;
+    initGenerate?: boolean;
 }
 
 const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
