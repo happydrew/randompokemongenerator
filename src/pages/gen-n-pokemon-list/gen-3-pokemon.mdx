@@ -1,0 +1,60 @@
+---
+title: "Gen 3 Pokémon"
+description: "Discover all Gen 3 Pokémon with our comprehensive list, including legendary, strongest, and best Pokémon from the third generation. Explore the complete list and try our Random Pokémon Generator to find new favorites!"
+date: 2022-06-30
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 3 pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## Gen 3 Pokémon
+
+Welcome to the ultimate guide for **Gen 3 Pokémon**, where you'll find everything you need to know about the **3rd Gen Pokémon** introduced in the Pokémon Ruby, Sapphire, and Emerald games. Known as the **third generation of Pokémon**, this era expanded the world of Pokémon with 135 new creatures, including some of the most iconic and **legendary Pokémon** in the series.
+
+If you're interested in discovering Pokémon from different generations or want to surprise yourself with a randomly generated team, be sure to try our [Random Pokémon Generator](/). You can set the generation option to explore random Pokémon from **Gen 3** or any other generation, offering a fun way to discover new favorites.
+
+## The Evolution of Pokémon Types
+
+The **third generation of Pokémon** brought new abilities and double battles, adding new dynamics to the Pokémon universe. With this generation, the franchise introduced some of the most beloved **original Pokémon types** and creatures that are still fan favorites today.
+
+## Legendary Pokémon Gen 3
+
+Among the **Gen 3 Pokémon**, you'll find some of the most **legendary Pokémon** like **Groudon**, **Kyogre**, and **Rayquaza**, which are not only visually stunning but also some of the **strongest Gen 3 Pokémon** that players strive to catch.
+
+## The Best Gen 3 Pokémon
+
+While every **Gen 3 Pokémon** has its unique charm, some stand out for their battle capabilities, popularity, or influence on the Pokémon series. **Salamence**, **Metagross**, and **Blaziken** are often considered among the **best Gen 3 Pokémon**, known for their power and versatility in competitive play.
+
+## Explore All the Gen 3 Pokémon
+
+This page provides a detailed list of **all Gen 3 Pokémon**, from the beloved starters like **Treecko**, **Torchic**, and **Mudkip** to the elusive **Deoxys**. Whether you're searching for a complete **Gen 3 Pokémon list** to build a team or simply to reminisce, you'll find every **3rd Gen Pokémon** here. Browse through the **list of all Gen 3 Pokémon** and rediscover the creatures that made the third generation a milestone in the series.
+
+## The Enduring Impact of Gen 3 Pokémon
+
+The influence of **Gen 3 Pokémon** extends beyond their original games, as they continue to be celebrated by fans across the globe. The introduction of new gameplay mechanics and iconic Pokémon in this generation has left a lasting legacy, cementing **Gen 3** as one of the most influential generations in the Pokémon franchise.
+
+Don't forget to try our [Random Pokémon Generator](/) to explore even more Pokémon, whether they're from **Gen 3** or another generation. The adventure is always just a click away!
+
+
+

@@ -2,7 +2,8 @@ export {
     RegionsOption, TypesOption, FormsOption, RarityOption, HeightOption, WeightOption, GenerationOption,
     ColorsOption, EnvolvesOption, BabyOption, GrowthRateOption, HabitatsOption, EggGroupOption, GenderRateOption,
     ShapeOption, DefaultFormOption, FormSwitchOption, GenderDiffOption, BaseStatHpOption, BaseStatAtkOption,
-    BaseStatDefOption, SpAtkOption, SpDefOption, BaseStatSpeedOption, BaseHappinessOption, CaptureRateOption, HatchCounterOption
+    BaseStatDefOption, SpAtkOption, SpDefOption, BaseStatSpeedOption, BaseHappinessOption, CaptureRateOption,
+    HatchCounterOption, GameVersionOption
 }
 
 import { TipLabelDropdown, TipLabelDropdownProps } from "./tiplabel-dropdown";
@@ -132,9 +133,9 @@ const regionsOptionProps: TipLabelDropdownProps = {
         },
         {
             value: "notSpecified",
-            dataShortName: "NoSp",
+            dataShortName: "Unkn",
             labelTip: "Generation is not specified in PokeApi data.",
-            label: "Data Not Specified",
+            label: "Unknown Data ",
             defaultChecked: true
         }
     ]
@@ -143,10 +144,11 @@ const regionsOptionProps: TipLabelDropdownProps = {
 const RegionsOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        regionsOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...regionsOptionProps} />
+    return (
+        <TipLabelDropdown
+            {...regionsOptionProps}
+            defaultSelected={defaultSelected}
+        />)
 }
 
 // Types option
@@ -297,10 +299,7 @@ const typesOptionProps: TipLabelDropdownProps = {
 const TypesOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        typesOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...typesOptionProps} />
+    return <TipLabelDropdown {...typesOptionProps} defaultSelected={defaultSelected} />
 }
 
 // Forms option
@@ -353,10 +352,7 @@ const formsOptionProps: TipLabelDropdownProps = {
 const FormsOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        formsOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...formsOptionProps} />
+    return <TipLabelDropdown {...formsOptionProps} defaultSelected={defaultSelected} />
 }
 
 // Rarity option
@@ -423,10 +419,187 @@ const rarityOptionProps: TipLabelDropdownProps = {
 const RarityOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        rarityOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...rarityOptionProps} />
+    return <TipLabelDropdown {...rarityOptionProps} defaultSelected={defaultSelected} />
+}
+
+// Rarity option
+const gameVersionsOptionProps: TipLabelDropdownProps = {
+    id: "gameVersions",
+    dataClickTip: "Select the game version from which you'd like to randomly generate a Pokémon. <br /> This filter specifies the game versions that provide the Pokémon, rather than the versions where the Pokémon was first introduced.",
+    labelContent: "GameVersion",
+    dataPluralName: "GameVersions",
+    dataAllowShowingTwo: "true",
+    buttonDefaultShow: "All GameVersions",
+    options: [
+        {
+            value: "all",
+            defaultChecked: true,
+            labelTip: "",
+            label: "All GameVersions",
+            dataSelectAll: "true",
+        },
+        {
+            value: "red",
+            dataShortName: "Red",
+            defaultChecked: true,
+            labelTip: "Generation I (Released in 1996): First in the series, introducing the world of Pokémon.",
+            label: "Red"
+        },
+        {
+            value: "blue",
+            dataShortName: "Blue",
+            defaultChecked: true,
+            labelTip: "Generation I (Released in 1996): Counterpart to Red, offering slightly different Pokémon.",
+            label: "Blue"
+        },
+        {
+            value: "yellow",
+            dataShortName: "Yell",
+            defaultChecked: true,
+            labelTip: "Generation I (Released in 1998): Enhanced version with Pikachu as the starter Pokémon.",
+            label: "Yellow"
+        },
+        {
+            value: "gold",
+            dataShortName: "Gold",
+            defaultChecked: true,
+            labelTip: "Generation II (Released in 1999): Introduced the Johto region and 100 new Pokémon.",
+            label: "Gold"
+        },
+        {
+            value: "silver",
+            dataShortName: "Slvr",
+            defaultChecked: true,
+            labelTip: "Generation II (Released in 1999): Counterpart to Gold, offering different legendary Pokémon.",
+            label: "Silver"
+        },
+        {
+            value: "crystal",
+            dataShortName: "Crys",
+            defaultChecked: true,
+            labelTip: "Generation II (Released in 2000): First Pokémon game to allow choosing the player's gender.",
+            label: "Crystal"
+        },
+        {
+            value: "ruby",
+            dataShortName: "Ruby",
+            defaultChecked: true,
+            labelTip: "Generation III (Released in 2002): Introduced the Hoenn region with double battles.",
+            label: "Ruby"
+        },
+        {
+            value: "sapphire",
+            dataShortName: "Saph",
+            defaultChecked: true,
+            labelTip: "Generation III (Released in 2002): Counterpart to Ruby, with different legendary Pokémon.",
+            label: "Sapphire"
+        },
+        {
+            value: "firered",
+            dataShortName: "FR",
+            defaultChecked: true,
+            labelTip: "Generation III (Released in 2004): Remake of the original Red with updated graphics and mechanics.",
+            label: "Firered"
+        },
+        {
+            value: "leafgreen",
+            dataShortName: "Leaf",
+            defaultChecked: true,
+            labelTip: "Generation III (Released in 2004): Remake of Blue, also known as Green in Japan.",
+            label: "Leafgreen"
+        },
+        {
+            value: "emerald",
+            dataShortName: "Emld",
+            defaultChecked: true,
+            labelTip: "Generation III (Released in 2004): Combined features of Ruby and Sapphire with added content.",
+            label: "Emerald"
+        },
+        {
+            value: "diamond",
+            dataShortName: "Diam",
+            defaultChecked: true,
+            labelTip: "Generation IV (Released in 2006): Introduced the Sinnoh region and online trading.",
+            label: "Diamond"
+        },
+        {
+            value: "pearl",
+            dataShortName: "Pear",
+            defaultChecked: true,
+            labelTip: "Generation IV (Released in 2006): Counterpart to Diamond with different legendary Pokémon.",
+            label: "Pearl"
+        },
+        {
+            value: "platinum",
+            dataShortName: "Plat",
+            defaultChecked: true,
+            labelTip: "Generation IV (Released in 2008): Enhanced version of Diamond and Pearl with new content.",
+            label: "Platinum"
+        },
+        {
+            value: "heartgold",
+            dataShortName: "HG",
+            defaultChecked: true,
+            labelTip: "Generation IV (Released in 2009): Remake of Gold with updated graphics and features.",
+            label: "Heartgold"
+        },
+        {
+            value: "soulsilver",
+            dataShortName: "SS",
+            defaultChecked: true,
+            labelTip: "Generation IV (Released in 2009): Remake of Silver, offering enhanced features and graphics.",
+            label: "Soulsilver"
+        },
+        {
+            value: "black",
+            dataShortName: "Blck",
+            defaultChecked: true,
+            labelTip: "Generation V (Released in 2010): Introduced the Unova region with 156 new Pokémon.",
+            label: "Black"
+        },
+        {
+            value: "white",
+            dataShortName: "Wht",
+            defaultChecked: true,
+            labelTip: "Generation V (Released in 2010): Counterpart to Black, featuring different Pokémon.",
+            label: "White"
+        },
+        {
+            value: "black-2",
+            dataShortName: "B2",
+            defaultChecked: true,
+            labelTip: "Generation V (Released in 2012): Sequel to Black with a new storyline and features.",
+            label: "Black-2"
+        },
+        {
+            value: "white-2",
+            dataShortName: "W2",
+            defaultChecked: true,
+            labelTip: "Generation V (Released in 2012): Sequel to White, continuing the Unova region adventure.",
+            label: "White-2"
+        },
+        {
+            value: "omega-ruby",
+            dataShortName: "OR",
+            defaultChecked: true,
+            labelTip: "Generation VI (Released in 2014): Remake of Ruby with updated features and Mega Evolution.",
+            label: "Omega-ruby"
+        },
+        {
+            value: "notSpecified",
+            dataShortName: "Unkn",
+            defaultChecked: true,
+            labelTip: "",
+            label: "Unknown Data"
+        }
+    ]
+}
+
+// gameVersion option
+const GameVersionOption: React.FC<{ defaultSelected?: string[] }> = ({
+    defaultSelected
+}) => {
+    return <TipLabelDropdown {...gameVersionsOptionProps} defaultSelected={defaultSelected} labelTextClassName="mobile-text-2xs" />
 }
 
 // Height option
@@ -479,7 +652,7 @@ const generationOptionProps: TipLabelDropdownProps = {
     labelContent: "Generation",
     dataPluralName: "Generations",
     dataAllowShowingTwo: "true",
-    buttonDefaultShow: "All Generations",
+    buttonDefaultShow: "All Gens",
     options: [
         {
             value: "all",
@@ -557,10 +730,13 @@ const generationOptionProps: TipLabelDropdownProps = {
 const GenerationOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        generationOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...generationOptionProps} />
+    return (
+        <TipLabelDropdown
+            {...generationOptionProps}
+            defaultSelected={defaultSelected}
+            labelTextClassName="mobile-text-xs"
+        />
+    )
 }
 
 // colors option
@@ -655,10 +831,7 @@ const colorsOptionProps: TipLabelDropdownProps = {
 const ColorsOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        colorsOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...colorsOptionProps} />
+    return <TipLabelDropdown {...colorsOptionProps} defaultSelected={defaultSelected} />
 }
 
 // envolves option
@@ -704,10 +877,7 @@ const envolvesOptionProps: TipLabelDropdownProps = {
 const EnvolvesOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        envolvesOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...envolvesOptionProps} />
+    return <TipLabelDropdown {...envolvesOptionProps} defaultSelected={defaultSelected} />
 }
 
 // baby option
@@ -746,10 +916,7 @@ const babyOptionProps: TipLabelDropdownProps = {
 const BabyOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        babyOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...babyOptionProps} />
+    return <TipLabelDropdown {...babyOptionProps} defaultSelected={defaultSelected} />
 }
 
 // growthRate option
@@ -814,10 +981,7 @@ const growthRateProps: TipLabelDropdownProps = {
 const GrowthRateOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        growthRateProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...growthRateProps} />
+    return <TipLabelDropdown {...growthRateProps} defaultSelected={defaultSelected} />
 }
 
 // habitats option
@@ -901,10 +1065,10 @@ const habitatsOptionProps: TipLabelDropdownProps = {
         },
         {
             value: "notSpecified",
-            dataShortName: "NoSp",
+            dataShortName: "Unkn",
             defaultChecked: true,
             labelTip: "",
-            label: "Data not specified"
+            label: "Unknown Data"
         }
     ]
 }
@@ -912,10 +1076,7 @@ const habitatsOptionProps: TipLabelDropdownProps = {
 const HabitatsOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        habitatsOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...habitatsOptionProps} />
+    return <TipLabelDropdown {...habitatsOptionProps} defaultSelected={defaultSelected} />
 }
 
 // eggGroup option
@@ -1041,10 +1202,10 @@ const eggGroupOptionProps: TipLabelDropdownProps = {
         },
         {
             value: "notSpecified",
-            dataShortName: "NoSp",
+            dataShortName: "Unkn",
             defaultChecked: true,
             labelTip: "",
-            label: "Data not specified"
+            label: "Unknown Data"
         }
     ]
 }
@@ -1052,10 +1213,7 @@ const eggGroupOptionProps: TipLabelDropdownProps = {
 const EggGroupOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        eggGroupOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...eggGroupOptionProps} />
+    return <TipLabelDropdown {...eggGroupOptionProps} defaultSelected={defaultSelected} />
 }
 
 // genderRate option
@@ -1136,10 +1294,7 @@ const genderRateOptionProps: TipLabelDropdownProps = {
 const GenderRateOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        genderRateOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...genderRateOptionProps} />
+    return <TipLabelDropdown {...genderRateOptionProps} defaultSelected={defaultSelected} />
 }
 // shape option
 const shapeOptionProps: TipLabelDropdownProps = {
@@ -1242,9 +1397,9 @@ const shapeOptionProps: TipLabelDropdownProps = {
         },
         {
             value: "notSpecified",
-            dataShortName: "NoSp",
+            dataShortName: "Unkn",
             defaultChecked: true,
-            label: "Data not specified"
+            label: "Unknown Data"
         }
     ]
 }
@@ -1252,10 +1407,7 @@ const shapeOptionProps: TipLabelDropdownProps = {
 const ShapeOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        shapeOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...shapeOptionProps} />
+    return <TipLabelDropdown {...shapeOptionProps} defaultSelected={defaultSelected} />
 }
 
 // defaultForm option
@@ -1292,10 +1444,7 @@ const defaultFormOptionProps: TipLabelDropdownProps = {
 const DefaultFormOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        defaultFormOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...defaultFormOptionProps} />
+    return <TipLabelDropdown {...defaultFormOptionProps} defaultSelected={defaultSelected} />
 }
 
 // formSwitchable option
@@ -1331,10 +1480,7 @@ const formSwitchableOptionProps: TipLabelDropdownProps = {
 const FormSwitchOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        formSwitchableOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...formSwitchableOptionProps} />
+    return <TipLabelDropdown {...formSwitchableOptionProps} defaultSelected={defaultSelected} />
 }
 
 // hasGenderDiff option
@@ -1370,10 +1516,7 @@ const hasGenderDiffOptionProps: TipLabelDropdownProps = {
 const GenderDiffOption: React.FC<{ defaultSelected?: string[] }> = ({
     defaultSelected
 }) => {
-    if (defaultSelected != undefined && defaultSelected != null) {
-        hasGenderDiffOptionProps.defaultSelected = defaultSelected
-    }
-    return <TipLabelDropdown {...hasGenderDiffOptionProps} />
+    return <TipLabelDropdown {...hasGenderDiffOptionProps} defaultSelected={defaultSelected} />
 }
 
 // base stats hp

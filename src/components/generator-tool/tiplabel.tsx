@@ -12,6 +12,7 @@ interface TipLabelProps {
     dataClickTip: string;
     // 选项标签的内容
     labelContent: string;
+    className?: string;
 }
 
 /**
@@ -88,7 +89,8 @@ interface TipLabelProps {
 const TipLabel: React.FC<TipLabelProps> = ({
     forHtmlId,
     dataClickTip,
-    labelContent }: TipLabelProps) => {
+    labelContent,
+    className }: TipLabelProps) => {
 
     const labelElement: RefObject<HTMLLabelElement> = useRef<HTMLLabelElement>(null);
     // @ts-expect-error
@@ -100,7 +102,7 @@ const TipLabel: React.FC<TipLabelProps> = ({
         <label
             // ref={labelElement}
             {...(forHtmlId && { htmlFor: forHtmlId })}
-            className="dotted-underline click-tip"
+            className={`dotted-underline click-tip${className ? ` ${className}` : ''}`}
             data-click-tip={dataClickTip}
         // onClick={handleTipClick}
         >

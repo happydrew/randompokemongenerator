@@ -4,7 +4,36 @@ description: Discover the ultimate Random Pokemon Generator for fun! Easily gene
 date: 2022-06-30
 ---
 
+import { useData } from 'nextra/hooks';
+import { Options } from '@/code/generator-tool/options';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
 import { GeneratorToolFeatureCards, GeneratorTool } from '@/components/generator-tool';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "1"
+        },
+        showParams: {
+            sprites: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            ssg: {
+                ssgHtml: ssgHtml
+            }
+        }
+    }
+}
+
+export const Index = () => {
+    const { ssgHtml } = useData();
+    return (
+        <GeneratorTool ssgHtml={ssgHtml} />
+    )
+}
 
 <GeneratorTool />
 <GeneratorToolFeatureCards />

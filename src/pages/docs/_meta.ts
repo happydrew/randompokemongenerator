@@ -3,7 +3,7 @@ export default {
   //   type: "separator",
   //   title: "Introduction",
   // },
-  index: "Introduction",
+  introduction: "Introduction",
   // "-- 2":{
   //   type: "separator",
   //   title: "Getting Started",

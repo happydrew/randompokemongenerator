@@ -1,0 +1,52 @@
+---
+title: "Gen 8 Pokémon"
+description: "Discover all Gen 8 Pokémon, including legendary and strongest Pokémon from the eighth generation. Find your favorites and use our Random Pokémon Generator to explore Pokémon from different generations!"
+date: 2022-06-30
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "8"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 8 pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## Gen 8 Pokémon
+
+Welcome to the definitive guide for **Gen 8 Pokémon**, showcasing all **8th Gen Pokémon** introduced in Pokémon Sword and Shield. This **eighth generation of Pokémon** marked the series' expansion to the Galar region, introducing Dynamaxing and new Gigantamax forms.
+
+Explore Pokémon from **Gen 8** and beyond using our [Random Pokémon Generator](/), which allows you to randomly discover creatures from different generations.
+
+## Legendary Pokémon Gen 8
+
+The **eighth generation of Pokémon** brought with it mighty **legendary Pokémon** such as **Zacian**, **Zamazenta**, and **Eternatus**. These **legendary Gen 8 Pokémon** are among the most powerful in the game, revered for their battle prowess and unique abilities.
+
+## Best Gen 8 Pokémon
+
+In competitive play, **Gen 8 Pokémon** like **Dragapult**, **Toxtricity**, and **Grimmsnarl** are frequently mentioned as some of the **best Gen 8 Pokémon** due to their strategic versatility and impact in battles.
+
+## Explore All the Gen 8 Pokémon
+
+This page offers a detailed list of **all Gen 8 Pokémon**, including new species, regional forms, and Gigantamax versions from **gen viii Pokémon**. Whether you're looking to build a powerful team or simply explore the new additions, the **eighth generation** has plenty to offer.
+
+Don't forget to try our [Random Pokémon Generator](/) to discover more Pokémon across different generations and add an element of surprise to your journey.
+
+
+

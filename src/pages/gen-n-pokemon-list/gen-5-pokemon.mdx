@@ -1,0 +1,52 @@
+---
+title: "Gen 5 Pokémon"
+description: "Explore the full list of all Gen 5 Pokémon, including legendary and strongest Pokémon from the fifth generation. Discover your favorites and try our Random Pokémon Generator to find Pokémon across different generations!"
+date: 2022-06-30
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "5"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 5 pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## Gen 5 Pokémon
+
+Welcome to the comprehensive guide for **Gen 5 Pokémon**, featuring a complete list of **5th Gen Pokémon** introduced in Pokémon Black and White versions. This **fifth generation of Pokémon** brought a fresh wave of excitement with 156 new species, marking the largest single-generation expansion in the Pokémon series.
+
+Explore the world of **Gen 5** with our [Random Pokémon Generator](/), where you can select the generation option to randomly discover Pokémon from **Gen 5** or other generations.
+
+## Legendary Pokémon Gen 5
+
+The **fifth generation of Pokémon** introduced some of the most iconic **legendary Pokémon**, such as **Reshiram**, **Zekrom**, and **Kyurem**. These **legendary Gen 5 Pokémon** are celebrated for their roles in the story and their powerful abilities, making them some of the **strongest Gen 5 Pokémon**.
+
+## Best Gen 5 Pokémon
+
+When it comes to battling, **Gen 5 Pokémon** like **Excadrill**, **Hydreigon**, and **Volcarona** are among the **best Gen 5 Pokémon** due to their versatility and strength in competitive play.
+
+## Explore All the Gen 5 Pokémon
+
+This page offers a detailed list of **all Gen 5 Pokémon**, including fan-favorites and lesser-known creatures from **gen v Pokémon**. Whether you're a collector or a competitive player, browsing through this **list of all Gen 5 Pokémon** will help you rediscover the magic of the **fifth generation**.
+
+The adventure doesn't end here—try our [Random Pokémon Generator](/) to explore Pokémon from other generations and uncover new favorites.
+
+
+

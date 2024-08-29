@@ -1,0 +1,52 @@
+---
+title: "Gen 6 Pokémon"
+description: "Discover all Gen 6 Pokémon, including legendary and strongest Pokémon from the sixth generation. Find your favorites and use our Random Pokémon Generator to explore Pokémon from different generations!"
+date: 2022-06-30
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "6"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 6 pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## Gen 6 Pokémon
+
+Welcome to the ultimate guide for **Gen 6 Pokémon**, where you can explore the full list of **6th Gen Pokémon** introduced in Pokémon X and Y. This **sixth generation of Pokémon** brought the total number of Pokémon species to over 700, introducing the Kalos region's unique creatures and the revolutionary Mega Evolutions.
+
+For those who love surprises, our [Random Pokémon Generator](/) lets you randomly discover Pokémon from **Gen 6** and other generations, adding a fun twist to your Pokémon journey.
+
+## Legendary Pokémon Gen 6
+
+The **sixth generation of Pokémon** introduced majestic **legendary Pokémon** such as **Xerneas**, **Yveltal**, and **Zygarde**. These **legendary Gen 6 Pokémon** are not only visually striking but also among the **strongest Gen 6 Pokémon**, revered by trainers worldwide.
+
+## Best Gen 6 Pokémon
+
+In terms of battle prowess, Pokémon like **Greninja**, **Aegislash**, and **Talonflame** are often cited as the **best Gen 6 Pokémon** for their strategic versatility and power.
+
+## Explore All the Gen 6 Pokémon
+
+This page features a complete list of **all Gen 6 Pokémon**, including both popular and lesser-known creatures from **gen vi Pokémon**. Whether you're here to reminisce or to build a powerful team, the **sixth generation** offers something for every trainer.
+
+Don't forget to try our [Random Pokémon Generator](/) to explore a variety of Pokémon across all generations.
+
+
+

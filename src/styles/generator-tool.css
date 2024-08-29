@@ -183,7 +183,7 @@ h1.pokemon-title {
 	align-items: center;
 	/* border: 1px solid #CCC; */
 	line-height: 1;
-	overflow: invisible;
+	overflow: hidden;
 	justify-content: center;
 }
 
@@ -336,8 +336,8 @@ a.feedback-link:hover {
 .dropdown>button {
 	width: 100%;
 	max-width: 100%;
-	height: 1.5em;
-	overflow: invisible;
+	height: 1.5rem;
+	overflow: hidden;
 	white-space: nowrap;
 	padding: 0.1em;
 	background-color: #f2f2f2;
@@ -432,7 +432,7 @@ button.text:hover {
 label {
 	white-space: nowrap;
 	margin: 0 0.2em 0 0;
-	overflow: invisible;
+	overflow: hidden;
 	text-align: right;
 }
 
@@ -691,7 +691,7 @@ footer {
 .carousel {
 	position: relative;
 	width: 100%;
-	overflow: invisible;
+	overflow: hidden;
 	height: 150px;
 }
 
@@ -756,7 +756,7 @@ footer {
 	justify-content: space-between;
 	margin: 0;
 	height: 1.5em;
-	overflow: invisible;
+	overflow: hidden;
 }
 
 .pokecard-header-rarity {
@@ -833,7 +833,7 @@ footer {
 	/* background: linear-gradient(105deg, green 48%, red calc(48% + 1px)); */
 	display: flex;
 	justify-content: space-between;
-	overflow: invisible;
+	overflow: hidden;
 	/* opacity: 0.7; */
 }
 
@@ -984,7 +984,7 @@ footer {
 	font-size: 50%;
 	border-radius: 0.9em;
 	border: 1px solid #ccc;
-	overflow: invisible;
+	overflow: hidden;
 }
 
 .pokecard-stats table,

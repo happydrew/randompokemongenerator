@@ -1,0 +1,62 @@
+---
+title: gen 1 pokemon
+description: "Explore the complete list of Gen 1 Pokémon, including legendary, strongest, and best Pokémon from the first generation. Discover every Pokémon from Generation 1 and try our Random Pokémon Generator to find new favorites!"
+date: 2024-06-30
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "1"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 1 pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## Gen 1 Pokémon
+
+Welcome to the comprehensive guide for **Gen 1 Pokémon**, where we explore the original 151 Pokémon that started the global phenomenon. Known as the **1st Gen Pokémon** or **First Generation Pokémon**, these iconic creatures were first introduced in the classic Pokémon Red, Blue, and Yellow games. Whether you're a longtime fan or new to the Pokémon world, this list will help you discover every **Gen 1 Pokémon**, including the **legendary Pokémon** that defined an era.
+
+If you're eager to explore Pokémon from different generations or simply want to create a surprise team, be sure to check out our [Random Pokémon Generator](/). With this tool, you can set the generation option to generate random Pokémon from **Gen 1** or any other generation, making it a fun way to discover new favorites.
+
+## The Original Pokémon Types
+
+The **first generation of Pokémon** introduced a diverse array of types, such as **Fire**, **Water**, **Grass**, and **Electric**, which laid the groundwork for the strategic battles that Pokémon fans enjoy today. These **original Pokémon types** have become the cornerstone of the series, influencing every subsequent generation.
+
+## Legendary Pokémon Gen 1
+
+Among the **Gen 1 Pokémon** are some of the most **legendary Pokémon** in the entire series. Pokémon like **Articuno**, **Zapdos**, and **Moltres** are revered not just for their rarity but also for their power, making them some of the **strongest Gen 1 Pokémon** sought after by trainers around the world.
+
+## The Best Gen 1 Pokémon
+
+While every **Gen 1 Pokémon** holds a special place in the hearts of fans, some stand out due to their battle prowess, popularity, or role in the Pokémon franchise. **Charizard**, **Blastoise**, and **Mewtwo** are often considered among the **best Gen 1 Pokémon** thanks to their iconic status and formidable stats.
+
+## Explore All the Gen 1 Pokémon
+
+This page provides a complete list of **all Gen 1 Pokémon**, from the ever-popular **Pikachu** to the elusive **Mew**. Whether you're searching for a comprehensive **Gen 1 Pokémon list** to reminisce about the past or to build a powerful team, you'll find every **1st Gen Pokémon** right here. Browse through the **list of all Gen 1 Pokémon** and rediscover the creatures that captured the hearts of millions.
+
+## The Enduring Legacy of Gen 1 Pokémon
+
+The impact of **Gen 1 Pokémon** continues to resonate with fans across the globe. The simplicity and charm of these original creatures have ensured their lasting appeal, making them a staple in Pokémon games, merchandise, and media. From the **strongest Gen 1 Pokémon** to those with the most nostalgic value, these Pokémon remain beloved by trainers of all ages.
+
+Don't forget to try our [Random Pokémon Generator](/) to explore more Pokémon and perhaps find a new favorite from **Gen 1** or beyond. The adventure never ends!
+
+
+
+
+

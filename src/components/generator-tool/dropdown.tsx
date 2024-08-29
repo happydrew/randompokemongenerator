@@ -28,6 +28,7 @@ interface DropdownProps {
     options: DropdownOption[],
     // 默认选中的值数组，这个选项会覆盖options里面的defaultChecked属性
     defaultSelected?: string[];
+    buttonTextClassName?: string;
 }
 
 /**
@@ -52,7 +53,8 @@ const Dropdown: React.FC<DropdownProps> = ({
     dataAllowShowingTwo,
     buttonDefaultShow,
     options,
-    defaultSelected }: DropdownProps) => {
+    defaultSelected,
+    buttonTextClassName }: DropdownProps) => {
 
     const dropdownElement = useRef<HTMLDivElement>(null);
     const buttonElement = useRef<HTMLButtonElement>(null);
@@ -89,6 +91,7 @@ const Dropdown: React.FC<DropdownProps> = ({
                 type="button"
                 data-plural-name={dataPluralName}
                 data-allow-showing-two={dataAllowShowingTwo}
+                {...(buttonDefaultShow && { className: buttonTextClassName })}
             >
                 {buttonDefaultShow}
             </button>

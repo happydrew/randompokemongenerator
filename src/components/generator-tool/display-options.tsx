@@ -1,6 +1,7 @@
 export {
     ShowGeneration, ShowRegion, Natures, BackImg, BackColor, ShowAblilites,
-    Sprites, ShowRarity, ShowTypes, ShowStats, Evs, Ivs, Cries, ShinyProb, ShinyTip
+    Sprites, ShowRarity, ShowTypes, ShowStats, Evs, Ivs, Cries, ShinyProb, ShinyTip,
+    Pokedex
 };
 import React from 'react';
 import { TipLabelCheckbox, TipLabelCheckboxProps } from '@/components/generator-tool/tipLabel-checkbox';
@@ -81,6 +82,19 @@ const showAblilites: TipLabelCheckboxProps = {
 
 const ShowAblilites: React.FC = () => {
     return <TipLabelCheckbox {...showAblilites} />;
+}
+
+const pokedexProps: TipLabelCheckboxProps = {
+    tipLabelProps: {
+        dataClickTip: "Whether to show the pokedex number of the Pokémon.",
+        labelContent: "Pokedex"
+    },
+    checkboxId: "pokedex",
+    defaultChecked: false
+};
+
+const Pokedex: React.FC = () => {
+    return <TipLabelCheckbox {...pokedexProps} />;
 }
 
 const sprites: TipLabelCheckboxProps = {

@@ -195,7 +195,7 @@ export default {
     const { frontMatter, title: pageTitle } = useConfig()
     const { asPath } = useRouter()
 
-    const title = `${pageTitle}${asPath === "/" ? "" : " | Random Pokemon Generator"}`
+    const title = `${pageTitle}${asPath.substring(0, asPath.indexOf("?")) === "/" ? "" : " | Random Pokemon Generator"}`
     const { description, canonical, image } = frontMatter
     return (
       <>

@@ -8,6 +8,7 @@ type FilterParams = {
 	forms?: string;
 	rarity?: string;
 	generations?: string;
+	gameVersions?: string;
 	colors?: string;
 	envolves?: string;
 	baby?: string;
@@ -79,6 +80,8 @@ type ShowParams = {
 	/** 是否展示pokemon的性别 */
 	shinyTip?: boolean
 	//genders?: boolean
+	// 是否展示pokemon的id
+	pokedex?: boolean
 }
 
 type Options = {
@@ -108,6 +111,9 @@ function convertSearchParamsToOptions(params: URLSearchParams): Options {
 	}
 	if (params.has("generations")) {
 		options.filterParams.generations = params.get("generations")!;
+	}
+	if (params.has("gameVersions")) {
+		options.filterParams.gameVersions = params.get("gameVersions")!;
 	}
 	if (params.has("envolves")) {
 		options.filterParams.envolves = params.get("envolves")!;
@@ -239,6 +245,9 @@ function convertSearchParamsToOptions(params: URLSearchParams): Options {
 	}
 	if (params.has("shinyTip")) {
 		options.showParams.shinyTip = parseBoolean(params.get("shinyTip")!);
+	}
+	if (params.has("pokedex")) {
+		options.showParams.pokedex = parseBoolean(params.get("pokedex")!);
 	}
 	return options;
 }

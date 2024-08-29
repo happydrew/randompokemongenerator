@@ -3,7 +3,7 @@ import {
     clearShinies, saveShinies, loadShinies
 } from "./history";
 import { convertSearchParamsToOptions, Options, convertOptionsToUrlParams, FilterParams, ShowParams } from "./options";
-import { Pokemon, DisplayPokemon, PokemonDetail, displayPokemon } from "./pokemon";
+import { Pokemon, DisplayPokemon, PokemonDetail, displayPokemon, toHtml } from "./pokemon";
 import {
     toggleDropdownsOnButtonClick, markLoading, deepClone, removeRandomElement, shuffle, expandMoreOptions,
     collapseMoreOptions, setDropdownIfValid, displayYearsInFooter, getDropdownOptions,
@@ -13,7 +13,8 @@ import {
 
 export {
     generateRandom, expandMoreOptions, collapseMoreOptions, expandMoreShowOptions, collapseMoreShowOptions,
-    displayPrevious, displayNext, toggleShinyDisplay, clearShinies, onDOMContentLoad, processClickTipEvent
+    displayPrevious, displayNext, toggleShinyDisplay, clearShinies, onDOMContentLoad, processClickTipEvent,
+    getGeneratedPokemons, fetchPokeDetails, fetchPokemons, genStaticHtmlOfPokes
 };
 
 function mountFunctionsToWindow() {
@@ -258,14 +259,10 @@ async function generateRandom() {
     persistOptions(options);
     const resultContainer = document.getElementById("results")!;
     try {
-        const eligiblePokemon = await getEligiblePokemon(options);
-        const generatedPokemons = options.showParams?.n == "all" ? eligiblePokemon : chooseRandom(eligiblePokemon, options);
+        const generatedPokemons = await getGeneratedPokemons(options);
         // 先发起详情数据请求
         const needFecthIds: number[] = generatedPokemons.filter(p => !(p.id.toString() in pokemonDetailsMapCache)).map(p => p.id);
-        let response: Promise<Response> = null!;
-        if (needFecthIds.length > 0) {
-            response = fetch(backEndDomain + "/api/pokemon-details?ids=" + needFecthIds.join(","));
-        }
+        const response = fetchPokeDetails(needFecthIds);
         // 先显示立即就能获取的内容，以及已有的详情数据
         const displayPokemons: DisplayPokemon[] = generatedPokemons.map(p => new DisplayPokemon(null, p, pokemonDetailsMapCache[p.id.toString()], options.showParams))
         const resultsHTML = displayPokemon(displayPokemons, resultContainer);
@@ -273,7 +270,7 @@ async function generateRandom() {
         displayPokemons.forEach(dp => displayPokemonMap.set(dp.id.toString(), dp));
         const existIds: number[] = generatedPokemons.filter(p => p.id.toString() in pokemonDetailsMapCache).map(p => p.id);
         // 异步加载详情数据
-        if (response != null) {
+        if (response) {
             renderAndSavePokemons(response, resultsHTML, displayPokemonMap);
         }
         addToHistory(displayPokemons);
@@ -293,6 +290,14 @@ async function generateRandom() {
         sendErrorReport(error);
     }
     markLoading(false);
+}
+
+function fetchPokeDetails(needFecthIds: number[]): Promise<Response> | null {
+    let response: Promise<Response> | null = null;
+    if (needFecthIds.length > 0) {
+        response = fetch(backEndDomain + "/api/pokemon-details?ids=" + needFecthIds.join(","));
+    }
+    return response;
 }
 
 interface ErrorInfo {
@@ -591,6 +596,11 @@ function getOptionsFromForm(): Options {
         if (generations) {
             filterParams.generations = generations;
         }
+        // gameVersions
+        const gameVersions = getDropdownOptions("gameVersions");
+        if (gameVersions) {
+            filterParams.gameVersions = gameVersions;
+        }
         // colors
         const colors = getDropdownOptions("colors");
         if (colors) {
@@ -751,6 +761,7 @@ function getOptionsFromForm(): Options {
     showParams.cries = getCheckboxValueById("cries");
     showParams.shinyProb = parseFloat((document.getElementById("shinyProb") as HTMLInputElement).value);
     showParams.shinyTip = getCheckboxValueById("shinyTip")
+    showParams.pokedex = getCheckboxValueById("pokedex")
 
     return {
         filterParams: filterParams,
@@ -817,6 +828,9 @@ function setOptions(options: Options) {
         }
         if (options.filterParams.generations != undefined) {
             setDropdownIfValid("generations", options.filterParams.generations);
+        }
+        if (options.filterParams.gameVersions != undefined) {
+            setDropdownIfValid("gameVersions", options.filterParams.gameVersions);
         }
         if (options.filterParams.colors != undefined) {
             setDropdownIfValid("colors", options.filterParams.colors);
@@ -958,6 +972,9 @@ function setOptions(options: Options) {
         if (options.showParams.shinyTip != undefined) {
             setCheckbox("shinyTip", options.showParams.shinyTip)
         }
+        if (options.showParams.pokedex != undefined) {
+            setCheckbox("pokedex", options.showParams.pokedex)
+        }
     }
 }
 
@@ -1016,6 +1033,19 @@ async function clearOldCacheVersion() {
 }
 
 /**
+ * 根据传入的options生成随机的Pokémon
+ * 
+ * @param options 
+ * @returns 
+ */
+async function getGeneratedPokemons(options: Options): Promise<Pokemon[]> {
+    return getEligiblePokemon(options).then(eligiblePokemon => {
+        return options.showParams?.n == "all" ? eligiblePokemon : chooseRandom(eligiblePokemon, options);
+    });
+}
+
+/**
+ * 获取符合条件的Pokémon
  * 
  * @param options 
  * @returns 返回的是已转化为原型类型，不是json对象
@@ -1044,6 +1074,12 @@ async function getEligiblePokemon(options: Options): Promise<Pokemon[]> {
     return pokemonsJson;
 }
 
+/**
+ * 从服务器获取Pokémon列表
+ * 
+ * @param options 
+ * @returns 
+ */
 async function fetchPokemons(options: Options): Promise<Pokemon[]> {
     //return Promise.resolve([]);
     const url = backEndDomain + "/api/queryConditions?" + convertOptionsToUrlParams(options);
@@ -1198,7 +1234,7 @@ function processClickTipEvent(clickElement: HTMLElement, event) {
     if (clickElement.hasAttribute("tool-tip-style")) {
         tooltip.style.cssText = clickElement.getAttribute("tool-tip-style")!;
     }
-    tooltip.textContent = content || '';
+    tooltip.innerHTML = content || '';
     tooltip.style.maxWidth = window.innerWidth + "px";
     tooltip.style.display = 'block';
     tooltip.style.visibility = 'invisible';
@@ -1385,4 +1421,27 @@ function chooseRandom(eligiblePokemon: Pokemon[], options: Options): Pokemon[] {
     // Megas are more likely to appear at the start of the array,
     // so we shuffle for good measure.
     return shuffle(generated);
+}
+
+/**
+ * 
+ * @param ssgOptions 选项
+ * @returns 
+ */
+async function genStaticHtmlOfPokes(ssgOptions: Options): Promise<string> {
+    const generatedPokemons = await fetchPokemons(ssgOptions);
+    const needFecthIds: number[] = generatedPokemons.map(p => p.id);
+    const response = fetchPokeDetails(needFecthIds);
+    if (response) {
+        const pokemonDetails: PokemonDetail[] = await (await response).json();
+        const pokemonDetailsMap: { [key: string]: PokemonDetail } = {};
+        pokemonDetails.forEach(p => {
+            pokemonDetailsMap[p.id.toString()] = p;
+        });
+        const displayPokemons: DisplayPokemon[] = generatedPokemons.map(p => new DisplayPokemon(null, p, pokemonDetailsMap[p.id.toString()], ssgOptions.showParams))
+        const html = toHtml(displayPokemons);
+        return html;
+    } else {
+        return "";
+    }
 }

@@ -1,5 +1,5 @@
 export type { Pokemon, PokemonDetail };
-export { displayPokemon, DisplayPokemon };
+export { displayPokemon, DisplayPokemon, toHtml };
 
 import { getRandomElement, randomInteger, getTrueByProbability } from './utils';
 import { ShowParams } from './options';
@@ -160,6 +160,7 @@ class DisplayPokemon {
 						</div>
 						<div class="pokecard-infobar-container${this.isMinimalist() ? "" : " pokecard-infobar-title"}">
 						  <div class="pokecard-infobar pokecard-titile light-scrollbar">
+						  ${this.showParams.pokedex ? `<span style="color:#ff8f07;font-weight:bold;font-size:0.9em">#${this.id.toString()}</span>&nbsp;` : ""}
 						  ${this.showParams.natures ? `<span class="pokecard-titile-natrue">${this.nature}</span>&nbsp;` : ""}
 						  <a href="https://bulbapedia.bulbagarden.net/wiki/${this.name.split("-")[0]}" target="_blank">${this.name}</a>
 						  </div>
@@ -293,7 +294,7 @@ class DisplayPokemon {
 		if (firstType == "stellar" || firstType == "unknown") {
 			firstType = "normal";
 		}
-		return `./img/background-types/type_background_${firstType}.png`;
+		return `./img/background-types/type_background_${firstType}.webp`;
 	}
 
 	getRarity(): string {
@@ -653,7 +654,7 @@ function displayPokemon(displayPokemons: DisplayPokemon[] | null, resultsContain
 }
 
 /** Converts a JSON array of Pokémon into an HTML ordered list. */
-function toHtml(displayPokemons: DisplayPokemon[]) {
+function toHtml(displayPokemons: DisplayPokemon[]): string {
 	//const includeSprites = spritesCheckbox.checked;
 	return `<ol>${displayPokemons.map(p => p.toHtml()).join("")}</ol>`;
 }

@@ -24,6 +24,7 @@ interface TipLabelDropdownProps {
     // 选项值数组
     options: DropdownOption[],
     defaultSelected?: string[];
+    labelTextClassName?: string;
 }
 
 const TipLabelDropdown: React.FC<TipLabelDropdownProps> = ({
@@ -34,21 +35,24 @@ const TipLabelDropdown: React.FC<TipLabelDropdownProps> = ({
     dataAllowShowingTwo,
     buttonDefaultShow,
     options,
-    defaultSelected }: TipLabelDropdownProps) => {
+    defaultSelected,
+    labelTextClassName }: TipLabelDropdownProps) => {
 
     return (
         <div className="option-unit">
             <TipLabel
                 forHtmlId={id}
                 dataClickTip={dataClickTip}
-                labelContent={labelContent} />
+                labelContent={labelContent}
+                className={labelTextClassName} />
             <Dropdown
                 id={id}
                 dataPluralName={dataPluralName}
                 dataAllowShowingTwo={dataAllowShowingTwo}
                 buttonDefaultShow={buttonDefaultShow}
                 options={options}
-                defaultSelected={defaultSelected} />
+                defaultSelected={defaultSelected}
+                buttonTextClassName={labelTextClassName} />
         </div>
     );
 };

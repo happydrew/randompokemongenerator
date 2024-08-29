@@ -12,7 +12,7 @@ const generatorToolFeatureCardProps: FeatureCardProps[] = [
 				generations and game versions. Whether you're looking for a classic Pikachu ⚡ or a newer addition
 				like Dracovish 🦖, we've got you covered. This extensive library ensures that our Pokémon randomizer
 				can provide endless possibilities, making it the perfect tool for any Pokémon enthusiast 🏆.`,
-        imageUrl: "/img/features/diverse-pokemon-library.png",
+        imageUrl: "/img/features/diverse-pokemon-library.webp",
         imageAlt: "diverse pokemon library"
     },
     {
@@ -24,7 +24,7 @@ const generatorToolFeatureCardProps: FeatureCardProps[] = [
 				random Pokémon that fits your exact criteria 🎯. Our random Pokémon picker allows you to refine your
 				search to match your preferences, ensuring you always find the perfect Pokémon 🌟.`,
         learnMoreLink: "/docs/filter-options",
-        imageUrl: "/img/features/fully-customize.png",
+        imageUrl: "/img/features/fully-customize.webp",
         imageAlt: "customizable generation"
     },
     {
@@ -36,7 +36,7 @@ const generatorToolFeatureCardProps: FeatureCardProps[] = [
 				images enhance the visual appeal and make each card a joy to view 😍. This visually appealing
 				Pokémon generator is designed to provide an engaging user experience 🖼️.`,
         learnMoreLink: "/docs/display-options",
-        imageUrl: "/img/features/beautiful-display.png",
+        imageUrl: "/img/features/beautiful-display.webp",
         imageAlt: "beautiful pokemon display"
     },
     {
@@ -48,7 +48,7 @@ const generatorToolFeatureCardProps: FeatureCardProps[] = [
 				and challenge of building your team 🛡️. The random attributes make every Pokémon encounter exciting
 				and unpredictable 🎉.`,
         learnMoreLink: "/docs/display-options",
-        imageUrl: "/img/features/randomized-attributes.png",
+        imageUrl: "/img/features/randomized-attributes.webp",
         imageAlt: "randomized-attributes"
     },
     {
@@ -60,7 +60,7 @@ const generatorToolFeatureCardProps: FeatureCardProps[] = [
 				it easy to revisit your rare finds ✨. This feature allows you to build a collection of your favorite
 				Pokémon and track your progress over time 🕰️.`,
         learnMoreLink: "/docs/history-view",
-        imageUrl: "/img/features/history-viewing-and-shiny.png",
+        imageUrl: "/img/features/history-viewing-and-shiny.webp",
         imageAlt: "randomized-attributes"
     },
     {
@@ -71,7 +71,7 @@ const generatorToolFeatureCardProps: FeatureCardProps[] = [
 				layouts and smooth interactions 🌟. The design is mobile-optimized 📱, ensuring a seamless
 				experience on phones and tablets. The intuitive interface makes it easy for users of all ages to
 				navigate and enjoy the Pokémon randomizer 🌟.`,
-        imageUrl: "/img/features/user-friendly-interface.png",
+        imageUrl: "/img/features/user-friendly-interface.webp",
         imageAlt: "user friendly interface"
     }
 ]

@@ -486,3 +486,19 @@ div[id^="headlessui-menu-items"] {
   font-size: 13px;
   padding: 7px 14px;
 }
+
+.mobile-text-xs {
+  @apply text-xs;
+
+  @media (min-width: 499px) {
+    @apply text-custom-base;
+  }
+}
+
+.mobile-text-2xs {
+  @apply text-2xs;
+
+  @media (min-width: 499px) {
+    @apply text-custom-base;
+  }
+}

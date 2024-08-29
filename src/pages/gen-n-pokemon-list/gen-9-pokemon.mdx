@@ -1,0 +1,52 @@
+---
+title: "Gen 9 Pokémon"
+description: "Explore all Gen 9 Pokémon, including legendary and strongest Pokémon from the ninth generation. Discover your favorites and use our Random Pokémon Generator to find Pokémon from different generations!"
+date: 2022-06-30
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "9"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 9 pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## Gen 9 Pokémon
+
+Welcome to the ultimate guide for **Gen 9 Pokémon**, where you can explore the full list of **9th Gen Pokémon** introduced in Pokémon Scarlet and Violet. This **ninth generation of Pokémon** continues the tradition of innovation, bringing new species, regional forms, and unique mechanics to the Pokémon universe.
+
+For those who enjoy the thrill of discovery, our [Random Pokémon Generator](/) lets you randomly generate Pokémon from **Gen 9** or other generations, adding a fun element of surprise to your Pokémon journey.
+
+## Legendary Pokémon Gen 9
+
+The **ninth generation of Pokémon** introduces some of the most fascinating **legendary Pokémon** yet, including **Koraidon** and **Miraidon**. These **legendary Gen 9 Pokémon** are celebrated for their lore and powerful abilities, making them some of the **strongest Gen 9 Pokémon** in the game.
+
+## Best Gen 9 Pokémon
+
+In competitive play, **Gen 9 Pokémon** like **Skeledirge**, **Palafin**, and **Gholdengo** stand out as some of the **best Gen 9 Pokémon** for their strategic versatility and unique moves.
+
+## Explore All the Gen 9 Pokémon
+
+This page provides a detailed list of **all Gen 9 Pokémon**, including new species, regional forms, and special evolutionary lines from **gen ix Pokémon**. Whether you're a seasoned trainer or new to the series, the **ninth generation** offers something exciting for everyone.
+
+Don't forget to use our [Random Pokémon Generator](/) to explore more Pokémon across different generations and find new favorites to add to your team.
+
+
+

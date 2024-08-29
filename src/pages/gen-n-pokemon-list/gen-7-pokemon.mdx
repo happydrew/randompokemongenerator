@@ -1,0 +1,52 @@
+---
+title: "Gen 7 Pokémon"
+description: "Explore all Gen 7 Pokémon, including legendary and strongest Pokémon from the seventh generation. Find your favorites and use our Random Pokémon Generator to discover Pokémon from different generations!"
+date: 2022-06-30
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "7"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 7 pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## Gen 7 Pokémon
+
+Welcome to the comprehensive guide for **Gen 7 Pokémon**, where you can explore the full roster of **7th Gen Pokémon** introduced in Pokémon Sun and Moon. This **seventh generation of Pokémon** brought the Alola region to life, introducing new regional forms and unique Pokémon species.
+
+Our [Random Pokémon Generator](/) allows you to randomly discover Pokémon from **Gen 7** or any other generation, making it a great tool for those who love surprises.
+
+## Legendary Pokémon Gen 7
+
+The **seventh generation of Pokémon** introduced powerful **legendary Pokémon** like **Solgaleo**, **Lunala**, and **Necrozma**. These **legendary Gen 7 Pokémon** are central to the Alola region's lore and are among the **strongest Gen 7 Pokémon** in the game.
+
+## Best Gen 7 Pokémon
+
+When it comes to battling, **Gen 7 Pokémon** like **Tapu Koko**, **Mimikyu**, and **Toxapex** stand out as some of the **best Gen 7 Pokémon** for their unique abilities and competitive potential.
+
+## Explore All the Gen 7 Pokémon
+
+This page features a complete list of **all Gen 7 Pokémon**, including both new species and regional variants of classic Pokémon from **gen vii Pokémon**. Whether you're revisiting old favorites or discovering new ones, the **seventh generation** has something for every trainer.
+
+Don't forget to check out our [Random Pokémon Generator](/) to explore more Pokémon across different generations and uncover new favorites.
+
+
+
