@@ -7,5 +7,9 @@ export default {
     type: "page",
     title: "Random Shiny Pokemon Generator",
     layout: "raw"
+  },
+  "random-mega-pokemon-generator": {
+    type: "page",
+    title: "Random Mega Pokemon Generator"
   }
 }

@@ -106,7 +106,7 @@ class DisplayPokemon {
 			}
 			// 以一定的概率生成shiny的pokemon
 			// 概率让用户设置？
-			this.shiny = getTrueByProbability(showParams!.shinyProb ? showParams!.shinyProb / 100 : 0.01);
+			this.shiny = getTrueByProbability(showParams!.shinyProb ? showParams!.shinyProb / 4096 : 1.0/4096);
 			this.generateTime = Date.now();
 		}
 	}

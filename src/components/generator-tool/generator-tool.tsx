@@ -47,6 +47,7 @@ interface GeneratorToolProps {
     regionDefaultSelected?: string[];
     typesDefaultSelected?: string[];
     formsDefaultSelected?: string[];
+    formsFixedSelected?: string[];
     rarityDefaultSelected?: string[];
     generationDefaultSelected?: string[];
     colorsDefaultSelected?: string[];
@@ -104,7 +105,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
                 <div id="main-options" className="options-panel">
                     <RegionsOption defaultSelected={props.regionDefaultSelected} />
                     <TypesOption defaultSelected={props.typesDefaultSelected} />
-                    <FormsOption defaultSelected={props.formsDefaultSelected} />
+                    <FormsOption fixedSelected={props.formsFixedSelected} defaultSelected={props.formsDefaultSelected} />
                     <RarityOption defaultSelected={props.rarityDefaultSelected} />
                     <GenerationOption defaultSelected={props.generationDefaultSelected} />
                     <GameVersionOption defaultSelected={props.gameVersionDefaultSelected} />

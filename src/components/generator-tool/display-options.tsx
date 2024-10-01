@@ -189,7 +189,7 @@ const Cries: React.FC = () => {
 }
 
 const shinyTipLabelProps: TipLabelProps = {
-    dataClickTip: "Set the probability of generating a Shiny Pokémon, expressed as a percentage.",
+    dataClickTip: "Set the probability of generating a Shiny Pokémon, which is a ratio to 4096, with the default rate being 1/4096.",
     labelContent: "Shiny"
 };
 
@@ -209,12 +209,12 @@ const ShinyProb: React.FC<{ fixedShinyPercent?: number }> = ({
         });
     }
     return (
-        <div className="option-unit-small">
+        <div className="option-unit">
             <TipLabel {...shinyTipLabelProps} />
-            <input ref={inputRef} type="number" id="shinyProb" min="0" max="100"
+            <input ref={inputRef} type="number" id="shinyProb" min="0" max="4096"
                 {...(fixedShinyPercent && { disabled: true })}
                 defaultValue={fixedShinyPercent ? fixedShinyPercent.toString() : "1"} />
-            <span className="percent-sign">&nbsp;%</span>
+            <span className="percent-sign">&nbsp;/4096</span>
         </div>
     );
 }

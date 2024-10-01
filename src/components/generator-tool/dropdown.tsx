@@ -28,6 +28,7 @@ interface DropdownProps {
     options: DropdownOption[],
     // 默认选中的值数组，这个选项会覆盖options里面的defaultChecked属性
     defaultSelected?: string[];
+    fixedSelected?: string[];
     buttonTextClassName?: string;
 }
 
@@ -54,35 +55,33 @@ const Dropdown: React.FC<DropdownProps> = ({
     buttonDefaultShow,
     options,
     defaultSelected,
+    fixedSelected,
     buttonTextClassName }: DropdownProps) => {
 
     const dropdownElement = useRef<HTMLDivElement>(null);
     const buttonElement = useRef<HTMLButtonElement>(null);
     const popupElement = useRef<HTMLDivElement>(null);
+    // 固定选中指定元素
+    if (fixedSelected) {
+        defaultSelected = fixedSelected;
+    }
 
-    // useEffect(() => {
-    //     // 点击弹出框外隐藏下拉框
-    //     const handleOutsideClick = (event: Event) => {
-    //         if (event.target instanceof HTMLElement && event.target != buttonElement.current
-    //             && !popupElement.current!.contains(event?.target)) {
-    //             popupElement.current!.classList.remove("visible");
-    //             document.removeEventListener("click", handleOutsideClick);
-    //         }
-    //     };
-    //     // 添加按钮点击事件，点击按钮弹出下拉框
-    //     buttonElement.current!.addEventListener("click", e => {
-    //         const isPopupVisible = popupElement.current!.classList.toggle("visible");
-    //         popupElement.current!.style.left = (dropdownElement.current!.clientWidth - popupElement.current!.clientWidth) / 2 + "px";
-    //         if (isPopupVisible) {
-    //             document.addEventListener("click", handleOutsideClick);
-    //         }
-    //     });
-
-    //     // 添加选项值变化事件，更新下拉框标题
-    //     dropdownElement.current!.querySelectorAll("input[type='checkbox']").forEach(checkbox => {
-    //         checkbox.addEventListener("change", () => updateDropdownTitle(dropdownElement.current!));
-    //     });
-    // }, []);
+    useEffect(() => {
+        if (fixedSelected) {
+            const checkboxElements = Array.from(popupElement.current!.querySelectorAll("input[type='checkbox']:not([data-select-all])")).map(checkbox => checkbox as HTMLInputElement);
+            checkboxElements.forEach((checkbox: HTMLInputElement) => {
+                if (fixedSelected.includes(checkbox.value)) {
+                    checkbox.checked = true;
+                } else {
+                    checkbox.checked = false;
+                }
+                Object.defineProperty(checkbox, "checked", {
+                    set: (newVal: boolean) => { }
+                });
+                checkbox.disabled = true;
+            });
+        }
+    }, []);
 
     return (
         <div className="dropdown" id={id} ref={dropdownElement}>

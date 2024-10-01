@@ -75,7 +75,7 @@ type ShowParams = {
 	showAblilites?: boolean,
 	/** 是否展示pokemon的叫声 */
 	cries?: boolean,
-	// 获取shiny的概率，百分数，默认是1，即1%的概率
+	// 获取shiny的概率，用该值除以4096即是概率，默认是1，即1/4096的概率
 	shinyProb?: number,
 	/** 是否展示pokemon的性别 */
 	shinyTip?: boolean

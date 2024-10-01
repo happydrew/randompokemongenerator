@@ -1331,7 +1331,7 @@ function updateDropdownTitle(dropdownContainer: HTMLElement) {
     const button = dropdownContainer.querySelector("button")!;
     const selectAllCheckbox: HTMLInputElement = dropdownContainer.querySelector("input[type='checkbox'][data-select-all='true']")!;
     const allCheckboxes: HTMLInputElement[] = Array.from(dropdownContainer.querySelectorAll("input[type='checkbox']:not([data-select-all])"));
-    const selectedCheckboxes: HTMLInputElement[] = allCheckboxes.filter(checkbox => checkbox.checked && !checkbox.disabled);
+    const selectedCheckboxes: HTMLInputElement[] = allCheckboxes.filter(checkbox => checkbox.checked);
     const allAreSelected = selectedCheckboxes.length == allCheckboxes.length;
     const allowNoSelection = !!button.dataset.allowNone;
     const pluralName = button.dataset.pluralName;

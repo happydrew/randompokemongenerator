@@ -349,10 +349,11 @@ const formsOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const FormsOption: React.FC<{ defaultSelected?: string[] }> = ({
+const FormsOption: React.FC<{ fixedSelected?: string[], defaultSelected?: string[] }> = ({
+    fixedSelected,
     defaultSelected
 }) => {
-    return <TipLabelDropdown {...formsOptionProps} defaultSelected={defaultSelected} />
+    return <TipLabelDropdown {...formsOptionProps} fixedSelected={fixedSelected} defaultSelected={defaultSelected} />
 }
 
 // Rarity option

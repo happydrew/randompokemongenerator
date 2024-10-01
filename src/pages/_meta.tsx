@@ -30,6 +30,10 @@ export default {
       "random-shiny-pokemon-generator": {
         title: "Random Shiny Pokemon Generator",
         href: "/tools/random-shiny-pokemon-generator"
+      },
+      "random-mega-pokemon-generator": {
+        title: "Random Mega Pokemon Generator",
+        href: "/tools/random-mega-pokemon-generator"
       }
     }
   },

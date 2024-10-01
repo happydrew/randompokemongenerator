@@ -266,6 +266,10 @@ a.feedback-link:hover {
 	width: 3em;
 }
 
+.option-unit input[type="number"] {
+	width: 3.5em;
+}
+
 .option-unit,
 .option-unit-medium {
 	width: 33%;
@@ -1334,6 +1338,10 @@ button:active {
 		width: 33%;
 	}
 
+	#main-show-options .option-unit,
+	#more-show-options .option-unit {
+		width: 49%;
+	}
 }
 
 @media screen and (max-width:359px) {

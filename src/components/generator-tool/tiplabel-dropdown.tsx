@@ -24,6 +24,7 @@ interface TipLabelDropdownProps {
     // 选项值数组
     options: DropdownOption[],
     defaultSelected?: string[];
+    fixedSelected?: string[];
     labelTextClassName?: string;
 }
 
@@ -36,6 +37,7 @@ const TipLabelDropdown: React.FC<TipLabelDropdownProps> = ({
     buttonDefaultShow,
     options,
     defaultSelected,
+    fixedSelected,
     labelTextClassName }: TipLabelDropdownProps) => {
 
     return (
@@ -52,6 +54,7 @@ const TipLabelDropdown: React.FC<TipLabelDropdownProps> = ({
                 buttonDefaultShow={buttonDefaultShow}
                 options={options}
                 defaultSelected={defaultSelected}
+                fixedSelected={fixedSelected}
                 buttonTextClassName={labelTextClassName} />
         </div>
     );
