@@ -20,6 +20,7 @@ import {
 } from './display-options';
 
 import Link from 'next/link';
+import { title } from 'process';
 
 const handleToggleShinyClick = () => {
     toggleShinyDisplay();
@@ -35,13 +36,14 @@ const handleGenerateClick = (event) => {
 const handleSelectAllDisplayOptionsClick = () => {
     const displayCheckBoxes = document.querySelectorAll<HTMLInputElement>('#show-options-form input[type="checkbox"]');
     if (displayCheckBoxes) {
-        displayCheckBoxes.forEach((checkbox) => {
+        Array.from(displayCheckBoxes).filter(checkbox => !checkbox.disabled).forEach((checkbox) => {
             checkbox.checked = true;
         })
     }
 }
 
 interface GeneratorToolProps {
+    title?: string;
     regionDefaultSelected?: string[];
     typesDefaultSelected?: string[];
     formsDefaultSelected?: string[];
@@ -66,6 +68,8 @@ interface GeneratorToolProps {
     baseStatSpeedDefaultSelected?: string[];
     gameVersionDefaultSelected?: string[];
     nDefaultSelected?: number;
+    fixedShinyPercent?: number;
+    fixedShinyTipChecked?: boolean;
     ssgHtml?: string;
     initGenerate?: boolean;
 }
@@ -80,7 +84,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
     return (
         <div className="generator-tool">
             <header>
-                <h1 className="pokemon-title">Random Pok&eacute;mon Generator</h1>
+                <h1 className="pokemon-title">{props.title || "Random Pokémon Generator"}</h1>
             </header>
             <div className="sub-title">
                 <span className="star">★</span>
@@ -166,8 +170,8 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
                     <Evs />
                     <Ivs />
                     <Cries />
-                    <ShinyProb />
-                    <ShinyTip />
+                    <ShinyProb fixedShinyPercent={props.fixedShinyPercent} />
+                    <ShinyTip fixedChecked={props.fixedShinyTipChecked} />
                 </div>
             </form >
             <button id="more-show-button" className="more-button" onClick={expandMoreShowOptions}>&#x23EC; More

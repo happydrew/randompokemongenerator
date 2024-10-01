@@ -3,9 +3,10 @@ export {
     Sprites, ShowRarity, ShowTypes, ShowStats, Evs, Ivs, Cries, ShinyProb, ShinyTip,
     Pokedex
 };
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TipLabelCheckbox, TipLabelCheckboxProps } from '@/components/generator-tool/tipLabel-checkbox';
 import { TipLabel, TipLabelProps } from './tiplabel';
+import { useRef } from 'react';
 
 const showGeneration: TipLabelCheckboxProps = {
     tipLabelProps: {
@@ -192,11 +193,27 @@ const shinyTipLabelProps: TipLabelProps = {
     labelContent: "Shiny"
 };
 
-const ShinyProb: React.FC = () => {
+const ShinyProb: React.FC<{ fixedShinyPercent?: number }> = ({
+    fixedShinyPercent
+}) => {
+    const inputRef = useRef<HTMLInputElement>(null);
+    // 这里之所以要在页面加载完成后手动设置值，而不是在组件的属性中设置默认值，
+    // 是因为组件的属性的默认值会被缓存和url中的参数覆盖，
+    // 而这里传入的这些默认值类似固化组件参数的作用，因而在在任何情况下都不能被覆盖，除非用户手动更改
+    if (fixedShinyPercent) {
+        useEffect(() => {
+            inputRef.current!.value = fixedShinyPercent.toString();
+            Object.defineProperty(inputRef.current, "value", {
+                set: (newVal: string) => { }
+            });
+        });
+    }
     return (
         <div className="option-unit-small">
             <TipLabel {...shinyTipLabelProps} />
-            <input type="number" id="shinyProb" min="0" max="100" defaultValue="1" />
+            <input ref={inputRef} type="number" id="shinyProb" min="0" max="100"
+                {...(fixedShinyPercent && { disabled: true })}
+                defaultValue={fixedShinyPercent ? fixedShinyPercent.toString() : "1"} />
             <span className="percent-sign">&nbsp;%</span>
         </div>
     );
@@ -207,9 +224,12 @@ const shinyTip: TipLabelCheckboxProps = {
         dataClickTip: "Display a pop-up notification when encountering a shiny Pokémon, allowing for quick access to a list of previously acquired shiny Pokémon.",
         labelContent: "ShinyTip"
     },
-    checkboxId: "shinyTip"
+    checkboxId: "shinyTip",
+    defaultChecked: false
 };
 
-const ShinyTip: React.FC = () => {
-    return <TipLabelCheckbox {...shinyTip} />;
+const ShinyTip: React.FC<{ fixedChecked?: boolean }> = ({
+    fixedChecked
+}) => {
+    return <TipLabelCheckbox {...shinyTip} fixedChecked={fixedChecked} />;
 }

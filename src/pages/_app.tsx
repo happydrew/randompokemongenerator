@@ -49,6 +49,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4907197973761221" crossOrigin="anonymous"></script>
         <meta name="google-adsense-account" content="ca-pub-4907197973761221" />
       </Head>
+
       {/* Google Tag Manager */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-7P1N0JZ42G"

@@ -43,10 +43,8 @@ const STORAGE_FILTER_PARAMS_KEY = "filterParams";
 const STORAGE_POKEMONS_KEY = "pokemons";
 
 // pokemon详情数据缓存
-const POKEMON_DETAIL_STORAGE_KEY = "pokemon-details";
-const pokemonDetailsCache: PokemonDetail[] = [];
+const POKEMON_DETAIL_STORAGE_KEY = "pokemon-details-cache";
 const pokemonDetailsMapCache: { [key: string]: PokemonDetail } = {};
-let pokemonDetailsLoaded: boolean = false;
 // pokemon详情数据缓存
 
 //const backEndDomain = "http://localhost:3001";
@@ -487,12 +485,12 @@ async function renderAndSavePokemons(fetchDetailResponse: Promise<Response>, res
                             typeHTML.classList.add("pokecard-types-container");
                             typeHTML.style.cssText = `background: ${displayPokemon.getTypesArray().length > 1 ? `linear-gradient(105deg, ${displayPokemon.getTypeBackColor(displayPokemon.getTypesArray()[0])} 48%, ${displayPokemon.getTypeBackColor(displayPokemon.getTypesArray()[1])} calc(48% + 1px))` : displayPokemon.getTypeBackColor(displayPokemon.getTypesArray()[0])}`;
                             typeHTML.innerHTML = `<div class="pokecard-type click-tip" data-click-tip="${displayPokemon.getTypesArray()[0]}" onclick="processClickTipEvent(this,event)" onmouseenter="processMouseEnterTipEvent(this,event)" onmouseleave="processMouseLeaveTipEvent(this,event)" tool-tip-style="color:${displayPokemon.getTypeBackColor(displayPokemon.getTypesArray()[0])}">
-									<img src="./img/type-icons/40px-${displayPokemon.getTypesArray()[0]}_icon.png"
+									<img src="/img/type-icons/40px-${displayPokemon.getTypesArray()[0]}_icon.png"
 										alt="icon of type ${displayPokemon.getTypesArray()[0]}">
 								</div>
 							${displayPokemon.getTypesArray().length > 1 ? `
 							    <div class="pokecard-type click-tip" data-click-tip="${displayPokemon.getTypesArray()[1]}" onclick="processClickTipEvent(this,event)" onmouseenter="processMouseEnterTipEvent(this,event)" onmouseleave="processMouseLeaveTipEvent(this,event)" tool-tip-style="color:${displayPokemon.getTypeBackColor(displayPokemon.getTypesArray()[1])}">
-									<img src="./img/type-icons/40px-${displayPokemon.getTypesArray()[1]}_icon.png"
+									<img src="/img/type-icons/40px-${displayPokemon.getTypesArray()[1]}_icon.png"
 										alt="icon of type ${displayPokemon.getTypesArray()[1]}">
 								</div>`: ""}`;
                             pokeImageContainerHTML.appendChild(typeHTML);
@@ -545,8 +543,12 @@ async function renderAndSavePokemons(fetchDetailResponse: Promise<Response>, res
                 } catch (error) {
                     console.warn("本次渲染失败", error);
                 }
-                pokemonDetailsCache.push(...pokemonDetails)
                 pokemonDetails.forEach(p => pokemonDetailsMapCache[p.id.toString()] = p)
+                // 保存详情数据到本地缓存
+                const pokemonDetailsCache: PokemonDetail[] = [];
+                for (const key in pokemonDetailsMapCache) {
+                    pokemonDetailsCache.push(pokemonDetailsMapCache[key])
+                }
                 window.localStorage.setItem(POKEMON_DETAIL_STORAGE_KEY, JSON.stringify(pokemonDetailsCache));
                 // 保存本次请求数据的shiny pokemon
                 saveShinies(pokemonDetails.map(pd => displayPokemonsMap.get(pd.id.toString())!));
@@ -997,31 +999,8 @@ async function loadPokemonDetailsFromCache() {
     const cacheData = window.localStorage.getItem(POKEMON_DETAIL_STORAGE_KEY);
     if (cacheData) {
         const cachePokemons: PokemonDetail[] = JSON.parse(cacheData);
-        pokemonDetailsCache.push(...cachePokemons)
-        for (const p of pokemonDetailsCache) {
+        for (const p of cachePokemons) {
             pokemonDetailsMapCache[p.id.toString()] = p;
-        }
-    }
-    pokemonDetailsLoaded = true;
-}
-
-/**
- *  Fetches details for not cached Pokémons.
- * @param pokemons Pokémon to display.
- */
-async function fetchPokemonDetails(pokemons: Pokemon[]) {
-    // 首先从本地缓存中获取数据
-    const needFecthIds: number[] = pokemons.filter(p => !(p.id.toString() in pokemonDetailsMapCache)).map(p => p.id)
-    if (needFecthIds.length > 0) {
-        const response = await fetch(backEndDomain + "/api/pokemon-details?ids=" + needFecthIds.join(","));
-        if (response.ok) {
-            const pokemonDetails: PokemonDetail[] = await response.json();
-            pokemonDetailsCache.push(...pokemonDetails)
-            pokemonDetails.forEach(p => pokemonDetailsMapCache[p.id.toString()] = p)
-            window.localStorage.setItem(POKEMON_DETAIL_STORAGE_KEY, JSON.stringify(pokemonDetailsCache));
-        } else {
-            console.error("Failed to fetch pokemon details from server.");
-            throw new Error("Opps, something went wrong, please try again later.");
         }
     }
 }

@@ -9,16 +9,14 @@ export default function Page() {
 
   const repo = {
     origin: "https://github.com",
-    owner: "graphql",
-    name: "graphql.github.io",
+    owner: "happydrew",
+    name: "randompokemongenerator",
   }
 
   const title = `Found broken \`${mounted ? pathname?.replace(/\/$/, "") : ""}\` link. Please fix!`
   const labels = "bug"
 
-  const url = `${repo.origin}/${repo.owner}/${
-    repo.name
-  }/issues/new?title=${encodeURIComponent(title)}&labels=${labels}`
+  const url = `${repo.origin}/${repo.owner}/${repo.name}/issues/new?title=${encodeURIComponent(title)}&labels=${labels}`
 
   return (
     <div className="flex h-dvh items-center justify-center flex-col">

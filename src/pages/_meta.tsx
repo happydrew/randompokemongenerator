@@ -26,6 +26,10 @@ export default {
       "random-pokemon-type-generator": {
         title: "Random Pokemon Type Generator",
         href: "/tools/random-pokemon-type-generator"
+      },
+      "random-shiny-pokemon-generator": {
+        title: "Random Shiny Pokemon Generator",
+        href: "/tools/random-shiny-pokemon-generator"
       }
     }
   },

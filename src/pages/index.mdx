@@ -12,18 +12,16 @@ import { GeneratorToolFeatureCards, GeneratorTool } from '@/components/generator
 export const getStaticProps = async () => {
     const options = {
         filterParams: {
-            generations: "1"
         },
         showParams: {
-            sprites: true
+            sprites: true,
+            showGeneration: true
         }
     }
     const ssgHtml = await genStaticHtmlOfPokes(options)
     return {
         props: {
-            ssg: {
-                ssgHtml: ssgHtml
-            }
+            ssgHtml: ssgHtml
         }
     }
 }
@@ -35,5 +33,5 @@ export const Index = () => {
     )
 }
 
-<GeneratorTool initGenerate={true}/>
+<GeneratorTool initGenerate={true} />
 <GeneratorToolFeatureCards />
