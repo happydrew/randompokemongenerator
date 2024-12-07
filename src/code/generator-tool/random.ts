@@ -60,6 +60,7 @@ function onDOMContentLoad() {
     wakeUpBackend();
     loadOptions();
     toggleHistoryVisibility();
+    // 所有dropdown的change事件监听器
     addFormChangeListeners();
     addNumrangeValidateListeners();
     addClickTipListeners();

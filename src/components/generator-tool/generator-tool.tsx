@@ -1,6 +1,6 @@
 export { GeneratorTool };
 import '../../styles/generator-tool.css';
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import {
     generateRandom, expandMoreOptions, collapseMoreOptions, expandMoreShowOptions, collapseMoreShowOptions,
     displayPrevious, displayNext, toggleShinyDisplay, clearShinies, onDOMContentLoad
@@ -20,7 +20,6 @@ import {
 } from './display-options';
 
 import Link from 'next/link';
-import { title } from 'process';
 
 const handleToggleShinyClick = () => {
     toggleShinyDisplay();
@@ -69,6 +68,7 @@ interface GeneratorToolProps {
     baseStatSpeedDefaultSelected?: string[];
     gameVersionDefaultSelected?: string[];
     nDefaultSelected?: number;
+    fixedNSelected?: number;
     fixedShinyPercent?: number;
     fixedShinyTipChecked?: boolean;
     ssgHtml?: string;
@@ -76,7 +76,17 @@ interface GeneratorToolProps {
 }
 
 const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
+    const nSelectElement = useRef<HTMLSelectElement>(null);
+
     useEffect(() => {
+        if (props.fixedNSelected != undefined && props.fixedNSelected != null) {
+            nSelectElement.current!.value = props.fixedNSelected.toString();
+            Object.defineProperty(nSelectElement.current!, 'value', {
+                set: (newValue: string) => { },
+                get: () => props.fixedNSelected!.toString(),
+            });
+            nSelectElement.current!.disabled = true;
+        }
         onDOMContentLoad();
         if (props.initGenerate) {
             generateRandom();
@@ -182,11 +192,11 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
 
             <div className="n_generator" id="n_generator">
                 <label htmlFor="n" title="Number of Pokémons to generate randomly.">Num:</label>
-                <select form="show-options-form" name="n" id="n" required>
+                <select ref={nSelectElement} form="show-options-form" name="n" id="n" required>
                     {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((n) => (
                         <option
                             value={n.toString()}
-                            selected={(props.nDefaultSelected ? (props.nDefaultSelected == n) : (n == 6))}
+                            selected={(props.fixedNSelected ? (props.fixedNSelected == n) : (props.nDefaultSelected ? (props.nDefaultSelected == n) : (n == 6)))}
                         >
                             {n}
                         </option>

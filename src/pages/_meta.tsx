@@ -38,6 +38,26 @@ export default {
       "random-pokemon-team-generator": {
         title: "Random Pokemon Team Generator",
         href: "/tools/random-pokemon-team-generator"
+      },
+      "aleatory-pokemon": {
+        title: "Aleatory Pokemon",
+        href: "/tools/aleatory-pokemon"
+      },
+      "give-me-a-random-pokemon": {
+        title: "Give Me A Random Pokemon",
+        href: "/tools/give-me-a-random-pokemon"
+      },
+      "a-random-pokemon": {
+        title: "A Random Pokemon",
+        href: "/tools/a-random-pokemon"
+      },
+      "2-random-pokemon": {
+        title: "2 Random Pokemon",
+        href: "/tools/2-random-pokemon"
+      },
+      "3-random-pokemon": {
+        title: "3 Random Pokemon",
+        href: "/tools/3-random-pokemon"
       }
     }
   },

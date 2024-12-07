@@ -18,5 +18,30 @@ export default {
     type: "page",
     title: "Random Pokemon Team Generator",
     layout: "raw"
+  },
+  "aleatory-pokemon": {
+    type: "page",
+    title: "Aleatory Pokemon",
+    layout: "raw"
+  },
+  "give-me-a-random-pokemon": {
+    type: "page",
+    title: "Give Me A Random Pokemon",
+    layout: "raw"
+  },
+  "a-random-pokemon": {
+    type: "page",
+    title: "A Random Pokemon",
+    layout: "raw"
+  },
+  "2-random-pokemon": {
+    type: "page",
+    title: "2 Random Pokemon",
+    layout: "raw"
+  },
+  "3-random-pokemon": {
+    type: "page",
+    title: "3 Random Pokemon",
+    layout: "raw"
   }
 }
