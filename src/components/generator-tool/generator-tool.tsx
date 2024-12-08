@@ -48,7 +48,9 @@ interface GeneratorToolProps {
     formsDefaultSelected?: string[];
     formsFixedSelected?: string[];
     rarityDefaultSelected?: string[];
+    rarityFixedSelected?: string[];
     generationDefaultSelected?: string[];
+    generationFixedSelected?: string[];
     colorsDefaultSelected?: string[];
     envolvesDefaultSelected?: string[];
     babyDefaultSelected?: string[];
@@ -67,6 +69,7 @@ interface GeneratorToolProps {
     spDefDefaultSelected?: string[];
     baseStatSpeedDefaultSelected?: string[];
     gameVersionDefaultSelected?: string[];
+    gameVersionFixedSelected?: string[];
     nDefaultSelected?: number;
     fixedNSelected?: number;
     fixedShinyPercent?: number;
@@ -116,9 +119,9 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
                     <RegionsOption defaultSelected={props.regionDefaultSelected} />
                     <TypesOption defaultSelected={props.typesDefaultSelected} />
                     <FormsOption fixedSelected={props.formsFixedSelected} defaultSelected={props.formsDefaultSelected} />
-                    <RarityOption defaultSelected={props.rarityDefaultSelected} />
-                    <GenerationOption defaultSelected={props.generationDefaultSelected} />
-                    <GameVersionOption defaultSelected={props.gameVersionDefaultSelected} />
+                    <RarityOption fixedSelected={props.rarityFixedSelected} defaultSelected={props.rarityDefaultSelected} />
+                    <GenerationOption fixedSelected={props.generationFixedSelected} defaultSelected={props.generationDefaultSelected} />
+                    <GameVersionOption fixedSelected={props.gameVersionFixedSelected} defaultSelected={props.gameVersionDefaultSelected} />
                 </div>
                 <hr id="option-panel-hr" className="default-invisible option-panel-hr" />
                 <div id="more-options" className="default-invisible options-panel">

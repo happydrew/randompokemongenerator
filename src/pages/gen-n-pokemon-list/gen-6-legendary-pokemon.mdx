@@ -1,0 +1,96 @@
+---
+title: Gen 6 Legendary Pokemon
+description: Explore all legendary Pokemon from Generation 6 with our Gen 6 Legendary Pokemon tool. Discover stats, abilities, shiny forms, and their fascinating lore in an intuitive platform.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "6",
+            rarity: "2"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 6 legendary pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 6 Legendary Pokemon?
+
+**Gen 6 Legendary Pokemon** are the powerful creatures introduced in **Generation 6**, featured in the games **Pokemon X, Y, Omega Ruby, and Alpha Sapphire**. These Pokemon play a pivotal role in the Kalos and Hoenn regions, representing themes like life, destruction, and balance.
+
+Generation 6 expanded the legendary lineup with stunning designs, groundbreaking abilities, and memorable lore.
+
+---
+
+## Complete List of Gen 6 Legendary Pokemon
+
+Here’s the list of legendary Pokemon from Generation 6:
+- **Xerneas** - A Fairy-type symbol of life with the ability Fairy Aura.
+- **Yveltal** - A Dark/Flying-type embodiment of destruction with the ability Dark Aura.
+- **Zygarde** - A Dragon/Ground-type guardian of balance with multiple forms: 10%, 50%, and Complete.
+- **Diancie** - A Rock/Fairy-type mythical Pokemon capable of Mega Evolution.
+- **Hoopa** - A Psychic/Ghost-type mythical Pokemon with an alternate Unbound Psychic/Dark form.
+- **Volcanion** - A Fire/Water-type mythical Pokemon, unique in its dual-type combination.
+
+These legendary Pokemon are essential to the Kalos region’s narrative and competitive gameplay.
+
+---
+
+## Why Explore Gen 6 Legendary Pokemon?
+
+The **Gen 6 Legendary Pokemon** stand out for their:
+- **Thematic Significance:** Representing life, destruction, and nature’s equilibrium.
+- **Unique Typings:** Rare combinations for strategic advantages in battles.
+- **Competitive Relevance:** Exceptional stats and abilities that dominate competitive play.
+- **Mega Evolution:** Diancie introduces one of the most powerful Mega Evolutions.
+
+---
+
+## Features of the Gen 6 Legendary Pokemon Tool
+
+Our **Gen 6 Legendary Pokemon** tool offers:
+1. **Comprehensive Profiles:** Access detailed stats, abilities, and shiny forms.
+2. **High-Quality Images:** Enjoy crisp visuals for every Pokemon, including their forms.
+3. **Interactive Sorting:** Quickly filter Pokemon by abilities, forms, or stats.
+4. **Mobile Optimization:** Enjoy a seamless experience on any device.
+
+---
+
+## Advanced Features
+
+With our tool, you can:
+- **View All Forms:** Explore the transformation of Zygarde from 10% to Complete.
+- **Discover Shiny Variants:** Check out the shiny forms of all Gen 6 legendary Pokemon.
+- **Battle Insights:** Learn how these Pokemon can dominate competitive environments.
+
+---
+
+## Discover More Legendary Pokemon
+
+Explore legendary Pokemon from other generations:
+- **[Gen 5 Legendary Pokemon](/gen-n-pokemon-list/gen-5-legendary-pokemon):** Delve into Unova’s iconic legends.
+- **[Gen 7 Legendary Pokemon](/gen-n-pokemon-list/gen-7-legendary-pokemon):** Meet the legendary guardians of Alola.
+- **[Random Legendary Pokemon Generator](/tools/random-legendary-pokemon-generator):** Generate random legendary Pokemon from all generations.
+
+Enhance your Pokemon adventures with these tools!
+
+---
+
+## Begin Your Journey with Gen 6 Legendary Pokemon!
+
+Uncover the power, beauty, and lore of **Gen 6 Legendary Pokemon**.  
+Dive into the magic of Kalos’s legendary creatures now!

@@ -1,0 +1,87 @@
+---
+title: Gen 9 Mythical Pokemon
+description: Explore the mythical Pokemon from Generation 9, including their abilities, roles, and impact on the Paldea region. Learn about new mythical creatures introduced in this generation and their unique powers.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "9",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 9 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 9 Mythical Pokemon?
+
+**Gen 9 Mythical Pokemon** are legendary creatures introduced in **Generation 9** of the Pokémon franchise, featured in **Pokémon Scarlet and Violet**. These Pokémon are often part of the lore and narrative, playing key roles in the latest generation of games set in the **Paldea region**.
+
+Unlike regular Legendary Pokémon, **Mythical Pokémon** are typically not available through normal gameplay and are often distributed via special events or promotions.
+
+---
+
+## Complete List of Gen 9 Mythical Pokemon
+
+Here is the list of **Gen 9 Mythical Pokemon**:
+- **Iron Leaves** - A **Grass/Psychic-type** Mythical Pokémon introduced in **Pokémon Scarlet and Violet**. It is a robotic variant of **Virizion** from **Gen 5**, and it plays an important role in the **Paradox Pokémon** storyline, showcasing the future aspect of the Pokémon world.
+- **Walking Wake** - A **Water/Dragon-type** Mythical Pokémon in **Pokémon Scarlet and Violet**. Walking Wake is another Paradox Pokémon, representing the ancient counterpart of **Suicune** from **Gen 2**. It has unique abilities and moves that set it apart from other Mythical Pokémon.
+
+---
+
+## Why Explore Gen 9 Mythical Pokemon?
+
+The **Gen 9 Mythical Pokémon** bring exciting new mechanics and lore to the world of Pokémon:
+- **Iron Leaves' Robotic Nature:** Iron Leaves is part of the **Paradox Pokémon** category and adds a futuristic twist to the legendary creatures of the **Paldea region**.
+- **Walking Wake’s Ancient Power:** Walking Wake is tied to the ancient past and represents a key connection to the mythical creatures of the past, adding a fascinating dynamic to the story and gameplay.
+
+---
+
+## Features of the Gen 9 Mythical Pokemon Tool
+
+Our **Gen 9 Mythical Pokemon** tool provides:
+1. **Detailed Pokemon Information:** Explore **Iron Leaves** and **Walking Wake**, their abilities, stats, and unique moves.
+2. **Shiny Form Previews:** View the shiny versions of these Mythical Pokémon and compare them to their original forms.
+3. **Lore Exploration:** Dive into the rich stories surrounding these Mythical Pokémon and how they influence the storyline in **Pokémon Scarlet and Violet**.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Discover Iron Leaves' Futuristic Role:** Learn about the **Iron Leaves**, a future-oriented **Grass/Psychic-type** Pokémon, and its part in the **Paradox Pokémon** narrative.
+- **Learn about Walking Wake's Ancient Origins:** Explore how Walking Wake, an ancient **Water/Dragon-type** Pokémon, ties into the lore of **Suicune** and its role in **Pokémon Scarlet and Violet**.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore other generations of Mythical Pokémon:
+- **[Gen 1 Mythical Pokemon](/gen-n-pokemon-list/gen-1-mythical-pokemon):** Discover **Mew** from the Kanto region.
+- **[Gen 2 Mythical Pokemon](/gen-n-pokemon-list/gen-2-mythical-pokemon):** Explore **Celebi** from the Johto region.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate Mythical Pokémon from various generations.
+
+Check out these tools to explore more mythical creatures and dive deeper into their powers and origins.
+
+---
+
+## Start Your Gen 9 Mythical Pokemon Journey!
+
+Embark on a journey through **Gen 9 Mythical Pokémon** like **Iron Leaves** and **Walking Wake**.  
+Explore their unique abilities, connection to the **Paradox Pokémon** storyline, and role in the **Paldea region**!
+

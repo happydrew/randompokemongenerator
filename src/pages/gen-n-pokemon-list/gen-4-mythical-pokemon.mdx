@@ -1,0 +1,92 @@
+---
+title: Gen 4 Mythical Pokemon
+description: Discover the mythical Pokemon from Generation 4 with our Gen 4 Mythical Pokemon tool. Explore their stats, shiny forms, abilities, and lore from the Sinnoh region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "4",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 4 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 4 Mythical Pokemon?
+
+**Gen 4 Mythical Pokemon** are the rare and legendary creatures introduced in **Generation 4**, first featured in **Pokemon Diamond and Pearl**. These Pokemon are a key part of the **Sinnoh region’s** mythos and are often tied to powerful events and mysteries.
+
+Generation 4 introduced several significant mythical Pokemon, including **Shaymin**, **Darkrai**, and **Arceus**, each with distinct abilities and stories that make them central to the region’s lore.
+
+---
+
+## Complete List of Gen 4 Mythical Pokemon
+
+Here’s the list of mythical Pokemon from Generation 4:
+- **Shaymin** - A Grass-type Pokemon, Shaymin is known for its ability to transform into the Sky Form, which is key to its role in the Pokemon lore. It represents gratitude and harmony in the world of Pokemon.
+- **Darkrai** - A Dark-type Pokemon, Darkrai is infamous for its ability to induce nightmares. It plays a significant role in the Sinnoh region’s legends, often appearing as an antagonist or protector.
+- **Arceus** - Known as the "Original One," Arceus is a Legendary Pokemon said to have created the Pokemon world. With its powerful abilities and numerous forms, Arceus is central to the overarching mythology of the Pokemon series.
+
+These three **Gen 4 Mythical Pokemon** have crucial roles in the Sinnoh region’s story, making them highly sought after by trainers.
+
+---
+
+## Why Explore Gen 4 Mythical Pokemon?
+
+The **Gen 4 Mythical Pokemon** offers:
+- **Shaymin’s Sky Form:** Shaymin’s transformation into its Sky Form adds a unique element to its lore and gameplay abilities.
+- **Darkrai’s Nightmare-Inducing Powers:** Darkrai’s ability to control dreams and nightmares sets it apart from other Pokemon in the series.
+- **Arceus’s Creation Powers:** As the "Original One," Arceus’s role as the creator of the Pokemon universe makes it one of the most revered and powerful creatures in the franchise.
+
+---
+
+## Features of the Gen 4 Mythical Pokemon Tool
+
+Our **Gen 4 Mythical Pokemon** tool offers:
+1. **Detailed Pokemon Information:** Learn about Shaymin, Darkrai, and Arceus’s stats, abilities, and background.
+2. **Shiny Form Previews:** View the shiny forms of these mythical Pokemon and compare them to their regular variants.
+3. **Lore Exploration:** Discover the intriguing stories behind Shaymin, Darkrai, and Arceus.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Shaymin’s Lore:** Learn about Shaymin’s role as a symbol of gratitude and its connection to the Earth and Sky.
+- **Delve into Darkrai’s Abilities:** Understand Darkrai’s power over dreams and how it influences the world of Pokemon.
+- **Discover Arceus’s Mythology:** Dive into Arceus’s status as the creator and the god-like entity that shapes the world of Pokemon.
+- **Shiny Pokemon Previews:** See how each Pokemon differs in its shiny form compared to their regular appearances.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore mythical Pokemon from other generations:
+- **[Gen 1 Mythical Pokemon](/gen-n-pokemon-list/gen-1-mythical-pokemon):** Uncover the mystery of Mew from the Kanto region.
+- **[Gen 2 Mythical Pokemon](/gen-n-pokemon-list/gen-2-mythical-pokemon):** Explore Celebi from the Johto region.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate mythical Pokemon across all generations.
+
+Explore these tools to dive deeper into the world of mythical Pokemon.
+
+---
+
+## Begin Your Gen 4 Mythical Pokemon Adventure!
+
+Embark on an adventure through the Sinnoh region with **Gen 4 Mythical Pokemon**, featuring **Shaymin**, **Darkrai**, and **Arceus**.  
+Explore their powerful abilities, rich lore, and their importance in the world of Pokemon today!

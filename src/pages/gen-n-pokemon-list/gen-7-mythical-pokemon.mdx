@@ -1,0 +1,91 @@
+---
+title: Gen 7 Mythical Pokemon
+description: Discover the mythical Pokemon from Generation 7, including their abilities, stats, and the lore surrounding them. Explore the role of **Marshadow**, **Zeraora**, and **Meltan** in the Alola region and beyond.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "7",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 7 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 7 Mythical Pokemon?
+
+**Gen 7 Mythical Pokemon** are rare and powerful creatures introduced in **Generation 7** of the Pokémon franchise, featured in **Pokémon Sun and Moon** as well as later games. These Pokemon are significant figures in the **Alola region's** mythology and beyond, often with mysterious origins and powerful abilities.
+
+In **Generation 7**, the **mythical Pokemon** include **Marshadow**, **Zeraora**, and **Meltan**. Each of these Pokemon plays a unique role in the games, offering both lore and powerful abilities that make them integral to the world of Pokémon.
+
+---
+
+## Complete List of Gen 7 Mythical Pokemon
+
+Here’s the list of **Gen 7 Mythical Pokemon**:
+- **Marshadow** - A Fighting/Ghost-type Pokemon known as the "Shadow Pokémon." Marshadow has the unique ability **Technician** and can use its signature move **Soul-Stealing 7-Star Strike**, making it a formidable force in battle.
+- **Zeraora** - An Electric-type Pokemon with the ability **Volt Absorb**. Zeraora’s high speed and offensive capabilities make it a popular choice for electric-type teams, and it is known for its move **Plasma Fists**.
+- **Meltan** - A Steel-type Mythical Pokemon, Meltan has the ability **Steelworker**, which powers up Steel-type moves. Meltan plays an important role in the **Pokémon Go** and **Pokémon Let’s Go** games, where it is involved in the process of **evolution into Melmetal**.
+
+---
+
+## Why Explore Gen 7 Mythical Pokemon?
+
+The **Gen 7 Mythical Pokemon** offer:
+- **Marshadow’s Technological Advantage:** Marshadow’s ability to use Fighting- and Ghost-type moves effectively in battles, coupled with its **Technician** ability, makes it a powerful asset on any team.
+- **Zeraora’s Speed and Power:** Zeraora’s **Volt Absorb** ability and **Plasma Fists** move make it an excellent Electric-type attacker, adding versatility to any team.
+- **Meltan’s Steelworker Ability:** Meltan’s unique Steel-type advantages and connection to **Melmetal** make it a rare and intriguing Pokemon for trainers seeking a powerful Steel-type Pokemon.
+
+These **Gen 7 Mythical Pokemon** stand out due to their unique abilities and the significant role they play in the games' stories.
+
+---
+
+## Features of the Gen 7 Mythical Pokemon Tool
+
+Our **Gen 7 Mythical Pokemon** tool provides:
+1. **Detailed Pokemon Information:** Learn about **Marshadow**, **Zeraora**, and **Meltan’s** abilities, stats, and lore.
+2. **Shiny Form Previews:** View the shiny versions of these mythical Pokemon and compare them to their regular forms.
+3. **Lore Exploration:** Dive into the rich stories surrounding these Pokemon and their roles in the Alola region and beyond.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Marshadow’s Shadow Powers:** Learn about Marshadow’s signature move, **Soul-Stealing 7-Star Strike**, and how it enhances its abilities.
+- **Learn about Zeraora’s Electric Powers:** Discover how Zeraora’s **Plasma Fists** and **Volt Absorb** ability work together to make it an excellent Electric-type attacker.
+- **Dive into Meltan’s Evolution into Melmetal:** Explore how Meltan evolves into the mighty **Melmetal**, one of the most powerful Steel-type Pokemon.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore mythical Pokemon from other generations:
+- **[Gen 1 Mythical Pokemon](/gen-n-pokemon-list/gen-1-mythical-pokemon):** Explore **Mew** from the Kanto region.
+- **[Gen 2 Mythical Pokemon](/gen-n-pokemon-list/gen-2-mythical-pokemon):** Discover **Celebi** from the Johto region.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate mythical Pokemon from various generations.
+
+Explore these tools to dive deeper into the world of mythical Pokemon.
+
+---
+
+## Start Your Gen 7 Mythical Pokemon Journey!
+
+Embark on an adventure with **Gen 7 Mythical Pokemon** such as **Marshadow**, **Zeraora**, and **Meltan**.  
+Explore their abilities, rich lore, and their critical roles in the **Alola region**’s mythos!

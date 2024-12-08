@@ -58,6 +58,62 @@ export default {
       "3-random-pokemon": {
         title: "3 Random Pokemon",
         href: "/tools/3-random-pokemon"
+      },
+      "random-crystal-pokemon-generator": {
+        title: "Random Crystal Pokemon Generator",
+        href: "/tools/random-crystal-pokemon-generator"
+      },
+      "random-emerald-pokemon-generator": {
+        title: "Random Emerald Pokemon Generator",
+        href: "/tools/random-emerald-pokemon-generator"
+      },
+      "random-firered-pokemon-generator": {
+        title: "Random FireRed Pokemon Generator",
+        href: "/tools/random-firered-pokemon-generator"
+      },
+      "random-platinum-pokemon-generator": {
+        title: "Random Platinum Pokemon Generator",
+        href: "/tools/random-platinum-pokemon-generator"
+      },
+      "random-soulsilver-pokemon-generator": {
+        title: "Random SoulSilver Pokemon Generator",
+        href: "/tools/random-soulsilver-pokemon-generator"
+      },
+      "random-legendary-pokemon-generator": {
+        title: "Random Legendary Pokemon Generator",
+        href: "/tools/random-legendary-pokemon-generator"
+      },
+      "random-mythical-pokemon-generator": {
+        title: "Random Mythical Pokemon Generator",
+        href: "/tools/random-mythical-pokemon-generator"
+      },
+      "random-paradox-pokemon-generator": {
+        title: "Random Paradox Pokemon Generator",
+        href: "/tools/random-paradox-pokemon-generator"
+      },
+      "random-pokemon-generator-gen-1": {
+        title: "Random Pokemon Generator Gen 1",
+        href: "/tools/random-pokemon-generator-gen-1"
+      },
+      "random-pokemon-generator-gen-7": {
+        title: "Random Pokemon Generator Gen 7",
+        href: "/tools/random-pokemon-generator-gen-7"
+      },
+      "random-pokemon-generator-gen-8": {
+        title: "Random Pokemon Generator Gen 8",
+        href: "/tools/random-pokemon-generator-gen-8"
+      },
+      "random-pokemon-generator-gen-9": {
+        title: "Random Pokemon Generator Gen 9",
+        href: "/tools/random-pokemon-generator-gen-9"
+      },
+      "random-pokemon-maker": {
+        title: "Random Pokemon Maker",
+        href: "/tools/random-pokemon-maker"
+      },
+      "random-pokemon-picker": {
+        title: "Random Pokemon Picker",
+        href: "/tools/random-pokemon-picker"
       }
     }
   },
@@ -100,6 +156,78 @@ export default {
       "gen-9-pokemon": {
         title: "Gen 9 Pokemon",
         href: "/gen-n-pokemon-list/gen-9-pokemon"
+      },
+      "gen-1-legendary-pokemon": {
+        title: "Gen 1 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-1-legendary-pokemon"
+      },
+      "gen-2-legendary-pokemon": {
+        title: "Gen 2 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-2-legendary-pokemon"
+      },
+      "gen-3-legendary-pokemon": {
+        title: "Gen 3 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-3-legendary-pokemon"
+      },
+      "gen-4-legendary-pokemon": {
+        title: "Gen 4 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-4-legendary-pokemon"
+      },
+      "gen-5-legendary-pokemon": {
+        title: "Gen 5 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-5-legendary-pokemon"
+      },
+      "gen-6-legendary-pokemon": {
+        title: "Gen 6 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-6-legendary-pokemon"
+      },
+      "gen-7-legendary-pokemon": {
+        title: "Gen 7 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-7-legendary-pokemon"
+      },
+      "gen-8-legendary-pokemon": {
+        title: "Gen 8 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-8-legendary-pokemon"
+      },
+      "gen-9-legendary-pokemon": {
+        title: "Gen 9 Legendary Pokemon",
+        href: "/gen-n-pokemon-list/gen-9-legendary-pokemon"
+      },
+      "gen-1-mythical-pokemon": {
+        title: "Gen 1 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-1-mythical-pokemon"
+      },
+      "gen-2-mythical-pokemon": {
+        title: "Gen 2 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-2-mythical-pokemon"
+      },
+      "gen-3-mythical-pokemon": {
+        title: "Gen 3 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-3-mythical-pokemon"
+      },
+      "gen-4-mythical-pokemon": {
+        title: "Gen 4 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-4-mythical-pokemon"
+      },
+      "gen-5-mythical-pokemon": {
+        title: "Gen 5 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-5-mythical-pokemon"
+      },
+      "gen-6-mythical-pokemon": {
+        title: "Gen 6 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-6-mythical-pokemon"
+      },
+      "gen-7-mythical-pokemon": {
+        title: "Gen 7 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-7-mythical-pokemon"
+      },
+      "gen-8-mythical-pokemon": {
+        title: "Gen 8 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-8-mythical-pokemon"
+      },
+      "gen-9-mythical-pokemon": {
+        title: "Gen 9 Mythical Pokemon",
+        href: "/gen-n-pokemon-list/gen-9-mythical-pokemon"
       }
     }
   },

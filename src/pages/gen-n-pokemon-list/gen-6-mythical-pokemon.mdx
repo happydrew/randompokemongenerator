@@ -1,0 +1,91 @@
+---
+title: Gen 6 Mythical Pokemon
+description: Discover the mythical Pokemon from Generation 6, including their abilities, stats, and the lore surrounding them. Explore the role of **Xerneas**, **Yveltal**, and **Diancie** in the Kalos region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "6",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 6 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 6 Mythical Pokemon?
+
+**Gen 6 Mythical Pokemon** are rare and powerful creatures introduced in **Generation 6** of the Pokémon franchise, first featured in **Pokémon X and Y**. These Pokemon are deeply tied to the mythology of the **Kalos region**, and they play pivotal roles in the region’s lore, often connected to significant events and legends.
+
+In **Generation 6**, the **mythical Pokemon** featured are **Diancie**, **Xerneas**, and **Yveltal**, each with distinct abilities that shape the battles and storylines of the Kalos region.
+
+---
+
+## Complete List of Gen 6 Mythical Pokemon
+
+Here’s the list of **Gen 6 Mythical Pokemon**:
+- **Xerneas** - A Fairy-type Pokemon known as the "Life Pokemon," Xerneas has the ability **Fairy Aura**, which boosts the power of Fairy-type moves. Xerneas is central to the Kalos region’s storyline, where it is said to bring life to the world.
+- **Yveltal** - A Dark/Flying-type Pokemon called the "Destruction Pokemon," Yveltal is the counterpart to Xerneas. It is associated with destruction and is said to bring death to the world. Yveltal is an imposing force with the ability **Dark Aura**, which increases the power of Dark-type moves.
+- **Diancie** - A Rock/Fairy-type Pokemon, Diancie is known as the "Jewel Pokemon" and is the result of a rare mutation in Carbink. Diancie’s **Magic Bounce** ability makes it an effective defensive Pokemon, reflecting status effects back at its foes.
+
+---
+
+## Why Explore Gen 6 Mythical Pokemon?
+
+The **Gen 6 Mythical Pokemon** offer:
+- **Xerneas’s Fairy Aura:** Xerneas is an important figure in the Kalos mythos, providing a boost to Fairy-type moves and enhancing the gameplay of those who use it.
+- **Yveltal’s Dark Aura:** Yveltal’s power to strengthen Dark-type moves gives it a distinct advantage in battles, making it an intimidating presence on any team.
+- **Diancie’s Magic Bounce:** Diancie’s ability to bounce back status effects and its elegant design make it a fan-favorite among collectors and battlers.
+
+These **Gen 6 Mythical Pokemon** stand out due to their symbolic roles in **life and destruction**, their powerful abilities, and their involvement in the Kalos region's key storyline events.
+
+---
+
+## Features of the Gen 6 Mythical Pokemon Tool
+
+Our **Gen 6 Mythical Pokemon** tool provides:
+1. **Detailed Pokemon Information:** Learn about **Xerneas**, **Yveltal**, and **Diancie’s** abilities, stats, and story significance.
+2. **Shiny Form Previews:** View the shiny versions of these mythical Pokemon and compare them to their regular forms.
+3. **Lore Exploration:** Dive into the stories surrounding these Pokemon and their roles in the Kalos region’s mythology.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Xerneas’s Life-Bringing Powers:** Understand how Xerneas’s abilities bring life and harmony to the Kalos region.
+- **Learn about Yveltal’s Destructive Nature:** Discover the connection between Yveltal and destruction, and how it complements Xerneas.
+- **Dive into Diancie’s Rare Evolution:** Learn about Diancie’s origins from **Carbink** and its transformation into a Fairy-type jewel Pokemon.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore mythical Pokemon from other generations:
+- **[Gen 1 Mythical Pokemon](/gen-n-pokemon-list/gen-1-mythical-pokemon):** Explore **Mew** from the Kanto region.
+- **[Gen 2 Mythical Pokemon](/gen-n-pokemon-list/gen-2-mythical-pokemon):** Discover **Celebi** from the Johto region.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate mythical Pokemon from various generations.
+
+Explore these tools to dive deeper into the world of mythical Pokemon.
+
+---
+
+## Start Your Gen 6 Mythical Pokemon Journey!
+
+Embark on an adventure with **Gen 6 Mythical Pokemon** such as **Xerneas**, **Yveltal**, and **Diancie**.  
+Explore their abilities, rich lore, and their critical roles in the **Kalos region**'s legend!

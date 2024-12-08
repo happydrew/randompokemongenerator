@@ -1,0 +1,96 @@
+---
+title: Gen 9 Legendary Pokemon
+description: Discover the legendary Pokemon from Generation 9 with our Gen 9 Legendary Pokemon tool. Explore stats, shiny forms, abilities, and lore for the legendary Pokemon from the Paldea region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "9",
+            rarity: "2"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 9 legendary pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 9 Legendary Pokemon?
+
+**Gen 9 Legendary Pokemon** are the mythical and powerful creatures introduced in **Generation 9**, featured in the games **Pokemon Scarlet and Violet**. These legendary Pokemon are central to the rich stories and gameplay mechanics of the Paldea region.
+
+Generation 9 brings a new wave of legendary Pokemon that encapsulate unique themes and abilities tied to exploration and discovery.
+
+---
+
+## Complete List of Gen 9 Legendary Pokemon
+
+Here’s the list of legendary Pokemon from Generation 9:
+- **Koraidon** - A Fighting/Dragon-type, representing ancient strength and primal power in Scarlet.
+- **Miraidon** - A Electric/Dragon-type, embodying futuristic innovation and technology in Violet.
+- **Ting-Lu** - A Ground/Dark-type, symbolizing the heavy burden of ancient legends.
+- **Chien-Pao** - A Dark/Ice-type, linked to swift and chilling myths.
+- **Wo-Chien** - A Dark/Grass-type, reflecting the dark overgrowth of forgotten stories.
+- **Chi-Yu** - A Dark/Fire-type, tied to the fiery destruction of cursed tales.
+
+These Pokemon are steeped in the Paldea region’s mysterious history, offering players a mix of power, lore, and adventure.
+
+---
+
+## Why Explore Gen 9 Legendary Pokemon?
+
+The **Gen 9 Legendary Pokemon** offer:
+- **Ties to Paldea’s Lore:** Deeply embedded in the history and culture of the region.
+- **Unique Abilities and Typings:** Perfect for competitive and strategic battles.
+- **Scarlet & Violet Exclusives:** Each version introduces distinct legendary experiences.
+- **Rich Backstories:** Legends tied to environmental themes and ancient myths.
+
+---
+
+## Features of the Gen 9 Legendary Pokemon Tool
+
+Our **Gen 9 Legendary Pokemon** tool is packed with features:
+1. **Detailed Insights:** Learn about stats, abilities, shiny forms, and lore.
+2. **Visual Showcase:** High-quality images of both regular and shiny forms.
+3. **Advanced Filtering Options:** Filter Pokemon by stats, types, and other parameters.
+4. **Mobile-Optimized Experience:** Enjoy seamless exploration on any device.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Lore:** Discover the myths and legends tied to each Pokemon.
+- **Shiny Form Previews:** View shiny forms of all Gen 9 legendary Pokemon.
+- **Competitive Insights:** Understand the strategic potential of these Pokemon.
+
+---
+
+## Discover More Legendary Pokemon
+
+Dive into legendary Pokemon from other generations:
+- **[Gen 8 Legendary Pokemon](/gen-n-pokemon-list/gen-8-legendary-pokemon):** Explore the legends of the Galar region.
+- **[Gen 7 Legendary Pokemon](/gen-n-pokemon-list/gen-7-legendary-pokemon):** Learn about Alola’s mythical creatures.
+- **[Random Legendary Pokemon Generator](/tools/random-legendary-pokemon-generator):** Generate legendary Pokemon across generations.
+
+Use these tools to deepen your Pokemon knowledge and collection.
+
+---
+
+## Begin Your Gen 9 Legendary Pokemon Adventure!
+
+Discover the strength, lore, and beauty of **Gen 9 Legendary Pokemon**.  
+Embark on your Paldea journey and uncover their mysteries today!

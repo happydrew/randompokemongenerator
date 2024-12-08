@@ -1,0 +1,89 @@
+---
+title: Gen 2 Mythical Pokemon
+description: Discover the mythical Pokemon from Generation 2 with our Gen 2 Mythical Pokemon tool. Explore their stats, shiny forms, abilities, and lore from the Johto region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "2",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 2 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 2 Mythical Pokemon?
+
+**Gen 2 Mythical Pokemon** are the rare and elusive creatures introduced in **Generation 2**, first featured in **Pokemon Gold and Silver**. These Pokemon are part of the unique mythos of the **Johto region** and are often associated with special in-game events and discoveries.
+
+Generation 2 introduced two notable mythical Pokemon: **Celebi**, a time-traveling creature central to the region’s story. These Pokemon continue to captivate trainers with their rarity and powerful abilities.
+
+---
+
+## Complete List of Gen 2 Mythical Pokemon
+
+Here’s the list of mythical Pokemon from Generation 2:
+- **Celebi** - A Psychic/Grass-type, known as the guardian of the forest, Celebi has the unique ability to travel through time, creating an aura of mystery and wonder. Celebi’s rare appearance in the games has made it a fan favorite for its connection to both nature and time itself.
+
+Celebi is the only **Gen 2 Mythical Pokemon**, and its role in the Johto region’s history is significant.
+
+---
+
+## Why Explore Gen 2 Mythical Pokemon?
+
+The **Gen 2 Mythical Pokemon** offers:
+- **Celebi’s Time-Traveling Powers:** Celebi’s ability to traverse different time periods adds a fascinating layer to its lore.
+- **Rare and Legendary Status:** As a mythical Pokemon, Celebi is known for its rarity and importance within the games.
+- **Johto Region’s Mystique:** Celebi’s role as a guardian of forests and its connection to nature are central to the story of Generation 2.
+
+---
+
+## Features of the Gen 2 Mythical Pokemon Tool
+
+Our **Gen 2 Mythical Pokemon** tool offers:
+1. **Detailed Insights:** Learn about Celebi’s stats, abilities, and background.
+2. **Shiny Form Preview:** View Celebi’s shiny form and compare it to its regular variant.
+3. **Lore Exploration:** Discover Celebi’s historical significance within the Johto region.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Celebi’s Lore:** Delve into Celebi’s backstory and its role as a protector of time and space.
+- **Shiny Celebi Preview:** See the difference between Celebi’s standard and shiny forms.
+- **Competitive Insights:** Understand how Celebi’s time-altering moves and stats make it a valuable addition to any team.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore mythical Pokemon from other generations:
+- **[Gen 1 Mythical Pokemon](/gen-n-pokemon-list/gen-1-mythical-pokemon):** Discover the mysterious Mew from the Kanto region.
+- **[Gen 3 Mythical Pokemon](/gen-n-pokemon-list/gen-3-mythical-pokemon):** Learn about the elusive creatures of Hoenn.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate mythical Pokemon across generations.
+
+Explore these tools to enhance your collection of mythical Pokemon.
+
+---
+
+## Begin Your Gen 2 Mythical Pokemon Adventure!
+
+Embark on an adventure through time with **Celebi**, the **Gen 2 Mythical Pokemon**.  
+Uncover its lore, abilities, and powerful connection to the Johto region today!

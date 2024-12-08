@@ -1,0 +1,94 @@
+---
+title: Gen 5 Mythical Pokemon
+description: Explore the mythical Pokemon from Generation 5 with our Gen 5 Mythical Pokemon tool. Discover their abilities, stats, shiny forms, and the lore surrounding them in the Unova region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "5",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 5 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 5 Mythical Pokemon?
+
+**Gen 5 Mythical Pokemon** are the rare and powerful creatures introduced in **Generation 5**, first featured in **Pokemon Black and White**. These Pokemon hold a special place in the **Unova region’s** mythology, with unique abilities and captivating stories.
+
+Generation 5 introduced **Victini**, **Keldeo**, **Meloetta**, and **Genesect** as the mythical Pokemon, each possessing distinct characteristics and roles within the lore of the Unova region.
+
+---
+
+## Complete List of Gen 5 Mythical Pokemon
+
+Here’s the list of **Gen 5 Mythical Pokemon**:
+- **Victini** - A Fire/Psychic-type Pokemon, Victini is known for its Victory Star ability, which boosts the accuracy of its allies’ moves. It is said to bring victory to its trainers, making it one of the most coveted mythical Pokemon.
+- **Keldeo** - A Water/Fighting-type Pokemon, Keldeo is a member of the **Swords of Justice** alongside **Cobalion**, **Terrakion**, and **Virizion**. It represents justice and bravery, playing a key role in the Pokemon Black and White story.
+- **Meloetta** - A Psychic/Normal-type Pokemon, Meloetta has two forms: **Aria Form** and **Pirouette Form**. Its ability to switch between these forms is a key feature that makes Meloetta a unique mythical Pokemon.
+- **Genesect** - A Bug/Steel-type Pokemon, Genesect was modified by Team Plasma and is known for its powerful **Techno Blast** move. It is a genetically altered Pokemon, making it one of the most intriguing and powerful mythical Pokemon of Generation 5.
+
+---
+
+## Why Explore Gen 5 Mythical Pokemon?
+
+The **Gen 5 Mythical Pokemon** offers:
+- **Victini’s Victory Star:** Victini’s ability to grant victory and boost accuracy makes it a powerful ally in battle.
+- **Keldeo’s Swords of Justice:** Keldeo’s role as one of the **Swords of Justice** gives it a significant place in Unova’s story of heroism and justice.
+- **Meloetta’s Form Change:** Meloetta’s ability to shift between two distinct forms adds an element of strategy and versatility to its gameplay.
+- **Genesect’s Techno Blast:** Genesect’s **Techno Blast** makes it one of the most powerful Pokemon in terms of offensive capabilities.
+
+These **Gen 5 Mythical Pokemon** not only have special abilities but are also part of a rich storyline, making them highly sought after by collectors and players.
+
+---
+
+## Features of the Gen 5 Mythical Pokemon Tool
+
+Our **Gen 5 Mythical Pokemon** tool provides:
+1. **Detailed Pokemon Information:** Learn about Victini, Keldeo, Meloetta, and Genesect’s stats, abilities, and lore.
+2. **Shiny Form Previews:** View the shiny versions of these mythical Pokemon and compare them to their regular forms.
+3. **Lore Exploration:** Delve into the backstories and significant roles of these Pokemon in the Unova region.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Victini’s Lore:** Discover how Victini, the "Victory Pokemon," can bring success and fortune to its trainers.
+- **Learn about Keldeo’s Justice:** Understand Keldeo’s place within the **Swords of Justice** and its role as a protector of the Unova region.
+- **Dive into Meloetta’s Forms:** Explore how Meloetta’s transformation between Aria and Pirouette Forms affects its battles.
+- **Examine Genesect’s Power:** See how Genesect’s scientific origins and **Techno Blast** make it a formidable foe.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore mythical Pokemon from other generations:
+- **[Gen 1 Mythical Pokemon](/gen-n-pokemon-list/gen-1-mythical-pokemon):** Uncover the mystery of Mew from the Kanto region.
+- **[Gen 2 Mythical Pokemon](/gen-n-pokemon-list/gen-2-mythical-pokemon):** Explore Celebi from the Johto region.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate mythical Pokemon across all generations.
+
+Explore these tools to dive deeper into the world of mythical Pokemon.
+
+---
+
+## Start Your Gen 5 Mythical Pokemon Journey!
+
+Embark on an adventure with **Gen 5 Mythical Pokemon** including **Victini**, **Keldeo**, **Meloetta**, and **Genesect**.  
+Explore their abilities, rich lore, and their significance in the Unova region today!

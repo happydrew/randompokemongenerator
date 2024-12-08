@@ -1,0 +1,102 @@
+---
+title: Gen 5 Legendary Pokemon
+description: Discover all legendary Pokemon from Generation 5 with our Gen 5 Legendary Pokemon tool. Explore stats, abilities, shiny forms, and lore in one user-friendly platform.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "5",
+            rarity: "2"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 5 legendary pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 5 Legendary Pokemon?
+
+**Gen 5 Legendary Pokemon** are the powerful creatures introduced in **Generation 5**, featured in the games **Pokemon Black, White, Black 2, and White 2**. Known for their thematic ties to balance, truth, and ideals, these Pokemon play key roles in Unova’s mythology.
+
+Generation 5 expanded the legendary roster with diverse designs, unique typings, and compelling backstories.
+
+---
+
+## Complete List of Gen 5 Legendary Pokemon
+
+Here’s the list of legendary Pokemon from Generation 5:
+- **Reshiram** - A Dragon/Fire-type symbolizing truth.
+- **Zekrom** - A Dragon/Electric-type representing ideals.
+- **Kyurem** - A Dragon/Ice-type embodying absence and potential, with Black Kyurem and White Kyurem forms.
+- **Cobalion** - A Steel/Fighting-type leader of the Swords of Justice.
+- **Terrakion** - A Rock/Fighting-type powerhouse.
+- **Virizion** - A Grass/Fighting-type symbol of nature.
+- **Keldeo** - The Water/Fighting-type mythical member of the Swords of Justice.
+- **Tornadus** - A Flying-type Weather Trio member with Incarnate and Therian forms.
+- **Thundurus** - An Electric/Flying-type Weather Trio member with Incarnate and Therian forms.
+- **Landorus** - A Ground/Flying-type Weather Trio member known for stabilizing Unova’s ecosystems.
+- **Meloetta** - The Normal/Psychic-type mythical Pokemon with an alternate Normal/Fighting Pirouette form.
+- **Genesect** - A Bug/Steel-type mythical Pokemon with ancient origins and technological enhancements.
+
+These legendary Pokemon are central to Unova’s narrative and competitive battles.
+
+---
+
+## Why Explore Gen 5 Legendary Pokemon?
+
+The **Gen 5 Legendary Pokemon** stand out for their:
+- **Thematic Depth:** Dive into the stories of truth, ideals, and nature’s harmony.
+- **Diverse Typings:** Unique combinations for battle versatility.
+- **Competitive Edge:** Powerful abilities and stats for competitive play.
+- **Cultural Inspiration:** Mythology and legends influencing their designs.
+
+---
+
+## Features of the Gen 5 Legendary Pokemon Tool
+
+Our **Gen 5 Legendary Pokemon** tool provides:
+1. **Detailed Profiles:** View base stats, abilities, shiny forms, and lore.
+2. **High-Resolution Images:** Explore high-quality visuals for every Pokemon.
+3. **Interactive Filters:** Easily sort by stats, forms, or abilities.
+4. **Responsive Design:** Seamless experience on all devices, including mobile.
+
+---
+
+## Advanced Features
+
+Take advantage of:
+- **Form Exploration:** Compare Incarnate and Therian forms of Tornadus, Thundurus, and Landorus.
+- **Shiny Variants:** View shiny forms of every Gen 5 legendary Pokemon.
+- **Battle Insights:** Discover how each Pokemon excels in battles.
+
+---
+
+## Discover More Legendary Pokemon
+
+Explore legendary Pokemon from other generations:
+- **[Gen 4 Legendary Pokemon](/gen-n-pokemon-list/gen-4-legendary-pokemon):** Discover Sinnoh’s legendary roster.
+- **[Gen 6 Legendary Pokemon](/gen-n-pokemon-list/gen-6-legendary-pokemon):** Dive into Kalos’s legendary tales.
+- **[Random Legendary Pokemon Generator](/tools/random-legendary-pokemon-generator):** Generate legendary Pokemon from all generations.
+
+Each tool is designed to enhance your Pokemon experience.
+
+---
+
+## Begin Your Journey with Gen 5 Legendary Pokemon!
+
+Uncover the power, lore, and stats of **Gen 5 Legendary Pokemon**.  
+Experience the wonders of Unova’s legendary creatures now!

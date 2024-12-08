@@ -1,0 +1,87 @@
+---
+title: Gen 8 Mythical Pokemon
+description: Discover the mythical Pokemon from Generation 8, including their abilities, stats, and roles in the Galar region. Explore **Zarude**, **Eternatus**, and other legendary figures introduced in the latest generation.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "8",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 8 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 8 Mythical Pokemon?
+
+**Gen 8 Mythical Pokemon** are rare, powerful creatures introduced in **Generation 8** of the Pokémon franchise, featured in **Pokémon Sword and Shield**. These Pokemon are central to the **Galar region’s** storyline, playing crucial roles in both lore and gameplay.
+
+In **Generation 8**, the **mythical Pokemon** include **Zarude** and **Eternatus**, which are involved in significant narrative arcs and have unique abilities that set them apart from regular Pokemon.
+
+---
+
+## Complete List of Gen 8 Mythical Pokemon
+
+Here’s the list of **Gen 8 Mythical Pokemon**:
+- **Zarude** - A Dark/Grass-type Pokemon introduced in **Pokémon Sword and Shield**. Zarude is known for its signature move **Jungle Healing** and is often referred to as the "Jungle Pokémon." It plays a key role in the **Sword and Shield** expansion and has a unique ability to heal itself in battle.
+- **Eternatus** - A Dragon/Poison-type Pokemon that plays a central role in the **Pokémon Sword and Shield** storyline. Eternatus is known for its incredible power and the ability **Eternabeam**, which allows it to unleash a devastating attack. Eternatus is also tied to the mysterious **Dynamax** phenomenon.
+
+---
+
+## Why Explore Gen 8 Mythical Pokemon?
+
+The **Gen 8 Mythical Pokemon** offer:
+- **Zarude’s Jungle Healing:** Zarude’s signature move **Jungle Healing** allows it to restore HP in battle, making it a unique support Pokemon in Dark/Grass-type teams.
+- **Eternatus’ Power and Eternabeam:** Eternatus is a powerhouse with its signature attack **Eternabeam**, capable of inflicting massive damage and playing a critical role in the story of **Pokémon Sword and Shield**.
+- **Dynamax and Eternatus:** Eternatus is integral to the **Dynamax** phenomenon, a key feature in **Gen 8** gameplay. It serves as one of the largest and most powerful Pokemon in the series.
+
+---
+
+## Features of the Gen 8 Mythical Pokemon Tool
+
+Our **Gen 8 Mythical Pokemon** tool provides:
+1. **Detailed Pokemon Information:** Learn about **Zarude** and **Eternatus**, their stats, abilities, and roles in the Galar region.
+2. **Shiny Form Previews:** View the shiny versions of these mythical Pokemon and compare them to their regular forms.
+3. **Lore Exploration:** Dive into the rich stories surrounding these Pokemon and their connection to the **Dynamax** phenomenon.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Zarude’s Jungle Healing Ability:** Learn how Zarude’s **Jungle Healing** move restores its HP and boosts its role as a powerful support Pokemon.
+- **Learn about Eternatus’ Unique Role in the Storyline:** Discover how Eternatus is central to the **Dynamax** phenomenon and plays an important part in the storyline of **Pokémon Sword and Shield**.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore mythical Pokemon from other generations:
+- **[Gen 1 Mythical Pokemon](/gen-n-pokemon-list/gen-1-mythical-pokemon):** Explore **Mew** from the Kanto region.
+- **[Gen 2 Mythical Pokemon](/gen-n-pokemon-list/gen-2-mythical-pokemon):** Discover **Celebi** from the Johto region.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate mythical Pokemon from various generations.
+
+Explore these tools to dive deeper into the world of mythical Pokemon.
+
+---
+
+## Start Your Gen 8 Mythical Pokemon Journey!
+
+Embark on an adventure with **Gen 8 Mythical Pokemon** such as **Zarude** and **Eternatus**.  
+Explore their abilities, rich lore, and their central roles in the **Galar region’s** **Dynamax** phenomenon!

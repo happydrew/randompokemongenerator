@@ -1,0 +1,90 @@
+---
+title: Gen 3 Mythical Pokemon
+description: Discover the mythical Pokemon from Generation 3 with our Gen 3 Mythical Pokemon tool. Explore their stats, shiny forms, abilities, and lore from the Hoenn region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "3",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 3 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 3 Mythical Pokemon?
+
+**Gen 3 Mythical Pokemon** are the rare and elusive creatures introduced in **Generation 3**, first featured in **Pokemon Ruby and Sapphire**. These Pokemon are integral to the mythology of the **Hoenn region** and often appear in special events, contributing to the region's legendary history.
+
+Generation 3 introduced several notable mythical Pokemon, including **Jirachi** and **Deoxys**, both of which have unique and powerful abilities that have made them favorites among trainers.
+
+---
+
+## Complete List of Gen 3 Mythical Pokemon
+
+Here’s the list of mythical Pokemon from Generation 3:
+- **Jirachi** - A Steel/Psychic-type, Jirachi is known as the "Wish Pokemon." With the ability to grant wishes, Jirachi has captured the hearts of fans who admire its mysterious nature and rare appearance.
+- **Deoxys** - A Psychic-type, Deoxys is a shape-shifting Pokemon with the ability to change its form depending on the situation. Its connection to the extraterrestrial realm adds an extra layer of intrigue to its role in the Hoenn region.
+
+These two **Gen 3 Mythical Pokemon** are central to the lore and the unique events within **Pokemon Ruby and Sapphire**.
+
+---
+
+## Why Explore Gen 3 Mythical Pokemon?
+
+The **Gen 3 Mythical Pokemon** offers:
+- **Jirachi’s Wish-Giving Power:** Jirachi’s ability to grant wishes makes it one of the most beloved mythical Pokemon.
+- **Deoxys’s Alien Origins:** Deoxys’s extraterrestrial background and form-changing abilities make it a fascinating creature within the franchise.
+- **Hoenn Region’s Rich Mythology:** Both Jirachi and Deoxys play significant roles in the lore of Hoenn, expanding the mythology of the Pokemon world.
+
+---
+
+## Features of the Gen 3 Mythical Pokemon Tool
+
+Our **Gen 3 Mythical Pokemon** tool offers:
+1. **Detailed Pokemon Information:** Learn about Jirachi and Deoxys’s stats, abilities, and background.
+2. **Shiny Form Previews:** View Jirachi’s and Deoxys’s shiny forms and compare them to their regular variants.
+3. **Lore Exploration:** Discover the unique stories and legends surrounding Jirachi and Deoxys.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Jirachi’s Lore:** Learn about Jirachi’s wish-granting nature and how it impacts the world of Pokemon.
+- **Delve into Deoxys’s Forms:** Understand the science behind Deoxys’s shape-shifting abilities.
+- **Shiny Pokemon Previews:** See how Jirachi and Deoxys differ in their shiny forms compared to their regular appearances.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore mythical Pokemon from other generations:
+- **[Gen 1 Mythical Pokemon](/gen-n-pokemon-list/gen-1-mythical-pokemon):** Uncover the mystery of Mew from the Kanto region.
+- **[Gen 2 Mythical Pokemon](/gen-n-pokemon-list/gen-2-mythical-pokemon):** Explore the legendary Celebi from the Johto region.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate mythical Pokemon across generations.
+
+Explore these tools to dive deeper into the mythical Pokemon universe.
+
+---
+
+## Begin Your Gen 3 Mythical Pokemon Adventure!
+
+Uncover the secrets of **Gen 3 Mythical Pokemon**, featuring **Jirachi** and **Deoxys**.  
+Explore their powerful abilities, lore, and their significance in the Hoenn region today!

@@ -1,0 +1,104 @@
+---
+title: Gen 4 Legendary Pokemon
+description: Explore all legendary Pokemon from Generation 4 with our Gen 4 Legendary Pokemon tool. Discover their stats, abilities, lore, and shiny forms in one convenient place.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "4",
+            rarity: "2"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 4 legendary pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 4 Legendary Pokemon?
+
+**Gen 4 Legendary Pokemon** are the legendary creatures introduced in **Generation 4**, appearing in the beloved **Pokemon Diamond, Pearl, and Platinum** games. These Pokemon are known for their deep connection to the Sinnoh region and their powerful roles in the series’ lore.
+
+Generation 4 expanded the world of legendary Pokemon with the introduction of unique types, mythological inspirations, and interconnected stories.
+
+---
+
+## Complete List of Gen 4 Legendary Pokemon
+
+Here’s the list of legendary Pokemon from Generation 4:
+- **Uxie** - The Psychic-type embodiment of knowledge.
+- **Mesprit** - The Psychic-type representation of emotion.
+- **Azelf** - The Psychic-type symbol of willpower.
+- **Dialga** - The Steel/Dragon-type master of time.
+- **Palkia** - The Water/Dragon-type ruler of space.
+- **Giratina** - The Ghost/Dragon-type overseer of antimatter, appearing in two forms (Altered and Origin).
+- **Heatran** - The unique Fire/Steel-type volcanic guardian.
+- **Regigigas** - The Normal-type ancient titan.
+- **Cresselia** - The elegant Psychic-type symbol of dreams.
+- **Darkrai** - The mysterious Dark-type bringer of nightmares.
+- **Manaphy** - The mythical Water-type guardian of the sea.
+- **Phione** - The offspring-like Water-type Pokemon linked to Manaphy.
+- **Shaymin** - The Grass-type gratitude Pokemon with a Land Forme and Sky Forme.
+- **Arceus** - The creator of the Pokemon universe, capable of adopting any type.
+
+These legendary Pokemon form the foundation of Sinnoh’s legendary lore, offering a blend of power, mystery, and mythology.
+
+---
+
+## Why Explore Gen 4 Legendary Pokemon?
+
+The **Gen 4 Legendary Pokemon** are beloved by fans for many reasons:
+- **Rich Lore:** Learn about their roles in shaping the Sinnoh region and the universe.
+- **Unique Abilities:** Explore their diverse stats, types, and abilities for competitive battles.
+- **Mythological Depth:** Discover the mythological inspirations behind iconic Pokemon like Arceus.
+- **Collector’s Essentials:** Complete your legendary collection with these unforgettable Pokemon.
+
+---
+
+## Features of the Gen 4 Legendary Pokemon Tool
+
+Our **Gen 4 Legendary Pokemon** tool offers:
+1. **Comprehensive Data:** Access base stats, abilities, shiny forms, and other detailed information.
+2. **High-Quality Visuals:** Enjoy stunning, high-resolution images of your favorite legendary Pokemon.
+3. **Interactive Design:** Filter and explore Pokemon with an intuitive interface.
+4. **Mobile-Friendly Layout:** Perfectly optimized for desktop, tablet, and mobile devices.
+
+---
+
+## Advanced Features
+
+To elevate your experience, the tool includes:
+- **Form Exploration:** Learn about Giratina’s two forms and Shaymin’s alternate appearances.
+- **Shiny Variants:** View shiny forms for all Gen 4 legendary Pokemon.
+- **Filtering Options:** Customize results by base stats, type, or abilities.
+
+---
+
+## Discover More Legendary Pokemon
+
+Interested in exploring legendary Pokemon from other generations? Check out our other tools:
+- **[Gen 3 Legendary Pokemon](/gen-n-pokemon-list/gen-3-legendary-pokemon):** Dive into the legendary Pokemon of Generation 3.
+- **[Gen 5 Legendary Pokemon](/gen-n-pokemon-list/gen-5-legendary-pokemon):** Learn about the legendary Pokemon introduced in Generation 5.
+- **[Random Legendary Pokemon Generator](/tools/random-legendary-pokemon-generator):** Generate legendary Pokemon across all generations.
+
+Each tool provides a detailed exploration of legendary Pokemon to cater to trainers and fans alike.
+
+---
+
+## Start Exploring Gen 4 Legendary Pokemon Now!
+
+Click the button above to uncover all **Gen 4 Legendary Pokemon**.  
+Rediscover their stats, abilities, shiny forms, and lore, and delve into the Sinnoh region’s legendary tales today!

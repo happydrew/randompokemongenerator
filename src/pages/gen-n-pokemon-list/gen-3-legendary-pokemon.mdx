@@ -1,0 +1,100 @@
+---
+title: Gen 3 Legendary Pokemon
+description: Discover all legendary Pokemon from Generation 3 with our Gen 3 Legendary Pokemon tool. Explore their stats, abilities, and lore in one convenient list.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "3",
+            rarity: "2"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 3 legendary pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 3 Legendary Pokemon?
+
+**Gen 3 Legendary Pokemon** are the legendary creatures introduced in **Generation 3**, featured in the iconic **Pokemon Ruby, Sapphire, and Emerald** games. Known for their immense power and deep connection to the Hoenn region, these Pokemon hold a special place in the Pokemon series.
+
+From weather-manipulating titans to mythological guardians, Generation 3's legendary Pokemon add depth to the series' lore while offering thrilling in-game encounters.
+
+---
+
+## Complete List of Gen 3 Legendary Pokemon
+
+Here’s the full list of legendary Pokemon from Generation 3:
+- **Regirock** - The steadfast Rock-type titan.
+- **Regice** - The frigid Ice-type titan.
+- **Registeel** - The resilient Steel-type titan.
+- **Latias** - The graceful Psychic/Dragon-type guardian.
+- **Latios** - The strategic Psychic/Dragon-type guardian.
+- **Kyogre** - The majestic Water-type ruler of the seas.
+- **Groudon** - The powerful Ground-type ruler of the land.
+- **Rayquaza** - The awe-inspiring Dragon/Flying-type ruler of the skies.
+- **Jirachi** - The mythical Steel/Psychic-type Pokemon capable of granting wishes.
+- **Deoxys** - The enigmatic Psychic-type Pokemon with multiple forms.
+
+These Pokemon showcase the diversity and complexity of Generation 3's legendary lineup.
+
+---
+
+## Why Explore Gen 3 Legendary Pokemon?
+
+The **Gen 3 Legendary Pokemon** are a must-see for any fan or trainer. Here’s why:
+- **Rich Backstory:** Delve into the lore of the Hoenn region and its legendary Pokemon.
+- **Unique Forms:** Explore the multiple forms and abilities of iconic Pokemon like Deoxys.
+- **Battle-Ready:** Learn about their stats and abilities to dominate in battles.
+- **Collector's Gems:** These Pokemon are essential for completing any legendary collection.
+
+---
+
+## Features of the Gen 3 Legendary Pokemon Tool
+
+Our **Gen 3 Legendary Pokemon** tool provides:
+1. **Detailed Profiles:** View base stats, abilities, shiny forms, and unique traits for each Pokemon.
+2. **High-Quality Visuals:** Explore high-resolution images of legendary Pokemon.
+3. **Interactive Design:** Easily navigate and filter Pokemon by type, stats, and other attributes.
+4. **Device Compatibility:** Enjoy seamless functionality across mobile, tablet, and desktop devices.
+
+---
+
+## Advanced Features
+
+To make your experience even better, the tool includes:
+- **Form Details:** Learn about Deoxys’ multiple forms and their battle implications.
+- **Shiny Variants:** Access shiny forms for all Generation 3 legendary Pokemon.
+- **Filtering Options:** Narrow down results by attributes such as type, base stats, or abilities.
+
+---
+
+## Discover More Legendary Pokemon
+
+Interested in legendary Pokemon from other generations? Check out our other tools:
+- **[Gen 1 Legendary Pokemon](/gen-n-pokemon-list/gen-1-legendary-pokemon):** Explore the iconic Pokemon from Generation 1.
+- **[Gen 2 Legendary Pokemon](/gen-n-pokemon-list/gen-2-legendary-pokemon):** Discover legendary Pokemon from Generation 2.
+- **[Random Legendary Pokemon Generator](/tools/random-legendary-pokemon-generator):** Generate legendary Pokemon across all generations.
+
+Each tool provides an in-depth look at legendary Pokemon, making it easy for trainers and fans to explore their favorites.
+
+---
+
+## Start Exploring Gen 3 Legendary Pokemon Now!
+
+Click the button above to view all **Gen 3 Legendary Pokemon**.  
+Uncover their stats, abilities, and shiny forms, and rediscover the legendary Pokemon of Hoenn today!

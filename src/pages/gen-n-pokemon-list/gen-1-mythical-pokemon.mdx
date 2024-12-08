@@ -1,0 +1,89 @@
+---
+title: Gen 1 Mythical Pokemon
+description: Discover the mythical Pokemon from Generation 1 with our Gen 1 Mythical Pokemon tool. Explore their stats, shiny forms, abilities, and lore from the Kanto region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "1",
+            rarity: "3"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 1 mythical pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 1 Mythical Pokemon?
+
+**Gen 1 Mythical Pokemon** are the rare and elusive creatures introduced in **Generation 1**, first featured in the classic games **Pokemon Red and Blue**. These Pokemon are part of the rich lore and mythos of the **Kanto region**, representing unique, mysterious beings that are often difficult to find and are associated with special in-game events.
+
+In Generation 1, the mythical Pokemon are **Mew** and its unique abilities, which have captivated fans for years.
+
+---
+
+## Complete List of Gen 1 Mythical Pokemon
+
+Here’s the list of mythical Pokemon from Generation 1:
+- **Mew** - A Psychic-type, known for its playful nature and incredible abilities. Mew is considered one of the most elusive and powerful Pokemon in the series, with a unique set of moves that set it apart from other creatures.
+
+Mew is the only **Gen 1 Mythical Pokemon**, but its significance and rarity have made it one of the most iconic creatures in the entire franchise.
+
+---
+
+## Why Explore Gen 1 Mythical Pokemon?
+
+The **Gen 1 Mythical Pokemon** offers:
+- **The Iconic Mew:** The ultimate mythical Pokemon in Generation 1 with unmatched abilities.
+- **Rare and Legendary Status:** Mew is often seen as the first true mythical Pokemon, embodying the mystery and allure of the Pokemon world.
+- **Rich History and Lore:** Mew’s role in early Pokemon games and events is central to the mythology of the franchise.
+
+---
+
+## Features of the Gen 1 Mythical Pokemon Tool
+
+Our **Gen 1 Mythical Pokemon** tool provides:
+1. **Detailed Pokemon Insights:** Learn about stats, abilities, and lore surrounding Mew.
+2. **Shiny Form Preview:** View Mew’s shiny form alongside regular variants.
+3. **Comprehensive Information:** Get access to Mew’s background, its role in the games, and its connection to the franchise’s history.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Mew’s Lore:** Discover the fascinating backstory and significance of this mythical Pokemon.
+- **View Shiny Mew:** Access the visual differences and rarity of the shiny form.
+- **Strategic Insights:** Learn how Mew can be used in competitive gameplay with its unique moveset.
+
+---
+
+## Discover More Mythical Pokemon
+
+Explore mythical Pokemon from other generations:
+- **[Gen 2 Mythical Pokemon](/gen-n-pokemon-list/gen-2-mythical-pokemon):** Uncover the mysterious creatures of Johto.
+- **[Gen 3 Mythical Pokemon](/gen-n-pokemon-list/gen-3-mythical-pokemon):** Explore the legends of Hoenn.
+- **[Random Mythical Pokemon Generator](/tools/random-mythical-pokemon-generator):** Generate mythical Pokemon across generations.
+
+Use these tools to dive deeper into the world of mythical Pokemon and uncover their hidden powers.
+
+---
+
+## Begin Your Gen 1 Mythical Pokemon Adventure!
+
+Unlock the secrets of **Gen 1 Mythical Pokemon**, starting with the legendary Mew.  
+Discover its lore, abilities, and role in the Kanto region today!

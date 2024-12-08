@@ -1,0 +1,102 @@
+---
+title: Gen 7 Legendary Pokemon
+description: Discover all legendary Pokemon from Generation 7 with our Gen 7 Legendary Pokemon tool. Explore their stats, abilities, shiny forms, and unique lore from the Alola region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "7",
+            rarity: "2"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 7 legendary pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 7 Legendary Pokemon?
+
+**Gen 7 Legendary Pokemon** are the powerful creatures introduced in **Generation 7**, featured in the games **Pokemon Sun, Moon, Ultra Sun, and Ultra Moon**. These legendary Pokemon are deeply intertwined with the Alola region’s unique lore, representing celestial bodies, guardianship, and ultra-dimensional exploration.
+
+Generation 7 brought legendary Pokemon with bold designs, fascinating backstories, and a focus on balance and harmony in Alola’s ecosystem.
+
+---
+
+## Complete List of Gen 7 Legendary Pokemon
+
+Here’s the list of legendary Pokemon from Generation 7:
+- **Solgaleo** - A Psychic/Steel-type, known as the emissary of the sun.
+- **Lunala** - A Psychic/Ghost-type, representing the guardian of the moon.
+- **Necrozma** - A Psychic-type that can take on multiple forms: Dusk Mane, Dawn Wings, and Ultra Necrozma.
+- **Tapu Koko** - An Electric/Fairy-type guardian deity of Melemele Island.
+- **Tapu Lele** - A Psychic/Fairy-type guardian deity of Akala Island.
+- **Tapu Bulu** - A Grass/Fairy-type guardian deity of Ula’ula Island.
+- **Tapu Fini** - A Water/Fairy-type guardian deity of Poni Island.
+- **Cosmog** - A Psychic-type pre-evolution to Solgaleo and Lunala.
+- **Cosmoem** - The intermediary Psychic-type evolution between Cosmog and its final forms.
+- **Magearna** - A Steel/Fairy-type mythical Pokemon created by ancient science.
+- **Marshadow** - A Fighting/Ghost-type mythical Pokemon, mysterious and stealthy.
+- **Zeraora** - An Electric-type mythical Pokemon, known for its incredible speed.
+
+These Pokemon play pivotal roles in the Alola region’s story and battles.
+
+---
+
+## Why Explore Gen 7 Legendary Pokemon?
+
+The **Gen 7 Legendary Pokemon** stand out for their:
+- **Regional Guardianship:** The Tapu Pokemon protect each of Alola’s islands.
+- **Cosmic Connections:** Solgaleo, Lunala, and Necrozma symbolize celestial power.
+- **Battle Mastery:** Unique typings and abilities make them highly competitive.
+- **Lore-Driven Evolution:** Cosmog’s journey to Solgaleo or Lunala ties into Alola’s mythology.
+
+---
+
+## Features of the Gen 7 Legendary Pokemon Tool
+
+Our **Gen 7 Legendary Pokemon** tool provides:
+1. **Detailed Profiles:** View stats, shiny forms, and lore.
+2. **High-Resolution Images:** Admire stunning visuals for every legendary Pokemon.
+3. **Interactive Sorting:** Filter by stats, forms, or abilities.
+4. **Mobile-Friendly Design:** Seamless exploration across all devices.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Necrozma’s Forms:** Discover the power of Dusk Mane, Dawn Wings, and Ultra Necrozma.
+- **View Shiny Variants:** Check out shiny forms of every Gen 7 legendary Pokemon.
+- **Understand Regional Guardians:** Dive into the lore of the Tapu Pokemon.
+
+---
+
+## Discover More Legendary Pokemon
+
+Explore legendary Pokemon from other generations:
+- **[Gen 6 Legendary Pokemon](/gen-n-pokemon-list/gen-6-legendary-pokemon):** Discover Kalos’s legendary tales.
+- **[Gen 8 Legendary Pokemon](/gen-n-pokemon-list/gen-8-legendary-pokemon):** Explore Galar’s iconic legends.
+- **[Random Legendary Pokemon Generator](/tools/random-legendary-pokemon-generator):** Generate legendary Pokemon from all generations.
+
+Each tool offers a unique perspective on legendary Pokemon.
+
+---
+
+## Begin Your Journey with Gen 7 Legendary Pokemon!
+
+Discover the celestial, mythical, and regional powers of **Gen 7 Legendary Pokemon**.  
+Unveil Alola’s legendary tales and stats now!

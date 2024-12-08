@@ -1,0 +1,101 @@
+---
+title: Gen 8 Legendary Pokemon
+description: Explore all legendary Pokemon from Generation 8 with our Gen 8 Legendary Pokemon tool. Discover stats, abilities, shiny forms, and the lore of legendary Pokemon from the Galar region.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "8",
+            rarity: "2"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 8 legendary pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 8 Legendary Pokemon?
+
+**Gen 8 Legendary Pokemon** are the extraordinary creatures introduced in **Generation 8**, featured in the games **Pokemon Sword and Shield**, along with their DLC expansions, **The Isle of Armor** and **The Crown Tundra**. These legendary Pokemon are deeply connected to the lore of the Galar region and its wild, untamed landscapes.
+
+Generation 8 expands the legendary lineup with dynamic new designs, unique abilities, and thematic connections to the region’s culture.
+
+---
+
+## Complete List of Gen 8 Legendary Pokemon
+
+Here’s the list of legendary Pokemon from Generation 8:
+- **Zacian** - A Fairy/Steel-type, representing a noble hero and protector.
+- **Zamazenta** - A Fighting/Steel-type, embodying a shield of valor.
+- **Eternatus** - A Poison/Dragon-type, tied to the mysterious Dynamax phenomenon.
+- **Kubfu** - A Fighting-type, a crucial part of martial arts traditions in the Galar region.
+- **Urshifu** - A Fighting-type with two forms: Single Strike (Dark) and Rapid Strike (Water).
+- **Regieleki** - An Electric-type, the fastest Pokemon in existence.
+- **Regidrago** - A Dragon-type with destructive power derived from dragon energy.
+- **Glastrier** - An Ice-type, symbolizing resilience and cold endurance.
+- **Spectrier** - A Ghost-type, representing spectral speed and mystery.
+- **Calyrex** - A Psychic/Grass-type, revered as the king of bountiful harvests.
+- **Calyrex’s Forms** - Ice Rider (Calyrex + Glastrier) and Shadow Rider (Calyrex + Spectrier).
+
+These Pokemon are central to the Galar region's mythology and gameplay.
+
+---
+
+## Why Explore Gen 8 Legendary Pokemon?
+
+The **Gen 8 Legendary Pokemon** stand out for their:
+- **Regional Connections:** Deeply tied to Galar's cultural and natural identity.
+- **Dynamax Phenomenon:** Eternatus plays a pivotal role in this unique mechanic.
+- **Battle Utility:** Unique typings and abilities that shine in competitive play.
+- **DLC Exclusives:** The Crown Tundra adds legendary Pokemon like Regieleki and Spectrier.
+
+---
+
+## Features of the Gen 8 Legendary Pokemon Tool
+
+Our **Gen 8 Legendary Pokemon** tool offers:
+1. **Comprehensive Information:** Access stats, shiny forms, and lore for each Pokemon.
+2. **Stunning Visuals:** High-resolution images of all forms and shiny variants.
+3. **Advanced Sorting:** Filter Pokemon by stats, forms, or typings.
+4. **Mobile-Friendly Design:** Enjoy the tool on any device seamlessly.
+
+---
+
+## Advanced Features
+
+With this tool, you can:
+- **Explore Form Variations:** Dive into the dual forms of Calyrex and Urshifu.
+- **Discover Shiny Variants:** View shiny forms for every Gen 8 legendary Pokemon.
+- **Understand Unique Abilities:** Learn how these Pokemon dominate competitive environments.
+
+---
+
+## Discover More Legendary Pokemon
+
+Explore legendary Pokemon from other generations:
+- **[Gen 7 Legendary Pokemon](/gen-n-pokemon-list/gen-7-legendary-pokemon):** Discover the legends of Alola.
+- **[Gen 9 Legendary Pokemon](/gen-n-pokemon-list/gen-9-legendary-pokemon):** Meet the newest legendary Pokemon from Paldea.
+- **[Random Legendary Pokemon Generator](/tools/random-legendary-pokemon-generator):** Generate random legendary Pokemon across generations.
+
+Unlock the full potential of these tools to enhance your Pokemon journey.
+
+---
+
+## Begin Your Journey with Gen 8 Legendary Pokemon!
+
+Uncover the mystique, power, and lore of **Gen 8 Legendary Pokemon**.  
+Experience the Galar region’s legendary tales today!

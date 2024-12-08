@@ -1,0 +1,96 @@
+---
+title: Gen 1 Legendary Pokemon
+description: Discover all legendary Pokemon from Generation 1 with our Gen 1 Legendary Pokemon tool. Explore their stats, abilities, and unique characteristics in one place.
+---
+
+import { PokemonList } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+
+export const getStaticProps = async () => {
+    const options = {
+        filterParams: {
+            generations: "1",
+            rarity: "2"
+        },
+        showParams: {
+            sprites: true,
+            pokedex: true
+        }
+    }
+    const ssgHtml = await genStaticHtmlOfPokes(options)
+    return {
+        props: {
+            title: "gen 1 legendary pokemon",
+            ssgHtml: ssgHtml
+        }
+    }
+}
+
+<PokemonList {...props} />
+
+## What Are Gen 1 Legendary Pokemon?
+
+**Gen 1 Legendary Pokemon** refer to the iconic and powerful Pokemon introduced in **Generation 1** of the Pokemon series. These Pokemon are known for their rarity, unique designs, and formidable stats, making them some of the most sought-after creatures in the Pokemon universe.
+
+In Generation 1, the legendary Pokemon are a small but memorable group, each holding a special place in the hearts of fans and competitive players alike. 
+
+---
+
+## Complete List of Gen 1 Legendary Pokemon
+
+Here is the full list of legendary Pokemon from Generation 1:
+- **Articuno** - The majestic Ice/Flying-type bird.
+- **Zapdos** - The electrifying Electric/Flying-type bird.
+- **Moltres** - The fiery Fire/Flying-type bird.
+- **Mewtwo** - The genetically engineered Psychic-type powerhouse.
+- **Mew** - The mythical Psychic-type ancestor of all Pokemon.
+
+Each of these Pokemon has unique characteristics and abilities that make them standout choices for battles and collections.
+
+---
+
+## Why Explore Gen 1 Legendary Pokemon?
+
+The **Gen 1 Legendary Pokemon** are legendary for a reason! Here’s why you might want to explore them:
+- **Nostalgia:** Revisit the legendary Pokemon that started it all in **Pokemon Red, Blue, and Yellow**.
+- **Battle-Ready:** Discover their incredible base stats and abilities that dominate in battles.
+- **Collectible:** These legendary Pokemon are must-haves for any serious Pokemon trainer or collector.
+
+---
+
+## Features of the Gen 1 Legendary Pokemon Tool
+
+Our **Gen 1 Legendary Pokemon** tool offers the following features:
+1. **Comprehensive List:** View detailed information about all Gen 1 legendary Pokemon.
+2. **Stats and Abilities:** Get insights into base stats, movesets, abilities, and more.
+3. **Shiny Variants:** Explore the shiny forms of legendary Pokemon.
+4. **Interactive Design:** Enjoy a visually appealing and easy-to-navigate interface.
+
+---
+
+## Advanced Features
+
+To enhance your experience, the tool also offers:
+- **Filtering Options:** Filter by attributes like type, base stats, and abilities for more targeted results.
+- **Mobile-Friendly Access:** Access the tool on any device, with optimized layouts for phones, tablets, and desktops.
+- **Shiny Hunting:** Easily identify and learn about shiny variants of Gen 1 legendary Pokemon.
+
+These features ensure that fans and trainers alike can explore the legendary Pokemon of Generation 1 in depth.
+
+---
+
+## Discover More Legendary Pokemon
+
+Looking for legendary Pokemon beyond Generation 1? Explore our other legendary Pokemon tools:
+- **[Gen 2 Legendary Pokemon](/tools/gen-2-legendary-pokemon):** Legendary Pokemon from Generation 2.
+- **[Gen 3 Legendary Pokemon](/tools/gen-3-legendary-pokemon):** Legendary Pokemon from Generation 3.
+- **[Random Legendary Pokemon Generator](/tools/random-legendary-pokemon-generator):** Generate legendary Pokemon from all generations.
+
+Each tool is designed to give you a complete overview of legendary Pokemon across different generations.
+
+---
+
+## Start Exploring Gen 1 Legendary Pokemon Now!
+
+Click the button above to explore all **Gen 1 Legendary Pokemon**.  
+Dive into their stats, abilities, and forms, and rediscover the legendary Pokemon that started it all!

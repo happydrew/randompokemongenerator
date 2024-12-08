@@ -417,10 +417,11 @@ const rarityOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const RarityOption: React.FC<{ defaultSelected?: string[] }> = ({
-    defaultSelected
+const RarityOption: React.FC<{ defaultSelected?: string[], fixedSelected?: string[] }> = ({
+    defaultSelected,
+    fixedSelected
 }) => {
-    return <TipLabelDropdown {...rarityOptionProps} defaultSelected={defaultSelected} />
+    return <TipLabelDropdown fixedSelected={fixedSelected} {...rarityOptionProps} defaultSelected={defaultSelected} />
 }
 
 // Rarity option
@@ -597,10 +598,11 @@ const gameVersionsOptionProps: TipLabelDropdownProps = {
 }
 
 // gameVersion option
-const GameVersionOption: React.FC<{ defaultSelected?: string[] }> = ({
-    defaultSelected
+const GameVersionOption: React.FC<{ defaultSelected?: string[], fixedSelected?: string[] }> = ({
+    defaultSelected,
+    fixedSelected
 }) => {
-    return <TipLabelDropdown {...gameVersionsOptionProps} defaultSelected={defaultSelected} labelTextClassName="mobile-text-2xs" />
+    return <TipLabelDropdown fixedSelected={fixedSelected} {...gameVersionsOptionProps} defaultSelected={defaultSelected} labelTextClassName="mobile-text-2xs" />
 }
 
 // Height option
@@ -728,11 +730,13 @@ const generationOptionProps: TipLabelDropdownProps = {
     ]
 }
 
-const GenerationOption: React.FC<{ defaultSelected?: string[] }> = ({
-    defaultSelected
+const GenerationOption: React.FC<{ defaultSelected?: string[], fixedSelected?: string[] }> = ({
+    defaultSelected,
+    fixedSelected
 }) => {
     return (
         <TipLabelDropdown
+            fixedSelected={fixedSelected}
             {...generationOptionProps}
             defaultSelected={defaultSelected}
             labelTextClassName="mobile-text-xs"
