@@ -89,6 +89,31 @@ export default {
     title: "Random Pokemon Generator Gen 1",
     layout: "raw"
   },
+  "random-pokemon-generator-gen-2": {
+    type: "page",
+    title: "Random Pokemon Generator Gen 2",
+    layout: "raw"
+  },
+  "random-pokemon-generator-gen-3": {
+    type: "page",
+    title: "Random Pokemon Generator Gen 3",
+    layout: "raw"
+  },
+  "random-pokemon-generator-gen-4": {
+    type: "page",
+    title: "Random Pokemon Generator Gen 4",
+    layout: "raw"
+  },
+  "random-pokemon-generator-gen-5": {
+    type: "page",
+    title: "Random Pokemon Generator Gen 5",
+    layout: "raw"
+  },
+  "random-pokemon-generator-gen-6": {
+    type: "page",
+    title: "Random Pokemon Generator Gen 6",
+    layout: "raw"
+  },
   "random-pokemon-generator-gen-7": {
     type: "page",
     title: "Random Pokemon Generator Gen 7",
