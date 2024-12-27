@@ -38,7 +38,7 @@
     ".next/types/**/*.ts",
     "src/pages/index.mdx",
     "src/pages/tools/random-pokemon-type-generator.mdx"
-  ],
+, "src/pages/blog/most-expensive-pokemon​.mdx"  ],
   "exclude": [
     "node_modules"
   ]
