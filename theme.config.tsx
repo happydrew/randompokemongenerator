@@ -229,8 +229,22 @@ export default {
   //       </NextLink>
   //     </>
   //   ),
-  //   key: "graphqlconf-2024",
+  //   key: "autoformai",
   // },
+  banner: {
+    content: (
+      <>
+        <NextLink
+          href="https://autoformai.floxai.top/"
+          className="underline after:content-['_→'] after:font-sans"
+          target="_blank"
+        >
+          Fill Forms with Just One Click – AutoFormAI! 🚀
+        </NextLink>
+      </>
+    ),
+    key: "autoformai",
+  },
   logo: logo,
   docsRepositoryBase:
     "https://github.com/happydrew/randompokemongenerator/tree/main",
