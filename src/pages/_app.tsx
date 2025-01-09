@@ -48,7 +48,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4907197973761221" crossOrigin="anonymous"></script>
         <meta name="google-adsense-account" content="ca-pub-4907197973761221" />
-        <meta name="saashub-verification" content="zm6rcf35ll2n" />
       </Head>
 
       {/* Google Tag Manager */}

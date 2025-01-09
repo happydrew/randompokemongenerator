@@ -219,32 +219,17 @@ export default {
   // banner: {
   //   content: (
   //     <>
-  //       📣 GraphQLConf 2024 • Sept 10-12 • San Francisco • Check out the
-  //       Schedule & Get Your Ticket •{" "}
   //       <NextLink
-  //         href="/conf/2024"
+  //         href="https://autoformai.floxai.top/"
   //         className="underline after:content-['_→'] after:font-sans"
+  //         target="_blank"
   //       >
-  //         Read more
+  //         Fill Forms with Just One Click – AutoFormAI! 🚀
   //       </NextLink>
   //     </>
   //   ),
   //   key: "autoformai",
   // },
-  banner: {
-    content: (
-      <>
-        <NextLink
-          href="https://autoformai.floxai.top/"
-          className="underline after:content-['_→'] after:font-sans"
-          target="_blank"
-        >
-          Fill Forms with Just One Click – AutoFormAI! 🚀
-        </NextLink>
-      </>
-    ),
-    key: "autoformai",
-  },
   logo: logo,
   docsRepositoryBase:
     "https://github.com/happydrew/randompokemongenerator/tree/main",
