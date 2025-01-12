@@ -203,16 +203,9 @@ export default {
         <meta property="og:title" content={title} />
         {description && <meta name="description" content={description} />}
         {description && <meta property="og:description" content={description} />}
-        {/* {description && (
-          <>
-            <meta name="description" content={description} />
-            <meta property="og:description" content={description} />
-          </>
-        )} */}
         {canonical && <link rel="canonical" href={canonical} />}
-        {image && <meta name="og:image" content={image} />}
-        <meta property="og:image" content="/img/og-image.png" />
-        <meta property="twitter:site" content="@graphql" />
+        <meta name="og:image" content={image || '/og-image.png'} />
+        {/* <meta property="twitter:site" content="@graphql" /> */}
       </>
     )
   },
