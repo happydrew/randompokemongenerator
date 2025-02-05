@@ -97,7 +97,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
     }, []);
     return (
         <div className="generator-tool">
-            <div className='w-full h-10 bg-zinc-800 text-white flex justify-center items-center px-4 py-14 text-base mb-4'>
+            {/* <div className='w-full h-10 bg-zinc-800 text-white flex justify-center items-center px-4 py-14 text-base mb-4'>
                 Try our new safe, free, and ad-free
                 <a className='underline bg-red-400 !text-white hover:bg-red-600 rounded-md px-2 py-1 mx-2 text-base'
                     href="https://youtubetomp3-dwj.pages.dev/"
@@ -105,7 +105,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
                     YouTube to MP3 converter
                 </a>
                 - simple to use and easy to love! ❤️
-            </div>
+            </div> */}
             <header>
                 <h1 className="pokemon-title">{props.title || "Random Pokémon Generator"}</h1>
             </header>
