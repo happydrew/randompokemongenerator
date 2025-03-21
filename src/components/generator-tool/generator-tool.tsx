@@ -97,14 +97,12 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
     }, []);
     return (
         <div className="generator-tool">
-            <a className='w-full bg-zinc-900 !text-white px-4 py-4 text-xl mb-4 block'
-                href="https://nytconnectionshints.cc/"
+            <a className='w-full px-4 py-4 text-xl mb-4 block flex justify-center gap-2 items-center'
+                href="https://baseballbrosio.fun"
                 target='_blank'>
-                Stuck on tricky NYT Connections? 🤯 Try
-                <span className='underline bg-[#c260cd] !text-white hover:bg-[#c644d4] rounded-md px-2 py-1 mx-2'>
-                    NYT Connections Hints
-                </span>
-                - smart, spoiler-free help to keep the fun going! 🎉
+                <img src="https://baseballbrosio.fun/assets/images/games/baseball-bros-io.png"
+                    alt="BaseballBrosIO" className="w-32 h-32 inline-block mr-2 shadow-xl" />
+                <span className='leading-10 text-center items-center'>Play BaseballBrosIO - fast-paced, skill-driven baseball action⚾<br />🔥 Play now!</span>
             </a>
             <header>
                 <h1 className="pokemon-title">{props.title || "Random Pokémon Generator"}</h1>
