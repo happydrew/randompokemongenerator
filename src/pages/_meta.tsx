@@ -256,6 +256,12 @@ export default {
     title: "Baseball Bros Game",
     href: "https://baseballbrosio.fun",
   },
+  "curve-rush": {
+    type: "page",
+    title: "Curve Rush",
+    href: "https://curve-rush.cc",
+  },
+
   // spec: {
   //   display: "hidden",
   //   type: "page",
