@@ -97,7 +97,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
     }, []);
     return (
         <div className="generator-tool">
-            <a className='w-full px-4 py-4 text-xl mb-4 block flex justify-center gap-2 items-center'
+            <a className='w-full px-4 py-4 text-xl mb-4 flex justify-center gap-2 items-center'
                 href="https://baseballbrosio.fun"
                 target='_blank'>
                 <img src="https://baseballbrosio.fun/assets/images/games/baseball-bros-io.webp"
