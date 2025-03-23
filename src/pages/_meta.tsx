@@ -251,6 +251,11 @@ export default {
       }
     }
   },
+  "baseball-bros-io": {
+    type: "page",
+    title: "Baseball Bros Game",
+    href: "https://baseballbrosio.fun",
+  },
   // spec: {
   //   display: "hidden",
   //   type: "page",
