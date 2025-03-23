@@ -100,7 +100,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
             <a className='w-full px-4 py-4 text-xl mb-4 block flex justify-center gap-2 items-center'
                 href="https://baseballbrosio.fun"
                 target='_blank'>
-                <img src="https://baseballbrosio.fun/assets/images/games/baseball-bros-io.png"
+                <img src="https://baseballbrosio.fun/assets/images/games/baseball-bros-io.webp"
                     alt="BaseballBrosIO" className="w-32 h-32 inline-block mr-2 shadow-xl" />
                 <span className='leading-10 text-center items-center'>Play BaseballBrosIO - fast-paced, skill-driven baseball action⚾<br />🔥 Play now!</span>
             </a>
