@@ -6,8 +6,8 @@ import {
   MagnifyingGlassIcon,
   RubyGemsIcon,
   ChevronLeftIcon,
-} from "@/icons"
-import { Card, Tag } from "@/components"
+} from "@icons"
+import { Card, Tag } from "@components"
 import NextLink from "next/link"
 import { useMounted } from "nextra/hooks"
 import Markdown from "markdown-to-jsx"
@@ -28,7 +28,7 @@ import {
 } from "react"
 import { clsx } from "clsx"
 import { getComponents } from "nextra-theme-docs"
-import { RadioGroup, RadioGroupItem } from "@/components/radio"
+import { RadioGroup, RadioGroupItem } from "@components/radio"
 
 type CodePageProps = {
   allTags: {

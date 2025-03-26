@@ -1,12 +1,15 @@
 ---
 title: Random Pokemon Generator
-description: Discover the ultimate Random Pokemon Generator for fun! Easily generate a random Pokemon with our versatile Pokemon randomizer. Customize your search with various filters and explore thousands of Pokemon, including different types, forms, and rarities etc. Perfect for creating random Pokemon teams and enhancing your Pokemon experience.
+description: Generate random Pokemon with 28+ filter options, including region, type, rarity, and more — almost every filter you need, fully customizable! Try your luck with shiny Pokémon, and enjoy stunning HD images!
 date: 2022-06-30
+image: /favicon.ico
 ---
 
 import { useData } from 'nextra/hooks';
-import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
-import { GeneratorToolFeatureCards, GeneratorTool } from '@/components/generator-tool';
+import { genStaticHtmlOfPokes } from '@code/generator-tool/random';
+import { GeneratorToolFeatureCards, GeneratorTool } from '@components/generator-tool';
+import Image from 'next/image'
+
 
 export const getStaticProps = async () => {
     const options = {
@@ -33,4 +36,123 @@ export const Index = () => {
 }
 
 <GeneratorTool initGenerate={true} />
-<GeneratorToolFeatureCards />
+
+# Explore the Random Pokémon Generator
+
+The Random Pokémon Generator is a comprehensive tool that allows for the creation of unique Pokémon teams with precision. With up to **27 filter options**, HD visuals, and even the chance to generate shiny Pokémon, this generator provides an experience tailored to every Pokémon enthusiast.
+
+## What Does the Random Pokémon Generator Offer?
+
+Designed for those who enjoy creativity and endless possibilities, the generator taps into a diverse library of nearly 1400 Pokémon from all generations and game versions. It offers:
+
+- **Extensive Filtering Options:** Choose from up to 27 different filters such as Generation, Region, Type, Forms, Rarity, Height, Weight, and more.
+- **Shiny Pokémon Generation:** Experience the excitement of generating a shiny Pokémon with adjustable probability settings.
+- **Stunning Visual Display:** View high-definition Pokémon cards showcasing detailed stats and vibrant imagery.
+- **User-Friendly Interface:** Navigate through a clear, mobile-optimized layout that makes customizing the experience straightforward.
+
+## Key Features
+
+### Fully Customizable Filtering Options
+
+Customize the search with a variety of filtering options to meet specific needs:
+
+- **Basic Filters:** Region, Type, Forms, Rarity, Height, Weight.
+- **Advanced Filters:** Generation, Color, Evolution Stage, Baby Pokémon, Growth Rate, Habitat, Egg Group, Gender Rate, Shape, Default Form, Gender Differences, Base Stats (HP, Attack, Defense, Special Attack, Special Defense, Speed), IVs, EVs, Base Happiness, Capture Rate, Hatch Counter, and more.
+
+These filtering options ensure that the generator produces Pokémon that match desired criteria.
+
+### Stunning Pokémon Card Display
+
+Each generated Pokémon is shown on a beautifully designed card that includes:
+
+- **Detailed Information:** Name, Generation, Region, Abilities, Types, Base Stats, and more.
+- **High-Definition Visuals:** Home Artificial HD images enhance the visual appeal.
+- **Randomized Attributes:** Cards display unique, randomly generated stats such as IVs, EVs, and nature—ensuring every generation feels fresh.
+
+<Image src="/img/features/beautiful-display.webp" alt="Beautiful Card Display" width={600} height={400} style={{margin: 'auto', marginTop:20}}/>
+
+### Shiny Pokémon Generation
+
+The generator also supports shiny Pokémon creation:
+
+- **Randomized Chance:** A small chance exists to encounter a shiny Pokémon, with the probability adjustable via advanced display options.
+- **Dedicated Shiny Section:** A special area stores shiny Pokémon, complete with pop-up notifications upon generation.
+
+<Image src="/img/docs/shiny-option.webp" alt="Shiny Option" width={600} height={400} style={{margin: 'auto', marginTop:20}}/>
+
+### History View & Management
+
+Easily keep track of previously generated Pokémon:
+
+- **History View:** Up to 64 generations are saved for revisiting favorite Pokémon cards.
+- **Management Tools:** Options to clear or review the generation history and shiny Pokémon collection are available for convenience.
+
+<Image src="/img/docs/history-button.webp" alt="History View Buttons" width={600} height={400} style={{margin: 'auto', marginTop:20}}/>
+
+## How to Use the Random Pokémon Generator
+
+### Step-by-Step Guide
+
+1. **Visit the Homepage:** Navigate to the Random Pokémon Generator website.
+2. **Set Generation Parameters:** Choose the number of Pokémon to generate (up to 9 per session).
+3. **Customize Filters:**  
+   - Access both basic and advanced filter options.
+   - Set the desired criteria—by region, type, generation, or detailed stats.
+4. **Configure Display Options:**  
+   - Decide which Pokémon attributes to show on the card (e.g., abilities, base stats, IVs/EVs, natures).
+   - Adjust visual settings like background images and card layouts.
+5. **Generate Pokémon:** Click the **Generate** button to display customized Pokémon cards.
+6. **Review History:** Use the history view to revisit previous generations and adjust settings as needed.
+7. **Manage Shiny Pokémon:** Check the dedicated shiny section for any rare finds and use the clear button to manage the collection.
+
+<Image src="/img/docs/generate-button.webp" alt="Generate Button" width={100} height={100} style={{display:'block', margin:'auto', marginTop:20}}/>
+
+## Detailed Feature Overview
+
+### Diverse Pokémon Library
+
+Built on data from PokeApi, the generator includes almost 1400 Pokémon from all generations and game versions—covering both classic favorites and the latest additions.
+
+### Advanced Customization
+
+From basic filters like region and type to in-depth customization including base stats, growth rates, and specific Pokémon forms (such as Mega Evolutions and Gigantamax), the generator offers a level of precision unmatched by many other tools.
+
+### Superior Display Options
+
+Control every aspect of the Pokémon card display:
+- **Basic Options:** Choose whether to show attributes such as Generation, Region, Natures, and Back Images.
+- **Advanced Options:** Customize the display of Abilities, Sprites, Rarity levels (Normal, Legendary, Mythical), Base Stats, IVs, EVs, and more.
+
+### Shiny Pokémon Special Features
+
+- **Random Generation:** A built-in chance to generate shiny Pokémon with adjustable probability.
+- **Instant Notification:** Receive a pop-up alert when a shiny Pokémon appears.
+- **Collection Management:** A dedicated section allows for easy viewing and clearing of shiny Pokémon.
+
+### Mobile-Optimized Interface
+
+The tool is designed for simplicity and efficiency:
+- **Clean Layout:** Separate sections for filter settings, Pokémon display, and shiny management.
+- **Seamless Mobile Experience:** Fully optimized for smartphones, tablets, and desktops, ensuring smooth navigation and interaction.
+
+## Frequently Asked Questions
+
+### How is a random Pokémon generated?
+Click the **Generate** button after selecting desired filter options. The customized Pokémon cards will appear based on the chosen settings.
+
+### How can settings be reset?
+Use the **Reset** button in both the filter and display options panels to clear selections and start anew.
+
+### Is it possible to view previous generations?
+Yes, the history view section provides access to up to 64 past generations of generated Pokémon.
+
+### How is the shiny Pokémon probability determined?
+The default chance is set to a low probability (typically 1/4096) but can be modified in the advanced display options.
+
+## Conclusion
+
+The Random Pokémon Generator stands out as a practical tool for creating personalized Pokémon teams. With extensive filtering options, impressive HD card displays, and the exciting possibility of encountering shiny Pokémon, it offers an engaging and versatile experience for every Pokémon enthusiast.
+
+<strong>Try the random pokemon generator now 👉 <a href="/#n_generator" style={{display:'inline-block', verticalAlign:'middle'}}><img src="/img/docs/generate-button.webp" alt="Generate Button" width={100} /></a> and begin a new Pokémon journey!</strong>
+
+Happy generating and may many rare and exciting Pokémon be discovered!

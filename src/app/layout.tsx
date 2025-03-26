@@ -1,7 +1,7 @@
 import { ReactElement, ReactNode } from "react"
 import { Metadata } from "next"
 import { Roboto_Flex } from "next/font/google"
-import GoogleAnalytics from "@/app/ga"
+import GoogleAnalytics from "@app/ga"
 import "../globals.css"
 
 const font = Roboto_Flex({

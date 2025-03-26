@@ -5,9 +5,7 @@ export default {
   index: {
     type: "page",
     display: "hidden",
-    theme: {
-      layout: "raw",
-    },
+    layout: "raw",
   },
   tags: {
     display: "children",

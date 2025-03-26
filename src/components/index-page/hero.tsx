@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { CodeA, CodeB, CodeC } from "../code-blocks"
-import { GraphQLLogo } from "@/icons"
+import { GraphQLLogo } from "@icons"
 import { clsx } from "clsx"
 
 export function Hero() {

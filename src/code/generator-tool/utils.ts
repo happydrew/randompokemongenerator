@@ -113,7 +113,7 @@ function collapseMoreShowOptions() {
 
 function imgOnerror(event: Event) {
     const img = event.target as HTMLImageElement;
-    img.src = "favicon-192.png";
+    img.src = "favicon.ico";
 }
 
 function displayYearsInFooter() {

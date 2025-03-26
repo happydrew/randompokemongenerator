@@ -1,7 +1,7 @@
 import React from "react";
 import { FeatureCard, FeatureCardProps } from "./feature-card";
 import NextLink from "next/link";
-import '@/styles/generator-tool.css';
+import '@styles/generator-tool.css';
 
 const generatorToolFeatureCardProps: FeatureCardProps[] = [
     {

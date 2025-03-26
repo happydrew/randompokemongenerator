@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ['latin'] });
 const logo = (
   <div className="flex justify-center items-center" title="RandomPokeGen">
     <Image
-      src="/favicon-192.png"
+      src="/favicon.ico"
       alt="RandomPokeGen"
       width={30}
       height={30}

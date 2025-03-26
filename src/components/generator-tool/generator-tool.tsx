@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from 'react';
 import {
     generateRandom, expandMoreOptions, collapseMoreOptions, expandMoreShowOptions, collapseMoreShowOptions,
     displayPrevious, displayNext, toggleShinyDisplay, clearShinies, onDOMContentLoad
-} from '@/code/generator-tool/random';
+} from '@code/generator-tool/random';
 import {
     RegionsOption, TypesOption, FormsOption, RarityOption, HeightOption, WeightOption, GenerationOption,
     ColorsOption, EnvolvesOption, BabyOption, GrowthRateOption, HabitatsOption, EggGroupOption, GenderRateOption,

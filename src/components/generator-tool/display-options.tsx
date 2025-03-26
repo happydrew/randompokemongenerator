@@ -4,7 +4,7 @@ export {
     Pokedex
 };
 import React, { useEffect } from 'react';
-import { TipLabelCheckbox, TipLabelCheckboxProps } from '@/components/generator-tool/tipLabel-checkbox';
+import { TipLabelCheckbox, TipLabelCheckboxProps } from '@components/generator-tool/tipLabel-checkbox';
 import { TipLabel, TipLabelProps } from './tiplabel';
 import { useRef } from 'react';
 

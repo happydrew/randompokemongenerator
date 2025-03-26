@@ -57,7 +57,8 @@
     "timeago.js": "4.0.2",
     "unified": "11.0.4",
     "unist-util-visit": "^5.0.0",
-    "use-query-params": "^2.2.1"
+    "use-query-params": "^2.2.1",
+    "lucide-react": "^0.456.0"
   },
   "devDependencies": {
     "@graphql-eslint/eslint-plugin": "4.0.0-alpha.0",

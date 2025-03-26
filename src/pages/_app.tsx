@@ -2,8 +2,8 @@ import type { AppProps } from "next/app"
 import { Roboto_Flex, Roboto_Mono } from "next/font/google"
 import { useRouter } from "next/router"
 import { useEffect } from "react"
-import "@/globals.css"
-import "@/codemirror.less"
+import "@globals.css"
+import "@codemirror.less"
 import Head from "next/head";
 import Script from "next/script";
 
@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }: AppProps) {
       `}</style>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
 
         {/* google adsense */}
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4907197973761221" crossOrigin="anonymous"></script>
@@ -68,6 +68,7 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('config', 'G-7P1N0JZ42G');
         `}
       </Script>
+
       <Component {...pageProps} />
     </>
   )

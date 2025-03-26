@@ -4,8 +4,8 @@ description: "Discover all Gen 6 Pokémon, including legendary and strongest Pok
 date: 2022-06-30
 ---
 
-import { PokemonList } from '@/components/generator-tool';
-import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+import { PokemonList } from '@components/generator-tool';
+import { genStaticHtmlOfPokes } from '@code/generator-tool/random';
 
 export const getStaticProps = async () => {
     const options = {

@@ -4,8 +4,8 @@ description: "Explore the comprehensive list of all Gen 4 Pokémon, including le
 date: 2022-06-30
 ---
 
-import { PokemonList } from '@/components/generator-tool';
-import { genStaticHtmlOfPokes } from '@/code/generator-tool/random';
+import { PokemonList } from '@components/generator-tool';
+import { genStaticHtmlOfPokes } from '@code/generator-tool/random';
 
 export const getStaticProps = async () => {
     const options = {

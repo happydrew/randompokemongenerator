@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
-import { generateRandomType } from "@/code/generator-tool/utils";
+import { generateRandomType } from "@code/generator-tool/utils";
 import { GeneratorButton } from "./GeneratorButton";
 
 

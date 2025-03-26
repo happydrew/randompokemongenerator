@@ -1,4 +1,4 @@
-import { Code1, Code2, Code3, Code4 } from "@/components/code-blocks"
+import { Code1, Code2, Code3, Code4 } from "@components/code-blocks"
 import { InfiniteMovingCards } from "./infinite-moving-cards"
 
 export function BringYourOwnCode() {

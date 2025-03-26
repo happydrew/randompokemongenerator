@@ -3,7 +3,7 @@ export type { TipLabelProps };
 
 import React, { useRef, RefObject } from 'react';
 import '../../styles/generator-tool.css';
-import { processClickTipEvent } from '@/code/generator-tool/random';
+import { processClickTipEvent } from '@code/generator-tool/random';
 
 interface TipLabelProps {
     // 主要用于html元素的id属性
