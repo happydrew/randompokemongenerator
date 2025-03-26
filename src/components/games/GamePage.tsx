@@ -29,7 +29,7 @@ const GamePage = ({
                 <div id="game-region" className="w-full flex flex-col lg:flex-row justify-center items-center gap-6 mb-14">
                     <div id="left-side" className="order-2 lg:order-1 lg:h-full lg:flex-col flex flex-row flex-wrap justify-center items-center gap-4">
                         {relate_games && relate_games.slice(0, 5).map(game => (
-                            <GameCard name={game.name} href={game.href} image={game.image} />
+                            <GameCard name={game.name} href={game.href!} image={game.image!} />
                         ))}
                     </div>
                     <div className="order-1 lg:order-2 flex-1 w-full lg:max-w-[60rem]">
@@ -42,7 +42,7 @@ const GamePage = ({
 
                     <div id="left-side" className="order-3 lg:h-full lg:flex-col flex flex-wrap justify-center items-center gap-4">
                         {relate_games && relate_games.length > 5 && relate_games.slice(5, 10).map(game => (
-                            <GameCard name={game.name} href={game.href} image={game.image} />
+                            <GameCard name={game.name} href={game.href!} image={game.image!} />
                         ))}
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const GamePage = ({
                         <h2 className="font-cartoon text-yellow-500 font-bold text-2xl">Recommended Games</h2>
                         <div className="w-full flex flex-wrap justify-center items-center gap-4 px-0">
                             {relate_games && relate_games.length > 10 && relate_games.slice(10).map(game => (
-                                <GameCard name={game.name} href={game.href} image={game.image} />
+                                <GameCard name={game.name} href={game.href!} image={game.image!} />
                             ))}
                         </div>
 
