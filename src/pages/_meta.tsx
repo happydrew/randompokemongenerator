@@ -259,6 +259,11 @@ export default {
     title: "Curve Rush",
     href: "https://curve-rush.cc",
   },
+  "ghibli-style-image": {
+    type: "page",
+    title: "Ghibli Style Image",
+    href: "https://ghiblistyleimagegenerator.cc",
+  },
 
   // spec: {
   //   display: "hidden",
