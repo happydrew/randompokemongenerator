@@ -259,10 +259,10 @@ export default {
     title: "Curve Rush",
     href: "https://curve-rush.cc",
   },
-  "ghibli-style-image": {
+  "crazycattle3d": {
     type: "page",
-    title: "Ghibli Style Image",
-    href: "https://ghiblistyleimagegenerator.cc",
+    title: "Crazy Cattle 3D",
+    href: "https://crazycattle3d.fun",
   },
 
   // spec: {
