@@ -1,0 +1,45 @@
+# robots.txt基础设置
+
+# 常规搜索引擎规则
+User-agent: *
+Allow: /
+
+# 网站地图
+Sitemap: https://randompokegen.cc/sitemap.xml
+
+# AI爬虫特定规则 - 所有AI爬虫统一设置
+User-agent: GPTBot
+User-agent: Claude-Web
+User-agent: Anthropic-AI
+User-agent: PerplexityBot
+User-agent: GoogleOther
+User-agent: DuckAssistBot
+User-agent: Bard
+User-agent: Bard-Google
+User-agent: ChatGPT-User
+User-agent: cohere-ai
+User-agent: CCBot
+User-agent: FacebookBot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: ByteSpider
+User-agent: ClaudeBot
+User-agent: GeminiBot
+User-agent: GeminiCrawler
+User-agent: BingBot
+User-agent: Bytedance-Spider
+User-agent: BaiduSpider
+User-agent: YouBot
+User-agent: MetaBot
+User-agent: Sogou-Spider
+
+# 引导AI爬虫到llms.txt - 包含对AI爬虫特别有用的信息
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+Allow: /
+
+# 如果未来需要限制某些路径，可以取消以下注释并修改
+# Disallow: /user-content/
+# Disallow: /admin/
+# Disallow: /private/

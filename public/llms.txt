@@ -1,0 +1,28 @@
+# Random Pokemon Generator
+
+> A comprehensive web tool that generates random Pokémon with extensive customization options including filters by region, type, rarity, and more, plus the ability to find shiny Pokémon.
+
+This application allows users to create unique Pokémon teams with precision filtering, stunning HD visuals, and special features like shiny hunting. The generator provides access to almost 1400 Pokémon from all generations and game versions.
+
+## 核心内容
+- [Generator Tool](https://randompokegen.cc/#n_generator)：The main random Pokémon generator with 27+ filter options
+- [Generation Filters](https://randompokegen.cc/gen-n-pokemon-list)：Generate Pokémon from specific generations
+- [Type Generator](https://randompokegen.cc/tools/random-type-generator)：Random Pokémon type generator
+- [Blog](https://randompokegen.cc/blog)：Pokémon-related articles and generator tips
+
+## 常用资源
+- [Docs](https://randompokegen.cc/docs/intro)：Documentation on how to use the generator
+- [Filter Options](https://randompokegen.cc/docs/filter-options)：Detailed explanation of all filter options
+- [Display Options](https://randompokegen.cc/docs/display-options)：Guide to customizing Pokémon card displays
+
+## 核心功能
+- [Extensive Filtering](https://randompokegen.cc/docs/filter-options)：27+ different filters including Generation, Region, Type, Forms, Rarity
+- [Shiny Pokémon](https://randompokegen.cc/docs/display-options#shiny-probability)：Generate shiny Pokémon with adjustable probability
+- [HD Pokémon Cards](https://randompokegen.cc/docs/display-options)：Beautiful card displays with detailed information
+- [History Management](https://randompokegen.cc/docs/history-view)：Save up to 64 previous generations
+- [Mobile Optimized](https://randompokegen.cc)：Fully responsive design for all devices
+
+## 相关项目
+- [Crazy Cattle 3D](https://crazycattle3d.fun)：3D cow-themed game
+- [Baseball Bros IO](https://baseballbrosio.fun)：Baseball multiplayer game
+- [YouTube to MP3 Converter](https://ezymp3.cc)：Convert YouTube videos to MP3
