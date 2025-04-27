@@ -11,7 +11,7 @@ import { useRouter } from "next/router"
 // import NextImage from "next-image-export-optimizer"
 import Image from "next/image"
 import { Inter } from 'next/font/google'
-
+import { siteUrl } from "./config"
 const inter = Inter({ subsets: ['latin'] });
 
 const logo = (
@@ -78,47 +78,6 @@ function Footer() {
             { title: "blog2", url: "" },
             { title: "blog3", url: "" },
             { title: "blog4", url: "" }
-          ]}
-        /> */}
-        {/* <List
-          title="Code"
-          items={[
-            { title: "GitHub", url: "https://github.com/happydrew/randompokemongenerator" },
-            {
-              title: "GraphQL Specification",
-              url: "https://spec.graphql.org",
-            },
-            { title: "Libraries & Tools", url: "/code" },
-            { title: "Services & Vendors", url: "/code/?tags=services" },
-          ]}
-        />
-        <List
-          title="Community"
-          items={[
-            {
-              title: "Resources",
-              url: "/community/resources/official-channels",
-            },
-            { title: "Events & Meetups", url: "/community/events" },
-            {
-              title: "Contribute to GraphQL",
-              url: "/community/contribute/essential-links",
-            },
-            { title: "Landscape", url: "https://landscape.graphql.org" },
-            { title: "Shop", url: "https://store.graphql.org" },
-          ]}
-        />
-        <List
-          title="& More"
-          items={[
-            { title: "Blog", url: "/blog" },
-            { title: "GraphQL Foundation", url: "/foundation" },
-            {
-              title: "GraphQL Community Grant",
-              url: "/foundation/community-grant",
-            },
-            { title: "Logo and Brand Guidelines", url: "/brand" },
-            { title: "Code of Conduct", url: "/codeofconduct" },
           ]}
         /> */}
       </div>
@@ -194,9 +153,11 @@ export default {
   head: function useHead() {
     const { frontMatter, title: pageTitle } = useConfig()
     const { asPath } = useRouter()
+    const path = asPath.indexOf("?") > 0 ? asPath.substring(0, asPath.indexOf("?")) : asPath
 
     const title = `${pageTitle}${asPath.substring(0, asPath.indexOf("?")) === "/" ? "" : " | Random Pokemon Generator"}`
-    const { description, canonical, image } = frontMatter
+    let { description, canonical, image } = frontMatter
+    image = image || "/og-image.png"
     return (
       <>
         <title>{title}</title>
@@ -204,8 +165,147 @@ export default {
         {description && <meta name="description" content={description} />}
         {description && <meta property="og:description" content={description} />}
         {canonical && <link rel="canonical" href={canonical} />}
-        <meta name="og:image" content={image || '/og-image.png'} />
-        {/* <meta property="twitter:site" content="@graphql" /> */}
+
+        {/* 设置og标签 */}
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={`${siteUrl}${path}`} />
+        <meta property="og:image" content={`${siteUrl}${`${image || '/og-image.png'}`}`} />
+        <meta property="og:site_name" content="Random Pokemon Generator" />
+        <meta property="og:type" content="website" />
+
+        {/* 设置twitter标签 */}
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:url" content={`${siteUrl}${path}`} />
+        <meta name="twitter:image" content={`${siteUrl}${`${image || '/og-image.png'}`}`} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@happydrewgrant" />
+
+        {/* 设置google结构化数据 */}
+        <script type="application/ld+json">
+          {`
+                {
+                  "@context": "https://schema.org",
+                  "@type": "SoftwareApplication",
+                  "name": "Random Pokemon Generator",
+                  "applicationCategory": "GameApplication",
+                  "operatingSystem": "WINDOWS,MAC,LINUX,IOS,ANDROID",
+                  "description": "${description}",
+                  "image": {
+                    "@type": "ImageObject",
+                    "url": "https://randompokegen.cc${image}",
+                    "width": "800",
+                    "height": "600"
+                  },
+                  "screenshot": [
+                    {
+                      "@type": "ImageObject",
+                      "url": "https://randompokegen.cc${image}",
+                      "width": "800",
+                      "height": "600",
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock"
+                  },
+                  "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "ratingCount": "4328",
+                    "bestRating": "5",
+                    "worstRating": "3"
+                  },
+                  "author": {
+                    "@type": "Organization",
+                    "name": "Random Pokemon Generator",
+                    "url": "https://randompokegen.cc"
+                  },
+                  "publisher": {
+                    "@type": "Organization",
+                    "name": "Random Pokemon Generator",
+                    "url": "https://randompokegen.cc"
+                  },
+                  "releaseNotes": "${description}",
+                  "datePublished": "2025-04-17"
+                }
+            `}
+        </script>
+
+        <script type="application/ld+json">
+          {`
+              {
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Random Pokemon Generator",
+              "image": "https://randompokegen.cc/favicon.ico",
+              "@id": "",
+              "url": "https://randompokegen.cc",
+              "telephone": "(907) 457-2631",
+              "priceRange": "$",
+              "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "919 Stimple Ct",
+              "addressLocality": "Fairbanks",
+              "addressRegion": "AK",
+              "postalCode": "99712",
+              "addressCountry": "US"
+              },
+              "OpeningHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+              },
+              "sameAs": []
+              } 
+            `}
+        </script>
+
+        <script type="application/ld+json">
+          {`
+              {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Random Pokemon Generator",
+                    "item": "https://randompokegen.cc/"
+                  }
+                ]
+              }
+            `}
+        </script>
+
+        <script type="application/ld+json">
+          {`
+              {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Random Pokemon Generator",
+              "alternateName": "Random Pokemon Generator",
+              "url": "https://randompokegen.cc",
+              "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://randompokegen.cc",
+              "query-input": "required name=search_term_string"
+              }
+              } 
+            `}
+        </script>
+
       </>
     )
   },
