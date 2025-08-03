@@ -1,5 +1,3 @@
-import { Item } from "@radix-ui/react-radio-group";
-import { title } from "process";
 
 export default {
   index: {
@@ -249,21 +247,34 @@ export default {
       }
     }
   },
-  "baseball-bros-io": {
+  compareheights: {
     type: "page",
-    title: "Baseball Bros Game",
-    href: "https://baseballbrosio.fun",
+    title: "Compare Heights",
+    href: "https://compareheights.org/",
   },
-  "curve-rush": {
-    type: "page",
-    title: "Curve Rush",
-    href: "https://curve-rush.cc",
+  "Fun Sites": {
+    type: "menu",
+    title: "Fun Sites",
+    items: {
+      compareheights: {
+        title: "Compare Heights",
+        href: "https://compareheights.org/",
+      },
+      "baseball-bros-io": {
+        title: "Baseball Bros Game",
+        href: "https://baseballbrosio.fun",
+      },
+      "curve-rush": {
+        title: "Curve Rush",
+        href: "https://curve-rush.cc",
+      },
+      "crazycattle3d": {
+        title: "Crazy Cattle 3D",
+        href: "https://crazycattle3d.fun",
+      },
+    }
   },
-  "crazycattle3d": {
-    type: "page",
-    title: "Crazy Cattle 3D",
-    href: "https://crazycattle3d.fun",
-  },
+
 
   // spec: {
   //   display: "hidden",

@@ -97,14 +97,14 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
     }, []);
     return (
         <div className="generator-tool">
-            {/* <a className='w-full px-4 py-4 text-xl mb-4 flex justify-center gap-2 items-center'
-                href="https://ghiblistyleimagegenerator.cc/"
+            <a className='w-full px-4 py-4 text-xl mb-4 flex justify-center gap-2 items-center bg-emerald-100'
+                href="https://compareheights.org/"
                 target='_blank'>
-                <img src="https://ghiblistyleimagegenerator.cc/og-image.png"
-                    alt="Free Ghibli Style Image Generator" className="w-64 h-32 inline-block mr-2 shadow-xl" />
-                <span className='leading-10 text-center items-center'>Convert your images to Studio Ghibli style for free in seconds!<br />
-                    Get your Ghibli Style Image Now!</span>
-            </a> */}
+                <img src="https://compareheights.org/og-image.png"
+                    alt="Best Height Comparison Tool" className="w-64 h-32 inline-block mr-2 shadow-xl" />
+                <span className='leading-10 text-center items-center text-amber-600'>Curious how you measure up to celebrities, animals, or historical giants?<br />
+                    CompareHeights lets you visualize it all in one click 📏✨</span>
+            </a>
             <header>
                 <h1 className="pokemon-title">{props.title || "Random Pokémon Generator"}</h1>
             </header>

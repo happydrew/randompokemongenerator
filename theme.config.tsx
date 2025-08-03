@@ -61,6 +61,27 @@ function Footer() {
           {logo}
         </NextLink>
         <List
+          title="Fun Sites"
+          items={[
+            {
+              title: "Compare Heights",
+              url: "https://compareheights.org/"
+            },
+            {
+              title: "Baseball Bros Game",
+              url: "https://baseballbrosio.fun",
+            },
+            {
+              title: "Curve Rush",
+              url: "https://curve-rush.cc",
+            },
+            {
+              title: "Crazy Cattle 3D",
+              url: "https://crazycattle3d.fun",
+            }
+          ]}
+        />
+        <List
           title="Document"
           url="/docs"
           items={[
