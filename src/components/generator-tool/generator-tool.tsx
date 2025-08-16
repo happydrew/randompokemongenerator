@@ -97,7 +97,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
     }, []);
     return (
         <div className="generator-tool">
-            <a className='w-full px-4 py-4 text-xl mb-4 flex justify-center gap-2 items-center bg-emerald-100'
+            <a className='w-full px-4 py-4 text-xl mb-4 flex flex-col md:flex-row justify-center gap-2 items-center bg-emerald-100'
                 href="https://compareheights.org/"
                 target='_blank'>
                 <img src="https://compareheights.org/og-image.png"

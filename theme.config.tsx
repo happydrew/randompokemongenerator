@@ -91,6 +91,13 @@ function Footer() {
             { title: "FAQs", url: "/docs/faqs" }
           ]}
         />
+
+        <List
+          title="Partner Links"
+          items={[
+            { title: "Directory Website Promote", url: "https://www.promotebusinessdirectory.com/" }
+          ]}
+        />
         {/* <List
           title="Blog"
           url="/blog"
