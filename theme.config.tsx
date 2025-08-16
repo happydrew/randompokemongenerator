@@ -96,7 +96,8 @@ function Footer() {
           title="Partner Links"
           items={[
             { title: "Directory Website Promote", url: "https://www.promotebusinessdirectory.com/" },
-            { title: "Hosting", url: "https://www.ewebdiscussion.com/forums/web-hosting-offers.67/" }
+            { title: "Hosting", url: "https://www.ewebdiscussion.com/forums/web-hosting-offers.67/" },
+            { title: "Dentists Marketing", url: "https://www.siteswebdirectory.com/Health_Medical/Dentistry/" }
           ]}
         />
         {/* <List
