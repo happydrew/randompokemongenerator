@@ -95,7 +95,8 @@ function Footer() {
         <List
           title="Partner Links"
           items={[
-            { title: "Directory Website Promote", url: "https://www.promotebusinessdirectory.com/" }
+            { title: "Directory Website Promote", url: "https://www.promotebusinessdirectory.com/" },
+            { title: "Hosting", url: "https://www.ewebdiscussion.com/forums/web-hosting-offers.67/" }
           ]}
         />
         {/* <List
