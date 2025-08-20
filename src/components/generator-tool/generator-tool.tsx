@@ -20,6 +20,7 @@ import {
 } from './display-options';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 const handleToggleShinyClick = () => {
     toggleShinyDisplay();
@@ -100,9 +101,9 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
             <a className='w-full px-4 py-4 text-xl mb-4 flex flex-col md:flex-row justify-center gap-2 items-center bg-emerald-100'
                 href="https://compareheights.org/"
                 target='_blank'>
-                <img src="https://compareheights.org/og-image.png"
-                    alt="Best Height Comparison Tool" className="w-64 h-32 inline-block mr-2 shadow-xl" />
-                <span className='leading-10 text-center items-center text-amber-600'>Curious how you measure up to celebrities, animals, or historical giants?<br />
+                <Image src="https://compareheights.org/og-image.png"
+                    alt="Best Height Comparison Tool" width={256} height={128} className="inline-block mr-2 shadow-xl" />
+                <span className='leading-6 md:leading-10 text-base md:text-lg text-center items-center text-amber-600'>Curious how you measure up to celebrities, animals, or historical giants?<br />
                     CompareHeights lets you visualize it all in one click 📏✨</span>
             </a>
             <header>
