@@ -233,7 +233,8 @@ export default {
                       "@type": "ImageObject",
                       "url": "https://randompokegen.cc${image}",
                       "width": "800",
-                      "height": "600",
+                      "height": "600"
+                    }
                   ],
                   "offers": {
                     "@type": "Offer",
