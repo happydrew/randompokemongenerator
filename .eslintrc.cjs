@@ -25,11 +25,11 @@ module.exports = {
           "error",
           {
             paths: [
-              {
-                name: "next/image",
-                message: "Please use `next-image-export-optimizer` instead",
-                allowTypeImports: true,
-              },
+              // {
+              //   name: "next/image",
+              //   message: "Please use `next-image-export-optimizer` instead",
+              //   allowTypeImports: true,
+              // },
             ],
           },
         ],
