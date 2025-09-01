@@ -342,20 +342,20 @@ export default {
       </>
     )
   },
-  // banner: {
-  //   content: (
-  //     <>
-  //       <NextLink
-  //         href="https://compareheights.org"
-  //         className="underline after:content-['_→'] after:font-sans"
-  //         target="_blank"
-  //       >
-  //         Fill Forms with Just One Click – AutoFormAI! 🚀
-  //       </NextLink>
-  //     </>
-  //   ),
-  //   key: "autoformai",
-  // },
+  banner: {
+    content: (
+      <>
+        <NextLink
+          href="https://compareheights.org"
+          className="underline after:content-['_→'] after:font-sans"
+          target="_blank"
+        >
+          Curious how you measure up to celebrities?
+        </NextLink>
+      </>
+    ),
+    key: "autoformai",
+  },
   logo: logo,
   docsRepositoryBase:
     "https://github.com/happydrew/randompokemongenerator/tree/main",

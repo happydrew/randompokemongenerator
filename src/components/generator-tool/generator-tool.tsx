@@ -98,7 +98,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
     }, []);
     return (
         <div className="generator-tool">
-            <a className='w-full px-4 py-4 text-xl mb-4 flex flex-col md:flex-row justify-center gap-2 items-center bg-emerald-100'
+            {/* <a className='w-full px-4 py-4 text-xl mb-4 flex flex-col md:flex-row justify-center gap-2 items-center bg-emerald-100'
                 href="https://compareheights.org/"
                 target='_blank'>
                 <Image src="/images/compareheights_org_og-image.webp"
@@ -110,7 +110,7 @@ const GeneratorTool: React.FC<GeneratorToolProps> = (props) => {
                 />
                 <span className='leading-6 md:leading-10 text-base md:text-lg text-center items-center text-amber-600'>Curious how you measure up to celebrities, animals, or historical giants?<br />
                     CompareHeights lets you visualize it all in one click 📏✨</span>
-            </a>
+            </a> */}
             <header>
                 <h1 className="pokemon-title">{props.title || "Random Pokémon Generator"}</h1>
             </header>
