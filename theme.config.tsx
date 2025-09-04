@@ -44,7 +44,7 @@ function List({
       <h3 className="text-lg font-bold">{url ? <NextLink href={url} className={classes.link}>{title}</NextLink> : title}</h3>
       {items.map(item => (
         <li key={item.title}>
-          <NextLink href={item.url} className={`flex justify-start items-center gap-1 ${classes.link}`} target='_blank'>
+          <NextLink href={item.url} className={`flex justify-start items-center gap-1 ${classes.link}`} target='_blank' title={item.title}>
             {item.Icon && <item.Icon />}
             {item.title}
           </NextLink>
@@ -99,7 +99,8 @@ function Footer() {
             { title: "Directory Website Promote", url: "https://www.promotebusinessdirectory.com/" },
             { title: "Hosting", url: "https://www.ewebdiscussion.com/forums/web-hosting-offers.67/" },
             { title: "Dentists Marketing", url: "https://www.siteswebdirectory.com/Health_Medical/Dentistry/" },
-            { title: "", url: "https://dang.ai/", Icon: () => <img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Dang.ai" className='w-[150px] h-[54px]' width={150} height={54} /> }
+            { title: "", url: "https://dang.ai/", Icon: () => <img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Dang.ai" className='w-[150px] h-[54px]' width={150} height={54} /> },
+            { title: "AiToolGo", url: "https://www.aitoolgo.com" }
           ]}
         />
         {/* <List
