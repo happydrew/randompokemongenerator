@@ -5,6 +5,7 @@ export default {
     theme: {
       layout: "raw"
     }
+    // layout: "raw"
   }
   // "backyard-baseball": {
   //   type: "page",

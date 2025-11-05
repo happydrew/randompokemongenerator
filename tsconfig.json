@@ -40,7 +40,7 @@
     "src/pages/index.mdx",
     "src/pages/tools/random-pokemon-type-generator.mdx",
     "src/pages/blog/most-expensive-pokemon​.mdx"
-  ],
+, "src/pages/games/brother-hai-restaurant.mdx"  ],
   "exclude": [
     "node_modules"
   ]
