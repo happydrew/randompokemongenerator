@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:marisa0704.itch.io)",
+      "WebFetch(domain:brotherhaisphorestaurant.org)",
+      "WebFetch(domain:minesters.com)",
+      "Bash(dir:*)",
+      "Bash(nul)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
