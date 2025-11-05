@@ -247,10 +247,10 @@ export default {
       }
     }
   },
-  compareheights: {
+  brotherhairestaurant: {
     type: "page",
-    title: "Compare Heights",
-    href: "https://compareheights.org/",
+    title: "Brother Hai Restaurant",
+    href: "/games/brother-hai-restaurant",
   },
   "Fun Sites": {
     type: "menu",
