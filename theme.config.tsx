@@ -135,7 +135,7 @@ function Footer() {
             {[
               { url: "https://github.com/happydrew/randompokemongenerator", icon: GitHubIcon },
               { url: "", icon: DiscordIcon },
-              { url: "https://x.com/happydrewgrant", icon: TwitterIcon },
+              { url: "https://x.com/fumblydrew", icon: TwitterIcon },
               {
                 url: "",
                 icon: StackOverflowIcon,
@@ -347,11 +347,11 @@ export default {
     content: (
       <>
         <NextLink
-          href="https://compareheights.org"
+          href="https://nanoedit.art/"
           className="underline after:content-['_→'] after:font-sans"
           target="_blank"
         >
-          Curious how you measure up to celebrities?
+          Try the best ai image generator & photo editor: NanoEdit
         </NextLink>
       </>
     ),

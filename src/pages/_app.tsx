@@ -6,6 +6,7 @@ import "@globals.css"
 import "@codemirror.less"
 import Head from "next/head";
 import Script from "next/script";
+import NanoEditPopup from '@components/nanoedit-popup/NanoEditPopup'
 
 const robotoFlex = Roboto_Flex({
   subsets: ["latin"],
@@ -69,6 +70,7 @@ export default function App({ Component, pageProps }: AppProps) {
         `}
       </Script>
 
+      <NanoEditPopup />
       <Component {...pageProps} />
     </>
   )

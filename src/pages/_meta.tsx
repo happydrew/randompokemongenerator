@@ -256,6 +256,10 @@ export default {
     type: "menu",
     title: "Fun Sites",
     items: {
+      nanoedit: {
+        title: "Nano Banana Pro",
+        href: "https://nanoedit.art/",
+      },
       compareheights: {
         title: "Compare Heights",
         href: "https://compareheights.org/",
