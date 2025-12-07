@@ -26,12 +26,10 @@ const STORAGE_KEY_PERMANENT = 'nanoedit_ad_permanent_hide';
 const STORAGE_KEY_COUNT = 'nanoedit_ad_visit_count';
 
 export const NanoEditPopup: React.FC<NanoEditPopupProps> = ({
-    delay = 5000,
-    exitIntent = true
+    delay = 5000
 }) => {
     const [isVisible, setIsVisible] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
-    const [shouldRender, setShouldRender] = useState(false);
 
     useEffect(() => {
         // 1. Check Permanent Dismiss Flag
@@ -57,7 +55,6 @@ export const NanoEditPopup: React.FC<NanoEditPopupProps> = ({
         localStorage.setItem(STORAGE_KEY_COUNT, nextCount.toString());
 
         if (showThisTime) {
-            setShouldRender(true);
             // Start Timer if allowed
             if (delay > 0) {
                 const timer = setTimeout(() => {
@@ -67,20 +64,6 @@ export const NanoEditPopup: React.FC<NanoEditPopupProps> = ({
             }
         }
     }, [delay]);
-
-    // Exit Intent Listener
-    useEffect(() => {
-        if (!shouldRender || !exitIntent || isVisible) return;
-
-        const handleMouseLeave = (e: MouseEvent) => {
-            if (e.clientY <= 0) {
-                setIsVisible(true);
-            }
-        };
-
-        document.addEventListener('mouseleave', handleMouseLeave);
-        return () => document.removeEventListener('mouseleave', handleMouseLeave);
-    }, [shouldRender, exitIntent, isVisible]);
 
     const handleClose = () => {
         setIsClosing(true);
