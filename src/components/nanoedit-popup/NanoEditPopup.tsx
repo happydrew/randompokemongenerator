@@ -43,7 +43,7 @@ export const NanoEditPopup: React.FC<NanoEditPopupProps> = ({
 
         // 2. Check & Update Frequency Counter
         const rawCount = localStorage.getItem(STORAGE_KEY_COUNT);
-        let count = rawCount ? parseInt(rawCount, 10) : 0;
+        const count = rawCount ? parseInt(rawCount, 10) : 0;
         console.log('Visit Count:', count);
 
         // Logic: Show if count is 0. 
