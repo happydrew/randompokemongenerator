@@ -247,22 +247,26 @@ export default {
       }
     }
   },
-  brotherhairestaurant: {
-    type: "page",
-    title: "Brother Hai Restaurant",
-    href: "/games/brother-hai-restaurant",
+  nanoedit: {
+    type: 'page',
+    title: '🔥Nano Banana Pro',
+    href: 'https://nanoedit.art'
   },
-  "Fun Sites": {
+  funsites: {
     type: "menu",
     title: "Fun Sites",
     items: {
       nanoedit: {
-        title: "Nano Banana Pro",
+        title: "🔥Nano Banana Pro",
         href: "https://nanoedit.art/",
       },
       compareheights: {
         title: "Compare Heights",
         href: "https://compareheights.org/",
+      },
+      brotherhairestaurant: {
+        title: "Brother Hai Restaurant",
+        href: "/games/brother-hai-restaurant",
       },
       "baseball-bros-io": {
         title: "Baseball Bros Game",
