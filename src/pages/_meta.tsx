@@ -250,7 +250,7 @@ export default {
   theforgecalculator: {
     type: "page",
     title: "🔥The Forge Calculator",
-    href: "https://forgecalculator.info/",
+    href: "https://theforgecalculator.info/",
   },
   funsites: {
     type: "menu",
@@ -266,7 +266,7 @@ export default {
       },
       theforgecalculator: {
         title: "🔥The Forge Calculator",
-        href: "https://forgecalculator.info/",
+        href: "https://theforgecalculator.info/",
       },
       brotherhairestaurant: {
         title: "Brother Hai Restaurant",
