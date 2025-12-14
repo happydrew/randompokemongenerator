@@ -247,10 +247,10 @@ export default {
       }
     }
   },
-  nanoedit: {
-    type: 'page',
-    title: '🔥Nano Banana Pro',
-    href: 'https://nanoedit.art'
+  theforgecalculator: {
+    type: "page",
+    title: "🔥The Forge Calculator",
+    href: "https://forgecalculator.info/",
   },
   funsites: {
     type: "menu",
@@ -263,6 +263,10 @@ export default {
       compareheights: {
         title: "Compare Heights",
         href: "https://compareheights.org/",
+      },
+      theforgecalculator: {
+        title: "🔥The Forge Calculator",
+        href: "https://forgecalculator.info/",
       },
       brotherhairestaurant: {
         title: "Brother Hai Restaurant",
