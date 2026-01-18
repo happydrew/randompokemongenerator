@@ -4,6 +4,8 @@ import { Roboto_Flex } from "next/font/google"
 import GoogleAnalytics from "@app/ga"
 import "../globals.css"
 
+export const runtime = 'edge';
+
 const font = Roboto_Flex({
   subsets: ["latin"],
 })
