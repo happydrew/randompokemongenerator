@@ -5,8 +5,7 @@ import React from 'react';
 import { Dropdown, DropdownProps } from './dropdown';
 import { TipLabel, TipLabelProps } from './tiplabel';
 import { NumRange, NumRangeProps } from './numrange';
-
-import '../../styles/generator-tool.css';
+// import '../../styles/generator-tool.css'; // Moved to _app.tsx for Next.js compliance
 
 interface TipLabelNumRangeDropdownProps {
     tipLabelProps: TipLabelProps;

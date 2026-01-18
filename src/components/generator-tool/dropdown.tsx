@@ -2,7 +2,7 @@ export { Dropdown };
 export type { DropdownOption, DropdownProps as DropdownProps };
 
 import React, { useRef, useEffect } from 'react';
-import '../../styles/generator-tool.css';
+// import '../../styles/generator-tool.css'; // Moved to _app.tsx for Next.js compliance
 
 interface DropdownOption {
     value: string;

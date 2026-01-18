@@ -1,5 +1,5 @@
 export { PokemonList };
-import '../../styles/generator-tool.css';
+// import '../../styles/generator-tool.css'; // Moved to _app.tsx for Next.js compliance
 
 interface PokemonListProps {
     title: string;

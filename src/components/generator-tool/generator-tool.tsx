@@ -1,5 +1,5 @@
 export { GeneratorTool };
-import '../../styles/generator-tool.css';
+// import '../../styles/generator-tool.css'; // Moved to _app.tsx for Next.js compliance
 import React, { useEffect, useRef } from 'react';
 import {
     generateRandom, expandMoreOptions, collapseMoreOptions, expandMoreShowOptions, collapseMoreShowOptions,

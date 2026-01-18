@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 import { useEffect } from "react"
 import "@globals.css"
 import "@codemirror.less"
+import "@styles/generator-tool.css"
 import Head from "next/head";
 import Script from "next/script";
 import NanoEditPopup from '@components/nanoedit-popup/NanoEditPopup'

@@ -2,7 +2,7 @@ export { TipLabel };
 export type { TipLabelProps };
 
 import React, { useRef, RefObject } from 'react';
-import '../../styles/generator-tool.css';
+// import '../../styles/generator-tool.css'; // Moved to _app.tsx for Next.js compliance
 import { processClickTipEvent } from '@code/generator-tool/random';
 
 interface TipLabelProps {

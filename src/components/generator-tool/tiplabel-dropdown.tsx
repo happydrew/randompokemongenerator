@@ -5,8 +5,7 @@ export type { TipLabelDropdownProps };
 import React from 'react';
 import { Dropdown, DropdownOption } from './dropdown';
 import { TipLabel } from './tiplabel';
-
-import '../../styles/generator-tool.css';
+// import '../../styles/generator-tool.css'; // Moved to _app.tsx for Next.js compliance
 
 interface TipLabelDropdownProps {
     // 主要用于html元素的id属性
