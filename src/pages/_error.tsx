@@ -1,7 +1,5 @@
 import { NextPageContext } from 'next';
 
-export const runtime = 'edge';
-
 function Error({ statusCode }: { statusCode?: number }) {
   return (
     <div className="flex h-dvh items-center justify-center flex-col">
