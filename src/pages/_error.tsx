@@ -1,6 +1,6 @@
 import { NextPageContext } from 'next';
 
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 function Error({ statusCode }: { statusCode?: number }) {
   return (
