@@ -10,7 +10,12 @@
       "WebFetch(domain:trends.google.com)",
       "Bash(pnpm install:*)",
       "Bash(pnpm:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(ls:*)",
+      "Bash(node --version)",
+      "Bash(node convert-to-webp.js:*)",
+      "Bash(node convert-to-webp.cjs:*)",
+      "Bash(echo:*)"
     ],
     "deny": [],
     "ask": []
