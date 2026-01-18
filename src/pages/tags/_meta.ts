@@ -1,8 +1,8 @@
 import { createCatchAllMeta } from "nextra/catch-all"
+// @ts-ignore - MDX file import
 import { getStaticPaths } from "./[slug].mdx"
 
 export default () => {
-  // @ts-expect-error -- fixme
   const { paths } = getStaticPaths() as unknown as {
     paths: { params: { slug: string } }[]
   }
