@@ -7,7 +7,8 @@
       "WebFetch(domain:minesters.com)",
       "Bash(dir:*)",
       "Bash(nul)",
-      "WebFetch(domain:trends.google.com)"
+      "WebFetch(domain:trends.google.com)",
+      "Bash(pnpm install:*)"
     ],
     "deny": [],
     "ask": []
