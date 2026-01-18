@@ -3,6 +3,8 @@
 import { usePathname } from "next/navigation"
 import { useMounted } from "nextra/hooks"
 
+export const runtime = 'edge';
+
 export default function Page() {
   const pathname = usePathname()
   const mounted = useMounted()
