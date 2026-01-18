@@ -6,7 +6,8 @@
       "WebFetch(domain:brotherhaisphorestaurant.org)",
       "WebFetch(domain:minesters.com)",
       "Bash(dir:*)",
-      "Bash(nul)"
+      "Bash(nul)",
+      "WebFetch(domain:trends.google.com)"
     ],
     "deny": [],
     "ask": []
