@@ -312,5 +312,12 @@ export default {
   docs: {
     type: "page",
     title: "Documentation",
+  },
+  404: {
+    type: 'page',
+    theme: {
+      timestamp: false,
+      typesetting: 'article'
+    }
   }
 }
