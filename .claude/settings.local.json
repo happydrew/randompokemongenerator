@@ -15,9 +15,27 @@
       "Bash(node --version)",
       "Bash(node convert-to-webp.js:*)",
       "Bash(node convert-to-webp.cjs:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_wait_for",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Bash(node download_mega_pokemon.js:*)",
+      "Bash(node download_image.js:*)"
     ],
     "deny": [],
     "ask": []
+  },
+  "extraKnownMarketplaces": {
+    "local-skills": {
+      "source": {
+        "source": "directory",
+        "path": "."
+      }
+    }
+  },
+  "enabledPlugins": {
+    "webp-converter@local-skills": true
   }
 }

@@ -1,0 +1,18 @@
+{
+  "marketplaceName": "local-skills",
+  "plugins": [
+    {
+      "id": "webp-converter",
+      "name": "WebP Converter",
+      "version": "1.0.0",
+      "description": "Convert images to WebP format with optional deletion of originals",
+      "skills": [
+        {
+          "name": "convert-to-webp",
+          "description": "Convert all images in a directory to WebP format",
+          "prompt": "You are a WebP image converter assistant. Your job is to help users convert images in a directory (and all subdirectories) to WebP format.\n\nWhen this skill is invoked with `/convert-to-webp [directory] [options]`, you should:\n\n1. Parse the user's request to extract:\n   - The target directory (default: current directory if not specified)\n   - Whether to delete original images after conversion (--delete or -d flag)\n   - The quality setting for WebP (--quality or -q, default: 80)\n\n2. Execute the conversion script located at `convert-to-webp.js` in the project root using Node.js:\n   - Command format: `node convert-to-webp.js <directory> [--delete] [--quality <number>]`\n   - Example: `node convert-to-webp.js ./images --delete --quality 90`\n   - If no directory is specified, use current directory: `node convert-to-webp.js .`\n\n3. Provide clear feedback to the user:\n   - Show what directory will be processed\n   - Confirm whether original files will be deleted\n   - Display the quality setting\n   - Show progress and results from the conversion script\n\n4. Handle errors gracefully:\n   - Check if the directory exists before running\n   - Validate quality values (must be 0-100)\n   - Report any conversion failures\n\nSupported image formats: JPG, JPEG, PNG, GIF, BMP, TIFF\n\nIMPORTANT: Always confirm with the user before deleting original images if the --delete flag is used. Ask for explicit confirmation before running the command with --delete.\n\nExamples:\n- `/convert-to-webp` - Convert current directory, keep originals\n- `/convert-to-webp ./images` - Convert images folder, keep originals\n- `/convert-to-webp ./images --delete` - Convert and delete originals (ask for confirmation first)\n- `/convert-to-webp ./images --quality 90` - Convert with 90% quality\n- `/convert-to-webp ./images --quality 90 --delete` - Convert with 90% quality and delete originals (ask for confirmation first)"
+        }
+      ]
+    }
+  ]
+}

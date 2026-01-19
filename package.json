@@ -12,7 +12,9 @@
     "lint": "eslint --ignore-path .gitignore .",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "test": "echo \"no tests\" && exit 1"
+    "test": "echo \"no tests\" && exit 1",
+    "webp": "node convert-to-webp.js",
+    "webp:delete": "node convert-to-webp.js . --delete"
   },
   "dependencies": {
     "@graphql-tools/schema": "10.0.3",
@@ -32,7 +34,9 @@
     "gray-matter": "^4.0.3",
     "hast-util-to-string": "3.0.0",
     "iframe-resizer-react": "^1.1.0",
+    "jsdom": "^27.4.0",
     "leaflet": "^1.9.4",
+    "lucide-react": "^0.456.0",
     "markdown-to-jsx": "^7.4.0",
     "marked": "5.0.2",
     "next": "^14.1.4",
@@ -51,14 +55,14 @@
     "react-medium-image-zoom": "5.1.8",
     "rss": "1.2.2",
     "server-only": "0.0.1",
+    "sharp": "^0.34.5",
     "string-similarity": "^4.0.4",
     "string-strip-html": "^13.4.5",
     "tailwindcss": "^3.4.1",
     "timeago.js": "4.0.2",
     "unified": "11.0.4",
     "unist-util-visit": "^5.0.0",
-    "use-query-params": "^2.2.1",
-    "lucide-react": "^0.456.0"
+    "use-query-params": "^2.2.1"
   },
   "devDependencies": {
     "@graphql-eslint/eslint-plugin": "4.0.0-alpha.0",
