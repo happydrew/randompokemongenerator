@@ -106,7 +106,7 @@ class DisplayPokemon {
 			}
 			// 以一定的概率生成shiny的pokemon
 			// 概率让用户设置？
-			this.shiny = getTrueByProbability(showParams!.shinyProb ? showParams!.shinyProb / 4096 : 1.0/4096);
+			this.shiny = getTrueByProbability(showParams!.shinyProb ? showParams!.shinyProb / 4096 : 1.0 / 4096);
 			this.generateTime = Date.now();
 		}
 	}
@@ -178,7 +178,7 @@ class DisplayPokemon {
 						</div>`: ""}
 						${(this.showParams.showAblilites) ? `
 							<div class="pokecard-infobar-container pokecard-infobar-container-abilities">
-							  <div class="pokecard-infobar pokecard-abilities light-scrollbar">${this.pokemonDetail ? this.pokemonDetail.abilities.join(", ") : "loading..."}</div>
+							  <div class="pokecard-infobar pokecard-abilities light-scrollbar">${this.pokemonDetail ? (this.pokemonDetail.abilities ? this.pokemonDetail.abilities.join(", ") : "") : "loading..."}</div>
 							</div>` : ""}
 						${(this.showParams.showStats || this.showParams.ivs || this.showParams.evs) ?
 				`<div class="pokecard-stats">
