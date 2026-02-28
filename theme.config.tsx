@@ -347,11 +347,11 @@ export default {
     content: (
       <>
         <NextLink
-          href="https://nanoedit.art/"
+          href="https://trybanana2.com/"
           className="underline after:content-['_→'] after:font-sans"
           target="_blank"
         >
-          Try the best ai image generator & photo editor: NanoEdit
+          Try the best ai image generator & photo editor: TryBanana2
         </NextLink>
       </>
     ),
