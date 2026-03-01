@@ -247,10 +247,10 @@ export default {
       }
     }
   },
-  devilhunter: {
+  trybanana2: {
     type: "page",
-    title: "🔥Devil Hunter Roblox",
-    href: "https://devilhunter.org/",
+    title: "🔥TryBanana2 - AI Image Generator",
+    href: "https://trybanana2.com/",
   },
   funsites: {
     type: "menu",
