@@ -65,6 +65,10 @@ function Footer() {
           title="Fun Sites"
           items={[
             {
+              title: "AI Video Generator",
+              url: "https://veogen.art/"
+            },
+            {
               title: "Compare Heights",
               url: "https://compareheights.org/"
             },

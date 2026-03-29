@@ -13,8 +13,8 @@ interface VeogenPopupProps {
     delay?: number;
 }
 
-const STORAGE_KEY_PERMANENT = 'veogen_ad_permanent_hide';
-const STORAGE_KEY_COUNT = 'veogen_ad_visit_count';
+const STORAGE_KEY_PERMANENT = 'veogen_2026_ad_permanent_hide';
+const STORAGE_KEY_COUNT = 'veogen_2026_ad_visit_count';
 
 export const VeogenPopup: React.FC<VeogenPopupProps> = ({
     delay = 5000
