@@ -7,7 +7,7 @@ import "@codemirror.less"
 import "@styles/generator-tool.css"
 import Head from "next/head";
 import Script from "next/script";
-import NanoEditPopup from '@components/nanoedit-popup/NanoEditPopup'
+import VeogenPopup from '@components/veogen-popup/VeogenPopup'
 
 const robotoFlex = Roboto_Flex({
   subsets: ["latin"],
@@ -71,7 +71,7 @@ export default function App({ Component, pageProps }: AppProps) {
         `}
       </Script>
 
-      <NanoEditPopup />
+      <VeogenPopup />
       <Component {...pageProps} />
     </>
   )

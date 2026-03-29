@@ -247,17 +247,21 @@ export default {
       }
     }
   },
-  trybanana2: {
+  veogen: {
     type: "page",
-    title: "🔥TryBanana2 - AI Image Generator",
-    href: "https://trybanana2.com/",
+    title: "🔥AI Video Generator",
+    href: "https://veogen.art/",
   },
   funsites: {
     type: "menu",
     title: "Fun Sites",
     items: {
+      veogen: {
+        title: "🔥AI Video Generator",
+        href: "https://veogen.art/",
+      },
       nanoedit: {
-        title: "🔥Nano Banana 2",
+        title: "Nano Banana 2",
         href: "https://trybanana2.com/",
       },
       compareheights: {
