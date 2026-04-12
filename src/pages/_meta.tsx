@@ -256,6 +256,10 @@ export default {
     type: "menu",
     title: "Fun Sites",
     items: {
+      happyhorse: {
+        title: "🔥HappyHorse 1.0",
+        href: "https://happyhorsegen.video",
+      },
       veogen: {
         title: "🔥AI Video Generator",
         href: "https://veogen.art/",
