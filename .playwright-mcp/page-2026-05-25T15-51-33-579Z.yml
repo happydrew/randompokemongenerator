@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: "#"
+        - img
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Logo" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "Logo" [ref=e10]
+          - paragraph [ref=e11]: Welcome back
+        - generic [ref=e13]:
+          - button "Google Login with Google" [ref=e14] [cursor=pointer]:
+            - img "Google"
+            - generic [ref=e15]: Login with Google
+          - button "GitHub Login with GitHub" [ref=e16] [cursor=pointer]:
+            - img "GitHub"
+            - generic [ref=e17]: Login with GitHub
+    - img "Image" [ref=e20]
+  - region "Notifications alt+T"
+  - alert [ref=e21]

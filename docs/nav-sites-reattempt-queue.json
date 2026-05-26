@@ -1,0 +1,1307 @@
+[
+  {
+    "index": 1,
+    "siteName": "saashunt.best",
+    "status": "失败：站点异常",
+    "siteUrl": "https://saashunt.best",
+    "submissionUrl": "",
+    "reviewUrl": "https://saashunt.best",
+    "notes": "This operation was aborted"
+  },
+  {
+    "index": 2,
+    "siteName": "devhub.best",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://devhub.best",
+    "submissionUrl": "https://devhub.best/projects/submit",
+    "reviewUrl": "https://devhub.best/sign-in?redirect=/projects/submit",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 3,
+    "siteName": "AlternativeTo",
+    "status": "失败：站点异常",
+    "siteUrl": "https://alternativeto.net/",
+    "submissionUrl": "",
+    "reviewUrl": "https://alternativeto.net/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 4,
+    "siteName": "SaasHub",
+    "status": "失败：站点异常",
+    "siteUrl": "https://www.saashub.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.saashub.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 5,
+    "siteName": "F6S",
+    "status": "失败：无法提交",
+    "siteUrl": "https://www.f6s.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.f6s.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 6,
+    "siteName": "g2.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://g2.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.g2.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 7,
+    "siteName": "crunchbase.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://crunchbase.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.crunchbase.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 8,
+    "siteName": "toolpilot.ai",
+    "status": "跳过：强制互链",
+    "siteUrl": "https://toolpilot.ai",
+    "submissionUrl": "https://www.toolpilot.ai/pages/submit-your-ai-tool",
+    "reviewUrl": "https://www.toolpilot.ai/pages/submit-your-ai-tool",
+    "notes": "Submit flow mentions backlink, badge, or reciprocal link requirement."
+  },
+  {
+    "index": 9,
+    "siteName": "promoteproject.com",
+    "status": "失败：无法登录",
+    "siteUrl": "https://promoteproject.com",
+    "submissionUrl": "https://www.promoteproject.com/#",
+    "reviewUrl": "https://www.promoteproject.com/",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 10,
+    "siteName": "anyfp.com",
+    "status": "已提交，待审核",
+    "siteUrl": "https://anyfp.com",
+    "submissionUrl": "https://anyfp.com/contact/",
+    "reviewUrl": "https://anyfp.com/contact/",
+    "notes": "Manually completed the submit form in browser automation and received success message: 'Thank you for your message. We will get in touch with you shortly'."
+  },
+  {
+    "index": 11,
+    "siteName": "thehackstack.com",
+    "status": "失败：无法登录",
+    "siteUrl": "https://thehackstack.com",
+    "submissionUrl": "https://thehackstack.com/add-product",
+    "reviewUrl": "https://thehackstack.com/login",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 12,
+    "siteName": "tools-ai.online",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://tools-ai.online",
+    "submissionUrl": "https://www.tools-ai.online/submit-tool",
+    "reviewUrl": "https://www.tools-ai.online/submit-tool",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 13,
+    "siteName": "producthubx.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://producthubx.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://producthubx.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 14,
+    "siteName": "devpost.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://devpost.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://devpost.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 15,
+    "siteName": "fazier.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://fazier.com",
+    "submissionUrl": "https://falakdigital.notion.site/Comprehensive-launch-guide-91568ec42751411d8050f1474121e7f8",
+    "reviewUrl": "https://falakdigital.notion.site/Comprehensive-launch-guide-91568ec42751411d8050f1474121e7f8",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 16,
+    "siteName": "viesearch.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://viesearch.com",
+    "submissionUrl": "https://viesearch.com/submit",
+    "reviewUrl": "https://viesearch.com/submit",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 17,
+    "siteName": "ainavtool.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://ainavtool.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://ainavtool.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 18,
+    "siteName": "fastlaunch.io",
+    "status": "失败：站点异常",
+    "siteUrl": "https://fastlaunch.io",
+    "submissionUrl": "",
+    "reviewUrl": "https://fastlaunch.io",
+    "notes": "This operation was aborted"
+  },
+  {
+    "index": 19,
+    "siteName": "curateclick.com",
+    "status": "跳过：强制互链",
+    "siteUrl": "https://curateclick.com",
+    "submissionUrl": "https://submitmysaas.com/",
+    "reviewUrl": "https://submitmysaas.com/",
+    "notes": "Submit flow mentions backlink, badge, or reciprocal link requirement."
+  },
+  {
+    "index": 20,
+    "siteName": "aitoolfor.org",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://aitoolfor.org",
+    "submissionUrl": "https://aitoolfor.org/#other-01-638181",
+    "reviewUrl": "https://aitoolfor.org/",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 21,
+    "siteName": "lionaibox.com",
+    "status": "失败：无法登录",
+    "siteUrl": "https://lionaibox.com",
+    "submissionUrl": "https://www.lionaibox.com/profile/product",
+    "reviewUrl": "https://www.lionaibox.com/login",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 22,
+    "siteName": "aiyoubucuo.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://aiyoubucuo.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://aiyoubucuo.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 23,
+    "siteName": "vuink.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://vuink.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://vuink.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 24,
+    "siteName": "https://lovableapp.org/",
+    "status": "跳过：强制互链",
+    "siteUrl": "https://lovableapp.org/",
+    "submissionUrl": "https://lovableapp.org/pricing",
+    "reviewUrl": "https://lovableapp.org/pricing",
+    "notes": "Submit flow mentions backlink, badge, or reciprocal link requirement."
+  },
+  {
+    "index": 25,
+    "siteName": "launchingnext.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://launchingnext.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://launchingnext.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 26,
+    "siteName": "websitehunt.co",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://websitehunt.co",
+    "submissionUrl": "https://www.websitehunt.co/websites/submit/create",
+    "reviewUrl": "https://www.websitehunt.co/accounts/login/?next=/websites/submit/create",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 27,
+    "siteName": "Uneed",
+    "status": "失败：站点异常",
+    "siteUrl": "https://www.uneed.best/tool/autocommentai",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.uneed.best/tool/autocommentai",
+    "notes": "Homepage HTTP 404"
+  },
+  {
+    "index": 28,
+    "siteName": "AI Tools Neil Patel",
+    "status": "失败：站点异常",
+    "siteUrl": "https://aitools.neilpatel.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://aitools.neilpatel.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 29,
+    "siteName": "Stackshare",
+    "status": "失败：站点异常",
+    "siteUrl": "https://stackshare.io",
+    "submissionUrl": "",
+    "reviewUrl": "https://stackshare.io/",
+    "notes": "Homepage HTTP 429"
+  },
+  {
+    "index": 30,
+    "siteName": "SaaSworthy",
+    "status": "失败：站点异常",
+    "siteUrl": "https://www.saasworthy.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.saasworthy.com/",
+    "notes": "Homepage HTTP 429"
+  },
+  {
+    "index": 31,
+    "siteName": "sideprojectors.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://sideprojectors.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.sideprojectors.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 32,
+    "siteName": "FinancesOnline",
+    "status": "失败：站点异常",
+    "siteUrl": "https://financesonline.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://financesonline.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 33,
+    "siteName": "sitelike.org",
+    "status": "失败：无法提交",
+    "siteUrl": "https://sitelike.org",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.sitelike.org/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 34,
+    "siteName": "startupranking.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://startupranking.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.startupranking.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 35,
+    "siteName": "submissionwebdirectory.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://submissionwebdirectory.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://submissionwebdirectory.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 36,
+    "siteName": "promotebusinessdirectory.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://promotebusinessdirectory.com",
+    "submissionUrl": "https://promotebusinessdirectory.com/submit.php",
+    "reviewUrl": "https://promotebusinessdirectory.com/submit.php",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 37,
+    "siteName": "sitepromotiondirectory.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://sitepromotiondirectory.com",
+    "submissionUrl": "https://www.sitepromotiondirectory.com/%22%22",
+    "reviewUrl": "https://www.sitepromotiondirectory.com/%22%22",
+    "notes": "Submit page HTTP 404"
+  },
+  {
+    "index": 38,
+    "siteName": "somuch.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://somuch.com",
+    "submissionUrl": "https://somuch.com/submit-links/",
+    "reviewUrl": "https://somuch.com/submit-links/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 39,
+    "siteName": "marketinginternetdirectory.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://marketinginternetdirectory.com",
+    "submissionUrl": "https://www.marketinginternetdirectory.com/submit.php",
+    "reviewUrl": "https://www.marketinginternetdirectory.com/submit.php",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 40,
+    "siteName": "siteswebdirectory.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://siteswebdirectory.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://siteswebdirectory.com",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 41,
+    "siteName": "https://fivetaco.com/",
+    "status": "失败：无法提交",
+    "siteUrl": "https://fivetaco.com/",
+    "submissionUrl": "https://fivetaco.com/submit",
+    "reviewUrl": "https://fivetaco.com/submit",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 42,
+    "siteName": "startupbase.io",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://startupbase.io",
+    "submissionUrl": "https://startupbase.io/launches",
+    "reviewUrl": "https://startupbase.io/launches/daily/2026/5/25",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 43,
+    "siteName": "techpluto.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://techpluto.com",
+    "submissionUrl": "https://www.techpluto.com/submit-startup/",
+    "reviewUrl": "https://www.techpluto.com/submit-startup/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 44,
+    "siteName": "futuretools.io",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://futuretools.io",
+    "submissionUrl": "https://futuretools.io/submit-a-tool",
+    "reviewUrl": "https://futuretools.io/submit-a-tool",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 45,
+    "siteName": "startuptracker.io",
+    "status": "失败：无法提交",
+    "siteUrl": "https://startuptracker.io",
+    "submissionUrl": "https://startuptracker.io/discover?filters%5B0%5D%5Bbm%5D%5Bq%5D=PRODUCTIVITY&filters%5B1%5D%5Bcf%5D%5Bo%5D=lte&filters%5B1%5D%5Bcf%5D%5Bq%5D=6M&page=0",
+    "reviewUrl": "https://startuptracker.io/discover?filters%5B0%5D%5Bbm%5D%5Bq%5D=PRODUCTIVITY&filters%5B1%5D%5Bcf%5D%5Bo%5D=lte&filters%5B1%5D%5Bcf%5D%5Bq%5D=6M&page=0",
+    "notes": "This operation was aborted"
+  },
+  {
+    "index": 46,
+    "siteName": "tinystartups.com",
+    "status": "失败：无法登录",
+    "siteUrl": "https://tinystartups.com",
+    "submissionUrl": "https://www.tinystartups.com/submit",
+    "reviewUrl": "https://www.tinystartups.com/submit",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 47,
+    "siteName": "10015.io",
+    "status": "失败：无法提交",
+    "siteUrl": "https://10015.io",
+    "submissionUrl": "",
+    "reviewUrl": "https://10015.io/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 48,
+    "siteName": "insidr.ai",
+    "status": "失败：无法提交",
+    "siteUrl": "https://insidr.ai",
+    "submissionUrl": "https://www.insidr.ai/submit-tools/",
+    "reviewUrl": "https://www.insidr.ai/submit-tools/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 49,
+    "siteName": "news.bensbites.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://news.bensbites.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.bensbites.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 50,
+    "siteName": "startupbuffer.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://startupbuffer.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://startupbuffer.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 51,
+    "siteName": "library.phygital.plus",
+    "status": "失败：无法提交",
+    "siteUrl": "https://library.phygital.plus",
+    "submissionUrl": "",
+    "reviewUrl": "https://library.phygital.plus/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 52,
+    "siteName": "toolsfine.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://toolsfine.com",
+    "submissionUrl": "https://toolsfine.com/submit-ai-tools-or-product",
+    "reviewUrl": "https://toolsfine.com/submit-ai-tools-or-product",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 53,
+    "siteName": "dokeyai.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://dokeyai.com",
+    "submissionUrl": "https://dokeyai.com/en/submit",
+    "reviewUrl": "https://dokeyai.com/submit",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 54,
+    "siteName": "paggu.com",
+    "status": "失败：无法登录",
+    "siteUrl": "https://paggu.com",
+    "submissionUrl": "https://www.paggu.com/#",
+    "reviewUrl": "https://www.paggu.com/",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 55,
+    "siteName": "bubbleapps.io",
+    "status": "失败：无法提交",
+    "siteUrl": "https://bubbleapps.io",
+    "submissionUrl": "",
+    "reviewUrl": "https://bubble.io/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 56,
+    "siteName": "allstartups.info",
+    "status": "失败：站点异常",
+    "siteUrl": "https://allstartups.info",
+    "submissionUrl": "",
+    "reviewUrl": "https://allstartups.info",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 57,
+    "siteName": "saasaitools.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://saasaitools.com",
+    "submissionUrl": "https://saasaitools.com/submit/",
+    "reviewUrl": "https://saasaitools.com/join/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 58,
+    "siteName": "hub.dailyzaps.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://hub.dailyzaps.com",
+    "submissionUrl": "https://hub.dailyzaps.com/submit",
+    "reviewUrl": "https://hub.dailyzaps.com/submit",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 59,
+    "siteName": "tools.robingood.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://tools.robingood.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://tools.robingood.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 60,
+    "siteName": "aitoolguru.com",
+    "status": "失败：无法登录",
+    "siteUrl": "https://aitoolguru.com",
+    "submissionUrl": "https://aitoolguru.com/submit-ai-tool",
+    "reviewUrl": "https://aitoolguru.com/login",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 61,
+    "siteName": "openfuture.ai",
+    "status": "失败：站点异常",
+    "siteUrl": "https://openfuture.ai",
+    "submissionUrl": "",
+    "reviewUrl": "https://openfuture.ai/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 62,
+    "siteName": "marsx.dev",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://marsx.dev",
+    "submissionUrl": "https://listingbott.com/?ref=marsx",
+    "reviewUrl": "https://listingbott.com/?ref=marsx",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 63,
+    "siteName": "saaspo.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://saaspo.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://saaspo.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 64,
+    "siteName": "whattheai.tech",
+    "status": "失败：无法提交",
+    "siteUrl": "https://whattheai.tech",
+    "submissionUrl": "https://whattheai.tech/submit",
+    "reviewUrl": "https://whattheai.tech/submit",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 65,
+    "siteName": "tipseason.com",
+    "status": "跳过：强制互链",
+    "siteUrl": "https://tipseason.com",
+    "submissionUrl": "https://www.tipseason.com/ai-tools/submit",
+    "reviewUrl": "https://www.tipseason.com/ai-tools/submit",
+    "notes": "Submit flow mentions backlink, badge, or reciprocal link requirement."
+  },
+  {
+    "index": 66,
+    "siteName": "nextgentools.me",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://nextgentools.me",
+    "submissionUrl": "https://nextgentools.me/submit-your-tool",
+    "reviewUrl": "https://nextgentools.me/submit-your-tool",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 67,
+    "siteName": "https://bestofai.com/",
+    "status": "失败：无法提交",
+    "siteUrl": "https://bestofai.com/",
+    "submissionUrl": "",
+    "reviewUrl": "https://bestofai.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 68,
+    "siteName": "https://www.lachief.io/",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://www.lachief.io/",
+    "submissionUrl": "https://tally.so/r/w4Jb4b",
+    "reviewUrl": "https://tally.so/r/w4Jb4b",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 69,
+    "siteName": "https://startupcollections.com/",
+    "status": "失败：无法提交",
+    "siteUrl": "https://startupcollections.com/",
+    "submissionUrl": "",
+    "reviewUrl": "https://startupcollections.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 70,
+    "siteName": "advanced-innovation.io",
+    "status": "失败：站点异常",
+    "siteUrl": "https://advanced-innovation.io",
+    "submissionUrl": "",
+    "reviewUrl": "https://advanced-innovation.io",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 71,
+    "siteName": "https://microlaunch.net/",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://microlaunch.net/",
+    "submissionUrl": "https://microlaunch.net/deals",
+    "reviewUrl": "https://microlaunch.net/deals",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 72,
+    "siteName": "sites-plus.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://sites-plus.com",
+    "submissionUrl": "https://www.sites-plus.com/submit",
+    "reviewUrl": "https://www.sites-plus.com/submit",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 73,
+    "siteName": "aitogrow.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://aitogrow.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://aitogrow.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 74,
+    "siteName": "tools.so",
+    "status": "失败：无法提交",
+    "siteUrl": "https://tools.so",
+    "submissionUrl": "",
+    "reviewUrl": "https://tools.so/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 75,
+    "siteName": "apprater.net",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://apprater.net",
+    "submissionUrl": "https://apprater.net/add",
+    "reviewUrl": "https://apprater.net/add",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 76,
+    "siteName": "payoncealternatives.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://payoncealternatives.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://payoncealternatives.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 77,
+    "siteName": "https://riseofmachine.com/",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://riseofmachine.com/",
+    "submissionUrl": "https://github.com/planetabhi/riseofmachine/issues",
+    "reviewUrl": "https://github.com/planetabhi/riseofmachine/issues",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 78,
+    "siteName": "waildworld.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://waildworld.com",
+    "submissionUrl": "https://waildworld.com/tools/dumme",
+    "reviewUrl": "https://waildworld.com/tools/dumme",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 79,
+    "siteName": "theaigeneration.com",
+    "status": "失败：无法登录",
+    "siteUrl": "https://theaigeneration.com",
+    "submissionUrl": "https://www.theaigeneration.com/add/",
+    "reviewUrl": "https://www.theaigeneration.com/add/",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 80,
+    "siteName": "aitoolsdirectory.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://aitoolsdirectory.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://aitoolsdirectory.com",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 81,
+    "siteName": "https://toolscout.ai",
+    "status": "失败：无法提交",
+    "siteUrl": "https://toolscout.ai",
+    "submissionUrl": "",
+    "reviewUrl": "https://toolscout.ai/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 82,
+    "siteName": "toolai.io",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://toolai.io",
+    "submissionUrl": "https://toolai.io/en/#",
+    "reviewUrl": "https://toolai.io/en/",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 83,
+    "siteName": "every-ai.com",
+    "status": "跳过：强制互链",
+    "siteUrl": "https://every-ai.com",
+    "submissionUrl": "https://every-ai.com/submit",
+    "reviewUrl": "https://every-ai.com/submit",
+    "notes": "Submit flow mentions backlink, badge, or reciprocal link requirement."
+  },
+  {
+    "index": 84,
+    "siteName": "humanornot.co",
+    "status": "已提交，待审核",
+    "siteUrl": "https://humanornot.co",
+    "submissionUrl": "https://www.humanornot.co/submit-tool",
+    "reviewUrl": "https://www.humanornot.co/submit-tool",
+    "notes": "Manually submitted email and website in browser automation and received success message: 'Thank you! Your submission has been received!'."
+  },
+  {
+    "index": 85,
+    "siteName": "toolsummary.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://toolsummary.com",
+    "submissionUrl": "https://toolsummary.com/submit-ai-tool/",
+    "reviewUrl": "https://toolsummary.com/submit-ai-tool/",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 86,
+    "siteName": "aitoolsup.com",
+    "status": "跳过：强制互链",
+    "siteUrl": "https://aitoolsup.com",
+    "submissionUrl": "https://aitoolsup.com/submit-tool/",
+    "reviewUrl": "https://aitoolsup.com/submit-tool/",
+    "notes": "Submit flow mentions backlink, badge, or reciprocal link requirement."
+  },
+  {
+    "index": 87,
+    "siteName": "foundr.ai",
+    "status": "失败：无法提交",
+    "siteUrl": "https://foundr.ai",
+    "submissionUrl": "https://foundr.ai/login",
+    "reviewUrl": "https://foundr.ai/login",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 88,
+    "siteName": "bbb.org",
+    "status": "失败：站点异常",
+    "siteUrl": "https://bbb.org",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.bbb.org/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 89,
+    "siteName": "genai.works",
+    "status": "失败：无法提交",
+    "siteUrl": "https://genai.works",
+    "submissionUrl": "https://academy.genai.works/hackathon",
+    "reviewUrl": "https://hackathon-landing.genai.works/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 90,
+    "siteName": "bestofai.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://bestofai.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://bestofai.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 91,
+    "siteName": "saasreviews.tech",
+    "status": "失败：无法提交",
+    "siteUrl": "https://saasreviews.tech",
+    "submissionUrl": "",
+    "reviewUrl": "https://saasreviews.tech/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 92,
+    "siteName": "inc42.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://inc42.com",
+    "submissionUrl": "https://foundations.d2cx.co/?utm_medium=referral&#038;utm_source=inc42&#038;utm_campaign=d2cx-foundation&#038;utm_content=button-feb",
+    "reviewUrl": "https://foundations.d2cx.co/?utm_medium=referral",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 93,
+    "siteName": "rundown.ai",
+    "status": "失败：站点异常",
+    "siteUrl": "https://rundown.ai",
+    "submissionUrl": "",
+    "reviewUrl": "https://rundown.ai",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 94,
+    "siteName": "aiagentsdirectory.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://aiagentsdirectory.com",
+    "submissionUrl": "https://aiagentsdirectory.com/submit-agent",
+    "reviewUrl": "https://aiagentsdirectory.com/submit-agent",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 95,
+    "siteName": "dang.ai",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://dang.ai",
+    "submissionUrl": "https://dang.ai/#",
+    "reviewUrl": "https://dang.ai/",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 96,
+    "siteName": "webrazzi.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://webrazzi.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://webrazzi.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 97,
+    "siteName": "geekwire.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://geekwire.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.geekwire.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 98,
+    "siteName": "soverin.ai",
+    "status": "失败：无法提交",
+    "siteUrl": "https://soverin.ai",
+    "submissionUrl": "",
+    "reviewUrl": "https://soverin.ai/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 99,
+    "siteName": "devhunt.org",
+    "status": "失败：无法提交",
+    "siteUrl": "https://devhunt.org",
+    "submissionUrl": "",
+    "reviewUrl": "https://devhunt.org/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 100,
+    "siteName": "aitools.inc",
+    "status": "失败：无法登录",
+    "siteUrl": "https://aitools.inc",
+    "submissionUrl": "https://aitools.inc/submit",
+    "reviewUrl": "https://aitools.inc/submit",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 101,
+    "siteName": "startupstash.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://startupstash.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://startupstash.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 102,
+    "siteName": "aitoolmall.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://aitoolmall.com",
+    "submissionUrl": "https://aitoolmall.com/submit/",
+    "reviewUrl": "https://aitoolmall.com/submit/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 103,
+    "siteName": "oecd.ai",
+    "status": "失败：站点异常",
+    "siteUrl": "https://oecd.ai",
+    "submissionUrl": "",
+    "reviewUrl": "https://oecd.ai",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 104,
+    "siteName": "allgpts.co",
+    "status": "失败：站点异常",
+    "siteUrl": "https://allgpts.co",
+    "submissionUrl": "",
+    "reviewUrl": "https://allgpts.co",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 105,
+    "siteName": "toolsforhumans.ai",
+    "status": "失败：无法提交",
+    "siteUrl": "https://toolsforhumans.ai",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.toolsforhumans.ai/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 106,
+    "siteName": "future-pedia.com",
+    "status": "失败：无法登录",
+    "siteUrl": "https://future-pedia.com",
+    "submissionUrl": "https://www.future-pedia.com/submit-tool/",
+    "reviewUrl": "https://www.future-pedia.com/submit-tool/",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 107,
+    "siteName": "crowdreviews.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://crowdreviews.com",
+    "submissionUrl": "javascript:void(0)",
+    "reviewUrl": "javascript:void(0)",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 108,
+    "siteName": "aihustle.tools",
+    "status": "失败：无法登录",
+    "siteUrl": "https://aihustle.tools",
+    "submissionUrl": "https://aihustle.tools/submit/",
+    "reviewUrl": "https://aihustle.tools/submit/",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 109,
+    "siteName": "library.phygital.plus",
+    "status": "失败：无法提交",
+    "siteUrl": "https://library.phygital.plus",
+    "submissionUrl": "",
+    "reviewUrl": "https://library.phygital.plus/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 110,
+    "siteName": "indiehackers.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://indiehackers.com",
+    "submissionUrl": "https://www.indiehackers.com/new-post",
+    "reviewUrl": "https://www.indiehackers.com/new-post",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 111,
+    "siteName": "land-book.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://land-book.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://land-book.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 112,
+    "siteName": "aitoolgo.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://aitoolgo.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://aitoolgo.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 113,
+    "siteName": "bestfreeaiwebsites.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://bestfreeaiwebsites.com",
+    "submissionUrl": "https://bestfreeaiwebsites.com/submit-tool/",
+    "reviewUrl": "https://bestfreeaiwebsites.com/submit-tool/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 114,
+    "siteName": "theainavigator.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://theainavigator.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://theainavigator.com",
+    "notes": "This operation was aborted"
+  },
+  {
+    "index": 115,
+    "siteName": "aieducator.tools",
+    "status": "失败：无法提交",
+    "siteUrl": "https://aieducator.tools",
+    "submissionUrl": "",
+    "reviewUrl": "https://aieducator.tools/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 116,
+    "siteName": "productburst.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://productburst.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://productburst.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 117,
+    "siteName": "brouseai.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://brouseai.com",
+    "submissionUrl": "https://www.brouseai.com/submission/ai",
+    "reviewUrl": "https://www.brouseai.com/submission/ai",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 118,
+    "siteName": "listedai.co",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://listedai.co",
+    "submissionUrl": "https://www.listedai.co/submit",
+    "reviewUrl": "https://www.listedai.co/submit",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 119,
+    "siteName": "humanornot.co",
+    "status": "已提交，待审核",
+    "siteUrl": "https://humanornot.co",
+    "submissionUrl": "https://www.humanornot.co/submit-tool",
+    "reviewUrl": "https://www.humanornot.co/submit-tool",
+    "notes": "Duplicate entry of humanornot.co in the source list. Manual submission completed on the same submit page."
+  },
+  {
+    "index": 120,
+    "siteName": "tools.aipowerlab.io",
+    "status": "失败：无法登录",
+    "siteUrl": "https://tools.aipowerlab.io",
+    "submissionUrl": "https://tools.aipowerlab.io/tools/create",
+    "reviewUrl": "https://tools.aipowerlab.io/login",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 121,
+    "siteName": "taalk.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://taalk.com",
+    "submissionUrl": "https://taalk.com/submit-startup/",
+    "reviewUrl": "https://taalk.com/submit-startup/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 122,
+    "siteName": "spacebandits.io",
+    "status": "失败：无法登录",
+    "siteUrl": "https://spacebandits.io",
+    "submissionUrl": "https://www.spacebandits.io/space-startups-by-industry",
+    "reviewUrl": "https://www.spacebandits.io/space-startups-by-industry",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 123,
+    "siteName": "https://webdesignernews.com/",
+    "status": "失败：无法提交",
+    "siteUrl": "https://webdesignernews.com/",
+    "submissionUrl": "https://webdesignernews.com/",
+    "reviewUrl": "https://webdesignernews.com/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 124,
+    "siteName": "aidepot.co",
+    "status": "失败：无法提交",
+    "siteUrl": "https://aidepot.co",
+    "submissionUrl": "https://aidepot.co/submit/start",
+    "reviewUrl": "https://checkout.stripe.com/c/pay/cs_live_a1f5eBWyKfA1axm1hXACosNi3BmVU8gnth9seXcLDbyUL9LDsLn1KjVyEW",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 125,
+    "siteName": "aitoolslist.io",
+    "status": "失败：无法提交",
+    "siteUrl": "https://aitoolslist.io",
+    "submissionUrl": "https://aitoolslist.io/submit-ai-tool/",
+    "reviewUrl": "https://aitoolslist.io/submit-ai-tool/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 126,
+    "siteName": "dirs.cc",
+    "status": "失败：无法登录",
+    "siteUrl": "https://dirs.cc",
+    "submissionUrl": "https://dirs.cc/submit",
+    "reviewUrl": "https://dirs.cc/auth/login?callbackUrl=%2Fsubmit",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 127,
+    "siteName": "goodaitools.com",
+    "status": "跳过：强制互链",
+    "siteUrl": "https://goodaitools.com",
+    "submissionUrl": "https://submitsaas.com/",
+    "reviewUrl": "https://submitsaas.com/",
+    "notes": "Submit flow mentions backlink, badge, or reciprocal link requirement."
+  },
+  {
+    "index": 128,
+    "siteName": "aiexplorer.io",
+    "status": "失败：无法提交",
+    "siteUrl": "https://aiexplorer.io",
+    "submissionUrl": "",
+    "reviewUrl": "https://aiexplorer.io/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 129,
+    "siteName": "noisedh.cn",
+    "status": "失败：无法提交",
+    "siteUrl": "https://noisedh.cn",
+    "submissionUrl": "https://noisedh.cn/redirect.html?url=https://launchpadxm.com/",
+    "reviewUrl": "https://noisedh.cn/redirect.html?url=https://launchpadxm.com/",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 130,
+    "siteName": "justcall.io",
+    "status": "失败：无法提交",
+    "siteUrl": "https://justcall.io",
+    "submissionUrl": "",
+    "reviewUrl": "https://justcall.io/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 131,
+    "siteName": "aigcsoft.site",
+    "status": "失败：站点异常",
+    "siteUrl": "https://aigcsoft.site",
+    "submissionUrl": "",
+    "reviewUrl": "https://aigcsoft.site",
+    "notes": "This operation was aborted"
+  },
+  {
+    "index": 132,
+    "siteName": "bestofai.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://bestofai.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://bestofai.com/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 133,
+    "siteName": "theaireport.ai",
+    "status": "失败：站点异常",
+    "siteUrl": "https://theaireport.ai",
+    "submissionUrl": "",
+    "reviewUrl": "https://theaireport.ai",
+    "notes": "fetch failed"
+  },
+  {
+    "index": 134,
+    "siteName": "listedai.co",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://listedai.co",
+    "submissionUrl": "https://www.listedai.co/submit",
+    "reviewUrl": "https://www.listedai.co/submit",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 135,
+    "siteName": "ai138.com",
+    "status": "失败：无法提交",
+    "siteUrl": "https://ai138.com",
+    "submissionUrl": "https://www.ai138.com/submit",
+    "reviewUrl": "https://www.ai138.com/submit",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 136,
+    "siteName": "best-ai-tools.org",
+    "status": "失败：无法提交",
+    "siteUrl": "https://best-ai-tools.org",
+    "submissionUrl": "https://best-ai.org/submit-tool",
+    "reviewUrl": "https://best-ai.org/submit-tool",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 137,
+    "siteName": "best-ai.org",
+    "status": "失败：无法登录",
+    "siteUrl": "https://best-ai.org",
+    "submissionUrl": "https://best-ai.org/submit-tool",
+    "reviewUrl": "https://best-ai.org/login?redirect=%2Fsubmit-tool%3FtoolUrl%3Dhttps%253A%252F%252Frandompokegen.cc%26start%3D1",
+    "notes": "Manual browser verification confirmed the free submission flow redirects to login before the full form can be completed."
+  },
+  {
+    "index": 138,
+    "siteName": "agentlocker.ai",
+    "status": "失败：无法登录",
+    "siteUrl": "https://agentlocker.ai",
+    "submissionUrl": "https://agentlocker.ai/agent/submit",
+    "reviewUrl": "https://agentlocker.ai/auth/login?next=%2Fagent%2Fsubmit",
+    "notes": "Submit flow requires account login or sign-up before submission."
+  },
+  {
+    "index": 139,
+    "siteName": "ai1111.cn",
+    "status": "失败：无法提交",
+    "siteUrl": "https://ai1111.cn",
+    "submissionUrl": "",
+    "reviewUrl": "https://ai1111.cn/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 140,
+    "siteName": "anyai.tools",
+    "status": "失败：无法提交",
+    "siteUrl": "https://anyai.tools",
+    "submissionUrl": "https://anyai.tools/submit",
+    "reviewUrl": "https://anyai.tools/submit",
+    "notes": "Reached submit page, but generic submission automation could not safely complete."
+  },
+  {
+    "index": 141,
+    "siteName": "demo.direasy.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://demo.direasy.com",
+    "submissionUrl": "https://demo.direasy.com/projects/submit",
+    "reviewUrl": "https://demo.direasy.com/sign-in?redirect=/projects/submit",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 142,
+    "siteName": "sharefast.co",
+    "status": "失败：无法提交",
+    "siteUrl": "https://sharefast.co",
+    "submissionUrl": "",
+    "reviewUrl": "https://sharefast.co/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  },
+  {
+    "index": 143,
+    "siteName": "thejoai.com",
+    "status": "失败：站点异常",
+    "siteUrl": "https://thejoai.com",
+    "submissionUrl": "",
+    "reviewUrl": "https://thejoai.com/",
+    "notes": "Homepage HTTP 403"
+  },
+  {
+    "index": 144,
+    "siteName": "navgood.com",
+    "status": "跳过：必须付费",
+    "siteUrl": "https://navgood.com",
+    "submissionUrl": "https://www.navgood.com/en/business/submit-tool-plan",
+    "reviewUrl": "https://www.navgood.com/en/business/submit-tool-plan",
+    "notes": "Submit flow exposes pricing or paid plan gating."
+  },
+  {
+    "index": 145,
+    "siteName": "sundaebar.ai",
+    "status": "失败：无法提交",
+    "siteUrl": "https://sundaebar.ai",
+    "submissionUrl": "",
+    "reviewUrl": "https://www.sundaebar.ai/",
+    "notes": "No obvious submit/listing entry found on homepage."
+  }
+]

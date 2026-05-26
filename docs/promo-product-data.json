@@ -1,0 +1,46 @@
+{
+  "productName": "Random Pokemon Generator",
+  "website": "https://randompokegen.cc",
+  "email": "zhugetd@gmail.com",
+  "founder": "Drew Grant",
+  "companyName": "RandomPokeGen",
+  "address": [
+    "476 5th Ave",
+    "New York, NY 10018",
+    "USA"
+  ],
+  "foundedYear": "2024",
+  "socialBio": "Random Pokemon Generator lets you generate Pokemon by gen, type, region, rarity, stats, forms, and more. Discover shinies, build ideas, and explore nearly 1400 Pokemon in HD.",
+  "slogan": "Generate truly random Pokemon with powerful filters, shiny odds, and beautiful HD cards.",
+  "shortTagline": "Random Pokemon Generator helps you instantly generate Pokemon with advanced filters, shiny settings, and detailed HD card displays.",
+  "longDescription": "Random Pokemon Generator is a fully customizable Pokemon randomizer that lets users generate Pokemon by generation, region, type, rarity, stats, forms, and many other filters, with shiny odds, HD artwork, and history tracking built in.",
+  "overview": "Random Pokemon Generator is a feature-rich tool for Pokemon fans who want more than a basic randomizer. Instead of giving you a completely blind result, it lets you shape the outcome with up to 27 filters, including generation, region, type, rarity, forms, growth data, and battle stats. Users can generate up to 9 Pokemon at a time, enable shiny odds, customize what appears on each card, and revisit past results through built-in history. With nearly 1400 Pokemon covered across generations and game versions, it works as both a fun discovery tool and a practical assistant for challenge runs, content planning, fan projects, and team ideation.",
+  "keyFeatures": [
+    "Up to 27 filter options covering generation, region, type, rarity, forms, stats, and more.",
+    "Nearly 1400 Pokemon included across generations and multiple game versions.",
+    "Adjustable shiny probability for rare shiny encounters.",
+    "Beautiful HD Pokemon cards with rich details and customizable display options.",
+    "Built-in history that saves up to 64 past generations for quick review.",
+    "Fully responsive experience across desktop, tablet, and mobile."
+  ],
+  "defaultCategories": [
+    "AI",
+    "Entertainment",
+    "Games",
+    "Generator"
+  ],
+  "defaultTags": [
+    "pokemon",
+    "random generator",
+    "gaming",
+    "tool",
+    "generator",
+    "anime"
+  ],
+  "assets": {
+    "logo": "D:\\zhuge\\搞money\\randompokemongenerator\\favicon.png",
+    "logoAlt": "D:\\zhuge\\搞money\\randompokemongenerator\\favicon.webp",
+    "screenshotPrimary": "D:\\zhuge\\搞money\\randompokemongenerator\\61935aa2-b65f-44e8-ba4b-5f0165d906e0.png",
+    "screenshotSecondary": "D:\\zhuge\\搞money\\randompokemongenerator\\9653e5ac-f2fa-42df-bf39-0807b86b0f21.png"
+  }
+}

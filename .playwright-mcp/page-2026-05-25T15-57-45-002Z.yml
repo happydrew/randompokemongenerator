@@ -1,0 +1,39 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - link "logo" [ref=e9] [cursor=pointer]:
+      - /url: https://www.lionaibox.com
+      - img "logo" [ref=e10]
+    - generic [ref=e11]: Copyright © Lionaibox.com 2025. All Rights Reserved.
+  - generic [ref=e14]:
+    - link:
+      - /url: https://www.lionaibox.com
+    - generic [ref=e16]:
+      - generic [ref=e17]: Log in
+      - generic [ref=e18]:
+        - generic [ref=e19]: Enter One User Name
+        - textbox "Enter one user name" [ref=e25]
+        - generic [ref=e26]: Please Input Your Password
+        - generic [ref=e32]:
+          - textbox "Please input a password" [ref=e33]
+          - img "eye-invisible" [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+        - link "Forgot Your Password?" [ref=e39] [cursor=pointer]:
+          - /url: /profile/reset
+          - generic [ref=e40]: Forgot Your Password?
+      - generic [ref=e41]:
+        - generic [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: Sign In
+          - generic [ref=e45]: Sign In
+        - link "Sign Up Sign Up" [ref=e46] [cursor=pointer]:
+          - /url: /profile/register
+          - generic [ref=e48]:
+            - generic [ref=e49]: Sign Up
+            - generic [ref=e50]: Sign Up
+      - generic [ref=e51]: Or Sign In With
+      - generic [ref=e54] [cursor=pointer]:
+        - generic [ref=e55]:
+          - img "Google" [ref=e56]
+          - text: Google
+        - generic [ref=e57]:
+          - img "Google" [ref=e58]
+          - text: Google

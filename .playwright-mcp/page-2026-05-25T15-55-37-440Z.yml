@@ -1,0 +1,475 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "Log In" [level=2] [ref=e8]
+      - heading "With social network:" [level=3] [ref=e9]
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Google" [ref=e13] [cursor=pointer]:
+            - /url: https://www.future-pedia.com/?snax-social-login-with=Google&t=user
+      - heading "Or with username:" [level=3] [ref=e14]
+      - heading "Sign In" [level=4] [ref=e15]
+      - generic [ref=e17]:
+        - paragraph [ref=e18]:
+          - generic [ref=e19]: Username or Email Address
+          - textbox "Username or Email Address Username or Email Address" [ref=e20]:
+            - /placeholder: Username or Email Address
+        - paragraph [ref=e21]:
+          - generic [ref=e22]: Password
+          - textbox "Password" [ref=e23]
+          - link "Forgot password?" [ref=e24] [cursor=pointer]:
+            - /url: https://www.future-pedia.com/?snax_login_popup=forgot_password
+        - paragraph [ref=e25]:
+          - generic [ref=e26]:
+            - checkbox "Remember Me" [ref=e27]
+            - text: Remember Me
+        - paragraph [ref=e28]:
+          - button "Log In" [ref=e29]
+      - paragraph [ref=e30]:
+        - text: Don't have an account?
+        - link "Register" [ref=e31] [cursor=pointer]:
+          - /url: https://www.future-pedia.com/register/
+    - button "×" [ref=e32] [cursor=pointer]
+  - banner [ref=e33]:
+    - generic [ref=e34]:
+      - link "Futurepedia" [ref=e36] [cursor=pointer]:
+        - /url: https://www.future-pedia.com/
+      - generic [ref=e38]:
+        - textbox "Search AI Tools" [ref=e39]
+        - button "Buscar" [ref=e40] [cursor=pointer]:
+          - img [ref=e41]
+      - navigation [ref=e45]:
+        - list [ref=e46]:
+          - listitem [ref=e47] [cursor=pointer]:
+            - link "🤖 New AIs" [ref=e48]:
+              - /url: https://www.future-pedia.com/news-ais/
+          - listitem [ref=e49] [cursor=pointer]:
+            - link "🤖 Category" [ref=e50]:
+              - /url: https://www.future-pedia.com/category/
+          - listitem [ref=e51] [cursor=pointer]:
+            - link "🤖 AI Tools" [ref=e52]:
+              - /url: https://www.future-pedia.com/tool/
+          - listitem [ref=e53] [cursor=pointer]
+          - listitem [ref=e54] [cursor=pointer]:
+            - link "🌎 English" [ref=e55]:
+              - /url: https://future-pedia.com/
+          - listitem [ref=e56] [cursor=pointer]:
+            - link " Login" [ref=e62]:
+              - /url: https://future-pedia.com/?snax-social-login-with=Google&t=user
+              - generic [ref=e63]: 
+              - text: Login
+  - main [ref=e64]:
+    - article [ref=e65]:
+      - heading "Submit Tool" [level=1] [ref=e66]
+      - strong [ref=e68]: Upload your artificial intelligence tool to the directory
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: Title
+            - textbox "Title" [ref=e75]:
+              - /placeholder: Enter title…
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - button "Bold" [ref=e79] [cursor=pointer]:
+                - generic [ref=e80]: 
+              - button "Paragraph Format" [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]: Normal
+              - list [ref=e84]:
+                - listitem [ref=e85]:
+                  - paragraph [ref=e86]:
+                    - generic "Normal" [ref=e87] [cursor=pointer]
+                - listitem [ref=e88]:
+                  - heading "Heading 2" [level=2] [ref=e89]:
+                    - generic "Heading 2" [ref=e90] [cursor=pointer]
+                - listitem [ref=e91]:
+                  - heading "Heading 3" [level=3] [ref=e92]:
+                    - generic "Heading 3" [ref=e93] [cursor=pointer]
+              - button "Ordered List" [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: 
+              - button "Unordered List" [ref=e96] [cursor=pointer]:
+                - generic [ref=e97]: 
+              - button "Quote" [ref=e98] [cursor=pointer]:
+                - generic [ref=e99]: 
+              - list [ref=e101]:
+                - listitem [ref=e102]:
+                  - generic "Increase" [ref=e103] [cursor=pointer]
+                - listitem [ref=e104]:
+                  - generic "Decrease" [ref=e105] [cursor=pointer]
+              - button "Insert Link" [ref=e107] [cursor=pointer]:
+                - generic [ref=e108]: 
+              - button "Insert Image" [ref=e109] [cursor=pointer]:
+                - generic [ref=e110]: 
+              - button "Embed content" [ref=e111] [cursor=pointer]:
+                - generic [ref=e112]: 
+              - button "Undo" [ref=e114]:
+                - generic [ref=e115]: 
+              - button "Redo" [ref=e116]:
+                - generic [ref=e117]: 
+            - generic [ref=e118]:
+              - paragraph [ref=e120]
+              - generic [ref=e121]: Type something
+            - generic [ref=e122]: 0/15000
+          - generic [ref=e123]:
+            - checkbox "TOOL URL" [ref=e124]
+            - generic [ref=e125] [cursor=pointer]: TOOL URL
+            - textbox "https://" [ref=e126]
+        - generic [ref=e127]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e134] [cursor=pointer]:
+                - paragraph [ref=e135]:  Drop thumbnail here
+                - paragraph [ref=e136]: or
+                - paragraph [ref=e137]:
+                  - button "Browse files" [ref=e138]
+              - button "Choose File" [ref=e140]
+            - paragraph [ref=e141]: "Maximum upload file size: 1 GB."
+          - generic [ref=e142]:
+            - generic [ref=e143]: Category
+            - combobox "Category" [ref=e144]:
+              - option "– Select category –" [selected]
+              - option "AI Applications"
+              - option "AI Software"
+              - option "Ai Tools"
+              - option "3D"
+              - option "AI 3D Model Generator"
+              - option "AI Image to 3D Model"
+              - option "AI Text to 3D"
+              - option "Ai Assistant"
+              - option "AI Automate"
+              - option "AI Detector"
+              - option "AI Checker Essay"
+              - option "AI Content Detector"
+              - option "AI Grammar Checker"
+              - option "AI Plagiarism Checker"
+              - option "AI Education"
+              - option "AI Coaching"
+              - option "AI Course"
+              - option "AI Education assistant"
+              - option "AI Homework Helper"
+              - option "AI Knowledge Base"
+              - option "AI Knowledge Graph"
+              - option "AI Knowledge Management"
+              - option "AI Quizzes"
+              - option "AI Tutorial"
+              - option "AI Extensions"
+              - option "AI Free Tools Trial"
+              - option "AI Freemium"
+              - option "AI Fund Generator"
+              - option "AI Image Tools"
+              - option "AI Avatar Generator"
+              - option "AI Background Generator"
+              - option "AI Background Remover"
+              - option "AI Banner Generator"
+              - option "AI Charting"
+              - option "AI Clothing Generator"
+              - option "AI Cosplay Generator"
+              - option "AI Cover Generator"
+              - option "AI Emoji Generator"
+              - option "AI Face Swap Generator"
+              - option "AI GIF Generator"
+              - option "AI Icon Generator"
+              - option "AI Illustration Generator"
+              - option "AI Image analysis"
+              - option "AI Image Editing"
+              - option "AI Image Enhancer"
+              - option "AI Image Generators"
+              - option "AI Image Recognition"
+              - option "AI Image Scanning"
+              - option "AI Image Segmentation"
+              - option "AI Image to image"
+              - option "AI Landscape Generator"
+              - option "AI Logo Generator"
+              - option "AI Manga & Comic"
+              - option "AI Pattern Generator"
+              - option "AI Photo & Image Editor"
+              - option "AI Photo & Image Generator"
+              - option "AI Photo Enhancer"
+              - option "AI Photo Restoration"
+              - option "AI Photography"
+              - option "AI Portrait Generators"
+              - option "AI Poster Generator"
+              - option "AI Profile Picture Generator"
+              - option "AI QR Code"
+              - option "AI Selfie & Portrait"
+              - option "AI Tattoo Generator"
+              - option "AI Text to Image"
+              - option "AI Thumbnail Maker"
+              - option "AI Wallpaper Generator"
+              - option "AI Integration"
+              - option "AI PDF"
+              - option "AI Productivity"
+              - option "AI Contract Management"
+              - option "AI Diagram Generator"
+              - option "AI Document Extraction"
+              - option "AI Documents Assistant"
+              - option "AI Excel Assistant"
+              - option "AI Files Assistant"
+              - option "AI Forms & Surveys"
+              - option "AI Meeting Assistant"
+              - option "AI Mind Mapping"
+              - option "AI Notes Assistant"
+              - option "AI Presentation Maker"
+              - option "AI Presentations"
+              - option "AI Project Management"
+              - option "AI Scheduling"
+              - option "AI SOP"
+              - option "AI Spreadsheets"
+              - option "AI Task Management"
+              - option "AI Team Collaboration"
+              - option "AI Workflow Management"
+              - option "Recording"
+              - option "AI Prompt"
+              - option "AI Prompt Copywriting"
+              - option "AI Prompts Tools"
+              - option "Prompt Generator"
+              - option "AI Retail"
+              - option "AI Voice & Audio"
+              - option "AI Audio"
+              - option "AI Audio Editing"
+              - option "AI Audio Enhancer"
+              - option "AI Celebrity Voice Generator"
+              - option "AI Music"
+              - option "AI Noise Cancellation"
+              - option "AI Rap Generator"
+              - option "AI Singing Generator"
+              - option "AI Speech Recognition"
+              - option "AI Speech Synthesis"
+              - option "AI Speech to Text"
+              - option "AI Text To Speech"
+              - option "AI Voice Assistants"
+              - option "AI Voice Changer"
+              - option "AI Voice Chat Generator"
+              - option "AI Voice Cloning"
+              - option "Audio to text"
+              - option "Text-to-Music"
+              - option "Voice & Audio Editing"
+              - option "art"
+              - option "Business"
+              - option "AI Accounting Assistant"
+              - option "AI Business Ideas Generator"
+              - option "AI Consulting Assistant"
+              - option "AI Customer Support"
+              - option "AI Human Resources"
+              - option "AI Real Estate"
+              - option "AI Research Tool"
+              - option "AI Sales"
+              - option "AI Startup"
+              - option "AI Trading Bot Assistant"
+              - option "Blockchain"
+              - option "Customer service."
+              - option "Domain Name Generator"
+              - option "E-commerce Assistant"
+              - option "Investing Assistant"
+              - option "NFTs"
+              - option "Sales Assistant"
+              - option "Startup Tools"
+              - option "Tax Assistant"
+              - option "Chatbot"
+              - option "AI Character"
+              - option "AI Chatbots"
+              - option "AI Girlfriend"
+              - option "AI Joke"
+              - option "Code & IT"
+              - option "AI API Design"
+              - option "AI App Builder"
+              - option "AI Browsers Builder"
+              - option "AI Code Assistant"
+              - option "AI Code Explanation"
+              - option "AI Code Generator"
+              - option "AI Code Refactoring"
+              - option "AI Data Mining"
+              - option "AI Developer Docs"
+              - option "AI Developer Tools"
+              - option "AI DevOps Assistant"
+              - option "AI Landing Page Builder"
+              - option "AI Log Management"
+              - option "AI Low-code/no-code"
+              - option "AI Maps Generator"
+              - option "AI Monitor & Report Builder"
+              - option "AI Open Source"
+              - option "AI Search Engine"
+              - option "AI SQL"
+              - option "AI Testing & QA"
+              - option "AI Web Scraping"
+              - option "AI Website Builder"
+              - option "App"
+              - option "AutoWrite App"
+              - option "Github"
+              - option "Large Language Models (LLM)"
+              - option "Data Analysis"
+              - option "Design & Art"
+              - option "AI Anime Art"
+              - option "AI Colorize"
+              - option "AI Design Generators"
+              - option "AI Font"
+              - option "AI Graphic Design"
+              - option "AI Interior & Room Design"
+              - option "AI Pixel Art"
+              - option "AI Website Designer"
+              - option "Art Generator"
+              - option "Design Assistant"
+              - option "Free AI tools"
+              - option "Generative AI Tools"
+              - option "Life Assistant"
+              - option "AI Cooking Assistant"
+              - option "AI Dating Assistant"
+              - option "AI Fashion"
+              - option "AI Finance"
+              - option "AI Fitness"
+              - option "AI Fun Tools"
+              - option "AI Game"
+              - option "AI Gift Ideas"
+              - option "AI Interview Assistant"
+              - option "AI Legal Assistant"
+              - option "AI Recipe Assistant"
+              - option "AI Recruiting"
+              - option "AI Religion"
+              - option "AI Roadmap Generator"
+              - option "AI Travel"
+              - option "AI Trip Planner"
+              - option "Cover Letter Generator"
+              - option "Healthcare"
+              - option "Mental Health"
+              - option "Parenting"
+              - option "Personal Assistant"
+              - option "Resume Builder"
+              - option "Sports"
+              - option "Marketing"
+              - option "AI Ad Creative Assistant"
+              - option "AI Ad Generator"
+              - option "AI Advertising Assistant"
+              - option "AI Analytics Assistant"
+              - option "AI CRM Assistant"
+              - option "AI Customer Service Assistant"
+              - option "AI Email Assistant"
+              - option "AI Email Generator"
+              - option "AI Email Marketing"
+              - option "AI Email Writer"
+              - option "AI Facebook Assistant"
+              - option "AI Instagram Assistant"
+              - option "AI Lead Generation"
+              - option "AI Podcast Assistant"
+              - option "AI Reply Assistant"
+              - option "AI Repurpose Assistant"
+              - option "AI Response Generator"
+              - option "AI Reviews Assistant"
+              - option "AI SEO Assistant"
+              - option "AI Social Link Assistant"
+              - option "AI Social Media Assistant"
+              - option "AI Tiktok Assistant"
+              - option "AI Twitter Assistant"
+              - option "AI YouTube Assistant"
+              - option "Digital Marketing Generator"
+              - option "Hashtag Assistant"
+              - option "Marketing Plan Generator"
+              - option "Not suitable for minors"
+              - option "Paid AI Tools"
+              - option "Text & Writing"
+              - option "AI Blog Writer AI Tools"
+              - option "AI Content Generator"
+              - option "AI Copywriting Assistant"
+              - option "AI Creative Writing"
+              - option "AI Description Generator"
+              - option "AI General Writing"
+              - option "AI Lyrics Generator"
+              - option "AI Novel"
+              - option "AI paraphraser"
+              - option "AI Poem & Poetry Generator"
+              - option "AI Product Description Generator"
+              - option "AI Quotes Generator"
+              - option "AI Rewriter"
+              - option "AI Story Teller"
+              - option "AI Summarizer"
+              - option "Ai Text Generator"
+              - option "AI Transcriber"
+              - option "AI Transcription"
+              - option "AI Writing Assistants"
+              - option "AI Writing Generators"
+              - option "Bio Generator"
+              - option "Book Writing"
+              - option "Drafting"
+              - option "Essay Writer"
+              - option "Handwriting"
+              - option "Letter Writer"
+              - option "Papers"
+              - option "Pick-up Lines Generator"
+              - option "Report Writing"
+              - option "Script Writing"
+              - option "Story Writing"
+              - option "Title & Subtitle Generator"
+              - option "Translate"
+              - option "Video"
+              - option "AI Animated Video"
+              - option "AI Anime & Cartoon Generator"
+              - option "AI Lip Sync Generator"
+              - option "AI Music Video Generator"
+              - option "AI Personalized Video Generator"
+              - option "AI Short Clips Generator"
+              - option "AI Thumbnail Maker"
+              - option "AI transcribing video"
+              - option "AI UGC Video Generator"
+              - option "AI Video Enhancer"
+              - option "AI Video Generator"
+              - option "AI Video Recording"
+              - option "AI Video Search"
+              - option "Image to Video"
+              - option "Text to Video"
+              - option "Video Editor"
+              - option "Video to Video"
+              - option "Well-Being & Health"
+              - option "FuturePedia Tools"
+              - option "Image ChatGPT Plugins"
+              - option "Playgroundai"
+              - option "Prompts For SEO"
+              - option "youzify_media"
+          - generic [ref=e145]:
+            - button "Save Draft" [ref=e146] [cursor=pointer]
+            - button "Preview" [disabled] [ref=e147] [cursor=pointer]
+          - generic [ref=e148]:
+            - button "Submit for Review" [ref=e149] [cursor=pointer]
+            - link:
+              - /url: https://www.future-pedia.com/submit-tool/
+  - contentinfo [ref=e150]:
+    - generic [ref=e152]:
+      - paragraph [ref=e155]:
+        - strong [ref=e156]: Discover the largest directory of artificial intelligence tools.
+        - strong [ref=e157]: Futurepedia
+        - text: offers more than 5500 artificial intelligence tools in over 50 categories, including writing, image generation, video editing, and more. Futurepedia helps you find the best artificial intelligence tools to enhance productivity and creativity. Explore our extensive directory of AI tools now.
+      - link " Login" [ref=e165] [cursor=pointer]:
+        - /url: https://future-pedia.com/?snax-social-login-with=Google&t=user
+        - generic [ref=e166]: 
+        - text: Login
+      - generic [ref=e168]:
+        - heading "Select your language" [level=4] [ref=e169]
+        - generic [ref=e170]:
+          - link "🇺🇸 English" [ref=e171] [cursor=pointer]:
+            - /url: https://future-pedia.com/
+            - generic [ref=e172]: 🇺🇸
+            - text: English
+          - link "🇩🇪 Deutsch" [ref=e173] [cursor=pointer]:
+            - /url: https://future-pedia.com/de/
+            - generic [ref=e174]: 🇩🇪
+            - text: Deutsch
+          - link "🇵🇹 Português" [ref=e175] [cursor=pointer]:
+            - /url: https://future-pedia.com/pt/
+            - generic [ref=e176]: 🇵🇹
+            - text: Português
+          - link "🇪🇸 Español" [ref=e177] [cursor=pointer]:
+            - /url: https://future-pedia.com/es/
+            - generic [ref=e178]: 🇪🇸
+            - text: Español
+          - link "🇮🇹 Italiano" [ref=e179] [cursor=pointer]:
+            - /url: https://future-pedia.com/it/
+            - generic [ref=e180]: 🇮🇹
+            - text: Italiano
+          - link "🇫🇷 Français" [ref=e181] [cursor=pointer]:
+            - /url: https://future-pedia.com/fr/
+            - generic [ref=e182]: 🇫🇷
+            - text: Français
+          - link "🇮🇳 हिन्दी" [ref=e183] [cursor=pointer]:
+            - /url: https://future-pedia.com/hi/
+            - generic [ref=e184]: 🇮🇳
+            - text: हिन्दी
+  - text:   
+  - generic: 
+  - generic [ref=e185]: desktop
