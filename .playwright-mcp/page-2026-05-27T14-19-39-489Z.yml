@@ -1,0 +1,405 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Best-AI.org Logo Best-AI.org" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Best-AI.org Logo" [ref=e6]
+        - generic [ref=e7]: Best-AI.org
+      - generic [ref=e9]:
+        - img [ref=e10]
+        - textbox "Search AI tools" [ref=e13]:
+          - /placeholder: Find the perfect AI for your needs...
+        - button "Submit search" [disabled] [ref=e14]:
+          - img [ref=e15]
+      - generic [ref=e18]:
+        - navigation [ref=e19]:
+          - link "Home" [ref=e20] [cursor=pointer]:
+            - /url: /
+            - img [ref=e21]
+          - generic [ref=e26]:
+            - link "Tools" [ref=e27] [cursor=pointer]:
+              - /url: /tools
+              - img [ref=e28]
+              - generic [ref=e30]: Tools
+            - button "Toggle Tools menu" [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+          - generic [ref=e36]:
+            - link "Top 100" [ref=e37] [cursor=pointer]:
+              - /url: /top-100
+              - img [ref=e38]
+              - generic [ref=e40]: Top 100
+            - button "Toggle Top 100 menu" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+          - generic [ref=e46]:
+            - link "AI News" [ref=e47] [cursor=pointer]:
+              - /url: /ai-news
+              - img [ref=e48]
+              - generic [ref=e51]: AI News
+            - button "Toggle AI News menu" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+          - generic [ref=e57]:
+            - link "Learn" [ref=e58] [cursor=pointer]:
+              - /url: /learn
+              - img [ref=e59]
+              - generic [ref=e62]: Learn
+            - button "Toggle Learn menu" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+          - generic [ref=e68]:
+            - link "Compare" [ref=e69] [cursor=pointer]:
+              - /url: /compare
+              - img [ref=e70]
+              - generic [ref=e74]: Compare
+            - button "Toggle Compare menu" [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+          - generic [ref=e80]:
+            - link "Partner" [ref=e81] [cursor=pointer]:
+              - /url: /partner
+              - img [ref=e82]
+              - generic [ref=e87]: Partner
+            - button "Toggle Partner menu" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+          - link "Submit Tool" [ref=e92] [cursor=pointer]:
+            - /url: /submit-tool
+            - img [ref=e93]
+            - generic [ref=e95]: Submit Tool
+        - generic [ref=e96]:
+          - link "Sign Up Free with Email, Google or GitHub" [ref=e98] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e99]:
+              - img [ref=e100]
+              - img [ref=e105]
+              - img [ref=e108]
+            - text: Sign Up Free
+          - button "Switch to dark mode" [ref=e112] [cursor=pointer]:
+            - img [ref=e113]
+  - main [ref=e115]:
+    - generic [ref=e541]:
+      - link "Back to Best-AI.org" [ref=e543] [cursor=pointer]:
+        - /url: /
+        - img [ref=e544]
+        - text: Back to Best-AI.org
+      - main [ref=e546]:
+        - generic [ref=e547]:
+          - generic [ref=e548]:
+            - link "Best-AI.org" [ref=e550] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e551]: Best-AI.org
+            - heading "Sign in" [level=3] [ref=e552]
+            - paragraph [ref=e553]: Sign in to save favorites, compare tools, and get personalized recommendations.
+          - generic [ref=e554]:
+            - button "Continue with Google" [ref=e555] [cursor=pointer]:
+              - img [ref=e556]
+              - text: Continue with Google
+            - generic [ref=e565]: Or continue with
+            - button "Continue with GitHub" [ref=e566] [cursor=pointer]:
+              - img [ref=e568]
+              - text: Continue with GitHub
+            - button "Continue with email" [ref=e570] [cursor=pointer]:
+              - img [ref=e571]
+              - text: Continue with email
+            - contentinfo [ref=e574]:
+              - text: By continuing, you agree to our
+              - link "Terms of Service" [ref=e575] [cursor=pointer]:
+                - /url: /legal#terms-of-service-anchor
+              - text: and
+              - link "Privacy Policy" [ref=e576] [cursor=pointer]:
+                - /url: /legal#privacy-policy-anchor
+              - text: .
+  - contentinfo [ref=e247]:
+    - generic [ref=e248]:
+      - generic [ref=e249]:
+        - generic [ref=e250]: 4,487+ AI Tools
+        - generic [ref=e251]: ·
+        - generic [ref=e252]: 16 Categories
+        - generic [ref=e253]: ·
+        - generic [ref=e254]: Since 2025
+        - generic [ref=e255]: ·
+        - generic [ref=e256]: 🇩🇪 Hannover, Germany · HRB 218756
+      - generic [ref=e257]:
+        - navigation "Discover AI Tools" [ref=e258]:
+          - heading "Discover" [level=3] [ref=e259]
+          - list [ref=e260]:
+            - listitem [ref=e261]:
+              - link "Search Tools — find AI tools with filters" [ref=e262] [cursor=pointer]:
+                - /url: /search
+                - text: Search Tools
+            - listitem [ref=e263]:
+              - link "Compare Tools — side-by-side comparisons" [ref=e264] [cursor=pointer]:
+                - /url: /compare
+                - text: Compare Tools
+            - listitem [ref=e265]:
+              - link "Top 100 — highest-rated AI tools" [ref=e266] [cursor=pointer]:
+                - /url: /top-100
+                - text: Top 100
+            - listitem [ref=e267]:
+              - link "Open Source AI Tools — self-host and audit code" [ref=e268] [cursor=pointer]:
+                - /url: /tools/open-source
+                - text: Open Source AI
+            - listitem [ref=e269]:
+              - link "Prompt Library — browse and use prompts" [ref=e270] [cursor=pointer]:
+                - /url: /prompt-library
+                - text: Prompt Library
+            - listitem [ref=e271]:
+              - link "AI News — latest developments" [ref=e272] [cursor=pointer]:
+                - /url: /ai-news
+                - text: AI News
+            - listitem [ref=e273]:
+              - link "Podcast — daily AI news on Spotify" [ref=e274] [cursor=pointer]:
+                - /url: /ai-news/podcast
+                - text: Podcast
+            - listitem [ref=e275]:
+              - link "Learn — AI guides and tutorials" [ref=e276] [cursor=pointer]:
+                - /url: /learn
+                - text: Learn
+            - listitem [ref=e277]:
+              - link "AI Rogue Lab — interactive AI game" [ref=e278] [cursor=pointer]:
+                - /url: /games/ai-rogue-lab
+                - text: AI Rogue Lab
+        - navigation "Resources" [ref=e279]:
+          - heading "Resources" [level=3] [ref=e280]
+          - list [ref=e281]:
+            - listitem [ref=e282]:
+              - link "About Us — our mission and team" [ref=e283] [cursor=pointer]:
+                - /url: /about-us
+                - text: About Us
+            - listitem [ref=e284]:
+              - link "How We Review — methodology and testing" [ref=e285] [cursor=pointer]:
+                - /url: /methodology
+                - text: How We Review
+            - listitem [ref=e286]:
+              - link "Why Best-AI.org — what makes us different" [ref=e287] [cursor=pointer]:
+                - /url: /why-best-ai-tools
+                - text: Why Best-AI.org
+            - listitem [ref=e288]:
+              - link "Editorial Guidelines and review process" [ref=e289] [cursor=pointer]:
+                - /url: /editorial-guidelines
+                - text: Editorial Guidelines
+            - listitem [ref=e290]:
+              - link "Newsletter - monthly AI tool insights" [ref=e291] [cursor=pointer]:
+                - /url: /newsletter
+                - text: Newsletter
+            - listitem [ref=e292]:
+              - link "Submit Tool to our directory" [ref=e293] [cursor=pointer]:
+                - /url: /submit-tool
+                - text: Submit Tool
+            - listitem [ref=e294]:
+              - link "Partners — sponsorships and placements" [ref=e295] [cursor=pointer]:
+                - /url: /partner
+                - text: Partners
+            - listitem [ref=e296]:
+              - link "Mobile App — download for Android" [ref=e297] [cursor=pointer]:
+                - /url: /app
+                - text: Mobile App
+            - listitem [ref=e298]:
+              - link "Careers — open positions" [ref=e299] [cursor=pointer]:
+                - /url: /careers
+                - text: Careers
+            - listitem [ref=e300]:
+              - link "Press — resources and media kit" [ref=e301] [cursor=pointer]:
+                - /url: /press
+                - text: Press
+        - navigation "AI Tool Categories" [ref=e302]:
+          - heading "Top Categories — browse all" [level=3] [ref=e303]:
+            - link "Top Categories — browse all" [ref=e304] [cursor=pointer]:
+              - /url: /categories
+              - text: Top Categories
+          - list [ref=e305]:
+            - listitem [ref=e306]:
+              - link "Image Generation" [ref=e307] [cursor=pointer]:
+                - /url: /tools/category/image-generation
+                - img [ref=e308]
+                - generic [ref=e312]: Image Generation
+            - listitem [ref=e313]:
+              - link "Writing & Translation" [ref=e314] [cursor=pointer]:
+                - /url: /tools/category/writing-translation
+                - img [ref=e315]
+                - generic [ref=e317]: Writing & Translation
+            - listitem [ref=e318]:
+              - link "Code Assistance" [ref=e319] [cursor=pointer]:
+                - /url: /tools/category/code-assistance
+                - img [ref=e320]
+                - generic [ref=e324]: Code Assistance
+            - listitem [ref=e325]:
+              - link "Video Generation" [ref=e326] [cursor=pointer]:
+                - /url: /tools/category/video-generation
+                - img [ref=e327]
+                - generic [ref=e329]: Video Generation
+            - listitem [ref=e330]:
+              - link "Productivity" [ref=e331] [cursor=pointer]:
+                - /url: /tools/category/productivity-collaboration
+                - img [ref=e332]
+                - generic [ref=e334]: Productivity
+            - listitem [ref=e335]:
+              - link "Conversational AI" [ref=e336] [cursor=pointer]:
+                - /url: /tools/category/conversational-ai
+                - img [ref=e337]
+                - generic [ref=e339]: Conversational AI
+            - listitem [ref=e340]:
+              - link "Design" [ref=e341] [cursor=pointer]:
+                - /url: /tools/category/design
+                - img [ref=e342]
+                - generic [ref=e348]: Design
+            - listitem [ref=e349]:
+              - link "Marketing" [ref=e350] [cursor=pointer]:
+                - /url: /tools/category/marketing-automation
+                - img [ref=e351]
+                - generic [ref=e354]: Marketing
+        - navigation "Popular Tool Comparisons" [ref=e355]:
+          - heading "Popular Comparisons — browse all" [level=3] [ref=e356]:
+            - link "Popular Comparisons — browse all" [ref=e357] [cursor=pointer]:
+              - /url: /compare
+              - text: Comparisons
+          - list [ref=e358]:
+            - listitem [ref=e359]:
+              - link "ChatGPT vs Google Gemini" [ref=e360] [cursor=pointer]:
+                - /url: /compare/conversational-ai/chatgpt-vs-google-gemini
+                - img [ref=e361]
+                - generic [ref=e365]: ChatGPT vs Google Gemini
+            - listitem [ref=e366]:
+              - link "Midjourney vs DALL-E 3" [ref=e367] [cursor=pointer]:
+                - /url: /compare/design/dall-e-3-vs-midjourney
+                - img [ref=e368]
+                - generic [ref=e372]: Midjourney vs DALL-E 3
+            - listitem [ref=e373]:
+              - link "Jasper vs Copy.ai" [ref=e374] [cursor=pointer]:
+                - /url: /compare/marketing-automation/copyai-vs-jasper
+                - img [ref=e375]
+                - generic [ref=e379]: Jasper vs Copy.ai
+            - listitem [ref=e380]:
+              - link "ElevenLabs vs Murf.ai" [ref=e381] [cursor=pointer]:
+                - /url: /compare/audio-generation/elevenlabs-vs-murfai
+                - img [ref=e382]
+                - generic [ref=e386]: ElevenLabs vs Murf.ai
+            - listitem [ref=e387]:
+              - link "GitHub Copilot vs Tabnine" [ref=e388] [cursor=pointer]:
+                - /url: /compare/code-assistance/github-copilot-vs-tabnine
+                - img [ref=e389]
+                - generic [ref=e393]: GitHub Copilot vs Tabnine
+        - navigation "Tools for Professionals" [ref=e394]:
+          - heading "For Professionals — browse by audience" [level=3] [ref=e395]:
+            - link "For Professionals — browse by audience" [ref=e396] [cursor=pointer]:
+              - /url: /tools/for
+              - text: For Professionals
+          - list [ref=e397]:
+            - listitem [ref=e398]:
+              - link "Developers" [ref=e399] [cursor=pointer]:
+                - /url: /tools/for/software-developers
+                - img [ref=e400]
+                - generic [ref=e404]: Developers
+            - listitem [ref=e405]:
+              - link "Creators" [ref=e406] [cursor=pointer]:
+                - /url: /tools/for/content-creators
+                - img [ref=e407]
+                - generic [ref=e412]: Creators
+            - listitem [ref=e413]:
+              - link "Marketers" [ref=e414] [cursor=pointer]:
+                - /url: /tools/for/marketing-professionals
+                - img [ref=e415]
+                - generic [ref=e418]: Marketers
+            - listitem [ref=e419]:
+              - link "Entrepreneurs" [ref=e420] [cursor=pointer]:
+                - /url: /tools/for/entrepreneurs
+                - img [ref=e421]
+                - generic [ref=e424]: Entrepreneurs
+            - listitem [ref=e425]:
+              - link "Students" [ref=e426] [cursor=pointer]:
+                - /url: /tools/for/students
+                - img [ref=e427]
+                - generic [ref=e430]: Students
+        - navigation "Tools by Country" [ref=e431]:
+          - heading "By Country — browse AI tools by region" [level=3] [ref=e432]:
+            - link "By Country — browse AI tools by region" [ref=e433] [cursor=pointer]:
+              - /url: /tools/by-country
+              - text: By Country
+          - list [ref=e434]:
+            - listitem [ref=e435]:
+              - link "🇺🇸 USA" [ref=e436] [cursor=pointer]:
+                - /url: /tools/by-country/usa
+                - generic [ref=e437]: 🇺🇸
+                - generic [ref=e438]: USA
+            - listitem [ref=e439]:
+              - link "🇩🇪 Germany" [ref=e440] [cursor=pointer]:
+                - /url: /tools/by-country/germany
+                - generic [ref=e441]: 🇩🇪
+                - generic [ref=e442]: Germany
+            - listitem [ref=e443]:
+              - link "🇬🇧 United Kingdom" [ref=e444] [cursor=pointer]:
+                - /url: /tools/by-country/united-kingdom
+                - generic [ref=e445]: 🇬🇧
+                - generic [ref=e446]: United Kingdom
+            - listitem [ref=e447]:
+              - link "🇨🇦 Canada" [ref=e448] [cursor=pointer]:
+                - /url: /tools/by-country/canada
+                - generic [ref=e449]: 🇨🇦
+                - generic [ref=e450]: Canada
+            - listitem [ref=e451]:
+              - link "🇮🇳 India" [ref=e452] [cursor=pointer]:
+                - /url: /tools/by-country/india
+                - generic [ref=e453]: 🇮🇳
+                - generic [ref=e454]: India
+      - generic [ref=e455]:
+        - generic [ref=e456]:
+          - link "Best-AI.org Logo Best-AI.org" [ref=e457] [cursor=pointer]:
+            - /url: /
+            - img "Best-AI.org Logo" [ref=e458]
+            - generic [ref=e459]: Best-AI.org
+          - paragraph [ref=e460]:
+            - text: Think of us as your AI's co-pilot. We help you discover, compare, and master the right tools to get your job done – from brilliant marketing copy to code that doesn't hallucinate.
+            - link "Learn more about us →" [ref=e461] [cursor=pointer]:
+              - /url: /about-us
+        - generic [ref=e462]:
+          - navigation "Legal" [ref=e463]:
+            - heading "Legal" [level=3] [ref=e464]
+            - list [ref=e465]:
+              - listitem [ref=e466]:
+                - link "Imprint / Legal Notice" [ref=e467] [cursor=pointer]:
+                  - /url: /legal
+              - listitem [ref=e468]:
+                - link "Privacy Policy" [ref=e469] [cursor=pointer]:
+                  - /url: /legal#privacy-policy-anchor
+              - listitem [ref=e470]:
+                - link "Terms of Service" [ref=e471] [cursor=pointer]:
+                  - /url: /legal#terms-of-service-anchor
+              - listitem [ref=e472]:
+                - link "Disclaimer" [ref=e473] [cursor=pointer]:
+                  - /url: /legal#disclaimer-anchor
+          - paragraph [ref=e474]:
+            - link "Get in touch →" [ref=e475] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e476]:
+          - heading "Connect" [level=3] [ref=e477]
+          - generic [ref=e478]:
+            - link "Connect with Best-AI.org on LinkedIn" [ref=e479] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/best-ai-tools-org
+              - img [ref=e480]
+            - link "Follow BitAutor on X (formerly Twitter)" [ref=e484] [cursor=pointer]:
+              - /url: https://x.com/Best_AI_ORG
+              - img [ref=e485]
+            - link "Subscribe to our YouTube channel" [ref=e488] [cursor=pointer]:
+              - /url: https://www.youtube.com/@best-ai-toolsORG
+              - img [ref=e489]
+            - link "Read BitAutor on Medium" [ref=e492] [cursor=pointer]:
+              - /url: https://medium.com/@bitautor.de
+              - img [ref=e493]
+            - link "Follow Best-AI.org on Facebook" [ref=e495] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/Best-ai-toolsorg/61577063078524
+              - img [ref=e496]
+      - generic [ref=e498]:
+        - paragraph [ref=e499]:
+          - text: Information on this site is provided for general informational purposes only and may not be accurate, complete or up to date. It does not constitute legal, medical or financial advice. Learn more in our
+          - link "disclaimer" [ref=e500] [cursor=pointer]:
+            - /url: /legal#disclaimer-anchor
+          - text: .
+        - paragraph [ref=e501]:
+          - text: © 2026 Best-AI.org by
+          - link "BitAutor" [ref=e502] [cursor=pointer]:
+            - /url: https://bitautor.de/
+          - text: . Curating AI tools since 2025. All rights reserved.
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e503]: Login / Sign Up | Best-AI.org | Best-AI.org
+  - generic [ref=e533]:
+    - generic [ref=e534] [cursor=pointer]:
+      - img [ref=e536]
+      - link "Go to shopping options for Machine Learning & Artificial Intelligence" [ref=e538]: Machine Learning & Artificial Intelligence
+    - button "Close shopping anchor" [ref=e539]

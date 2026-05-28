@@ -1,0 +1,1373 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Press Alt+1 for screen-reader mode, Alt+0 to cancel
+  - button "Use Website In a Screen-Reader Mode" [ref=e3]
+  - link "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window" [ref=e4] [cursor=pointer]:
+    - /url: https://accessibe.com/blog/knowledgebase/screen-reader-guide
+  - generic:
+    - generic:
+      - region "Skip Links":
+        - generic:
+          - link "Skip to Content":
+            - /url: "#acsbContent"
+            - text: Skip to Content
+            - generic:
+              - generic: ↵
+              - text: ENTER
+  - dialog [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e7]
+      - text: Simplify Text
+    - button [ref=e9] [cursor=pointer]:
+      - img [ref=e10]
+  - 'button "Open accessiBe: accessibility options, statement and help" [ref=e13] [cursor=pointer]':
+    - generic:
+      - img [ref=e14]
+      - img
+      - img
+  - link "Skip to content" [ref=e16] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e17]:
+    - complementary [ref=e19]:
+      - generic [ref=e20]:
+        - menubar [ref=e22]:
+          - listitem [ref=e23]:
+            - link "About Us" [ref=e24] [cursor=pointer]:
+              - /url: /pages/about-us
+          - listitem [ref=e25]:
+            - link "FAQ" [ref=e26] [cursor=pointer]:
+              - /url: /pages/faq
+          - listitem [ref=e27]:
+            - link "Contact Us" [ref=e28] [cursor=pointer]:
+              - /url: /pages/contact
+          - listitem [ref=e29]:
+            - link "Submit AI Tool" [ref=e30] [cursor=pointer]:
+              - /url: /pages/submit-your-ai-tool
+        - generic [ref=e31]:
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "Facebook" [ref=e34] [cursor=pointer]:
+                - /url: https://www.facebook.com/toolpilotai
+                - img [ref=e35]
+            - listitem [ref=e37]:
+              - link "Twitter" [ref=e38] [cursor=pointer]:
+                - /url: https://twitter.com/toolpilotai
+                - img [ref=e39]
+            - listitem [ref=e41]:
+              - link "Instagram" [ref=e42] [cursor=pointer]:
+                - /url: https://www.instagram.com/toolpilotai/
+                - img [ref=e43]
+            - listitem [ref=e46]:
+              - link "YouTube" [ref=e47] [cursor=pointer]:
+                - /url: https://www.youtube.com/@ToolPilotAI
+                - img [ref=e48]
+            - listitem [ref=e50]:
+              - link "Pinterest" [ref=e51] [cursor=pointer]:
+                - /url: https://www.pinterest.com/toolpilot/
+                - img [ref=e52]
+            - listitem [ref=e53]:
+              - link "TikTok" [ref=e54] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@toolpilotai
+                - img [ref=e55]
+            - listitem [ref=e57]:
+              - link "Linkedin" [ref=e58] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/toolpilot/
+          - button "English" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: English
+            - img [ref=e67]
+    - generic [ref=e71]:
+      - link "Tool Pilot AI Tool Pilot AI" [ref=e72] [cursor=pointer]:
+        - /url: /
+        - img "Tool Pilot AI" [ref=e73]
+        - img "Tool Pilot AI" [ref=e74]
+      - generic [ref=e75]:
+        - link "Search" [ref=e76] [cursor=pointer]:
+          - /url: /search
+          - img
+        - link "My Account" [ref=e77] [cursor=pointer]:
+          - /url: https://www.toolpilot.ai/customer_authentication/redirect?locale=en&region_country=SG
+          - img
+        - link "0" [ref=e78] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img
+          - generic [ref=e79]: "0"
+      - menubar [ref=e81]:
+        - listitem [ref=e82]:
+          - link "Browse All" [ref=e83] [cursor=pointer]:
+            - /url: /collections/all
+        - listitem [ref=e84]:
+          - link "Featured AI Tools" [ref=e85] [cursor=pointer]:
+            - /url: /collections/featured-ai-tools
+        - listitem [ref=e86]:
+          - link "Categories" [ref=e87] [cursor=pointer]:
+            - /url: /collections
+        - listitem [ref=e88]:
+          - link "Coupon Codes" [ref=e89] [cursor=pointer]:
+            - /url: /pages/coupons-special-offers
+        - listitem [ref=e90]:
+          - link "Top AI Tools" [ref=e91] [cursor=pointer]:
+            - /url: /pages/top-ai-tools
+        - listitem [ref=e92]:
+          - link "Free AI Tools" [ref=e93] [cursor=pointer]:
+            - /url: /collections/free-ai-tools
+        - listitem [ref=e94]:
+          - link "New AI Tools" [ref=e95] [cursor=pointer]:
+            - /url: /collections/new-ai-tools
+        - listitem [ref=e96]:
+          - link "Guides" [ref=e97] [cursor=pointer]:
+            - /url: /pages/guides
+        - listitem [ref=e98]:
+          - link "Blog" [ref=e99] [cursor=pointer]:
+            - /url: /blogs/news
+        - listitem [ref=e100]:
+          - link "My Tools" [ref=e101] [cursor=pointer]:
+            - /url: /apps/wishlist
+        - listitem [ref=e102]:
+          - link "Submit AI Tool" [ref=e103] [cursor=pointer]:
+            - /url: /pages/submit-your-ai-tool
+    - main [ref=e104]:
+      - generic [ref=e110]:
+        - heading "Submit Your AI Tool" [level=1] [ref=e111]
+        - generic [ref=e112]: At toolpilot, we believe in fostering collaboration and driving innovation in the AI community. By submitting your AI tool, you can share its unique features and capabilities, and contribute to the advancement of artificial intelligence. Submit your AI tool today and help us expand our AI Tools directory.
+      - generic [ref=e117]:
+        - heading "Important Update on Free Listings" [level=3] [ref=e118]
+        - paragraph [ref=e120]:
+          - text: A link back to our site is now mandatory for all free listings. Please add one of our
+          - link "badges or logos" [ref=e121] [cursor=pointer]:
+            - /url: https://www.toolpilot.ai/pages/brand-guidelines
+          - text: to your site from the options provided, and then fill in the URL or email us to confirm. This step is essential to qualify for the free listing and will help prioritize your submission. We appreciate your understanding and cooperation. Thank you!
+      - generic [ref=e126]:
+        - paragraph [ref=e128]:
+          - text: Thank you for your interest in submitting your AI tool to our platform. We are excited to learn more about your innovative technology and how it can contribute to the advancement of artificial intelligence and its applications. By sharing your AI tool with us, you have the opportunity to reach a wider audience and showcase the unique features and capabilities of your product.
+          - strong [ref=e129]: Please complete the form below to submit your AI tool for consideration.
+        - heading "Pricing Table" [level=3] [ref=e130]
+      - iframe [ref=e134]:
+        - generic [active] [ref=f1e1]:
+          - main [ref=f1e3]:
+            - generic [ref=f1e5]:
+              - heading "Add Your AI Tool to Toolpilot.ai" [level=1] [ref=f1e6]
+              - generic [ref=f1e7]: Add your AI tool or service to the growing AI tools directory toolpilot.ai.
+            - generic [ref=f1e9]:
+              - paragraph [ref=f1e10]:
+                - strong [ref=f1e11]: "Please note that we offer three listing types:"
+              - paragraph [ref=f1e12]:
+                - text: Free Listing(
+                - strong [ref=f1e13]: Back Link Required
+                - text: ), Priority Listing, and Premium Listing. View the Subscription Comparison Chart before submission.
+              - paragraph [ref=f1e14]:
+                - emphasis [ref=f1e15]: "*You can select your preferred listing type at the end of the form."
+              - paragraph [ref=f1e16]
+            - generic [ref=f1e18]:
+              - heading "Personal Details" [level=2] [ref=f1e19]
+              - generic [ref=f1e20]: Please fill in your personal details and contact information.
+            - generic [ref=f1e21]: Your Name*
+            - group "Your Name" [ref=f1e23]:
+              - generic [ref=f1e24]:
+                - textbox "First Name" [ref=f1e25]
+                - generic [ref=f1e26]: First Name
+              - generic [ref=f1e27]:
+                - textbox "Last Name" [ref=f1e28]
+                - generic [ref=f1e29]: Last Name
+            - generic [ref=f1e30]: Company*
+            - generic [ref=f1e32]:
+              - textbox "Company Company/Organization Name" [ref=f1e33]
+              - generic [ref=f1e34]: Company/Organization Name
+            - generic [ref=f1e35]: Email*
+            - generic [ref=f1e37]:
+              - textbox "Email example@example.com" [ref=f1e38]
+              - generic [ref=f1e39]: example@example.com
+            - generic [ref=f1e40]: Backlink URL (If you choose the Free Listing option , we require a link back to our platform)
+            - generic [ref=f1e42]:
+              - textbox "Backlink URL (If you choose the Free Listing option , we require a link back to our platform) https://www.toolpilot.ai" [ref=f1e43]
+              - generic [ref=f1e44]: https://www.toolpilot.ai
+            - generic [ref=f1e46]:
+              - heading "AI Tool Details" [level=2] [ref=f1e47]
+              - generic [ref=f1e48]: Please fill in your AI tool or service information.
+            - generic [ref=f1e49]: AI Tool Name*
+            - generic [ref=f1e51]:
+              - textbox "AI Tool Name AI tool or service name" [ref=f1e52]
+              - generic [ref=f1e53]: AI tool or service name
+            - generic [ref=f1e54]: URL*
+            - generic [ref=f1e56]:
+              - textbox "URL https://www.example.com" [ref=f1e57]
+              - generic [ref=f1e58]: https://www.example.com
+            - generic [ref=f1e59]: Logo (Square Format, 500x500 / JPG / With Background Color)
+            - iframe [ref=f1e62]:
+              
+            - generic [ref=f1e63]: Tagline*
+            - generic [ref=f1e66]:
+              - 'textbox "Tagline Example: AI Text To Image Generator" [ref=f1e67]'
+              - generic [ref=f1e68]:
+                - generic [ref=f1e69]: "Example: AI Text To Image Generator"
+                - text: 0/2
+            - generic [ref=f1e70]: Tags (use comma to separate tags)
+            - iframe [ref=f1e73]:
+              
+            - generic [ref=f1e74]: Description*
+            - generic [ref=f1e77]:
+              - textbox "Description This short text description will be displayed next to the logo, above the fold." [ref=f1e78]
+              - generic [ref=f1e79]:
+                - generic [ref=f1e80]: This short text description will be displayed next to the logo, above the fold.
+                - text: 0/8
+            - heading "AI Tool Content" [level=2] [ref=f1e83]
+            - generic [ref=f1e85]:
+              - paragraph [ref=f1e86]: "When crafting a comprehensive overview of your AI tool or service for the toolpilot.ai platform, it's essential to cover several key aspects to provide potential users with a thorough understanding of what your tool offers and how it can benefit them. Here's a guideline on how to structure your overview:"
+              - paragraph [ref=f1e87]:
+                - generic [ref=f1e88]:
+                  - strong [ref=f1e89]: "What Is It?:"
+                  - text: Start by clearly defining what your AI tool or service is. Describe its primary purpose, what problems it aims to solve, and its unique selling points.
+              - paragraph [ref=f1e90]:
+                - generic [ref=f1e91]:
+                  - strong [ref=f1e92]: "How It Works:"
+                  - text: Explain the underlying technology and the mechanism of how your tool functions. This could include the AI methodologies used, data processing techniques, user interaction methods, etc.
+              - paragraph [ref=f1e93]:
+                - generic [ref=f1e94]:
+                  - strong [ref=f1e95]: "Use Cases:"
+                  - text: Illustrate various scenarios or situations where your tool can be applied. This helps potential users understand how they can utilize it in their own context.
+              - paragraph [ref=f1e96]:
+                - generic [ref=f1e97]:
+                  - strong [ref=f1e98]: "Products:"
+                  - text: If your offering includes multiple products or services, detail each one. Describe their features, capabilities, and any specific conditions or requirements for their use.
+              - paragraph [ref=f1e99]:
+                - generic [ref=f1e100]:
+                  - strong [ref=f1e101]: "Accessibility and Developer Options:"
+                  - text: Discuss how accessible your tool is to different users, including those with disabilities. Also, mention any special features or tools available for developers, if applicable.
+                - text: "Third-Party Integrations: Explain how your tool integrates with other systems or services. Mention any partnerships or compatibility with popular platforms or tools."
+              - paragraph [ref=f1e102]:
+                - generic [ref=f1e103]:
+                  - strong [ref=f1e104]: "API Options:"
+                  - text: If your tool offers API access, provide details about its capabilities, how developers can integrate it into their own systems, and any relevant documentation or support available.
+              - paragraph [ref=f1e105]:
+                - generic [ref=f1e106]:
+                  - strong [ref=f1e107]: "Browser Extensions:"
+                  - text: If applicable, mention any browser extensions available for your tool, what features these extensions add, and how they enhance the user experience.
+              - paragraph [ref=f1e108]:
+                - generic [ref=f1e109]:
+                  - strong [ref=f1e110]: "Compatibility:"
+                  - text: Detail the compatibility of your tool with various operating systems, devices, or other software. This helps users understand the technical requirements needed to use your tool effectively.
+              - paragraph [ref=f1e111]:
+                - generic [ref=f1e112]:
+                  - strong [ref=f1e113]: "Community:"
+                  - text: Highlight the community aspect, if there is one. This could include forums, user groups, or social media communities where users can discuss, share insights, and get support.
+              - paragraph [ref=f1e114]:
+                - generic [ref=f1e115]:
+                  - strong [ref=f1e116]: "Company:"
+                  - text: Provide a brief background about your company. This includes your mission, values, history, and any notable achievements or recognitions. This helps build trust and credibility with potential users.
+              - paragraph [ref=f1e117]:
+                - emphasis [ref=f1e118]: Remember, the goal of this overview is to inform and engage potential users by presenting a clear, detailed, and attractive picture of what your AI tool or service offers. Make sure to keep the language user-friendly and avoid overly technical jargon unless your target audience is highly technical.
+            - heading "In-Depth Overview" [level=2] [ref=f1e121]
+            - generic [ref=f1e122]: Overview *
+            - generic [ref=f1e125]:
+              - textbox "Overview" [ref=f1e126]:
+                - /placeholder: "[enter text here]"
+              - generic [ref=f1e127]: 0/50
+            - generic [ref=f1e129]:
+              - heading "AI Tool Top Features" [level=2] [ref=f1e130]
+              - generic [ref=f1e131]: Enter up to 5 top features you want to highlight about your AI tool or service.
+            - generic [ref=f1e132]: "#1"
+            - generic [ref=f1e134]:
+              - textbox "#1 Enter up to 300 Characters." [ref=f1e135]
+              - generic [ref=f1e136]: Enter up to 300 Characters.
+            - generic [ref=f1e137]: "#2"
+            - generic [ref=f1e139]:
+              - textbox "#2 Enter up to 300 Characters." [ref=f1e140]
+              - generic [ref=f1e141]: Enter up to 300 Characters.
+            - generic [ref=f1e142]: "#3"
+            - generic [ref=f1e144]:
+              - textbox "#3 Enter up to 300 Characters." [ref=f1e145]
+              - generic [ref=f1e146]: Enter up to 300 Characters.
+            - generic [ref=f1e147]: "#4"
+            - generic [ref=f1e149]:
+              - textbox "#4 Enter up to 300 Characters." [ref=f1e150]
+              - generic [ref=f1e151]: Enter up to 300 Characters.
+            - generic [ref=f1e152]: "#5"
+            - generic [ref=f1e154]:
+              - textbox "#5 Enter up to 300 Characters." [ref=f1e155]
+              - generic [ref=f1e156]: Enter up to 300 Characters.
+            - generic [ref=f1e158]:
+              - heading "AI Tool Techs and Specs" [level=2] [ref=f1e159]
+              - generic [ref=f1e160]: Please fill in your AI tool or service information.
+            - generic [ref=f1e161]: API
+            - radiogroup "API" [ref=f1e163]:
+              - generic [ref=f1e164]:
+                - radio "Available" [ref=f1e165]
+                - generic [ref=f1e166] [cursor=pointer]: Available
+              - generic [ref=f1e167]:
+                - radio "Not Available" [checked] [ref=f1e168]
+                - generic [ref=f1e169] [cursor=pointer]: Not Available
+            - generic [ref=f1e170]: Community
+            - radiogroup "Community" [ref=f1e172]:
+              - generic [ref=f1e173]:
+                - radio "Available" [ref=f1e174]
+                - generic [ref=f1e175] [cursor=pointer]: Available
+              - generic [ref=f1e176]:
+                - radio "Not Available" [checked] [ref=f1e177]
+                - generic [ref=f1e178] [cursor=pointer]: Not Available
+            - generic [ref=f1e179]: Platforms & Device Compatibility*
+            - group "Platforms & Device Compatibility" [ref=f1e181]:
+              - generic [ref=f1e182]:
+                - checkbox "Windows" [ref=f1e183]
+                - generic [ref=f1e184] [cursor=pointer]: Windows
+              - generic [ref=f1e185]:
+                - checkbox "MacOS" [ref=f1e186]
+                - generic [ref=f1e187] [cursor=pointer]: MacOS
+              - generic [ref=f1e188]:
+                - checkbox "Linux" [ref=f1e189]
+                - generic [ref=f1e190] [cursor=pointer]: Linux
+              - generic [ref=f1e191]:
+                - checkbox "Android" [ref=f1e192]
+                - generic [ref=f1e193] [cursor=pointer]: Android
+              - generic [ref=f1e194]:
+                - checkbox "iOS" [ref=f1e195]
+                - generic [ref=f1e196] [cursor=pointer]: iOS
+              - generic [ref=f1e197]:
+                - checkbox "Android App" [ref=f1e198]
+                - generic [ref=f1e199] [cursor=pointer]: Android App
+              - generic [ref=f1e200]:
+                - checkbox "iOS App" [ref=f1e201]
+                - generic [ref=f1e202] [cursor=pointer]: iOS App
+              - generic [ref=f1e203]:
+                - checkbox "Web-Based" [ref=f1e204]
+                - generic [ref=f1e205] [cursor=pointer]: Web-Based
+              - generic [ref=f1e206]:
+                - checkbox "Cross Platforms" [ref=f1e207]
+                - generic [ref=f1e208] [cursor=pointer]: Cross Platforms
+              - generic [ref=f1e209]:
+                - checkbox "Oculus Quest" [ref=f1e210]
+                - generic [ref=f1e211] [cursor=pointer]: Oculus Quest
+            - generic [ref=f1e212]: AI Chatbots & Tools
+            - group "AI Chatbots & Tools" [ref=f1e214]:
+              - generic [ref=f1e215]:
+                - checkbox "Bing AI Chat" [ref=f1e216]
+                - generic [ref=f1e217] [cursor=pointer]: Bing AI Chat
+              - generic [ref=f1e218]:
+                - checkbox "ChatGPT" [ref=f1e219]
+                - generic [ref=f1e220] [cursor=pointer]: ChatGPT
+              - generic [ref=f1e221]:
+                - checkbox "DeepBrian AI Chat" [ref=f1e222]
+                - generic [ref=f1e223] [cursor=pointer]: DeepBrian AI Chat
+              - generic [ref=f1e224]:
+                - checkbox "Frase" [ref=f1e225]
+                - generic [ref=f1e226] [cursor=pointer]: Frase
+              - generic [ref=f1e227]:
+                - checkbox "Google Bard" [ref=f1e228]
+                - generic [ref=f1e229] [cursor=pointer]: Google Bard
+              - generic [ref=f1e230]:
+                - checkbox "Google Dialogflow" [ref=f1e231]
+                - generic [ref=f1e232] [cursor=pointer]: Google Dialogflow
+              - generic [ref=f1e233]:
+                - checkbox "IBM Watson" [ref=f1e234]
+                - generic [ref=f1e235] [cursor=pointer]: IBM Watson
+            - generic [ref=f1e236]: Analytics, Reporting & SEO
+            - group "Analytics, Reporting & SEO" [ref=f1e238]:
+              - generic [ref=f1e239]:
+                - checkbox "Adobe Analytics" [ref=f1e240]
+                - generic [ref=f1e241] [cursor=pointer]: Adobe Analytics
+              - generic [ref=f1e242]:
+                - checkbox "Dragon Metrics" [ref=f1e243]
+                - generic [ref=f1e244] [cursor=pointer]: Dragon Metrics
+              - generic [ref=f1e245]:
+                - checkbox "Google Analytics" [ref=f1e246]
+                - generic [ref=f1e247] [cursor=pointer]: Google Analytics
+              - generic [ref=f1e248]:
+                - checkbox "Google Data Studio" [ref=f1e249]
+                - generic [ref=f1e250] [cursor=pointer]: Google Data Studio
+              - generic [ref=f1e251]:
+                - checkbox "Google PageSpeed Insights" [ref=f1e252]
+                - generic [ref=f1e253] [cursor=pointer]: Google PageSpeed Insights
+              - generic [ref=f1e254]:
+                - checkbox "Google Search Console" [ref=f1e255]
+                - generic [ref=f1e256] [cursor=pointer]: Google Search Console
+              - generic [ref=f1e257]:
+                - checkbox "Google Tag Manager" [ref=f1e258]
+                - generic [ref=f1e259] [cursor=pointer]: Google Tag Manager
+              - generic [ref=f1e260]:
+                - checkbox "Hotjar" [ref=f1e261]
+                - generic [ref=f1e262] [cursor=pointer]: Hotjar
+              - generic [ref=f1e263]:
+                - checkbox "Looker" [ref=f1e264]
+                - generic [ref=f1e265] [cursor=pointer]: Looker
+              - generic [ref=f1e266]:
+                - checkbox "Mixpanel" [ref=f1e267]
+                - generic [ref=f1e268] [cursor=pointer]: Mixpanel
+              - generic [ref=f1e269]:
+                - checkbox "Moz" [ref=f1e270]
+                - generic [ref=f1e271] [cursor=pointer]: Moz
+              - generic [ref=f1e272]:
+                - checkbox "Power BI" [ref=f1e273]
+                - generic [ref=f1e274] [cursor=pointer]: Power BI
+              - generic [ref=f1e275]:
+                - checkbox "SEMrush" [ref=f1e276]
+                - generic [ref=f1e277] [cursor=pointer]: SEMrush
+              - generic [ref=f1e278]:
+                - checkbox "SimilarWeb" [ref=f1e279]
+                - generic [ref=f1e280] [cursor=pointer]: SimilarWeb
+              - generic [ref=f1e281]:
+                - checkbox "Surfer SEO" [ref=f1e282]
+                - generic [ref=f1e283] [cursor=pointer]: Surfer SEO
+              - generic [ref=f1e284]:
+                - checkbox "Tableau" [ref=f1e285]
+                - generic [ref=f1e286] [cursor=pointer]: Tableau
+            - generic [ref=f1e287]: Automation
+            - group "Automation" [ref=f1e289]:
+              - generic [ref=f1e290]:
+                - checkbox "Make" [ref=f1e291]
+                - generic [ref=f1e292] [cursor=pointer]: Make
+              - generic [ref=f1e293]:
+                - checkbox "Power Automate" [ref=f1e294]
+                - generic [ref=f1e295] [cursor=pointer]: Power Automate
+              - generic [ref=f1e296]:
+                - checkbox "Typeform" [ref=f1e297]
+                - generic [ref=f1e298] [cursor=pointer]: Typeform
+              - generic [ref=f1e299]:
+                - checkbox "Zapier" [ref=f1e300]
+                - generic [ref=f1e301] [cursor=pointer]: Zapier
+            - generic [ref=f1e302]: Browser Extensions and Plugins
+            - group "Browser Extensions and Plugins" [ref=f1e304]:
+              - generic [ref=f1e305]:
+                - checkbox "Chrome Extension" [ref=f1e306]
+                - generic [ref=f1e307] [cursor=pointer]: Chrome Extension
+              - generic [ref=f1e308]:
+                - checkbox "WordPress Plugin" [ref=f1e309]
+                - generic [ref=f1e310] [cursor=pointer]: WordPress Plugin
+              - generic [ref=f1e311]:
+                - checkbox "Edge Extension" [ref=f1e312]
+                - generic [ref=f1e313] [cursor=pointer]: Edge Extension
+              - generic [ref=f1e314]:
+                - checkbox "Firefox Extension" [ref=f1e315]
+                - generic [ref=f1e316] [cursor=pointer]: Firefox Extension
+              - generic [ref=f1e317]:
+                - checkbox "Safari Extension" [ref=f1e318]
+                - generic [ref=f1e319] [cursor=pointer]: Safari Extension
+            - generic [ref=f1e320]: Collaboration Tools
+            - group "Collaboration Tools" [ref=f1e322]:
+              - generic [ref=f1e323]:
+                - checkbox "Asana" [ref=f1e324]
+                - generic [ref=f1e325] [cursor=pointer]: Asana
+              - generic [ref=f1e326]:
+                - checkbox "Basecamp" [ref=f1e327]
+                - generic [ref=f1e328] [cursor=pointer]: Basecamp
+              - generic [ref=f1e329]:
+                - checkbox "Bitrix" [ref=f1e330]
+                - generic [ref=f1e331] [cursor=pointer]: Bitrix
+              - generic [ref=f1e332]:
+                - checkbox "Box" [ref=f1e333]
+                - generic [ref=f1e334] [cursor=pointer]: Box
+              - generic [ref=f1e335]:
+                - checkbox "ClickUp" [ref=f1e336]
+                - generic [ref=f1e337] [cursor=pointer]: ClickUp
+              - generic [ref=f1e338]:
+                - checkbox "Confluence" [ref=f1e339]
+                - generic [ref=f1e340] [cursor=pointer]: Confluence
+              - generic [ref=f1e341]:
+                - checkbox "Dropbox" [ref=f1e342]
+                - generic [ref=f1e343] [cursor=pointer]: Dropbox
+              - generic [ref=f1e344]:
+                - checkbox "Figma" [ref=f1e345]
+                - generic [ref=f1e346] [cursor=pointer]: Figma
+              - generic [ref=f1e347]:
+                - checkbox "Google Drive" [ref=f1e348]
+                - generic [ref=f1e349] [cursor=pointer]: Google Drive
+              - generic [ref=f1e350]:
+                - checkbox "Microsoft SharePoint" [ref=f1e351]
+                - generic [ref=f1e352] [cursor=pointer]: Microsoft SharePoint
+              - generic [ref=f1e353]:
+                - checkbox "Monday.com" [ref=f1e354]
+                - generic [ref=f1e355] [cursor=pointer]: Monday.com
+              - generic [ref=f1e356]:
+                - checkbox "Notion" [ref=f1e357]
+                - generic [ref=f1e358] [cursor=pointer]: Notion
+              - generic [ref=f1e359]:
+                - checkbox "Slack" [ref=f1e360]
+                - generic [ref=f1e361] [cursor=pointer]: Slack
+              - generic [ref=f1e362]:
+                - checkbox "Trello" [ref=f1e363]
+                - generic [ref=f1e364] [cursor=pointer]: Trello
+            - generic [ref=f1e365]: Content Management
+            - group "Content Management" [ref=f1e367]:
+              - generic [ref=f1e368]:
+                - checkbox "Contentful" [ref=f1e369]
+                - generic [ref=f1e370] [cursor=pointer]: Contentful
+              - generic [ref=f1e371]:
+                - checkbox "Drupal" [ref=f1e372]
+                - generic [ref=f1e373] [cursor=pointer]: Drupal
+              - generic [ref=f1e374]:
+                - checkbox "Joomla" [ref=f1e375]
+                - generic [ref=f1e376] [cursor=pointer]: Joomla
+              - generic [ref=f1e377]:
+                - checkbox "Sanity" [ref=f1e378]
+                - generic [ref=f1e379] [cursor=pointer]: Sanity
+              - generic [ref=f1e380]:
+                - checkbox "Wix" [ref=f1e381]
+                - generic [ref=f1e382] [cursor=pointer]: Wix
+              - generic [ref=f1e383]:
+                - checkbox "WordPress" [ref=f1e384]
+                - generic [ref=f1e385] [cursor=pointer]: WordPress
+            - generic [ref=f1e386]: CRM and Sales
+            - group "CRM and Sales" [ref=f1e388]:
+              - generic [ref=f1e389]:
+                - checkbox "Apollo.io" [ref=f1e390]
+                - generic [ref=f1e391] [cursor=pointer]: Apollo.io
+              - generic [ref=f1e392]:
+                - checkbox "Chime" [ref=f1e393]
+                - generic [ref=f1e394] [cursor=pointer]: Chime
+              - generic [ref=f1e395]:
+                - checkbox "Close" [ref=f1e396]
+                - generic [ref=f1e397] [cursor=pointer]: Close
+              - generic [ref=f1e398]:
+                - checkbox "Copper" [ref=f1e399]
+                - generic [ref=f1e400] [cursor=pointer]: Copper
+              - generic [ref=f1e401]:
+                - checkbox "Freshdesk" [ref=f1e402]
+                - generic [ref=f1e403] [cursor=pointer]: Freshdesk
+              - generic [ref=f1e404]:
+                - checkbox "Freshsales" [ref=f1e405]
+                - generic [ref=f1e406] [cursor=pointer]: Freshsales
+              - generic [ref=f1e407]:
+                - checkbox "Groove" [ref=f1e408]
+                - generic [ref=f1e409] [cursor=pointer]: Groove
+              - generic [ref=f1e410]:
+                - checkbox "HighLevel" [ref=f1e411]
+                - generic [ref=f1e412] [cursor=pointer]: HighLevel
+              - generic [ref=f1e413]:
+                - checkbox "HubSpot" [ref=f1e414]
+                - generic [ref=f1e415] [cursor=pointer]: HubSpot
+              - generic [ref=f1e416]:
+                - checkbox "Insightly" [ref=f1e417]
+                - generic [ref=f1e418] [cursor=pointer]: Insightly
+              - generic [ref=f1e419]:
+                - checkbox "Instantly" [ref=f1e420]
+                - generic [ref=f1e421] [cursor=pointer]: Instantly
+              - generic [ref=f1e422]:
+                - checkbox "KeyCRM" [ref=f1e423]
+                - generic [ref=f1e424] [cursor=pointer]: KeyCRM
+              - generic [ref=f1e425]:
+                - checkbox "Microsoft Dynamics 365" [ref=f1e426]
+                - generic [ref=f1e427] [cursor=pointer]: Microsoft Dynamics 365
+              - generic [ref=f1e428]:
+                - checkbox "Nimble" [ref=f1e429]
+                - generic [ref=f1e430] [cursor=pointer]: Nimble
+              - generic [ref=f1e431]:
+                - checkbox "Outreach" [ref=f1e432]
+                - generic [ref=f1e433] [cursor=pointer]: Outreach
+              - generic [ref=f1e434]:
+                - checkbox "Pipedrive" [ref=f1e435]
+                - generic [ref=f1e436] [cursor=pointer]: Pipedrive
+              - generic [ref=f1e437]:
+                - checkbox "Reply" [ref=f1e438]
+                - generic [ref=f1e439] [cursor=pointer]: Reply
+              - generic [ref=f1e440]:
+                - checkbox "Salesforce" [ref=f1e441]
+                - generic [ref=f1e442] [cursor=pointer]: Salesforce
+              - generic [ref=f1e443]:
+                - checkbox "Salesloft" [ref=f1e444]
+                - generic [ref=f1e445] [cursor=pointer]: Salesloft
+              - generic [ref=f1e446]:
+                - checkbox "Salsify" [ref=f1e447]
+                - generic [ref=f1e448] [cursor=pointer]: Salsify
+              - generic [ref=f1e449]:
+                - checkbox "SugarCRM" [ref=f1e450]
+                - generic [ref=f1e451] [cursor=pointer]: SugarCRM
+              - generic [ref=f1e452]:
+                - checkbox "Zendesk Support" [ref=f1e453]
+                - generic [ref=f1e454] [cursor=pointer]: Zendesk Support
+              - generic [ref=f1e455]:
+                - checkbox "Zoho CRM" [ref=f1e456]
+                - generic [ref=f1e457] [cursor=pointer]: Zoho CRM
+            - generic [ref=f1e458]: Development and Programming
+            - group "Development and Programming" [ref=f1e460]:
+              - generic [ref=f1e461]:
+                - checkbox "Airtable" [ref=f1e462]
+                - generic [ref=f1e463] [cursor=pointer]: Airtable
+              - generic [ref=f1e464]:
+                - checkbox "Facebook Pixel" [ref=f1e465]
+                - generic [ref=f1e466] [cursor=pointer]: Facebook Pixel
+              - generic [ref=f1e467]:
+                - checkbox "GitHub" [ref=f1e468]
+                - generic [ref=f1e469] [cursor=pointer]: GitHub
+              - generic [ref=f1e470]:
+                - checkbox "Webhooks" [ref=f1e471]
+                - generic [ref=f1e472] [cursor=pointer]: Webhooks
+            - generic [ref=f1e473]: E-commerce Platforms
+            - group "E-commerce Platforms" [ref=f1e475]:
+              - generic [ref=f1e476]:
+                - checkbox "3dcart" [ref=f1e477]
+                - generic [ref=f1e478] [cursor=pointer]: 3dcart
+              - generic [ref=f1e479]:
+                - checkbox "Amazon Seller Central" [ref=f1e480]
+                - generic [ref=f1e481] [cursor=pointer]: Amazon Seller Central
+              - generic [ref=f1e482]:
+                - checkbox "BigCommerce" [ref=f1e483]
+                - generic [ref=f1e484] [cursor=pointer]: BigCommerce
+              - generic [ref=f1e485]:
+                - checkbox "Ecwid" [ref=f1e486]
+                - generic [ref=f1e487] [cursor=pointer]: Ecwid
+              - generic [ref=f1e488]:
+                - checkbox "Etsy" [ref=f1e489]
+                - generic [ref=f1e490] [cursor=pointer]: Etsy
+              - generic [ref=f1e491]:
+                - checkbox "Idealo" [ref=f1e492]
+                - generic [ref=f1e493] [cursor=pointer]: Idealo
+              - generic [ref=f1e494]:
+                - checkbox "Magento" [ref=f1e495]
+                - generic [ref=f1e496] [cursor=pointer]: Magento
+              - generic [ref=f1e497]:
+                - checkbox "PrestaShop" [ref=f1e498]
+                - generic [ref=f1e499] [cursor=pointer]: PrestaShop
+              - generic [ref=f1e500]:
+                - checkbox "Salesforce Commerce Cloud" [ref=f1e501]
+                - generic [ref=f1e502] [cursor=pointer]: Salesforce Commerce Cloud
+              - generic [ref=f1e503]:
+                - checkbox "Shopify" [ref=f1e504]
+                - generic [ref=f1e505] [cursor=pointer]: Shopify
+              - generic [ref=f1e506]:
+                - checkbox "Squarespace Commerce" [ref=f1e507]
+                - generic [ref=f1e508] [cursor=pointer]: Squarespace Commerce
+              - generic [ref=f1e509]:
+                - checkbox "Volusion" [ref=f1e510]
+                - generic [ref=f1e511] [cursor=pointer]: Volusion
+              - generic [ref=f1e512]:
+                - checkbox "WooCommerce" [ref=f1e513]
+                - generic [ref=f1e514] [cursor=pointer]: WooCommerce
+            - generic [ref=f1e515]: Email Marketing and Automation
+            - group "Email Marketing and Automation" [ref=f1e517]:
+              - generic [ref=f1e518]:
+                - checkbox "ActiveCampaign" [ref=f1e519]
+                - generic [ref=f1e520] [cursor=pointer]: ActiveCampaign
+              - generic [ref=f1e521]:
+                - checkbox "Amazon SES" [ref=f1e522]
+                - generic [ref=f1e523] [cursor=pointer]: Amazon SES
+              - generic [ref=f1e524]:
+                - checkbox "AWeber" [ref=f1e525]
+                - generic [ref=f1e526] [cursor=pointer]: AWeber
+              - generic [ref=f1e527]:
+                - checkbox "Campaign Monitor" [ref=f1e528]
+                - generic [ref=f1e529] [cursor=pointer]: Campaign Monitor
+              - generic [ref=f1e530]:
+                - checkbox "Constant Contact" [ref=f1e531]
+                - generic [ref=f1e532] [cursor=pointer]: Constant Contact
+              - generic [ref=f1e533]:
+                - checkbox "ConvertKit" [ref=f1e534]
+                - generic [ref=f1e535] [cursor=pointer]: ConvertKit
+              - generic [ref=f1e536]:
+                - checkbox "Drip" [ref=f1e537]
+                - generic [ref=f1e538] [cursor=pointer]: Drip
+              - generic [ref=f1e539]:
+                - checkbox "eSputnik" [ref=f1e540]
+                - generic [ref=f1e541] [cursor=pointer]: eSputnik
+              - generic [ref=f1e542]:
+                - checkbox "GetResponse" [ref=f1e543]
+                - generic [ref=f1e544] [cursor=pointer]: GetResponse
+              - generic [ref=f1e545]:
+                - checkbox "Gmail" [ref=f1e546]
+                - generic [ref=f1e547] [cursor=pointer]: Gmail
+              - generic [ref=f1e548]:
+                - checkbox "iCloud" [ref=f1e549]
+                - generic [ref=f1e550] [cursor=pointer]: iCloud
+              - generic [ref=f1e551]:
+                - checkbox "Klaviyo" [ref=f1e552]
+                - generic [ref=f1e553] [cursor=pointer]: Klaviyo
+              - generic [ref=f1e554]:
+                - checkbox "Lemlist" [ref=f1e555]
+                - generic [ref=f1e556] [cursor=pointer]: Lemlist
+              - generic [ref=f1e557]:
+                - checkbox "Mailchimp" [ref=f1e558]
+                - generic [ref=f1e559] [cursor=pointer]: Mailchimp
+              - generic [ref=f1e560]:
+                - checkbox "MailerLite" [ref=f1e561]
+                - generic [ref=f1e562] [cursor=pointer]: MailerLite
+              - generic [ref=f1e563]:
+                - checkbox "Mailgun" [ref=f1e564]
+                - generic [ref=f1e565] [cursor=pointer]: Mailgun
+              - generic [ref=f1e566]:
+                - checkbox "Outlook" [ref=f1e567]
+                - generic [ref=f1e568] [cursor=pointer]: Outlook
+              - generic [ref=f1e569]:
+                - checkbox "Pabbly Connect" [ref=f1e570]
+                - generic [ref=f1e571] [cursor=pointer]: Pabbly Connect
+              - generic [ref=f1e572]:
+                - checkbox "Sendinblue" [ref=f1e573]
+                - generic [ref=f1e574] [cursor=pointer]: Sendinblue
+              - generic [ref=f1e575]:
+                - checkbox "SMTP Email" [ref=f1e576]
+                - generic [ref=f1e577] [cursor=pointer]: SMTP Email
+              - generic [ref=f1e578]:
+                - checkbox "Yahoo! Mail" [ref=f1e579]
+                - generic [ref=f1e580] [cursor=pointer]: Yahoo! Mail
+              - generic [ref=f1e581]:
+                - checkbox "Yandex.Mail" [ref=f1e582]
+                - generic [ref=f1e583] [cursor=pointer]: Yandex.Mail
+              - generic [ref=f1e584]:
+                - checkbox "Zoho Mail" [ref=f1e585]
+                - generic [ref=f1e586] [cursor=pointer]: Zoho Mail
+            - generic [ref=f1e587]: Graphics and Design Platforms
+            - group "Graphics and Design Platforms" [ref=f1e589]:
+              - generic [ref=f1e590]:
+                - checkbox "Adobe After Effects" [ref=f1e591]
+                - generic [ref=f1e592] [cursor=pointer]: Adobe After Effects
+              - generic [ref=f1e593]:
+                - checkbox "Adobe Creative Cloud" [ref=f1e594]
+                - generic [ref=f1e595] [cursor=pointer]: Adobe Creative Cloud
+              - generic [ref=f1e596]:
+                - checkbox "Canva" [ref=f1e597]
+                - generic [ref=f1e598] [cursor=pointer]: Canva
+              - generic [ref=f1e599]:
+                - checkbox "GIPHY" [ref=f1e600]
+                - generic [ref=f1e601] [cursor=pointer]: GIPHY
+              - generic [ref=f1e602]:
+                - checkbox "Pixabay" [ref=f1e603]
+                - generic [ref=f1e604] [cursor=pointer]: Pixabay
+              - generic [ref=f1e605]:
+                - checkbox "Storyblocks" [ref=f1e606]
+                - generic [ref=f1e607] [cursor=pointer]: Storyblocks
+              - generic [ref=f1e608]:
+                - checkbox "UnSplash" [ref=f1e609]
+                - generic [ref=f1e610] [cursor=pointer]: UnSplash
+            - generic [ref=f1e611]: Marketing and Advertising Platforms
+            - group "Marketing and Advertising Platforms" [ref=f1e613]:
+              - generic [ref=f1e614]:
+                - checkbox "Adalyser" [ref=f1e615]
+                - generic [ref=f1e616] [cursor=pointer]: Adalyser
+              - generic [ref=f1e617]:
+                - checkbox "Adform" [ref=f1e618]
+                - generic [ref=f1e619] [cursor=pointer]: Adform
+              - generic [ref=f1e620]:
+                - checkbox "Adjust" [ref=f1e621]
+                - generic [ref=f1e622] [cursor=pointer]: Adjust
+              - generic [ref=f1e623]:
+                - checkbox "AdRoll" [ref=f1e624]
+                - generic [ref=f1e625] [cursor=pointer]: AdRoll
+              - generic [ref=f1e626]:
+                - checkbox "Amazon Ads" [ref=f1e627]
+                - generic [ref=f1e628] [cursor=pointer]: Amazon Ads
+              - generic [ref=f1e629]:
+                - checkbox "Amazon Vendor Central" [ref=f1e630]
+                - generic [ref=f1e631] [cursor=pointer]: Amazon Vendor Central
+              - generic [ref=f1e632]:
+                - checkbox "Apple Search Ads" [ref=f1e633]
+                - generic [ref=f1e634] [cursor=pointer]: Apple Search Ads
+              - generic [ref=f1e635]:
+                - checkbox "AppNexus" [ref=f1e636]
+                - generic [ref=f1e637] [cursor=pointer]: AppNexus
+              - generic [ref=f1e638]:
+                - checkbox "AppsFlyer" [ref=f1e639]
+                - generic [ref=f1e640] [cursor=pointer]: AppsFlyer
+              - generic [ref=f1e641]:
+                - checkbox "Awin" [ref=f1e642]
+                - generic [ref=f1e643] [cursor=pointer]: Awin
+              - generic [ref=f1e644]:
+                - checkbox "Bing Ads" [ref=f1e645]
+                - generic [ref=f1e646] [cursor=pointer]: Bing Ads
+              - generic [ref=f1e647]:
+                - checkbox "Campaign Manager 360" [ref=f1e648]
+                - generic [ref=f1e649] [cursor=pointer]: Campaign Manager 360
+              - generic [ref=f1e650]:
+                - checkbox "CJ Affiliates" [ref=f1e651]
+                - generic [ref=f1e652] [cursor=pointer]: CJ Affiliates
+              - generic [ref=f1e653]:
+                - checkbox "Commission Factory" [ref=f1e654]
+                - generic [ref=f1e655] [cursor=pointer]: Commission Factory
+              - generic [ref=f1e656]:
+                - checkbox "Criteo" [ref=f1e657]
+                - generic [ref=f1e658] [cursor=pointer]: Criteo
+              - generic [ref=f1e659]:
+                - checkbox "Daisycon" [ref=f1e660]
+                - generic [ref=f1e661] [cursor=pointer]: Daisycon
+              - generic [ref=f1e662]:
+                - checkbox "Display & Video 360" [ref=f1e663]
+                - generic [ref=f1e664] [cursor=pointer]: Display & Video 360
+              - generic [ref=f1e665]:
+                - checkbox "Facebook Ads" [ref=f1e666]
+                - generic [ref=f1e667] [cursor=pointer]: Facebook Ads
+              - generic [ref=f1e668]:
+                - checkbox "Google Ad Manager" [ref=f1e669]
+                - generic [ref=f1e670] [cursor=pointer]: Google Ad Manager
+              - generic [ref=f1e671]:
+                - checkbox "Google Ads" [ref=f1e672]
+                - generic [ref=f1e673] [cursor=pointer]: Google Ads
+              - generic [ref=f1e674]:
+                - checkbox "Google Search Ads 360" [ref=f1e675]
+                - generic [ref=f1e676] [cursor=pointer]: Google Search Ads 360
+              - generic [ref=f1e677]:
+                - checkbox "Instagram Ads" [ref=f1e678]
+                - generic [ref=f1e679] [cursor=pointer]: Instagram Ads
+              - generic [ref=f1e680]:
+                - checkbox "LinkedIn Ads" [ref=f1e681]
+                - generic [ref=f1e682] [cursor=pointer]: LinkedIn Ads
+              - generic [ref=f1e683]:
+                - checkbox "LinkedIn Sales Navigator" [ref=f1e684]
+                - generic [ref=f1e685] [cursor=pointer]: LinkedIn Sales Navigator
+              - generic [ref=f1e686]:
+                - checkbox "Outbrain" [ref=f1e687]
+                - generic [ref=f1e688] [cursor=pointer]: Outbrain
+              - generic [ref=f1e689]:
+                - checkbox "Pinterest Ads" [ref=f1e690]
+                - generic [ref=f1e691] [cursor=pointer]: Pinterest Ads
+              - generic [ref=f1e692]:
+                - checkbox "Quora Ads" [ref=f1e693]
+                - generic [ref=f1e694] [cursor=pointer]: Quora Ads
+              - generic [ref=f1e695]:
+                - checkbox "Rakuten Advertising" [ref=f1e696]
+                - generic [ref=f1e697] [cursor=pointer]: Rakuten Advertising
+              - generic [ref=f1e698]:
+                - checkbox "Reddit Ads" [ref=f1e699]
+                - generic [ref=f1e700] [cursor=pointer]: Reddit Ads
+              - generic [ref=f1e701]:
+                - checkbox "RTB House" [ref=f1e702]
+                - generic [ref=f1e703] [cursor=pointer]: RTB House
+              - generic [ref=f1e704]:
+                - checkbox "Snapchat Ads" [ref=f1e705]
+                - generic [ref=f1e706] [cursor=pointer]: Snapchat Ads
+              - generic [ref=f1e707]:
+                - checkbox "Snov.io" [ref=f1e708]
+                - generic [ref=f1e709] [cursor=pointer]: Snov.io
+              - generic [ref=f1e710]:
+                - checkbox "Spotify Ads" [ref=f1e711]
+                - generic [ref=f1e712] [cursor=pointer]: Spotify Ads
+              - generic [ref=f1e713]:
+                - checkbox "StackAdapt" [ref=f1e714]
+                - generic [ref=f1e715] [cursor=pointer]: StackAdapt
+              - generic [ref=f1e716]:
+                - checkbox "Taboola" [ref=f1e717]
+                - generic [ref=f1e718] [cursor=pointer]: Taboola
+              - generic [ref=f1e719]:
+                - checkbox "Teads" [ref=f1e720]
+                - generic [ref=f1e721] [cursor=pointer]: Teads
+              - generic [ref=f1e722]:
+                - checkbox "The Trade Desk" [ref=f1e723]
+                - generic [ref=f1e724] [cursor=pointer]: The Trade Desk
+              - generic [ref=f1e725]:
+                - checkbox "TikTok Ads" [ref=f1e726]
+                - generic [ref=f1e727] [cursor=pointer]: TikTok Ads
+              - generic [ref=f1e728]:
+                - checkbox "Twitter Ads" [ref=f1e729]
+                - generic [ref=f1e730] [cursor=pointer]: Twitter Ads
+              - generic [ref=f1e731]:
+                - checkbox "Yahoo! Japan" [ref=f1e732]
+                - generic [ref=f1e733] [cursor=pointer]: Yahoo! Japan
+            - generic [ref=f1e734]: Messaging and Communication
+            - group "Messaging and Communication" [ref=f1e736]:
+              - generic [ref=f1e737]:
+                - checkbox "Discord" [ref=f1e738]
+                - generic [ref=f1e739] [cursor=pointer]: Discord
+              - generic [ref=f1e740]:
+                - checkbox "Drift" [ref=f1e741]
+                - generic [ref=f1e742] [cursor=pointer]: Drift
+              - generic [ref=f1e743]:
+                - checkbox "Freshchat" [ref=f1e744]
+                - generic [ref=f1e745] [cursor=pointer]: Freshchat
+              - generic [ref=f1e746]:
+                - checkbox "Intercom" [ref=f1e747]
+                - generic [ref=f1e748] [cursor=pointer]: Intercom
+              - generic [ref=f1e749]:
+                - checkbox "Line" [ref=f1e750]
+                - generic [ref=f1e751] [cursor=pointer]: Line
+              - generic [ref=f1e752]:
+                - checkbox "LiveChat" [ref=f1e753]
+                - generic [ref=f1e754] [cursor=pointer]: LiveChat
+              - generic [ref=f1e755]:
+                - checkbox "Messenger API" [ref=f1e756]
+                - generic [ref=f1e757] [cursor=pointer]: Messenger API
+              - generic [ref=f1e758]:
+                - checkbox "Skype" [ref=f1e759]
+                - generic [ref=f1e760] [cursor=pointer]: Skype
+              - generic [ref=f1e761]:
+                - checkbox "tawk.to chat" [ref=f1e762]
+                - generic [ref=f1e763] [cursor=pointer]: tawk.to chat
+              - generic [ref=f1e764]:
+                - checkbox "Telegram" [ref=f1e765]
+                - generic [ref=f1e766] [cursor=pointer]: Telegram
+              - generic [ref=f1e767]:
+                - checkbox "Twilio" [ref=f1e768]
+                - generic [ref=f1e769] [cursor=pointer]: Twilio
+              - generic [ref=f1e770]:
+                - checkbox "Viber" [ref=f1e771]
+                - generic [ref=f1e772] [cursor=pointer]: Viber
+              - generic [ref=f1e773]:
+                - checkbox "WhatsApp" [ref=f1e774]
+                - generic [ref=f1e775] [cursor=pointer]: WhatsApp
+              - generic [ref=f1e776]:
+                - checkbox "WhatsApp Business API" [ref=f1e777]
+                - generic [ref=f1e778] [cursor=pointer]: WhatsApp Business API
+              - generic [ref=f1e779]:
+                - checkbox "Zendesk" [ref=f1e780]
+                - generic [ref=f1e781] [cursor=pointer]: Zendesk
+              - generic [ref=f1e782]:
+                - checkbox "Zoom" [ref=f1e783]
+                - generic [ref=f1e784] [cursor=pointer]: Zoom
+            - generic [ref=f1e785]: Payment and Financial Services
+            - group "Payment and Financial Services" [ref=f1e787]:
+              - generic [ref=f1e788]:
+                - checkbox "PayPal" [ref=f1e789]
+                - generic [ref=f1e790] [cursor=pointer]: PayPal
+              - generic [ref=f1e791]:
+                - checkbox "ProfitWell" [ref=f1e792]
+                - generic [ref=f1e793] [cursor=pointer]: ProfitWell
+              - generic [ref=f1e794]:
+                - checkbox "Stripe" [ref=f1e795]
+                - generic [ref=f1e796] [cursor=pointer]: Stripe
+            - generic [ref=f1e797]: Social Media Management
+            - group "Social Media Management" [ref=f1e799]:
+              - generic [ref=f1e800]:
+                - checkbox "Agorapulse" [ref=f1e801]
+                - generic [ref=f1e802] [cursor=pointer]: Agorapulse
+              - generic [ref=f1e803]:
+                - checkbox "Brandwatch" [ref=f1e804]
+                - generic [ref=f1e805] [cursor=pointer]: Brandwatch
+              - generic [ref=f1e806]:
+                - checkbox "Buffer" [ref=f1e807]
+                - generic [ref=f1e808] [cursor=pointer]: Buffer
+              - generic [ref=f1e809]:
+                - checkbox "Crowdfire" [ref=f1e810]
+                - generic [ref=f1e811] [cursor=pointer]: Crowdfire
+              - generic [ref=f1e812]:
+                - checkbox "Facebook Page Insights" [ref=f1e813]
+                - generic [ref=f1e814] [cursor=pointer]: Facebook Page Insights
+              - generic [ref=f1e815]:
+                - checkbox "Google My Business" [ref=f1e816]
+                - generic [ref=f1e817] [cursor=pointer]: Google My Business
+              - generic [ref=f1e818]:
+                - checkbox "Hootsuite" [ref=f1e819]
+                - generic [ref=f1e820] [cursor=pointer]: Hootsuite
+              - generic [ref=f1e821]:
+                - checkbox "Later" [ref=f1e822]
+                - generic [ref=f1e823] [cursor=pointer]: Later
+              - generic [ref=f1e824]:
+                - checkbox "Linkedin Pages" [ref=f1e825]
+                - generic [ref=f1e826] [cursor=pointer]: Linkedin Pages
+              - generic [ref=f1e827]:
+                - checkbox "Mention" [ref=f1e828]
+                - generic [ref=f1e829] [cursor=pointer]: Mention
+              - generic [ref=f1e830]:
+                - checkbox "Socialbakers" [ref=f1e831]
+                - generic [ref=f1e832] [cursor=pointer]: Socialbakers
+              - generic [ref=f1e833]:
+                - checkbox "SocialPilot" [ref=f1e834]
+                - generic [ref=f1e835] [cursor=pointer]: SocialPilot
+              - generic [ref=f1e836]:
+                - checkbox "Sprout Social" [ref=f1e837]
+                - generic [ref=f1e838] [cursor=pointer]: Sprout Social
+            - generic [ref=f1e839]: Social Media Sites
+            - group "Social Media Sites" [ref=f1e841]:
+              - generic [ref=f1e842]:
+                - checkbox "Facebook" [ref=f1e843]
+                - generic [ref=f1e844] [cursor=pointer]: Facebook
+              - generic [ref=f1e845]:
+                - checkbox "Instagram" [ref=f1e846]
+                - generic [ref=f1e847] [cursor=pointer]: Instagram
+              - generic [ref=f1e848]:
+                - checkbox "LinkedIn" [ref=f1e849]
+                - generic [ref=f1e850] [cursor=pointer]: LinkedIn
+              - generic [ref=f1e851]:
+                - checkbox "Medium" [ref=f1e852]
+                - generic [ref=f1e853] [cursor=pointer]: Medium
+              - generic [ref=f1e854]:
+                - checkbox "Pinterest" [ref=f1e855]
+                - generic [ref=f1e856] [cursor=pointer]: Pinterest
+              - generic [ref=f1e857]:
+                - checkbox "Reddit" [ref=f1e858]
+                - generic [ref=f1e859] [cursor=pointer]: Reddit
+              - generic [ref=f1e860]:
+                - checkbox "Snapchat" [ref=f1e861]
+                - generic [ref=f1e862] [cursor=pointer]: Snapchat
+              - generic [ref=f1e863]:
+                - checkbox "TikTok" [ref=f1e864]
+                - generic [ref=f1e865] [cursor=pointer]: TikTok
+              - generic [ref=f1e866]:
+                - checkbox "Tumblr" [ref=f1e867]
+                - generic [ref=f1e868] [cursor=pointer]: Tumblr
+              - generic [ref=f1e869]:
+                - checkbox "Twitch" [ref=f1e870]
+                - generic [ref=f1e871] [cursor=pointer]: Twitch
+              - generic [ref=f1e872]:
+                - checkbox "Twitter" [ref=f1e873]
+                - generic [ref=f1e874] [cursor=pointer]: Twitter
+              - generic [ref=f1e875]:
+                - checkbox "YouTube" [ref=f1e876]
+                - generic [ref=f1e877] [cursor=pointer]: YouTube
+            - generic [ref=f1e878]: Writing and Editing Tools
+            - group "Writing and Editing Tools" [ref=f1e880]:
+              - generic [ref=f1e881]:
+                - checkbox "Copyscape" [ref=f1e882]
+                - generic [ref=f1e883] [cursor=pointer]: Copyscape
+              - generic [ref=f1e884]:
+                - checkbox "Google Docs" [ref=f1e885]
+                - generic [ref=f1e886] [cursor=pointer]: Google Docs
+              - generic [ref=f1e887]:
+                - checkbox "Google Sheets" [ref=f1e888]
+                - generic [ref=f1e889] [cursor=pointer]: Google Sheets
+              - generic [ref=f1e890]:
+                - checkbox "Google Slides" [ref=f1e891]
+                - generic [ref=f1e892] [cursor=pointer]: Google Slides
+              - generic [ref=f1e893]:
+                - checkbox "Grammarly" [ref=f1e894]
+                - generic [ref=f1e895] [cursor=pointer]: Grammarly
+              - generic [ref=f1e896]:
+                - checkbox "Microsoft Word" [ref=f1e897]
+                - generic [ref=f1e898] [cursor=pointer]: Microsoft Word
+            - generic [ref=f1e900]:
+              - heading "AI Tool Pricing & Subscription" [level=2] [ref=f1e901]
+              - generic [ref=f1e902]: Please fill in your AI tool or service pricing and subscription options.
+            - generic [ref=f1e903]: Subscription Options*
+            - radiogroup "Subscription Options" [ref=f1e905]:
+              - generic [ref=f1e906]:
+                - radio "Free" [ref=f1e907]
+                - generic [ref=f1e908] [cursor=pointer]: Free
+              - generic [ref=f1e909]:
+                - radio "Paid" [ref=f1e910]
+                - generic [ref=f1e911] [cursor=pointer]: Paid
+              - generic [ref=f1e912]:
+                - radio "Paid with Freemium Option" [ref=f1e913]
+                - generic [ref=f1e914] [cursor=pointer]: Paid with Freemium Option
+              - generic [ref=f1e915]:
+                - radio "Paid with Free Trial Option" [ref=f1e916]
+                - generic [ref=f1e917] [cursor=pointer]: Paid with Free Trial Option
+            - generic [ref=f1e918]: Billing Options*
+            - group "Billing Options" [ref=f1e920]:
+              - generic [ref=f1e921]:
+                - checkbox "Monthly" [ref=f1e922]
+                - generic [ref=f1e923] [cursor=pointer]: Monthly
+              - generic [ref=f1e924]:
+                - checkbox "Annually" [ref=f1e925]
+                - generic [ref=f1e926] [cursor=pointer]: Annually
+              - generic [ref=f1e927]:
+                - checkbox "Weekly" [ref=f1e928]
+                - generic [ref=f1e929] [cursor=pointer]: Weekly
+              - generic [ref=f1e930]:
+                - checkbox "Buy Credits" [ref=f1e931]
+                - generic [ref=f1e932] [cursor=pointer]: Buy Credits
+              - generic [ref=f1e933]:
+                - checkbox "Pay-Per-Use" [ref=f1e934]
+                - generic [ref=f1e935] [cursor=pointer]: Pay-Per-Use
+              - generic [ref=f1e936]:
+                - checkbox "One-Time Payment" [ref=f1e937]
+                - generic [ref=f1e938] [cursor=pointer]: One-Time Payment
+            - generic [ref=f1e939]: Subscription Packages
+            - generic [ref=f1e941]:
+              - combobox "Subscription Packages" [ref=f1e942]:
+                - option "Please Select"
+                - option "1" [selected]
+                - option "2"
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+                - option "7"
+                - option "8"
+                - option "9"
+                - option "10"
+              - generic [ref=f1e943]: Amount of subscription packages options
+            - generic [ref=f1e944]: Lowest Price Option*
+            - generic [ref=f1e946]:
+              - spinbutton "Lowest Price Option in USD." [ref=f1e947]
+              - generic [ref=f1e948]: in USD.
+            - generic [ref=f1e950]:
+              - heading "Social Media Accounts" [level=2] [ref=f1e951]
+              - generic [ref=f1e952]: Enter up to 5 social media accounts of your AI tool or service.
+            - generic [ref=f1e953]: Twitter
+            - generic [ref=f1e955]:
+              - textbox "Twitter http://www.twitter.com/toolpilotai" [ref=f1e956]
+              - generic [ref=f1e957]: http://www.twitter.com/toolpilotai
+            - generic [ref=f1e958]: Tiktok
+            - generic [ref=f1e960]:
+              - textbox "Tiktok https://www.tiktok.com/@toolpilotai" [ref=f1e961]
+              - generic [ref=f1e962]: https://www.tiktok.com/@toolpilotai
+            - generic [ref=f1e963]: Instagram
+            - generic [ref=f1e965]:
+              - textbox "Instagram https://www.instagram.com/toolpilotai/" [ref=f1e966]
+              - generic [ref=f1e967]: https://www.instagram.com/toolpilotai/
+            - generic [ref=f1e968]: Facebook
+            - generic [ref=f1e970]:
+              - textbox "Facebook https://www.facebook.com/toolpilotai" [ref=f1e971]
+              - generic [ref=f1e972]: https://www.facebook.com/toolpilotai
+            - generic [ref=f1e973]: Youtube
+            - generic [ref=f1e975]:
+              - textbox "Youtube https://www.youtube.com/@ToolPilotAI" [ref=f1e976]
+              - generic [ref=f1e977]: https://www.youtube.com/@ToolPilotAI
+            - generic [ref=f1e978]: Linkedin
+            - generic [ref=f1e980]:
+              - textbox "Linkedin https://www.linkedin.com/company/toolpilot/" [ref=f1e981]
+              - generic [ref=f1e982]: https://www.linkedin.com/company/toolpilot/
+            - generic [ref=f1e983]: Pinterest
+            - generic [ref=f1e985]:
+              - textbox "Pinterest https://www.pinterest.com/toolpilot/" [ref=f1e986]
+              - generic [ref=f1e987]: https://www.pinterest.com/toolpilot/
+            - generic [ref=f1e988]: Telegram
+            - generic [ref=f1e990]:
+              - textbox "Telegram https://t.me/example" [ref=f1e991]
+              - generic [ref=f1e992]: https://t.me/example
+            - generic [ref=f1e994]:
+              - heading "AI Tool Marketing" [level=2] [ref=f1e995]
+              - generic [ref=f1e996]: Please fill in your AI tool or service pricing and subscription options.
+            - generic [ref=f1e997]: Promotion
+            - generic [ref=f1e999]:
+              - textbox "Promotion If you offer new sign up any promotion add it here." [ref=f1e1000]
+              - generic [ref=f1e1001]: If you offer new sign up any promotion add it here.
+            - generic [ref=f1e1002]: Affiliate Program URL
+            - generic [ref=f1e1004]:
+              - textbox "Affiliate Program URL If you have an affiliate program please add its URL." [ref=f1e1005]
+              - generic [ref=f1e1006]: If you have an affiliate program please add its URL.
+            - generic [ref=f1e1010]:
+              - heading "Terms & Conditions" [level=2] [ref=f1e1011]
+              - generic [ref=f1e1012]: Please review the terms and conditions below before you submit your listing request.
+            - iframe [ref=f1e1015]:
+              
+            - paragraph [ref=f1e1018]:
+              - strong [ref=f1e1019]:
+                - img "Important Notice" [ref=f1e1020]
+                - text: Please note that p
+              - strong [ref=f1e1021]: ayment bill will appear under the name House Tech Ads Ltd. via PayPal.
+            - heading "Choose your listing type" [level=4] [ref=f1e1022]: Choose your listing type*
+            - generic [ref=f1e1025]:
+              - generic "Choose your listing type" [ref=f1e1026] [cursor=pointer]:
+                - generic [ref=f1e1027]:
+                  - 'radio "Select Product: Free With Backlink" [ref=f1e1030]'
+                  - generic [ref=f1e1033]:
+                    - generic [ref=f1e1034]:
+                      - generic [ref=f1e1035]: Free With Backlink
+                      - paragraph [ref=f1e1038]: If you're a small-scale developer looking to showcase your AI tools and services on ToolPilot.AI, Free Listing(Backlink Required) is an economical option. While it may take up to 60 days to process, this cost-free choice allows your AI tool to gain visibility and connect with our vibrant community.
+                    - generic [ref=f1e1040]:
+                      - strong [ref=f1e1041]:
+                        - generic [ref=f1e1042]:
+                          - generic [ref=f1e1043]: Free
+                          - text: $ Free
+                      - generic [ref=f1e1044]:
+                        - text: for each
+                        - insertion [ref=f1e1045]: year
+              - generic "Choose your listing type" [ref=f1e1047] [cursor=pointer]:
+                - generic [ref=f1e1048]:
+                  - 'radio "Select Product: Priority" [ref=f1e1051]'
+                  - generic [ref=f1e1054]:
+                    - generic [ref=f1e1055]:
+                      - generic [ref=f1e1056]: Priority
+                      - paragraph [ref=f1e1059]: For a quicker turnaround time, the Priority Listing guarantees that your AI tool and service will be live on ToolPilot.AI within seven days.
+                    - generic [ref=f1e1061]:
+                      - strong [ref=f1e1062]:
+                        - generic [ref=f1e1063]:
+                          - generic [ref=f1e1064]: $99.00
+                          - text: $99.00
+                      - text: one-time payment
+              - generic "Choose your listing type" [ref=f1e1066] [cursor=pointer]:
+                - generic [ref=f1e1067]:
+                  - 'radio "Select Product: Premium" [ref=f1e1070]'
+                  - generic [ref=f1e1073]:
+                    - generic [ref=f1e1074]:
+                      - generic [ref=f1e1075]: Premium
+                      - paragraph [ref=f1e1078]: If you're looking for maximum exposure, Premium Listing is the way to go. Your submission will be processed swiftly and will be live within just seven days. Our expert editors will enhance and improve your listing, and your tool will be featured in its respective categories and on our homepage. This guarantees maximum exposure and promotion through social networks.
+                    - generic [ref=f1e1079]:
+                      - generic [ref=f1e1080]:
+                        - strong [ref=f1e1081]:
+                          - generic [ref=f1e1082]:
+                            - generic [ref=f1e1083]: $199.00
+                            - text: $199.00
+                        - generic [ref=f1e1084]:
+                          - text: for the
+                          - insertion [ref=f1e1085]: first month
+                          - text: then,
+                      - generic [ref=f1e1086]:
+                        - strong [ref=f1e1087]:
+                          - generic [ref=f1e1088]:
+                            - generic [ref=f1e1089]: $39.00
+                            - text: $39.00
+                        - generic [ref=f1e1090]:
+                          - text: for each
+                          - insertion [ref=f1e1091]: month
+            - button "Submit" [ref=f1e1097] [cursor=pointer]
+          - status [ref=f1e1098]
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e139]:
+          - img "Tool Pilot" [ref=e140]
+          - generic [ref=e141]:
+            - paragraph [ref=e142]:
+              - strong [ref=e143]: Toolpilot.ai - Unlocking the Power of AI.
+            - paragraph [ref=e144]: toolpilot is an AI Tools directory platform that serves as a centralized hub for discovering and exploring a wide range of AI-powered tools and resources. Our directory features a diverse collection of tools that leverage artificial intelligence to enhance productivity, automate processes, and drive innovation across various industries.
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - link "Facebook" [ref=e147] [cursor=pointer]:
+                - /url: https://www.facebook.com/toolpilotai
+                - img [ref=e148]
+            - listitem [ref=e150]:
+              - link "Twitter" [ref=e151] [cursor=pointer]:
+                - /url: https://twitter.com/toolpilotai
+                - img [ref=e152]
+            - listitem [ref=e154]:
+              - link "Instagram" [ref=e155] [cursor=pointer]:
+                - /url: https://www.instagram.com/toolpilotai/
+                - img [ref=e156]
+            - listitem [ref=e159]:
+              - link "YouTube" [ref=e160] [cursor=pointer]:
+                - /url: https://www.youtube.com/@ToolPilotAI
+                - img [ref=e161]
+            - listitem [ref=e163]:
+              - link "Pinterest" [ref=e164] [cursor=pointer]:
+                - /url: https://www.pinterest.com/toolpilot/
+                - img [ref=e165]
+            - listitem [ref=e166]:
+              - link "TikTok" [ref=e167] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@toolpilotai
+                - img [ref=e168]
+            - listitem [ref=e170]:
+              - link "Linkedin" [ref=e171] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/toolpilot/
+          - generic [ref=e173]:
+            - link "Download on the App Store" [ref=e174] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/toolpilot/id6461726379?itsct=apps_box_badge&itscg=30200
+              - img "Download on the App Store" [ref=e175]
+            - link "Get it on Google Play" [ref=e176] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=ai.toolpilot.app&utm_source=Website&utm_campaign=BottomLink&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
+              - img "Get it on Google Play" [ref=e177]
+        - generic [ref=e179]:
+          - button "Quick Links" [ref=e180] [cursor=pointer]
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Browse All" [ref=e183] [cursor=pointer]:
+                - /url: /collections/all
+            - listitem [ref=e184]:
+              - link "Featured AI Tools" [ref=e185] [cursor=pointer]:
+                - /url: /collections/featured-ai-tools
+            - listitem [ref=e186]:
+              - link "Categories" [ref=e187] [cursor=pointer]:
+                - /url: /collections
+            - listitem [ref=e188]:
+              - link "Coupon Codes" [ref=e189] [cursor=pointer]:
+                - /url: /pages/coupons-special-offers
+            - listitem [ref=e190]:
+              - link "Top AI Tools" [ref=e191] [cursor=pointer]:
+                - /url: /pages/top-ai-tools
+            - listitem [ref=e192]:
+              - link "Free AI Tools" [ref=e193] [cursor=pointer]:
+                - /url: /collections/free-ai-tools
+            - listitem [ref=e194]:
+              - link "New AI Tools" [ref=e195] [cursor=pointer]:
+                - /url: /collections/new-ai-tools
+            - listitem [ref=e196]:
+              - link "Guides" [ref=e197] [cursor=pointer]:
+                - /url: /pages/guides
+            - listitem [ref=e198]:
+              - link "Blog" [ref=e199] [cursor=pointer]:
+                - /url: /blogs/news
+            - listitem [ref=e200]:
+              - link "My Tools" [ref=e201] [cursor=pointer]:
+                - /url: /apps/wishlist
+            - listitem [ref=e202]:
+              - link "Submit AI Tool" [ref=e203] [cursor=pointer]:
+                - /url: /pages/submit-your-ai-tool
+        - generic [ref=e205]:
+          - button "T&C and More" [ref=e206] [cursor=pointer]
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - link "Privacy Policy" [ref=e209] [cursor=pointer]:
+                - /url: /policies/privacy-policy
+            - listitem [ref=e210]:
+              - link "Terms of Service" [ref=e211] [cursor=pointer]:
+                - /url: /policies/terms-of-service
+            - listitem [ref=e212]:
+              - link "Brand Guidelines & Partnerships" [ref=e213] [cursor=pointer]:
+                - /url: /pages/brand-guidelines
+            - listitem [ref=e214]:
+              - link "Advertise With Us" [ref=e215] [cursor=pointer]:
+                - /url: /pages/advertise-with-us
+            - listitem [ref=e216]:
+              - link "Contact Us" [ref=e217] [cursor=pointer]:
+                - /url: /pages/contact
+            - listitem [ref=e218]:
+              - link "Accessibility Statement" [ref=e219] [cursor=pointer]:
+                - /url: /pages/accessibility-statement
+            - listitem [ref=e220]:
+              - link "AI Directories" [ref=e221] [cursor=pointer]:
+                - /url: /pages/ai-tools-directories
+        - generic [ref=e223]:
+          - generic [ref=e224]: Subscribe to our newsletter
+          - paragraph [ref=e225]: Subscribe now and be a part of our growing community! Get the latest news, updates, and exclusive offers.
+          - group [ref=e228]:
+            - generic [ref=e229]:
+              - textbox "Email" [ref=e230]
+              - generic: Email
+            - button "Enter your email" [ref=e231] [cursor=pointer]:
+              - img [ref=e232]
+      - generic [ref=e235]:
+        - separator [ref=e237]
+        - button "English" [ref=e242] [cursor=pointer]:
+          - generic [ref=e243]: English
+          - img [ref=e245]
+        - paragraph [ref=e249]: © 2026 ToolPilot, All rights reserved.
+    - generic:
+      - generic:
+        - generic:
+          - img
+    - generic [ref=e251]:
+      - generic [ref=e253]:
+        - search [ref=e254]:
+          - group [ref=e255]:
+            - searchbox "Search" [ref=e256]
+        - img [ref=e258] [cursor=pointer]
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - generic [ref=e263]: Popular searches
+          - list [ref=e264]:
+            - listitem [ref=e265]:
+              - link "AI Text Generators" [ref=e266] [cursor=pointer]:
+                - /url: /collections/text-content
+            - listitem [ref=e267]:
+              - link "AI Art Generator" [ref=e268] [cursor=pointer]:
+                - /url: /collections/art-animation
+            - listitem [ref=e269]:
+              - link "AI Social Media Tools" [ref=e270] [cursor=pointer]:
+                - /url: /collections/social-media
+            - listitem [ref=e271]:
+              - link "AI Website Building Tools" [ref=e272] [cursor=pointer]:
+                - /url: /collections/web-design-tools
+        - generic [ref=e273]:
+          - generic [ref=e274]: Trending Now
+          - list [ref=e276]:
+            - listitem [ref=e277]:
+              - generic [ref=e278]:
+                - figure [ref=e279]:
+                  - img [ref=e283] [cursor=pointer]
+                  - link "OKZest - AI Tool to Automates marketing with personalized, scalable visuals" [ref=e285] [cursor=pointer]:
+                    - /url: /products/okzest
+                    - img "OKZest - AI Tool to Automates marketing with personalized, scalable visuals" [ref=e286]
+                - generic [ref=e287]:
+                  - link "OKZest" [ref=e289] [cursor=pointer]:
+                    - /url: /collections/vendors?q=OKZest
+                  - link "OKZest - AI Tool to Automates marketing with personalized, scalable visuals" [ref=e290] [cursor=pointer]:
+                    - /url: /products/okzest
+                  - generic [ref=e291]:
+                    - insertion [ref=e292]:
+                      - generic [ref=e293]: $50.00
+                    - text: ( )
+            - listitem [ref=e294]:
+              - generic [ref=e295]:
+                - figure [ref=e296]:
+                  - img [ref=e300] [cursor=pointer]
+                  - link "Tattooer - AI Text To Image Generator" [ref=e302] [cursor=pointer]:
+                    - /url: /products/tattooer
+                    - img "Tattooer - AI Text To Image Generator" [ref=e303]
+                - generic [ref=e304]:
+                  - link "Tattooer" [ref=e306] [cursor=pointer]:
+                    - /url: /collections/vendors?q=Tattooer
+                  - link "Tattooer - AI Text To Image Generator" [ref=e307] [cursor=pointer]:
+                    - /url: /products/tattooer
+                  - generic [ref=e308]:
+                    - insertion [ref=e309]:
+                      - generic [ref=e310]: $6.99
+                    - text: ( )
+                  - generic [ref=e312]: Free Trial
+            - listitem [ref=e313]:
+              - generic [ref=e314]:
+                - figure [ref=e315]:
+                  - img [ref=e319] [cursor=pointer]
+                  - link "Poper - AI Powered On Site Engagement Platform" [ref=e321] [cursor=pointer]:
+                    - /url: /products/poper
+                    - img "Poper - AI Powered On Site Engagement Platform" [ref=e322]
+                - generic [ref=e323]:
+                  - link "Latracal Solutions Private Limited" [ref=e325] [cursor=pointer]:
+                    - /url: /collections/vendors?q=Latracal%20Solutions%20Private%20Limited
+                  - link "Poper - AI Powered On Site Engagement Platform" [ref=e326] [cursor=pointer]:
+                    - /url: /products/poper
+                  - generic [ref=e327]:
+                    - insertion [ref=e328]:
+                      - generic [ref=e329]: $9.00
+                    - text: ( )
+                  - generic [ref=e331]: Free Trial
+  - img [ref=e333] [cursor=pointer]
