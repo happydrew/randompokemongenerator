@@ -110,6 +110,8 @@ function Footer() {
             { title: "", url: "https://dang.ai/", Icon: () => <img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Dang.ai" className='w-[150px] h-[54px]' width={150} height={54} /> },
             { title: "AiToolGo", url: "https://www.aitoolgo.com" },
             { title: "", url: "https://www.toolpilot.ai", Icon: () => <img src="https://www.toolpilot.ai/cdn/shop/files/tp-b-i_1280x1280_crop_center.svg?v=1695883732" alt="Toolpilot" className='h-[54px]' /> },
+            { title: "", url: "https://fazier.com/launches/randompokegen.cc", Icon: () => <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" width={120} alt="Fazier badge" /> },
+
           ]}
         />
         {/* <List
