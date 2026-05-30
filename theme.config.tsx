@@ -114,6 +114,7 @@ function Footer() {
             { title: "", url: "https://curateclick.com?utm_source=embed-badge&utm_medium=embed&utm_campaign=embed-badge", Icon: () => <img src="https://curateclick.com/featured-badge.svg" alt="Featured on CurateClick" width={175} height={54} /> },
             { title: "", url: "https://lovableapp.org", rel: "noopener noreferrer", Icon: () => <img src="https://lovableapp.org/lovable-app-badge.svg" width="160" alt="Lovable App Badge" /> },
             { title: "https://www.promotebusinessdirectory.com/", url: "https://www.promotebusinessdirectory.com/" },
+            { title: "https://www.bestsitesindex.com/submit.php", url: "https://www.bestsitesindex.com/submit.php" },
           ]}
         />
         {/* <List
