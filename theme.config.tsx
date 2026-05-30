@@ -169,7 +169,12 @@ function Footer() {
             },
             { title: "https://www.promotebusinessdirectory.com/", url: "https://www.promotebusinessdirectory.com/" },
             { title: "Dentists Marketing", url: "https://www.siteswebdirectory.com/Health_Medical/Dentistry/" },
-
+            {
+              title: "",
+              url: "https://startupbase.io/products/random-pokemon-generator?utm_source=startupbase&utm_medium=badge&utm_campaign=launch-badge-light",
+              rel: "noopener noreferrer",
+              Icon: () => <img src="https://statics.startupbase.io/site/badges/launched-on-sb.svg" alt="Launched on StartupBase" height="55" style={{ height: "55px", width: "auto" }} />
+            },
           ]}
         />
         {/* <List
