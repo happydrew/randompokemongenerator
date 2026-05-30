@@ -1,0 +1,434 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e737] [cursor=pointer]:
+          - img [ref=e8]
+        - link [ref=e738] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Arandompokegen.cc
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - search [ref=e16]:
+          - generic [ref=e22]:
+            - textbox [disabled] [ref=e23]: Inspect any URL in "randompokegen.cc"
+            - combobox [ref=e739]
+          - button [ref=e740] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - button [ref=e741] [cursor=pointer]:
+              - generic [ref=e36]: 
+            - button [ref=e742] [cursor=pointer]:
+              - img [ref=e41]
+          - button [ref=e743] [cursor=pointer]:
+            - generic [ref=e47]:
+              - generic [ref=e48]: 
+              - generic [ref=e736]: "68"
+      - generic [ref=e50]:
+        - button [ref=e744] [cursor=pointer]:
+          - img [ref=e55]
+        - button [ref=e745] [cursor=pointer]:
+          - img [ref=e62]
+  - dialog [ref=e746]:
+    - navigation [ref=e747]:
+      - button [ref=e748] [cursor=pointer]:
+        - img [ref=e75]
+        - combobox [ref=e749]: randompokegen.cc
+        - generic [ref=e83]: 
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - link [ref=e750] [cursor=pointer]:
+              - /url: ./search-console?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e90]: home
+              - generic [ref=e92]: Overview
+            - link [ref=e751] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e97]: lightbulb_2
+              - generic [ref=e99]: Insights
+            - link [ref=e752] [cursor=pointer]:
+              - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e104]: trending_up
+              - generic [ref=e106]: Performance
+            - button [ref=e753] [cursor=pointer]:
+              - generic [ref=e111]: search
+              - generic [ref=e113]: URL inspection
+          - generic [ref=e117]:
+            - button [expanded] [ref=e754] [cursor=pointer]:
+              - generic [ref=e119]:
+                - generic [ref=e122]: Indexing
+                - img [ref=e126]
+            - generic [ref=e131]:
+              - link [ref=e755] [cursor=pointer]:
+                - /url: ./search-console/index?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e135]: file_copy
+                - generic [ref=e137]: Pages
+              - link [ref=e756] [cursor=pointer]:
+                - /url: ./search-console/video-index?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e142]: video_library
+                - generic [ref=e144]: Videos
+              - link [ref=e757] [cursor=pointer]:
+                - /url: ./search-console/sitemaps?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e149]: account_tree
+                - generic [ref=e151]: Sitemaps
+              - link [ref=e758] [cursor=pointer]:
+                - /url: ./search-console/removals?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e156]: visibility_off
+                - generic [ref=e158]: Removals
+          - generic [ref=e162]:
+            - button [expanded] [ref=e759] [cursor=pointer]:
+              - generic [ref=e164]:
+                - generic [ref=e167]: Experience
+                - img [ref=e171]
+            - generic [ref=e176]:
+              - link [ref=e760] [cursor=pointer]:
+                - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e180]: speed
+                - generic [ref=e182]: Core Web Vitals
+              - link [ref=e761] [cursor=pointer]:
+                - /url: ./search-console/https?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e187]: lock
+                - generic [ref=e189]: HTTPS
+          - generic [ref=e193]:
+            - button [expanded] [ref=e762] [cursor=pointer]:
+              - generic [ref=e195]:
+                - generic [ref=e198]: Enhancements
+                - img [ref=e202]
+            - generic [ref=e207]:
+              - link [ref=e763] [cursor=pointer]:
+                - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e211]: layers
+                - generic [ref=e213]: Breadcrumbs
+              - link [ref=e764] [cursor=pointer]:
+                - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e218]: layers
+                - generic [ref=e220]: Review snippets
+              - link [ref=e765] [cursor=pointer]:
+                - /url: ./search-console/r/unknown-type?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e225]: layers
+                - generic [ref=e227]: Unparsable structured data
+          - button [ref=e766] [cursor=pointer]:
+            - generic [ref=e233]:
+              - generic [ref=e236]: Security & Manual Actions
+              - img [ref=e240]
+          - generic [ref=e242]:
+            - link [ref=e767] [cursor=pointer]:
+              - /url: ./search-console/links?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e246]: link_2
+              - generic [ref=e248]: Links
+            - link [ref=e768] [cursor=pointer]:
+              - /url: ./search-console/achievements?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e253]: trophy
+              - generic [ref=e255]: Achievements
+            - link [ref=e769] [cursor=pointer]:
+              - /url: ./search-console/settings?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e260]: settings
+              - generic [ref=e262]: Settings
+        - generic [ref=e264]:
+          - generic [ref=e266]:
+            - button [ref=e770] [cursor=pointer]:
+              - generic [ref=e270]: feedback
+              - generic [ref=e272]: Submit feedback
+            - button [ref=e771] [cursor=pointer]:
+              - generic [ref=e277]: info
+              - generic [ref=e279]: About Search Console
+          - generic [ref=e283]:
+            - link [ref=e772] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en
+              - text: Privacy
+            - link [ref=e773] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en
+              - text: Terms
+  - generic [ref=e288]:
+    - generic [ref=e289]:
+      - generic [ref=e291]:
+        - navigation [ref=e774]:
+          - heading [level=1] [ref=e775]: Performance
+        - button [ref=e776] [cursor=pointer]:
+          - generic [ref=e303]:
+            - generic [ref=e304]: 
+            - generic [ref=e305]: EXPORT
+      - generic [ref=e308]:
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - radiogroup [ref=e777]:
+              - generic [ref=e313]:
+                - radio [ref=e778] [cursor=pointer]:
+                  - generic [ref=e315]:
+                    - generic [ref=e317]: 24 hours
+                    - img [ref=e319]
+                - radio [ref=e779] [cursor=pointer]:
+                  - generic [ref=e323]:
+                    - generic [ref=e325]: 7 days
+                    - img [ref=e327]
+                - radio [ref=e780] [cursor=pointer]:
+                  - generic [ref=e331]:
+                    - generic [ref=e333]: 28 days
+                    - img [ref=e335]
+                - radio [checked] [ref=e781] [cursor=pointer]:
+                  - generic [ref=e339]:
+                    - generic [ref=e341]: 3 months
+                    - img [ref=e343]
+            - button [ref=e782] [cursor=pointer]:
+              - generic [ref=e350]: More
+              - generic [ref=e352]: arrow_drop_down
+          - list [ref=e353]:
+            - generic [ref=e354]:
+              - generic [ref=e358]:
+                - button [ref=e783] [cursor=pointer]:
+                  - generic [ref=e362]: "Search type: Web"
+                  - generic [ref=e364]: arrow_drop_down
+                - tooltip [ref=e365]: "Search type: Web"
+              - generic [ref=e370]:
+                - button [ref=e784] [cursor=pointer]:
+                  - generic [ref=e375]: add
+                  - generic [ref=e376]: Add filter
+                - tooltip [ref=e377]: Add filter
+              - generic [ref=e380]:
+                - button [ref=e785] [cursor=pointer]:
+                  - generic [ref=e383]: filter_list_spark
+                - tooltip [ref=e385]: Customize your Performance report using AI
+        - generic [ref=e386]: "Last update: 4 hours ago"
+    - main [ref=e394]:
+      - generic [ref=e397]:
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - generic [ref=e400] [cursor=pointer]:
+              - button [ref=e786]:
+                - generic [ref=e405]:
+                  - generic [ref=e787]:
+                    - generic [ref=e407]: 
+                    - generic [ref=e408]: Total clicks
+                  - generic [ref=e788]: 4.3K
+              - button [ref=e789]:
+                - generic [ref=e413]: 
+            - generic [ref=e414] [cursor=pointer]:
+              - button [ref=e790]:
+                - generic [ref=e419]:
+                  - generic [ref=e791]:
+                    - generic [ref=e421]: 
+                    - generic [ref=e422]: Total impressions
+                  - generic [ref=e792]: 121K
+              - button [ref=e793]:
+                - generic [ref=e427]: 
+            - generic [ref=e428] [cursor=pointer]:
+              - button [ref=e794]:
+                - generic [ref=e433]:
+                  - generic [ref=e436]: Average CTR
+                  - generic [ref=e796]: 3.5%
+              - button [ref=e797]:
+                - generic [ref=e441]: 
+            - generic [ref=e442] [cursor=pointer]:
+              - button [ref=e798]:
+                - generic [ref=e447]:
+                  - generic [ref=e450]: Average position
+                  - generic [ref=e800]: "6.3"
+              - button [ref=e801]:
+                - generic [ref=e455]: 
+          - button [ref=e802] [cursor=pointer]:
+            - generic [ref=e462]: Daily
+            - img [ref=e464]
+        - generic [ref=e467]:
+          - generic [ref=e468]:
+            - generic [ref=e470]: Clicks
+            - generic [ref=e472]: Impressions
+          - application [ref=e803]:
+            - img [ref=e475]:
+              - generic [ref=e476]:
+                - generic [ref=e477]:
+                  - generic [ref=e479]: 2/28/26
+                  - generic [ref=e481]: 3/9/26
+                  - generic [ref=e483]: 3/18/26
+                  - generic [ref=e485]: 3/27/26
+                  - generic [ref=e487]: 4/5/26
+                  - generic [ref=e489]: 4/14/26
+                  - generic [ref=e491]: 4/23/26
+                  - generic [ref=e493]: 5/2/26
+                  - generic [ref=e495]: 5/11/26
+                  - generic [ref=e497]: 5/20/26
+                - generic [ref=e498]:
+                  - generic [ref=e500]: "180"
+                  - generic [ref=e502]: "120"
+                  - generic [ref=e504]: "60"
+                  - generic [ref=e506]: "0"
+                - generic [ref=e507]:
+                  - generic [ref=e509]: 7.5K
+                  - generic [ref=e511]: 5K
+                  - generic [ref=e513]: 2.5K
+                  - generic [ref=e515]: "0"
+                - button [ref=e530] [cursor=pointer]:
+                  - generic [ref=e533]: "1"
+            - generic [ref=e534]: Chart, containing counts of Total clicks, Total impressions, Average CTR, and Average position from February 28, 2026 to May 27, 2026
+      - generic [ref=e537]:
+        - tablist [ref=e539]:
+          - tab [selected] [ref=e804] [cursor=pointer]:
+            - generic [ref=e542]: Queries
+          - tab [ref=e805] [cursor=pointer]:
+            - generic [ref=e546]: Pages
+          - tab [ref=e806] [cursor=pointer]:
+            - generic [ref=e549]: Countries
+          - tab [ref=e807] [cursor=pointer]:
+            - generic [ref=e552]: Devices
+          - tab [ref=e808] [cursor=pointer]:
+            - generic [ref=e555]: Search appearance
+          - tab [ref=e809] [cursor=pointer]:
+            - generic [ref=e558]: Days
+        - tabpanel [ref=e561]:
+          - generic [ref=e565]:
+            - button [ref=e810] [cursor=pointer]:
+              - generic [ref=e575]: 
+            - table [ref=e579]:
+              - rowgroup [ref=e580]:
+                - row [ref=e811]:
+                  - columnheader [ref=e812]:
+                    - generic [ref=e583]
+                  - columnheader [ref=e814]:
+                    - generic [ref=e591]
+                  - columnheader [ref=e816]:
+                    - generic [ref=e599]
+              - rowgroup [ref=e606]:
+                - row [ref=e818]:
+                  - cell [ref=e819]:
+                    - generic [ref=e610]: random pokemon generator
+                  - cell [ref=e820]:
+                    - generic [ref=e613]: 1,195
+                  - cell [ref=e821]:
+                    - generic [ref=e616]: 38,054
+                - row [ref=e822]:
+                  - cell [ref=e823]:
+                    - generic [ref=e620]: random legendary pokemon generator
+                  - cell [ref=e824]:
+                    - generic [ref=e623]: "423"
+                  - cell [ref=e825]:
+                    - generic [ref=e626]: 1,053
+                - row [ref=e826]:
+                  - cell [ref=e827]:
+                    - generic [ref=e630]: random mega pokemon generator
+                  - cell [ref=e828]:
+                    - generic [ref=e633]: "334"
+                  - cell [ref=e829]:
+                    - generic [ref=e636]: "514"
+                - row [ref=e830]:
+                  - cell [ref=e831]:
+                    - generic [ref=e640]: random shiny pokemon generator
+                  - cell [ref=e832]:
+                    - generic [ref=e643]: "139"
+                  - cell [ref=e833]:
+                    - generic [ref=e646]: "422"
+                - row [ref=e834]:
+                  - cell [ref=e835]:
+                    - generic [ref=e650]: legendary pokemon generator
+                  - cell [ref=e836]:
+                    - generic [ref=e653]: "125"
+                  - cell [ref=e837]:
+                    - generic [ref=e656]: "379"
+                - row [ref=e838]:
+                  - cell [ref=e839]:
+                    - generic [ref=e660]: pokemon random generator
+                  - cell [ref=e840]:
+                    - generic [ref=e663]: "110"
+                  - cell [ref=e841]:
+                    - generic [ref=e666]: 3,240
+                - row [ref=e842]:
+                  - cell [ref=e843]:
+                    - generic [ref=e670]: mega pokemon generator
+                  - cell [ref=e844]:
+                    - generic [ref=e673]: "75"
+                  - cell [ref=e845]:
+                    - generic [ref=e676]: "177"
+                - row [ref=e846]:
+                  - cell [ref=e847]:
+                    - generic [ref=e680]: pokemon generator
+                  - cell [ref=e848]:
+                    - generic [ref=e683]: "72"
+                  - cell [ref=e849]:
+                    - generic [ref=e686]: 3,260
+                - row [ref=e850]:
+                  - cell [ref=e851]:
+                    - generic [ref=e690]: random pokemon
+                  - cell [ref=e852]:
+                    - generic [ref=e693]: "50"
+                  - cell [ref=e853]:
+                    - generic [ref=e696]: 4,088
+                - row [ref=e854]:
+                  - cell [ref=e855]:
+                    - generic [ref=e700]: random legendary pokémon generator
+                  - cell [ref=e856]:
+                    - generic [ref=e703]: "49"
+                  - cell [ref=e857]:
+                    - generic [ref=e706]: "220"
+            - generic [ref=e709]:
+              - generic [ref=e711]:
+                - generic [ref=e712]: "Rows per page:"
+                - listbox [ref=e858] [cursor=pointer]:
+                  - text: "5"
+                  - option [selected] [ref=e859]: "10"
+                  - text: 25 50 100 250 500
+              - generic [ref=e715]:
+                - generic [ref=e716]: 1-10 of 713
+                - generic [ref=e717]:
+                  - generic [ref=e719]:
+                    - button [disabled] [ref=e860]
+                    - tooltip [ref=e725]: Previous page
+                  - generic [ref=e727]:
+                    - button [ref=e861] [cursor=pointer]
+                    - tooltip [ref=e732]: Next page
+  - dialog "Date range" [ref=e863]:
+    - heading "Date range" [level=2] [ref=e864]:
+      - generic [ref=e865]: Date range
+    - generic [ref=e868]:
+      - tablist [ref=e869]:
+        - generic [ref=e873]:
+          - tab "Filter" [selected] [ref=e874] [cursor=pointer]:
+            - generic:
+              - generic: Filter
+          - tab "Compare" [ref=e875] [cursor=pointer]:
+            - generic:
+              - generic: Compare
+      - tabpanel "Filter" [ref=e876]:
+        - generic [ref=e877]:
+          - radiogroup [ref=e878]:
+            - generic [ref=e880] [cursor=pointer]:
+              - radio "Last 6 months" [active] [ref=e882]
+              - generic [ref=e883]: Last 6 months
+            - generic [ref=e885] [cursor=pointer]:
+              - radio "Last 12 months" [ref=e887]
+              - generic [ref=e888]: Last 12 months
+            - generic [ref=e890] [cursor=pointer]:
+              - radio "Last 16 months" [ref=e892]
+              - generic [ref=e893]: Last 16 months
+            - generic [ref=e895] [cursor=pointer]:
+              - radio "Custom" [ref=e897]
+              - generic [ref=e898]: Custom
+          - generic [ref=e899]:
+            - group [ref=e901]:
+              - generic [ref=e903]:
+                - generic [ref=e904]:
+                  - generic:
+                    - generic
+                  - textbox "Start date" [ref=e906]: 2026-02-28
+                  - generic [ref=e908]:
+                    - button "Open calendar" [ref=e909] [cursor=pointer]
+                    - tooltip [ref=e915]: Open calendar
+                - generic [ref=e916]:
+                  - paragraph [ref=e917]: YYYY-MM-DD
+                  - generic [ref=e918]: YYYY-MM-DD
+            - generic [ref=e919]: "-"
+            - group [ref=e921]:
+              - generic [ref=e923]:
+                - generic [ref=e924]:
+                  - generic:
+                    - generic
+                  - textbox "End date" [ref=e926]: 2026-05-27
+                  - generic [ref=e928]:
+                    - button "Open calendar" [ref=e929] [cursor=pointer]
+                    - tooltip [ref=e935]: Open calendar
+                - generic [ref=e936]:
+                  - paragraph [ref=e937]: YYYY-MM-DD
+                  - generic [ref=e938]: YYYY-MM-DD
+    - generic [ref=e939]:
+      - button "Cancel" [ref=e941] [cursor=pointer]:
+        - generic [ref=e943]: Cancel
+      - generic [ref=e944]:
+        - button "Apply" [disabled]:
+          - generic: Apply

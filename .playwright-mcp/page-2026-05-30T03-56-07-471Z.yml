@@ -1,0 +1,326 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Main menu" [ref=e7] [cursor=pointer]:
+            - img [ref=e8]
+          - link "Google Search Console" [ref=e12] [cursor=pointer]:
+            - /url: ./search-console?resource_id=sc-domain%3Arandompokegen.cc
+            - img [ref=e13]
+        - generic [ref=e14]:
+          - search [ref=e16]:
+            - generic [ref=e22]:
+              - textbox [disabled] [ref=e23]: Inspect any URL in "randompokegen.cc"
+              - combobox "Inspect any URL in randompokegen.cc" [ref=e24]
+            - button "Search" [ref=e25] [cursor=pointer]:
+              - img [ref=e26]
+          - generic [ref=e29]:
+            - generic [ref=e31]:
+              - button "Help" [ref=e33] [cursor=pointer]:
+                - generic [ref=e36]: 
+              - button "User settings" [ref=e38] [cursor=pointer]:
+                - img [ref=e41]
+            - 'button "Unread messages: 68" [ref=e45] [cursor=pointer]':
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - generic [ref=e2337]: "68"
+        - generic [ref=e52]:
+          - button "Google apps" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+          - 'button "Google Account: ge zhu (zhugetd@gmail.com)" [ref=e62] [cursor=pointer]':
+            - img [ref=e64]
+    - dialog "navigational drawer" [ref=e68]:
+      - navigation "Primary" [ref=e71]:
+        - button "Search property" [ref=e75] [cursor=pointer]:
+          - img [ref=e77]
+          - combobox "randompokegen.cc" [ref=e84]
+          - generic [ref=e85]: 
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - link "Overview" [ref=e90] [cursor=pointer]:
+                - /url: ./search-console?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e92]: home
+                - generic [ref=e94]: Overview
+              - link "Insights" [ref=e97] [cursor=pointer]:
+                - /url: ./search-console/performance/insights?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e99]: lightbulb_2
+                - generic [ref=e101]: Insights
+              - link "Performance" [ref=e104] [cursor=pointer]:
+                - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e106]: trending_up
+                - generic [ref=e108]: Performance
+              - button "URL inspection" [ref=e111] [cursor=pointer]:
+                - generic [ref=e113]: search
+                - generic [ref=e115]: URL inspection
+            - generic [ref=e119]:
+              - button "Indexing report section" [expanded] [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - generic [ref=e124]: Indexing
+                  - img [ref=e128]
+              - generic [ref=e133]:
+                - link "Pages" [active] [ref=e135] [cursor=pointer]:
+                  - /url: ./search-console/index?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e137]: file_copy
+                  - generic [ref=e139]: Pages
+                - link "Videos" [ref=e142] [cursor=pointer]:
+                  - /url: ./search-console/video-index?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e144]: video_library
+                  - generic [ref=e146]: Videos
+                - link "Sitemaps" [ref=e149] [cursor=pointer]:
+                  - /url: ./search-console/sitemaps?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e151]: account_tree
+                  - generic [ref=e153]: Sitemaps
+                - link "Removals" [ref=e156] [cursor=pointer]:
+                  - /url: ./search-console/removals?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e158]: visibility_off
+                  - generic [ref=e160]: Removals
+            - generic [ref=e164]:
+              - button "Experience report section" [expanded] [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]:
+                  - generic [ref=e169]: Experience
+                  - img [ref=e173]
+              - generic [ref=e178]:
+                - link "Core Web Vitals" [ref=e180] [cursor=pointer]:
+                  - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e182]: speed
+                  - generic [ref=e184]: Core Web Vitals
+                - link "HTTPS" [ref=e187] [cursor=pointer]:
+                  - /url: ./search-console/https?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e189]: lock
+                  - generic [ref=e191]: HTTPS
+            - generic [ref=e195]:
+              - button "Enhancements report section" [expanded] [ref=e196] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - generic [ref=e200]: Enhancements
+                  - img [ref=e204]
+              - generic [ref=e209]:
+                - link "Breadcrumbs" [ref=e211] [cursor=pointer]:
+                  - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e213]: layers
+                  - generic [ref=e215]: Breadcrumbs
+                - link "Review snippets" [ref=e218] [cursor=pointer]:
+                  - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e220]: layers
+                  - generic [ref=e222]: Review snippets
+                - link "Unparsable structured data" [ref=e225] [cursor=pointer]:
+                  - /url: ./search-console/r/unknown-type?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e227]: layers
+                  - generic [ref=e229]: Unparsable structured data
+            - generic [ref=e233]:
+              - button "Security & Manual Actions report section" [expanded] [ref=e234] [cursor=pointer]:
+                - generic [ref=e235]:
+                  - generic [ref=e238]: Security & Manual Actions
+                  - img [ref=e1135]
+              - generic [ref=e1140]:
+                - link "Manual actions" [ref=e1142] [cursor=pointer]:
+                  - /url: ./search-console/manual-actions?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e1144]: flag
+                  - generic [ref=e1146]: Manual actions
+                - link "Security issues" [ref=e1149] [cursor=pointer]:
+                  - /url: ./search-console/security-issues?resource_id=sc-domain%3Arandompokegen.cc
+                  - generic [ref=e1151]: security
+                  - generic [ref=e1153]: Security issues
+            - generic [ref=e244]:
+              - link "Links report" [ref=e246] [cursor=pointer]:
+                - /url: ./search-console/links?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e248]: link_2
+                - generic [ref=e250]: Links
+              - link "Achievements" [ref=e253] [cursor=pointer]:
+                - /url: ./search-console/achievements?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e255]: trophy
+                - generic [ref=e257]: Achievements
+              - link "Settings" [ref=e260] [cursor=pointer]:
+                - /url: ./search-console/settings?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e262]: settings
+                - generic [ref=e264]: Settings
+          - generic [ref=e266]:
+            - generic [ref=e268]:
+              - button "Submit feedback" [ref=e270] [cursor=pointer]:
+                - generic [ref=e272]: feedback
+                - generic [ref=e274]: Submit feedback
+              - button "About Search Console" [ref=e277] [cursor=pointer]:
+                - generic [ref=e279]: info
+                - generic [ref=e281]: About Search Console
+            - generic [ref=e285]:
+              - link "Privacy" [ref=e286] [cursor=pointer]:
+                - /url: https://myaccount.google.com/privacypolicy?hl=en
+              - link "Terms" [ref=e287] [cursor=pointer]:
+                - /url: https://myaccount.google.com/termsofservice?hl=en
+    - generic [ref=e2342]:
+      - generic [ref=e2345]:
+        - navigation "Breadcrumbs" [ref=e2347]:
+          - heading "Page indexing" [level=1] [ref=e2350]
+        - button "EXPORT" [ref=e2353] [cursor=pointer]:
+          - generic [ref=e2356]:
+            - generic [ref=e2357]: 
+            - generic [ref=e2358]: EXPORT
+      - generic [ref=e2359]:
+        - generic [ref=e2361]:
+          - listbox [disabled] [ref=e2364]:
+            - option "All known pages" [disabled] [selected] [ref=e2365]
+          - generic [ref=e2368]: "Last update: 5/25/26"
+        - main [ref=e2370]:
+          - generic [ref=e2371]:
+            - generic [ref=e2373]:
+              - generic [ref=e2374]:
+                - generic [ref=e2376]:
+                  - generic [ref=e2377] [cursor=pointer]:
+                    - button "Not indexed 106 5 reasons" [ref=e2378]:
+                      - generic [ref=e2382]:
+                        - generic "Not indexed" [ref=e2383]:
+                          - generic [ref=e2384]: 
+                          - generic [ref=e2385]: Not indexed
+                        - generic "106" [ref=e2386]
+                        - generic [ref=e2387]: 5 reasons
+                    - button "null" [ref=e2390]:
+                      - generic [ref=e2391]: 
+                  - generic [ref=e2392] [cursor=pointer]:
+                    - button "Indexed 34" [ref=e2393]:
+                      - generic [ref=e2397]:
+                        - generic "Indexed" [ref=e2398]:
+                          - generic [ref=e2399]: 
+                          - generic [ref=e2400]: Indexed
+                        - generic "34" [ref=e2401]
+                    - button "null" [ref=e2404]:
+                      - generic [ref=e2405]: 
+                - generic [ref=e2406]:
+                  - checkbox "Impressions" [ref=e2407] [cursor=pointer]
+                  - generic [ref=e2410]: Impressions
+                - generic [ref=e2411]:
+                  - generic [ref=e2413]: Pages
+                  - img [ref=e2416]:
+                    - generic [ref=e2417]:
+                      - generic [ref=e2418]:
+                        - generic [ref=e2420]: 3/1/26
+                        - generic [ref=e2422]: 3/12/26
+                        - generic [ref=e2424]: 3/23/26
+                        - generic [ref=e2426]: 4/3/26
+                        - generic [ref=e2428]: 4/14/26
+                        - generic [ref=e2430]: 4/25/26
+                        - generic [ref=e2432]: 5/6/26
+                        - generic [ref=e2434]: 5/17/26
+                      - generic [ref=e2435]:
+                        - generic [ref=e2437]: "150"
+                        - generic [ref=e2439]: "100"
+                        - generic [ref=e2441]: "50"
+                        - generic [ref=e2443]: "0"
+              - link "View data about indexed pages" [ref=e2785] [cursor=pointer]:
+                - /url: ./search-console/index/drilldown?resource_id=sc-domain%3Arandompokegen.cc&pages=ALL_URLS
+                - generic [ref=e2788]:
+                  - generic [ref=e2790]: check_circle
+                  - generic [ref=e2791]: View data about indexed pages
+                  - generic [ref=e2793]: 
+            - generic [ref=e2796]:
+              - generic [ref=e2798]:
+                - generic [ref=e2801]:
+                  - generic [ref=e2802]: info_filled
+                  - generic [ref=e2803]:
+                    - generic [ref=e2804]: Why pages aren’t indexed
+                    - generic [ref=e2805]: Pages that aren’t indexed can’t be served on Google
+                - button "Filter table rows" [ref=e2810] [cursor=pointer]:
+                  - generic [ref=e2813]: 
+              - table [ref=e2816]:
+                - rowgroup [ref=e2817]:
+                  - row "Reason Source null Validation Trend Pages" [ref=e2818]:
+                    - columnheader "Reason" [ref=e2819]:
+                      - generic [ref=e2821]: Reason
+                      - img [ref=e2823] [cursor=pointer]
+                    - columnheader "Source null" [ref=e2825]:
+                      - generic [ref=e2827]:
+                        - text: Source
+                        - button "null" [ref=e2830] [cursor=pointer]:
+                          - generic [ref=e2831]: 
+                      - img [ref=e2833] [cursor=pointer]
+                    - columnheader "Validation" [ref=e2835]:
+                      - generic [ref=e2837]: Validation
+                      - img [ref=e2839] [cursor=pointer]
+                    - columnheader "Trend" [ref=e2841]:
+                      - generic [ref=e2843]: Trend
+                    - columnheader "Pages" [ref=e2844]:
+                      - img [ref=e2846] [cursor=pointer]
+                      - generic [ref=e2849]: Pages
+                - rowgroup [ref=e2850]:
+                  - row "Page with redirect Website Not Started 11" [ref=e2851]:
+                    - cell "Page with redirect" [ref=e2852]:
+                      - generic "Page with redirect" [ref=e2854]
+                    - cell "Website" [ref=e2855]:
+                      - generic [ref=e2857]: Website
+                    - cell "Not Started" [ref=e2858]:
+                      - generic [ref=e2861]:
+                        - generic [ref=e2862]: 
+                        - text: Not Started
+                    - cell [ref=e2863]:
+                      - img [ref=e2866]
+                    - cell "11" [ref=e2868]:
+                      - generic [ref=e2870]: "11"
+                  - row "Not found (404) Website Not Started 9" [ref=e2871]:
+                    - cell "Not found (404)" [ref=e2872]:
+                      - generic "Not found (404)" [ref=e2874]
+                    - cell "Website" [ref=e2875]:
+                      - generic [ref=e2877]: Website
+                    - cell "Not Started" [ref=e2878]:
+                      - generic [ref=e2881]:
+                        - generic [ref=e2882]: 
+                        - text: Not Started
+                    - cell [ref=e2883]:
+                      - img [ref=e2886]
+                    - cell "9" [ref=e2888]:
+                      - generic [ref=e2890]: "9"
+                  - row "Duplicate without user-selected canonical Website Not Started 5" [ref=e2891]:
+                    - cell "Duplicate without user-selected canonical" [ref=e2892]:
+                      - generic "Duplicate without user-selected canonical" [ref=e2894]
+                    - cell "Website" [ref=e2895]:
+                      - generic [ref=e2897]: Website
+                    - cell "Not Started" [ref=e2898]:
+                      - generic [ref=e2901]:
+                        - generic [ref=e2902]: 
+                        - text: Not Started
+                    - cell [ref=e2903]:
+                      - img [ref=e2906]
+                    - cell "5" [ref=e2908]:
+                      - generic [ref=e2910]: "5"
+                  - row "Alternate page with proper canonical tag Website Not Started 1" [ref=e2911]:
+                    - cell "Alternate page with proper canonical tag" [ref=e2912]:
+                      - generic "Alternate page with proper canonical tag" [ref=e2914]
+                    - cell "Website" [ref=e2915]:
+                      - generic [ref=e2917]: Website
+                    - cell "Not Started" [ref=e2918]:
+                      - generic [ref=e2921]:
+                        - generic [ref=e2922]: 
+                        - text: Not Started
+                    - cell [ref=e2923]:
+                      - img [ref=e2926]
+                    - cell "1" [ref=e2928]:
+                      - generic [ref=e2930]: "1"
+                  - row "Crawled - currently not indexed Google systems Not Started 80" [ref=e2931]:
+                    - cell "Crawled - currently not indexed" [ref=e2932]:
+                      - generic "Crawled - currently not indexed" [ref=e2934]
+                    - cell "Google systems" [ref=e2935]:
+                      - generic [ref=e2937]: Google systems
+                    - cell "Not Started" [ref=e2938]:
+                      - generic [ref=e2941]:
+                        - generic [ref=e2942]: 
+                        - text: Not Started
+                    - cell [ref=e2943]:
+                      - img [ref=e2946]
+                    - cell "80" [ref=e2948]:
+                      - generic [ref=e2950]: "80"
+              - generic [ref=e2953]:
+                - generic [ref=e2955]:
+                  - generic [ref=e2956]: "Rows per page:"
+                  - listbox "Number of rows per page" [ref=e2957] [cursor=pointer]:
+                    - option "5"
+                    - option "10" [selected] [ref=e2958]
+                    - option "25"
+                    - option "50"
+                    - option "100"
+                    - option "250"
+                    - option "500"
+                - generic [ref=e2959]:
+                  - generic [ref=e2960]: 1-5 of 5
+                  - generic [ref=e2961]:
+                    - generic [ref=e2963]: 
+                    - generic [ref=e2965]: 
+  - generic [ref=e1133]: Page indexing

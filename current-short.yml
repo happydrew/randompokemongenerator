@@ -1,0 +1,37 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Main menu" [ref=e949] [cursor=pointer]
+        - link "Google Search Console" [ref=e950] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Arandompokegen.cc
+      - generic [ref=e14]:
+        - search [ref=e16]
+        - generic [ref=e29]
+      - generic [ref=e50]:
+        - button "Google apps" [ref=e958] [cursor=pointer]
+        - 'button "Google Account: ge zhu (zhugetd@gmail.com)" [ref=e959] [cursor=pointer]'
+  - dialog "navigational drawer" [ref=e960]:
+    - navigation "Primary" [ref=e961]:
+      - button "Search property" [ref=e962] [cursor=pointer]:
+        - img [ref=e75]
+        - combobox "randompokegen.cc" [ref=e963]
+        - generic [ref=e83]: 
+      - generic [ref=e84]:
+        - generic [ref=e85]
+        - generic [ref=e264]
+  - generic [ref=e990]:
+    - generic [ref=e991]:
+      - generic [ref=e993]:
+        - navigation "Breadcrumbs" [ref=e995]
+        - button "EXPORT" [ref=e1002] [cursor=pointer]
+      - generic [ref=e1010]:
+        - generic [ref=e1011]
+        - generic [ref=e1095]: "Last update: 4 hours ago"
+    - main [ref=e1103]:
+      - generic [ref=e1106]:
+        - generic [ref=e1107]
+        - generic [ref=e1176]
+      - generic [ref=e1248]:
+        - tablist [ref=e1250]
+        - tabpanel [ref=e1272]

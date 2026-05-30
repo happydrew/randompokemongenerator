@@ -1,0 +1,395 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Main menu" [ref=e949] [cursor=pointer]:
+          - img [ref=e8]
+        - link "Google Search Console" [ref=e950] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Arandompokegen.cc
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - search [ref=e16]:
+          - generic [ref=e22]:
+            - textbox [disabled] [ref=e23]: Inspect any URL in "randompokegen.cc"
+            - combobox "Inspect any URL in randompokegen.cc" [ref=e951]
+          - button "Search" [ref=e952] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - button "Help" [ref=e953] [cursor=pointer]:
+              - generic [ref=e36]: 
+            - button "User settings" [ref=e954] [cursor=pointer]:
+              - img [ref=e41]
+          - 'button "Unread messages: 68" [ref=e955] [cursor=pointer]':
+            - generic [ref=e47]:
+              - generic [ref=e48]: 
+              - generic [ref=e957]: "68"
+      - generic [ref=e50]:
+        - button "Google apps" [ref=e958] [cursor=pointer]:
+          - img [ref=e55]
+        - 'button "Google Account: ge zhu (zhugetd@gmail.com)" [ref=e959] [cursor=pointer]':
+          - img [ref=e62]
+  - dialog "navigational drawer" [ref=e960]:
+    - navigation "Primary" [ref=e961]:
+      - button "Search property" [ref=e962] [cursor=pointer]:
+        - img [ref=e75]
+        - combobox "randompokegen.cc" [ref=e963]
+        - generic [ref=e83]: 
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - link "Overview" [ref=e964] [cursor=pointer]:
+              - /url: ./search-console?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e90]: home
+              - generic [ref=e92]: Overview
+            - link "Insights" [ref=e965] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e97]: lightbulb_2
+              - generic [ref=e99]: Insights
+            - link "Performance" [ref=e966] [cursor=pointer]:
+              - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e104]: trending_up
+              - generic [ref=e106]: Performance
+            - button "URL inspection" [ref=e967] [cursor=pointer]:
+              - generic [ref=e111]: search
+              - generic [ref=e113]: URL inspection
+          - generic [ref=e117]:
+            - button "Indexing report section" [expanded] [ref=e968] [cursor=pointer]:
+              - generic [ref=e119]:
+                - generic [ref=e122]: Indexing
+                - img [ref=e126]
+            - generic [ref=e131]:
+              - link "Pages" [ref=e969] [cursor=pointer]:
+                - /url: ./search-console/index?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e135]: file_copy
+                - generic [ref=e137]: Pages
+              - link "Videos" [ref=e970] [cursor=pointer]:
+                - /url: ./search-console/video-index?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e142]: video_library
+                - generic [ref=e144]: Videos
+              - link "Sitemaps" [ref=e971] [cursor=pointer]:
+                - /url: ./search-console/sitemaps?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e149]: account_tree
+                - generic [ref=e151]: Sitemaps
+              - link "Removals" [ref=e972] [cursor=pointer]:
+                - /url: ./search-console/removals?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e156]: visibility_off
+                - generic [ref=e158]: Removals
+          - generic [ref=e162]:
+            - button "Experience report section" [expanded] [ref=e973] [cursor=pointer]:
+              - generic [ref=e164]:
+                - generic [ref=e167]: Experience
+                - img [ref=e171]
+            - generic [ref=e176]:
+              - link "Core Web Vitals" [ref=e974] [cursor=pointer]:
+                - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e180]: speed
+                - generic [ref=e182]: Core Web Vitals
+              - link "HTTPS" [ref=e975] [cursor=pointer]:
+                - /url: ./search-console/https?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e187]: lock
+                - generic [ref=e189]: HTTPS
+          - generic [ref=e193]:
+            - button "Enhancements report section" [expanded] [ref=e976] [cursor=pointer]:
+              - generic [ref=e195]:
+                - generic [ref=e198]: Enhancements
+                - img [ref=e202]
+            - generic [ref=e207]:
+              - link "Breadcrumbs" [ref=e977] [cursor=pointer]:
+                - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e211]: layers
+                - generic [ref=e213]: Breadcrumbs
+              - link "Review snippets" [ref=e978] [cursor=pointer]:
+                - /url: ./search-console/r/review-snippet?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e218]: layers
+                - generic [ref=e220]: Review snippets
+              - link "Unparsable structured data" [ref=e979] [cursor=pointer]:
+                - /url: ./search-console/r/unknown-type?resource_id=sc-domain%3Arandompokegen.cc
+                - generic [ref=e225]: layers
+                - generic [ref=e227]: Unparsable structured data
+          - button "Security & Manual Actions report section" [ref=e980] [cursor=pointer]:
+            - generic [ref=e233]:
+              - generic [ref=e236]: Security & Manual Actions
+              - img [ref=e240]
+          - generic [ref=e242]:
+            - link "Links report" [ref=e981] [cursor=pointer]:
+              - /url: ./search-console/links?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e246]: link_2
+              - generic [ref=e248]: Links
+            - link "Achievements" [ref=e982] [cursor=pointer]:
+              - /url: ./search-console/achievements?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e253]: trophy
+              - generic [ref=e255]: Achievements
+            - link "Settings" [ref=e983] [cursor=pointer]:
+              - /url: ./search-console/settings?resource_id=sc-domain%3Arandompokegen.cc
+              - generic [ref=e260]: settings
+              - generic [ref=e262]: Settings
+        - generic [ref=e264]:
+          - generic [ref=e266]:
+            - button "Submit feedback" [ref=e984] [cursor=pointer]:
+              - generic [ref=e270]: feedback
+              - generic [ref=e272]: Submit feedback
+            - button "About Search Console" [ref=e985] [cursor=pointer]:
+              - generic [ref=e277]: info
+              - generic [ref=e279]: About Search Console
+          - generic [ref=e283]:
+            - link "Privacy" [ref=e986] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en
+            - link "Terms" [ref=e987] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en
+  - generic [ref=e990]:
+    - generic [ref=e991]:
+      - generic [ref=e993]:
+        - navigation "Breadcrumbs" [ref=e995]:
+          - heading "Performance" [level=1] [ref=e998]
+        - button "EXPORT" [ref=e1002] [cursor=pointer]:
+          - generic [ref=e1005]:
+            - generic [ref=e1006]: 
+            - generic [ref=e1007]: EXPORT
+      - generic [ref=e1010]:
+        - generic [ref=e1011]:
+          - generic [ref=e1012]:
+            - radiogroup "Select time range" [ref=e1013]:
+              - generic [ref=e1015]:
+                - radio "24 hours" [ref=e1016] [cursor=pointer]:
+                  - generic [ref=e1017]:
+                    - generic [ref=e1019]: 24 hours
+                    - img [ref=e1021]
+                - radio "7 days" [ref=e1024] [cursor=pointer]:
+                  - generic [ref=e1025]:
+                    - generic [ref=e1027]: 7 days
+                    - img [ref=e1029]
+                - radio "28 days" [ref=e1032] [cursor=pointer]:
+                  - generic [ref=e1033]:
+                    - generic [ref=e1035]: 28 days
+                    - img [ref=e1037]
+                - radio "3 months" [ref=e1040] [cursor=pointer]:
+                  - generic [ref=e1041]:
+                    - generic [ref=e1043]: 3 months
+                    - img [ref=e1045]
+            - button "More time ranges" [ref=e1050] [cursor=pointer]:
+              - generic [ref=e1052]: 16 months
+              - generic [ref=e1054]: arrow_drop_down
+          - list [ref=e1055]:
+            - generic [ref=e1056]:
+              - generic [ref=e1060]:
+                - 'button "Search type: Web" [ref=e1062] [cursor=pointer]':
+                  - generic [ref=e1064]: "Search type: Web"
+                  - generic [ref=e1066]: arrow_drop_down
+                - tooltip [ref=e1067]: "Search type: Web"
+              - generic [ref=e1072]:
+                - button "Add filter" [ref=e1074] [cursor=pointer]:
+                  - generic [ref=e1077]: add
+                  - generic [ref=e1078]: Add filter
+                - tooltip [ref=e1079]: Add filter
+              - generic [ref=e1082]:
+                - button "Customize your Performance report using AI" [ref=e1083] [cursor=pointer]:
+                  - generic [ref=e1085]: filter_list_spark
+                - tooltip [ref=e1087]: Customize your Performance report using AI
+              - generic [ref=e1089]:
+                - button "Reset filters" [ref=e1091] [cursor=pointer]:
+                  - generic [ref=e1093]: Reset filters
+                - tooltip [ref=e1094]: Reset filters
+        - generic [ref=e1095]: "Last update: 4 hours ago"
+    - main [ref=e1103]:
+      - generic [ref=e1106]:
+        - generic [ref=e1107]:
+          - generic [ref=e1108]:
+            - generic [ref=e1109] [cursor=pointer]:
+              - button "Total clicks 19.4K" [ref=e1110]:
+                - generic [ref=e1114]:
+                  - generic "Total clicks" [ref=e1115]:
+                    - generic [ref=e1116]: 
+                    - generic [ref=e1117]: Total clicks
+                  - generic "19,432" [ref=e1118]: 19.4K
+              - button "null" [ref=e1121]:
+                - generic [ref=e1122]: 
+            - generic [ref=e1123] [cursor=pointer]:
+              - button "Total impressions 691K" [ref=e1124]:
+                - generic [ref=e1128]:
+                  - generic "Total impressions" [ref=e1129]:
+                    - generic [ref=e1130]: 
+                    - generic [ref=e1131]: Total impressions
+                  - generic "690,512" [ref=e1132]: 691K
+              - button "null" [ref=e1135]:
+                - generic [ref=e1136]: 
+            - generic [ref=e1137] [cursor=pointer]:
+              - button "Average CTR 2.8%" [ref=e1138]:
+                - generic [ref=e1142]:
+                  - generic "Average CTR" [ref=e1143]:
+                    - generic [ref=e1145]: Average CTR
+                  - generic "2.8%" [ref=e1146]
+              - button "null" [ref=e1149]:
+                - generic [ref=e1150]: 
+            - generic [ref=e1151] [cursor=pointer]:
+              - button "Average position 7.6" [ref=e1152]:
+                - generic [ref=e1156]:
+                  - generic "Average position" [ref=e1157]:
+                    - generic [ref=e1159]: Average position
+                  - generic "7.6" [ref=e1160]
+              - button "null" [ref=e1163]:
+                - generic [ref=e1164]: 
+          - 'button "Selected Time Granularity: Daily" [ref=e1169] [cursor=pointer]':
+            - generic [ref=e1171]: Daily
+            - img [ref=e1173]
+        - generic [ref=e1176]:
+          - generic [ref=e1177]:
+            - generic [ref=e1179]: Clicks
+            - generic [ref=e1181]: Impressions
+          - application "chart" [ref=e1183]:
+            - img [ref=e1184]:
+              - generic [ref=e1185]:
+                - generic [ref=e1186]:
+                  - generic [ref=e1188]: 1/28/25
+                  - generic [ref=e1190]: 3/15/25
+                  - generic [ref=e1192]: 4/30/25
+                  - generic [ref=e1194]: 6/15/25
+                  - generic [ref=e1196]: 7/31/25
+                  - generic [ref=e1198]: 9/15/25
+                  - generic [ref=e1200]: 10/31/25
+                  - generic [ref=e1202]: 12/16/25
+                  - generic [ref=e1204]: 1/31/26
+                  - generic [ref=e1206]: 3/18/26
+                  - generic [ref=e1208]: 5/3/26
+                - generic [ref=e1209]:
+                  - generic [ref=e1211]: "180"
+                  - generic [ref=e1213]: "120"
+                  - generic [ref=e1215]: "60"
+                  - generic [ref=e1217]: "0"
+                - generic [ref=e1218]:
+                  - generic [ref=e1220]: 7.5K
+                  - generic [ref=e1222]: 5K
+                  - generic [ref=e1224]: 2.5K
+                  - generic [ref=e1226]: "0"
+                - button [ref=e1241] [cursor=pointer]:
+                  - generic [ref=e1244]: "1"
+            - generic [ref=e1245]: Chart, containing counts of Total clicks, Total impressions, Average CTR, and Average position from January 28, 2025 to May 27, 2026
+      - generic [ref=e1248]:
+        - tablist [ref=e1250]:
+          - tab "Queries" [ref=e1251] [cursor=pointer]:
+            - generic [ref=e1253]: Queries
+          - tab "Pages" [active] [selected] [ref=e1255] [cursor=pointer]:
+            - generic [ref=e1257]: Pages
+          - tab "Countries" [ref=e1258] [cursor=pointer]:
+            - generic [ref=e1260]: Countries
+          - tab "Devices" [ref=e1261] [cursor=pointer]:
+            - generic [ref=e1263]: Devices
+          - tab "Search appearance" [ref=e1264] [cursor=pointer]:
+            - generic [ref=e1266]: Search appearance
+          - tab "Days" [ref=e1267] [cursor=pointer]:
+            - generic [ref=e1269]: Days
+        - tabpanel [ref=e1445]:
+          - generic [ref=e1449]:
+            - button "Filter table rows" [ref=e1456] [cursor=pointer]:
+              - generic [ref=e1459]: 
+            - table [ref=e1463]:
+              - rowgroup [ref=e1464]:
+                - row "Top pages Sort Top pages Sort Clicks Clicks Sort Impressions Impressions" [ref=e1465]:
+                  - columnheader "Top pages Sort Top pages" [ref=e1466]:
+                    - generic [ref=e1467]:
+                      - generic [ref=e1469]: Top pages
+                      - button "Sort Top pages" [ref=e1470] [cursor=pointer]:
+                        - img [ref=e1472]
+                  - columnheader "Sort Clicks Clicks" [ref=e1474]:
+                    - generic [ref=e1475]:
+                      - button "Sort Clicks" [ref=e1476] [cursor=pointer]:
+                        - img [ref=e1478]
+                      - generic [ref=e1481]: Clicks
+                  - columnheader "Sort Impressions Impressions" [ref=e1482]:
+                    - generic [ref=e1483]:
+                      - button "Sort Impressions" [ref=e1484] [cursor=pointer]:
+                        - img [ref=e1486]
+                      - generic [ref=e1489]: Impressions
+              - rowgroup [ref=e1490]:
+                - row "https://randompokegen.cc/ 12,505 646,955" [ref=e1491]:
+                  - cell "https://randompokegen.cc/" [ref=e1492]:
+                    - generic [ref=e1494]: https://randompokegen.cc/
+                  - cell "12,505" [ref=e1495]:
+                    - generic [ref=e1497]: 12,505
+                  - cell "646,955" [ref=e1498]:
+                    - generic [ref=e1500]: 646,955
+                - row "https://randompokegen.cc/tools/random-legendary-pokemon-generator/ 2,386 12,234" [ref=e1501]:
+                  - cell "https://randompokegen.cc/tools/random-legendary-pokemon-generator/" [ref=e1502]:
+                    - generic [ref=e1504]: https://randompokegen.cc/tools/random-legendary-pokemon-generator/
+                  - cell "2,386" [ref=e1505]:
+                    - generic [ref=e1507]: 2,386
+                  - cell "12,234" [ref=e1508]:
+                    - generic [ref=e1510]: 12,234
+                - row "https://randompokegen.cc/tools/random-mega-pokemon-generator/ 2,139 8,577" [ref=e1511]:
+                  - cell "https://randompokegen.cc/tools/random-mega-pokemon-generator/" [ref=e1512]:
+                    - generic [ref=e1514]: https://randompokegen.cc/tools/random-mega-pokemon-generator/
+                  - cell "2,139" [ref=e1515]:
+                    - generic [ref=e1517]: 2,139
+                  - cell "8,577" [ref=e1518]:
+                    - generic [ref=e1520]: 8,577
+                - row "https://randompokegen.cc/tools/random-shiny-pokemon-generator/ 1,802 10,248" [ref=e1521]:
+                  - cell "https://randompokegen.cc/tools/random-shiny-pokemon-generator/" [ref=e1522]:
+                    - generic [ref=e1524]: https://randompokegen.cc/tools/random-shiny-pokemon-generator/
+                  - cell "1,802" [ref=e1525]:
+                    - generic [ref=e1527]: 1,802
+                  - cell "10,248" [ref=e1528]:
+                    - generic [ref=e1530]: 10,248
+                - row "https://randompokegen.cc/tools/random-mythical-pokemon-generator/ 202 1,628" [ref=e1531]:
+                  - cell "https://randompokegen.cc/tools/random-mythical-pokemon-generator/" [ref=e1532]:
+                    - generic [ref=e1534]: https://randompokegen.cc/tools/random-mythical-pokemon-generator/
+                  - cell "202" [ref=e1535]:
+                    - generic [ref=e1537]: "202"
+                  - cell "1,628" [ref=e1538]:
+                    - generic [ref=e1540]: 1,628
+                - row "https://randompokegen.cc/tools/random-paradox-pokemon-generator/ 159 1,264" [ref=e1541]:
+                  - cell "https://randompokegen.cc/tools/random-paradox-pokemon-generator/" [ref=e1542]:
+                    - generic [ref=e1544]: https://randompokegen.cc/tools/random-paradox-pokemon-generator/
+                  - cell "159" [ref=e1545]:
+                    - generic [ref=e1547]: "159"
+                  - cell "1,264" [ref=e1548]:
+                    - generic [ref=e1550]: 1,264
+                - row "https://randompokegen.cc/tools/random-pokemon-generator-gen-1/ 126 3,192" [ref=e1551]:
+                  - cell "https://randompokegen.cc/tools/random-pokemon-generator-gen-1/" [ref=e1552]:
+                    - generic [ref=e1554]: https://randompokegen.cc/tools/random-pokemon-generator-gen-1/
+                  - cell "126" [ref=e1555]:
+                    - generic [ref=e1557]: "126"
+                  - cell "3,192" [ref=e1558]:
+                    - generic [ref=e1560]: 3,192
+                - row "https://randompokegen.cc/blog/random-pokemon-team-generator/ 25 764" [ref=e1561]:
+                  - cell "https://randompokegen.cc/blog/random-pokemon-team-generator/" [ref=e1562]:
+                    - generic [ref=e1564]: https://randompokegen.cc/blog/random-pokemon-team-generator/
+                  - cell "25" [ref=e1565]:
+                    - generic [ref=e1567]: "25"
+                  - cell "764" [ref=e1568]:
+                    - generic [ref=e1570]: "764"
+                - row "https://randompokegen.cc/docs/filter-options/ 22 551" [ref=e1571]:
+                  - cell "https://randompokegen.cc/docs/filter-options/" [ref=e1572]:
+                    - generic [ref=e1574]: https://randompokegen.cc/docs/filter-options/
+                  - cell "22" [ref=e1575]:
+                    - generic [ref=e1577]: "22"
+                  - cell "551" [ref=e1578]:
+                    - generic [ref=e1580]: "551"
+                - row "https://randompokegen.cc/tools/random-pokemon-generator-gen-9/ 17 683" [ref=e1581]:
+                  - cell "https://randompokegen.cc/tools/random-pokemon-generator-gen-9/" [ref=e1582]:
+                    - generic [ref=e1584]: https://randompokegen.cc/tools/random-pokemon-generator-gen-9/
+                  - cell "17" [ref=e1585]:
+                    - generic [ref=e1587]: "17"
+                  - cell "683" [ref=e1588]:
+                    - generic [ref=e1590]: "683"
+            - generic [ref=e1593]:
+              - generic [ref=e1595]:
+                - generic [ref=e1596]: "Rows per page:"
+                - listbox "Number of rows per page" [ref=e1597] [cursor=pointer]:
+                  - option "5"
+                  - option "10" [selected] [ref=e1598]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                  - option "250"
+                  - option "500"
+              - generic [ref=e1599]:
+                - generic [ref=e1600]: 1-10 of 84
+                - generic [ref=e1601]:
+                  - generic [ref=e1603]:
+                    - button "Previous page" [disabled] [ref=e1604]:
+                      - img [ref=e1607]
+                    - tooltip [ref=e1609]: Previous page
+                  - generic [ref=e1611]:
+                    - button "Next page" [ref=e1612] [cursor=pointer]:
+                      - img [ref=e1614]
+                    - tooltip [ref=e1616]: Next page

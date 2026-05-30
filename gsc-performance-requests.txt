@@ -1,0 +1,7 @@
+30. [POST] https://search.google.com/_/SearchConsoleAggReportUi/data/batchexecute?rpcids=pPDvCb&source-path=%2Fsearch-console&f.sid=6630593700002718059&bl=boq_searchconsoleserver_20260527.03_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=42667&rt=c => [200] 
+31. [POST] https://search.google.com/_/SearchConsoleAggReportUi/data/batchexecute?rpcids=oGVhvf&source-path=%2Fsearch-console&f.sid=6630593700002718059&bl=boq_searchconsoleserver_20260527.03_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=142667&rt=c => [200] 
+33. [POST] https://search.google.com/_/SearchConsoleAggReportUi/data/batchexecute?rpcids=gydQ5d&source-path=%2Fsearch-console&f.sid=6630593700002718059&bl=boq_searchconsoleserver_20260527.03_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=242667&rt=c => [200] 
+79. [POST] https://search.google.com/_/SearchConsoleAggReportUi/data/batchexecute?rpcids=OLiH4d%2CqoMQ6%2CnDAfwb%2CczrWJf%2CB2IOAd&source-path=%2Fsearch-console%2Fperformance%2Fsearch-analytics&f.sid=6630593700002718059&bl=boq_searchconsoleserver_20260527.03_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=542667&rt=c => [200] 
+89. [POST] https://search.google.com/_/SearchConsoleAggReportUi/data/batchexecute?rpcids=pPDvCb&source-path=%2Fsearch-console%2Fperformance%2Fsearch-analytics&f.sid=6630593700002718059&bl=boq_searchconsoleserver_20260527.03_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=742667&rt=c => [200] 
+
+Note: 60 static requests not shown, run with "static" option to see them.

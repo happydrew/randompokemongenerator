@@ -1,0 +1,425 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e894] [cursor=pointer]:
+          - img [ref=e8]
+        - link [ref=e895] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Acompareheights.org
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - search [ref=e16]:
+          - generic [ref=e22]:
+            - textbox [disabled] [ref=e23]: Inspect any URL in "compareheights.org"
+            - combobox [ref=e896]
+          - button [ref=e897] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - button [ref=e898] [cursor=pointer]:
+              - generic [ref=e36]: 
+            - button [ref=e899] [cursor=pointer]:
+              - img [ref=e41]
+          - button [ref=e900] [cursor=pointer]:
+            - generic [ref=e47]:
+              - generic [ref=e48]: 
+              - generic [ref=e50]: "38"
+      - generic [ref=e52]:
+        - button [ref=e901] [cursor=pointer]:
+          - img [ref=e57]
+        - button [ref=e902] [cursor=pointer]:
+          - img [ref=e64]
+  - dialog [ref=e903]:
+    - navigation [ref=e904]:
+      - button [ref=e905] [cursor=pointer]:
+        - img [ref=e77]
+        - combobox [ref=e906]: compareheights.org
+        - generic [ref=e85]: 
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - link [ref=e907] [cursor=pointer]:
+              - /url: ./search-console?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e92]: home
+              - generic [ref=e94]: Overview
+            - link [ref=e908] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e99]: lightbulb_2
+              - generic [ref=e101]: Insights
+            - link [ref=e909] [cursor=pointer]:
+              - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e106]: trending_up
+              - generic [ref=e108]: Performance
+            - button [ref=e910] [cursor=pointer]:
+              - generic [ref=e113]: search
+              - generic [ref=e115]: URL inspection
+          - generic [ref=e119]:
+            - button [expanded] [ref=e911] [cursor=pointer]:
+              - generic [ref=e121]:
+                - generic [ref=e124]: Indexing
+                - img [ref=e128]
+            - generic [ref=e133]:
+              - link [ref=e912] [cursor=pointer]:
+                - /url: ./search-console/index?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e137]: file_copy
+                - generic [ref=e139]: Pages
+              - link [ref=e913] [cursor=pointer]:
+                - /url: ./search-console/video-index?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e144]: video_library
+                - generic [ref=e146]: Videos
+              - link [ref=e914] [cursor=pointer]:
+                - /url: ./search-console/sitemaps?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e151]: account_tree
+                - generic [ref=e153]: Sitemaps
+              - link [ref=e915] [cursor=pointer]:
+                - /url: ./search-console/removals?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e158]: visibility_off
+                - generic [ref=e160]: Removals
+          - generic [ref=e164]:
+            - button [expanded] [ref=e916] [cursor=pointer]:
+              - generic [ref=e166]:
+                - generic [ref=e169]: Experience
+                - img [ref=e173]
+            - generic [ref=e178]:
+              - link [ref=e917] [cursor=pointer]:
+                - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e182]: speed
+                - generic [ref=e184]: Core Web Vitals
+              - link [ref=e918] [cursor=pointer]:
+                - /url: ./search-console/https?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e189]: lock
+                - generic [ref=e191]: HTTPS
+          - generic [ref=e195]:
+            - button [expanded] [ref=e919] [cursor=pointer]:
+              - generic [ref=e197]:
+                - generic [ref=e200]: Enhancements
+                - img [ref=e204]
+            - link [ref=e920] [cursor=pointer]:
+              - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e213]: layers
+              - generic [ref=e215]: Breadcrumbs
+          - button [ref=e921] [cursor=pointer]:
+            - generic [ref=e221]:
+              - generic [ref=e224]: Security & Manual Actions
+              - img [ref=e228]
+          - generic [ref=e230]:
+            - link [ref=e922] [cursor=pointer]:
+              - /url: ./search-console/links?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e234]: link_2
+              - generic [ref=e236]: Links
+            - link [ref=e923] [cursor=pointer]:
+              - /url: ./search-console/achievements?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e241]: trophy
+              - generic [ref=e243]: Achievements
+            - link [ref=e924] [cursor=pointer]:
+              - /url: ./search-console/settings?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e248]: settings
+              - generic [ref=e250]: Settings
+        - generic [ref=e252]:
+          - generic [ref=e254]:
+            - button [ref=e925] [cursor=pointer]:
+              - generic [ref=e258]: feedback
+              - generic [ref=e260]: Submit feedback
+            - button [ref=e926] [cursor=pointer]:
+              - generic [ref=e265]: info
+              - generic [ref=e267]: About Search Console
+          - generic [ref=e271]:
+            - link [ref=e927] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en
+              - text: Privacy
+            - link [ref=e928] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en
+              - text: Terms
+  - generic [ref=e276]:
+    - generic [ref=e277]:
+      - generic [ref=e279]:
+        - navigation [ref=e929]:
+          - heading [level=1] [ref=e930]: Performance
+        - button [ref=e931] [cursor=pointer]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: 
+            - generic [ref=e293]: EXPORT
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - radiogroup [ref=e932]:
+              - generic [ref=e301]:
+                - radio [ref=e933] [cursor=pointer]:
+                  - generic [ref=e303]:
+                    - generic [ref=e305]: 24 hours
+                    - img [ref=e307]
+                - radio [ref=e934] [cursor=pointer]:
+                  - generic [ref=e311]:
+                    - generic [ref=e313]: 7 days
+                    - img [ref=e315]
+                - radio [ref=e935] [cursor=pointer]:
+                  - generic [ref=e319]:
+                    - generic [ref=e321]: 28 days
+                    - img [ref=e323]
+                - radio [checked] [ref=e936] [cursor=pointer]:
+                  - generic [ref=e327]:
+                    - generic [ref=e329]: 3 months
+                    - img [ref=e331]
+            - button [ref=e937] [cursor=pointer]:
+              - generic [ref=e338]: More
+              - generic [ref=e340]: arrow_drop_down
+          - list [ref=e341]:
+            - generic [ref=e342]:
+              - generic [ref=e346]:
+                - button [ref=e938] [cursor=pointer]:
+                  - generic [ref=e350]: "Search type: Web"
+                  - generic [ref=e352]: arrow_drop_down
+                - tooltip [ref=e353]: "Search type: Web"
+              - generic [ref=e358]:
+                - button [ref=e939] [cursor=pointer]:
+                  - generic [ref=e363]: add
+                  - generic [ref=e364]: Add filter
+                - tooltip [ref=e365]: Add filter
+              - generic [ref=e368]:
+                - button [ref=e940] [cursor=pointer]:
+                  - generic [ref=e371]: filter_list_spark
+                - tooltip [ref=e373]: Customize your Performance report using AI
+        - generic [ref=e374]: "Last update: 3.5 hours ago"
+    - main [ref=e382]:
+      - generic [ref=e385]:
+        - generic [ref=e386]:
+          - generic [ref=e387]:
+            - generic [ref=e388] [cursor=pointer]:
+              - button [ref=e941]:
+                - generic [ref=e393]:
+                  - generic [ref=e942]:
+                    - generic [ref=e395]: 
+                    - generic [ref=e396]: Total clicks
+                  - generic [ref=e943]: 7.85K
+              - button [ref=e944]:
+                - generic [ref=e401]: 
+            - generic [ref=e402] [cursor=pointer]:
+              - button [ref=e945]:
+                - generic [ref=e407]:
+                  - generic [ref=e946]:
+                    - generic [ref=e409]: 
+                    - generic [ref=e410]: Total impressions
+                  - generic [ref=e947]: 1.06M
+              - button [ref=e948]:
+                - generic [ref=e415]: 
+            - generic [ref=e416] [cursor=pointer]:
+              - button [ref=e949]:
+                - generic [ref=e421]:
+                  - generic [ref=e424]: Average CTR
+                  - generic [ref=e951]: 0.7%
+              - button [ref=e952]:
+                - generic [ref=e429]: 
+            - generic [ref=e430] [cursor=pointer]:
+              - button [ref=e953]:
+                - generic [ref=e435]:
+                  - generic [ref=e438]: Average position
+                  - generic [ref=e955]: "7.6"
+              - button [ref=e956]:
+                - generic [ref=e443]: 
+          - button [ref=e957] [cursor=pointer]:
+            - generic [ref=e450]: Daily
+            - img [ref=e452]
+        - generic [ref=e455]:
+          - generic [ref=e456]:
+            - generic [ref=e458]: Clicks
+            - generic [ref=e460]: Impressions
+          - application [ref=e958]:
+            - img [ref=e463]:
+              - generic [ref=e464]:
+                - generic [ref=e465]:
+                  - generic [ref=e467]: 2/28/26
+                  - generic [ref=e469]: 3/9/26
+                  - generic [ref=e471]: 3/18/26
+                  - generic [ref=e473]: 3/27/26
+                  - generic [ref=e475]: 4/5/26
+                  - generic [ref=e477]: 4/14/26
+                  - generic [ref=e479]: 4/23/26
+                  - generic [ref=e481]: 5/2/26
+                  - generic [ref=e483]: 5/11/26
+                  - generic [ref=e485]: 5/20/26
+                - generic [ref=e486]:
+                  - generic [ref=e488]: "300"
+                  - generic [ref=e490]: "200"
+                  - generic [ref=e492]: "100"
+                  - generic [ref=e494]: "0"
+                - generic [ref=e495]:
+                  - generic [ref=e497]: 30K
+                  - generic [ref=e499]: 20K
+                  - generic [ref=e501]: 10K
+                  - generic [ref=e503]: "0"
+                - button [ref=e518] [cursor=pointer]:
+                  - generic [ref=e521]: "1"
+            - generic [ref=e522]: Chart, containing counts of Total clicks, Total impressions, Average CTR, and Average position from February 28, 2026 to May 27, 2026
+      - generic [ref=e525]:
+        - tablist [ref=e527]:
+          - tab [ref=e959] [cursor=pointer]:
+            - generic [ref=e530]: Queries
+          - tab [selected] [ref=e960] [cursor=pointer]:
+            - generic [ref=e534]: Pages
+          - tab [ref=e961] [cursor=pointer]:
+            - generic [ref=e537]: Countries
+          - tab [ref=e962] [cursor=pointer]:
+            - generic [ref=e540]: Devices
+          - tab [ref=e963] [cursor=pointer]:
+            - generic [ref=e543]: Search appearance
+          - tab [ref=e964] [cursor=pointer]:
+            - generic [ref=e546]: Days
+        - tabpanel [ref=e722]:
+          - generic [ref=e726]:
+            - button [ref=e965] [cursor=pointer]:
+              - generic [ref=e736]: 
+            - table [ref=e740]:
+              - rowgroup [ref=e741]:
+                - row [ref=e966]:
+                  - columnheader [ref=e967]:
+                    - generic [ref=e744]
+                  - columnheader [ref=e969]:
+                    - generic [ref=e752]
+                  - columnheader [ref=e971]:
+                    - generic [ref=e760]
+              - rowgroup [ref=e767]:
+                - row [ref=e973]:
+                  - cell [ref=e974]:
+                    - generic [ref=e771]: http://compareheights.org/
+                  - cell [ref=e975]:
+                    - generic [ref=e774]: 7,719
+                  - cell [ref=e976]:
+                    - generic [ref=e777]: 1,044,468
+                - row [ref=e977]:
+                  - cell [ref=e978]:
+                    - generic [ref=e781]: http://compareheights.org/blog/compare-my-height-to-average-in-country
+                  - cell [ref=e979]:
+                    - generic [ref=e784]: "34"
+                  - cell [ref=e980]:
+                    - generic [ref=e787]: 1,605
+                - row [ref=e981]:
+                  - cell [ref=e982]:
+                    - generic [ref=e791]: https://compareheights.org/tools/compare-my-height-to-average-in-country
+                  - cell [ref=e983]:
+                    - generic [ref=e794]: "33"
+                  - cell [ref=e984]:
+                    - generic [ref=e797]: 1,271
+                - row [ref=e985]:
+                  - cell [ref=e986]:
+                    - generic [ref=e801]: http://compareheights.org/blog/nikki-rodriguez-height
+                  - cell [ref=e987]:
+                    - generic [ref=e804]: "27"
+                  - cell [ref=e988]:
+                    - generic [ref=e807]: 8,057
+                - row [ref=e989]:
+                  - cell [ref=e990]:
+                    - generic [ref=e811]: http://compareheights.org/blog/noah-lalonde-height
+                  - cell [ref=e991]:
+                    - generic [ref=e814]: "21"
+                  - cell [ref=e992]:
+                    - generic [ref=e817]: 3,532
+                - row [ref=e993]:
+                  - cell [ref=e994]:
+                    - generic [ref=e821]: https://compareheights.org/docs/user-guide
+                  - cell [ref=e995]:
+                    - generic [ref=e824]: "9"
+                  - cell [ref=e996]:
+                    - generic [ref=e827]: 1,025
+                - row [ref=e997]:
+                  - cell [ref=e998]:
+                    - generic [ref=e831]: http://compareheights.org/zh
+                  - cell [ref=e999]:
+                    - generic [ref=e834]: "5"
+                  - cell [ref=e1000]:
+                    - generic [ref=e837]: "275"
+                - row [ref=e1001]:
+                  - cell [ref=e1002]:
+                    - generic [ref=e841]: http://compareheights.org/blog/how-to-quickly-create-a-stunning-visual-height-comparison-chart
+                  - cell [ref=e1003]:
+                    - generic [ref=e844]: "3"
+                  - cell [ref=e1004]:
+                    - generic [ref=e847]: "923"
+                - row [ref=e1005]:
+                  - cell [ref=e1006]:
+                    - generic [ref=e851]: https://compareheights.org/en/blog/nikki-rodriguez-height
+                  - cell [ref=e1007]:
+                    - generic [ref=e854]: "3"
+                  - cell [ref=e1008]:
+                    - generic [ref=e857]: "720"
+                - row [ref=e1009]:
+                  - cell [ref=e1010]:
+                    - generic [ref=e861]: https://compareheights.org/blog
+                  - cell [ref=e1011]:
+                    - generic [ref=e864]: "1"
+                  - cell [ref=e1012]:
+                    - generic [ref=e867]: "372"
+            - generic [ref=e870]:
+              - generic [ref=e872]:
+                - generic [ref=e873]: "Rows per page:"
+                - listbox [ref=e1013] [cursor=pointer]:
+                  - text: "5"
+                  - option [selected] [ref=e1014]: "10"
+                  - text: 25 50 100 250 500
+              - generic [ref=e876]:
+                - generic [ref=e877]: 1-10 of 45
+                - generic [ref=e878]:
+                  - generic [ref=e880]:
+                    - button [disabled] [ref=e1015]
+                    - tooltip [ref=e886]: Previous page
+                  - generic [ref=e888]:
+                    - button [ref=e1016] [cursor=pointer]
+                    - tooltip [ref=e893]: Next page
+  - dialog "Date range" [ref=e1018]:
+    - heading "Date range" [level=2] [ref=e1019]:
+      - generic [ref=e1020]: Date range
+    - generic [ref=e1023]:
+      - tablist [ref=e1024]:
+        - generic [ref=e1028]:
+          - tab "Filter" [selected] [ref=e1029] [cursor=pointer]:
+            - generic:
+              - generic: Filter
+          - tab "Compare" [ref=e1030] [cursor=pointer]:
+            - generic:
+              - generic: Compare
+      - tabpanel "Filter" [ref=e1031]:
+        - generic [ref=e1032]:
+          - radiogroup [ref=e1033]:
+            - generic [ref=e1035] [cursor=pointer]:
+              - radio "Last 6 months" [active] [ref=e1037]
+              - generic [ref=e1038]: Last 6 months
+            - generic [ref=e1040] [cursor=pointer]:
+              - radio "Last 12 months" [ref=e1042]
+              - generic [ref=e1043]: Last 12 months
+            - generic [ref=e1045] [cursor=pointer]:
+              - radio "Last 16 months" [ref=e1047]
+              - generic [ref=e1048]: Last 16 months
+            - generic [ref=e1050] [cursor=pointer]:
+              - radio "Custom" [ref=e1052]
+              - generic [ref=e1053]: Custom
+          - generic [ref=e1054]:
+            - group [ref=e1056]:
+              - generic [ref=e1058]:
+                - generic [ref=e1059]:
+                  - generic:
+                    - generic
+                  - textbox "Start date" [ref=e1061]: 2026-02-28
+                  - generic [ref=e1063]:
+                    - button "Open calendar" [ref=e1064] [cursor=pointer]
+                    - tooltip [ref=e1070]: Open calendar
+                - generic [ref=e1071]:
+                  - paragraph [ref=e1072]: YYYY-MM-DD
+                  - generic [ref=e1073]: YYYY-MM-DD
+            - generic [ref=e1074]: "-"
+            - group [ref=e1076]:
+              - generic [ref=e1078]:
+                - generic [ref=e1079]:
+                  - generic:
+                    - generic
+                  - textbox "End date" [ref=e1081]: 2026-05-27
+                  - generic [ref=e1083]:
+                    - button "Open calendar" [ref=e1084] [cursor=pointer]
+                    - tooltip [ref=e1090]: Open calendar
+                - generic [ref=e1091]:
+                  - paragraph [ref=e1092]: YYYY-MM-DD
+                  - generic [ref=e1093]: YYYY-MM-DD
+    - generic [ref=e1094]:
+      - button "Cancel" [ref=e1096] [cursor=pointer]:
+        - generic [ref=e1098]: Cancel
+      - generic [ref=e1099]:
+        - button "Apply" [disabled]:
+          - generic: Apply
