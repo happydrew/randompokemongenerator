@@ -37,14 +37,14 @@ function List({
 }: {
   title: string,
   url?: string,
-  items: { title: string; url: string, Icon?: React.FC }[]
+  items: { title: string; url: string, rel?: string, Icon?: React.FC }[]
 }) {
   return (
     <ul className="text-sm flex flex-col gap-4 max-lg:w-[46%]">
       <h3 className="text-lg font-bold">{url ? <NextLink href={url} className={classes.link}>{title}</NextLink> : title}</h3>
       {items.map(item => (
         <li key={item.title}>
-          <NextLink href={item.url} className={`flex justify-start items-center gap-1 ${classes.link}`} target='_blank' title={item.title}>
+          <NextLink href={item.url} rel={item.rel} className={`flex justify-start items-center gap-1 ${classes.link}`} target='_blank' title={item.title}>
             {item.Icon && <item.Icon />}
             {item.title}
           </NextLink>
@@ -112,6 +112,7 @@ function Footer() {
             { title: "", url: "https://www.toolpilot.ai", Icon: () => <img src="https://www.toolpilot.ai/cdn/shop/files/tp-b-i_1280x1280_crop_center.svg?v=1695883732" alt="Toolpilot" className='h-[54px]' /> },
             { title: "", url: "https://fazier.com/launches/randompokegen.cc", Icon: () => <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" width={120} alt="Fazier badge" /> },
             { title: "", url: "https://curateclick.com?utm_source=embed-badge&utm_medium=embed&utm_campaign=embed-badge", Icon: () => <img src="https://curateclick.com/featured-badge.svg" alt="Featured on CurateClick" width={175} height={54} /> },
+            { title: "", url: "https://lovableapp.org", rel: "noopener noreferrer", Icon: () => <img src="https://lovableapp.org/lovable-app-badge.svg" width="160" alt="Lovable App Badge" /> },
           ]}
         />
         {/* <List
