@@ -168,6 +168,8 @@ function Footer() {
               content: <TinyStartupsBadge />,
             },
             { title: "https://www.promotebusinessdirectory.com/", url: "https://www.promotebusinessdirectory.com/" },
+            { title: "Dentists Marketing", url: "https://www.siteswebdirectory.com/Health_Medical/Dentistry/" },
+
           ]}
         />
         {/* <List
