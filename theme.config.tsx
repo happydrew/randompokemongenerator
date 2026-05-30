@@ -37,20 +37,66 @@ function List({
 }: {
   title: string,
   url?: string,
-  items: { title: string; url: string, rel?: string, Icon?: React.FC }[]
+  items: {
+    title: string
+    url: string
+    rel?: string
+    Icon?: React.FC
+    content?: JSX.Element
+    linkClassName?: string
+  }[]
 }) {
   return (
     <ul className="text-sm flex flex-col gap-4 max-lg:w-[46%]">
       <h3 className="text-lg font-bold">{url ? <NextLink href={url} className={classes.link}>{title}</NextLink> : title}</h3>
       {items.map(item => (
-        <li key={item.title}>
-          <NextLink href={item.url} rel={item.rel} className={`flex justify-start items-center gap-1 ${classes.link}`} target='_blank' title={item.title}>
-            {item.Icon && <item.Icon />}
-            {item.title}
+        <li key={item.title || item.url}>
+          <NextLink
+            href={item.url}
+            rel={item.rel}
+            className={item.linkClassName ?? `flex justify-start items-center gap-1 ${classes.link}`}
+            target="_blank"
+            title={item.title || undefined}
+          >
+            {item.content ?? (
+              <>
+                {item.Icon && <item.Icon />}
+                {item.title}
+              </>
+            )}
           </NextLink>
         </li>
       ))}
     </ul>
+  )
+}
+
+function TinyStartupsBadge() {
+  return (
+    <>
+      <svg width="56" height="56" viewBox="0 0 100 100" aria-hidden="true" className="shrink-0">
+        <defs>
+          <linearGradient id="tiny-startups-gradient" x1=".1" y1="0" x2=".9" y2="1">
+            <stop offset="0%" stopColor="#3525E6" />
+            <stop offset="55%" stopColor="#D81FE0" />
+            <stop offset="100%" stopColor="#22B8F0" />
+          </linearGradient>
+        </defs>
+        <path
+          d="M50 6C52 32 68 48 94 50C68 52 52 68 50 94C48 68 32 52 6 50C32 48 48 32 50 6Z"
+          fill="url(#tiny-startups-gradient)"
+        />
+      </svg>
+      <span className={`${inter.className} flex flex-col leading-[1.15]`}>
+        <span className="font-mono text-[9px] font-semibold uppercase tracking-[0.18em] text-[#6A6585]">
+          Launched on
+        </span>
+        <span className="text-[22px] font-extrabold text-[#0E0B1F]" style={{ letterSpacing: "-0.025em" }}>
+          Tiny Startups
+        </span>
+        <span className="mt-1 text-[11px] text-[#6A6585]">tinystartups.com</span>
+      </span>
+    </>
   )
 }
 
@@ -113,6 +159,14 @@ function Footer() {
             { title: "", url: "https://fazier.com/launches/randompokegen.cc", Icon: () => <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" width={120} alt="Fazier badge" /> },
             { title: "", url: "https://curateclick.com?utm_source=embed-badge&utm_medium=embed&utm_campaign=embed-badge", Icon: () => <img src="https://curateclick.com/featured-badge.svg" alt="Featured on CurateClick" width={175} height={54} /> },
             { title: "", url: "https://lovableapp.org", rel: "noopener noreferrer", Icon: () => <img src="https://lovableapp.org/lovable-app-badge.svg" width="160" alt="Lovable App Badge" /> },
+            {
+              title: "Tiny Startups",
+              url: "https://www.tinystartups.com/startup/random-pokemon-generator",
+              rel: "noopener noreferrer",
+              linkClassName:
+                "inline-flex items-center gap-[14px] rounded-[14px] border-2 border-transparent bg-[linear-gradient(#fff,#fff)_padding-box,linear-gradient(90deg,#3525E6,#D81FE0,#22B8F0)_border-box] px-[22px] py-[14px] pl-[18px] text-[#0E0B1F] no-underline",
+              content: <TinyStartupsBadge />,
+            },
             { title: "https://www.promotebusinessdirectory.com/", url: "https://www.promotebusinessdirectory.com/" },
           ]}
         />

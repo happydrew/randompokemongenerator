@@ -1,0 +1,254 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "Main menu" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - link "Google Search Console" [ref=e12] [cursor=pointer]:
+          - /url: ./search-console?resource_id=sc-domain%3Acompareheights.org
+          - img [ref=e13]
+      - generic [ref=e14]:
+        - search [ref=e16]:
+          - generic [ref=e22]:
+            - textbox [disabled] [ref=e23]: Inspect any URL in "compareheights.org"
+            - combobox "Inspect any URL in compareheights.org" [ref=e24]
+          - button "Search" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - button "Help" [ref=e33] [cursor=pointer]:
+              - generic [ref=e36]: 
+            - button "User settings" [ref=e38] [cursor=pointer]:
+              - img [ref=e41]
+          - 'button "Unread messages: 38" [ref=e45] [cursor=pointer]':
+            - generic [ref=e47]:
+              - generic [ref=e48]: 
+              - generic [ref=e50]: "38"
+      - generic [ref=e52]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - 'button "Google Account: ge zhu (zhugetd@gmail.com)" [ref=e62] [cursor=pointer]':
+          - img [ref=e64]
+  - dialog "navigational drawer" [ref=e68]:
+    - navigation "Primary" [ref=e71]:
+      - button "Search property" [ref=e75] [cursor=pointer]:
+        - img [ref=e77]
+        - combobox "compareheights.org" [ref=e84]
+        - generic [ref=e85]: 
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - link "Overview" [ref=e90] [cursor=pointer]:
+              - /url: ./search-console?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e92]: home
+              - generic [ref=e94]: Overview
+            - link "Insights" [ref=e97] [cursor=pointer]:
+              - /url: ./search-console/performance/insights?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e99]: lightbulb_2
+              - generic [ref=e101]: Insights
+            - link "Performance" [ref=e104] [cursor=pointer]:
+              - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e106]: trending_up
+              - generic [ref=e108]: Performance
+            - button "URL inspection" [ref=e111] [cursor=pointer]:
+              - generic [ref=e113]: search
+              - generic [ref=e115]: URL inspection
+          - generic [ref=e119]:
+            - button "Indexing report section" [expanded] [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]:
+                - generic [ref=e124]: Indexing
+                - img [ref=e128]
+            - generic [ref=e133]:
+              - link "Pages" [ref=e135] [cursor=pointer]:
+                - /url: ./search-console/index?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e137]: file_copy
+                - generic [ref=e139]: Pages
+              - link "Videos" [ref=e142] [cursor=pointer]:
+                - /url: ./search-console/video-index?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e144]: video_library
+                - generic [ref=e146]: Videos
+              - link "Sitemaps" [ref=e149] [cursor=pointer]:
+                - /url: ./search-console/sitemaps?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e151]: account_tree
+                - generic [ref=e153]: Sitemaps
+              - link "Removals" [ref=e156] [cursor=pointer]:
+                - /url: ./search-console/removals?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e158]: visibility_off
+                - generic [ref=e160]: Removals
+          - generic [ref=e164]:
+            - button "Experience report section" [expanded] [ref=e165] [cursor=pointer]:
+              - generic [ref=e166]:
+                - generic [ref=e169]: Experience
+                - img [ref=e173]
+            - generic [ref=e178]:
+              - link "Core Web Vitals" [ref=e180] [cursor=pointer]:
+                - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e182]: speed
+                - generic [ref=e184]: Core Web Vitals
+              - link "HTTPS" [ref=e187] [cursor=pointer]:
+                - /url: ./search-console/https?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e189]: lock
+                - generic [ref=e191]: HTTPS
+          - generic [ref=e195]:
+            - button "Enhancements report section" [expanded] [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]:
+                - generic [ref=e200]: Enhancements
+                - img [ref=e204]
+            - link "Breadcrumbs" [ref=e211] [cursor=pointer]:
+              - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e213]: layers
+              - generic [ref=e215]: Breadcrumbs
+          - button "Security & Manual Actions report section" [ref=e220] [cursor=pointer]:
+            - generic [ref=e221]:
+              - generic [ref=e224]: Security & Manual Actions
+              - img [ref=e228]
+          - generic [ref=e230]:
+            - link "Links report" [ref=e232] [cursor=pointer]:
+              - /url: ./search-console/links?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e234]: link_2
+              - generic [ref=e236]: Links
+            - link "Achievements" [ref=e239] [cursor=pointer]:
+              - /url: ./search-console/achievements?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e241]: trophy
+              - generic [ref=e243]: Achievements
+            - link "Settings" [ref=e246] [cursor=pointer]:
+              - /url: ./search-console/settings?resource_id=sc-domain%3Acompareheights.org
+              - generic [ref=e248]: settings
+              - generic [ref=e250]: Settings
+        - generic [ref=e252]:
+          - generic [ref=e254]:
+            - button "Submit feedback" [ref=e256] [cursor=pointer]:
+              - generic [ref=e258]: feedback
+              - generic [ref=e260]: Submit feedback
+            - button "About Search Console" [ref=e263] [cursor=pointer]:
+              - generic [ref=e265]: info
+              - generic [ref=e267]: About Search Console
+          - generic [ref=e271]:
+            - link "Privacy" [ref=e272] [cursor=pointer]:
+              - /url: https://myaccount.google.com/privacypolicy?hl=en
+            - link "Terms" [ref=e273] [cursor=pointer]:
+              - /url: https://myaccount.google.com/termsofservice?hl=en
+  - generic [ref=e276]:
+    - generic [ref=e279]:
+      - navigation "Breadcrumbs" [ref=e281]:
+        - heading "HTTPS" [level=1] [ref=e284]
+      - button "EXPORT" [ref=e287] [cursor=pointer]:
+        - generic [ref=e290]:
+          - generic [ref=e291]: 
+          - generic [ref=e292]: EXPORT
+    - generic [ref=e293]:
+      - generic [ref=e297]: "Last update: 5/30/26"
+      - main [ref=e299]:
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - generic [ref=e304]:
+              - generic [ref=e305] [cursor=pointer]:
+                - button "Non-HTTPS URLs 6 2 critical issues" [ref=e306]:
+                  - generic [ref=e310]:
+                    - generic "Non-HTTPS URLs" [ref=e311]:
+                      - generic [ref=e312]: 
+                      - generic [ref=e313]: Non-HTTPS URLs
+                    - generic "6" [ref=e314]
+                    - generic [ref=e315]: 2 critical issues
+                - button "null" [ref=e318]:
+                  - generic [ref=e319]: 
+              - generic [ref=e320] [cursor=pointer]:
+                - button "HTTPS URLs 8" [ref=e321]:
+                  - generic [ref=e325]:
+                    - generic "HTTPS URLs" [ref=e326]:
+                      - generic [ref=e327]: 
+                      - generic [ref=e328]: HTTPS URLs
+                    - generic "8" [ref=e329]
+                - button "null" [ref=e332]:
+                  - generic [ref=e333]: 
+            - generic [ref=e334]:
+              - generic [ref=e336]: Pages
+              - img [ref=e339]:
+                - generic [ref=e340]:
+                  - generic [ref=e341]:
+                    - generic [ref=e343]: 3/1/26
+                    - generic [ref=e345]: 3/13/26
+                    - generic [ref=e347]: 3/25/26
+                    - generic [ref=e349]: 4/6/26
+                    - generic [ref=e351]: 4/18/26
+                    - generic [ref=e353]: 4/30/26
+                    - generic [ref=e355]: 5/12/26
+                    - generic [ref=e357]: 5/24/26
+                  - generic [ref=e358]:
+                    - generic [ref=e360]: "15"
+                    - generic [ref=e362]: "10"
+                    - generic [ref=e364]: "5"
+                    - generic [ref=e366]: "0"
+          - link "View examples of HTTPS pages" [ref=e736] [cursor=pointer]:
+            - /url: ./search-console/https/drilldown?resource_id=sc-domain%3Acompareheights.org
+            - generic [ref=e739]:
+              - generic [ref=e741]: check_circle
+              - generic [ref=e742]: View examples of HTTPS pages
+              - generic [ref=e744]: 
+        - generic [ref=e747]:
+          - generic [ref=e749]:
+            - generic [ref=e752]:
+              - generic [ref=e753]: error
+              - generic [ref=e754]:
+                - generic [ref=e755]: Why pages are not being served over HTTPS
+                - generic [ref=e756]: A page must be served over HTTPS to be eligible for Good page experience
+            - button "Filter table rows" [ref=e761] [cursor=pointer]:
+              - generic [ref=e764]: 
+          - table [ref=e767]:
+            - rowgroup [ref=e768]:
+              - row "Issue Validation Trend Pages" [ref=e769]:
+                - columnheader "Issue" [ref=e770]:
+                  - generic [ref=e772]: Issue
+                  - img [ref=e774] [cursor=pointer]
+                - columnheader "Validation" [ref=e776]:
+                  - generic [ref=e778]: Validation
+                  - img [ref=e780] [cursor=pointer]
+                - columnheader "Trend" [ref=e782]:
+                  - generic [ref=e784]: Trend
+                - columnheader "Pages" [ref=e785]:
+                  - img [ref=e787] [cursor=pointer]
+                  - generic [ref=e790]: Pages
+            - rowgroup [ref=e791]:
+              - row "HTTPS not evaluated null Not Started 4" [ref=e792]:
+                - cell "HTTPS not evaluated null" [ref=e793]:
+                  - generic "HTTPS not evaluated" [ref=e795]:
+                    - generic [ref=e796]:
+                      - text: HTTPS not evaluated
+                      - button "null" [ref=e799] [cursor=pointer]:
+                        - generic [ref=e800]: 
+                - cell "Not Started" [ref=e801]:
+                  - generic [ref=e804]:
+                    - generic [ref=e805]: 
+                    - text: Not Started
+                - cell [ref=e806]:
+                  - img [ref=e809]
+                - cell "4" [ref=e811]:
+                  - generic [ref=e813]: "4"
+              - row "HTTP marked with canonical tag Not Started 2" [ref=e814]:
+                - cell "HTTP marked with canonical tag" [ref=e815]:
+                  - generic "HTTP marked with canonical tag" [ref=e817]:
+                    - generic [ref=e818]: HTTP marked with canonical tag
+                - cell "Not Started" [ref=e819]:
+                  - generic [ref=e822]:
+                    - generic [ref=e823]: 
+                    - text: Not Started
+                - cell [ref=e824]:
+                  - img [ref=e827]
+                - cell "2" [ref=e829]:
+                  - generic [ref=e831]: "2"
+          - generic [ref=e834]:
+            - generic [ref=e836]:
+              - generic [ref=e837]: "Rows per page:"
+              - listbox "Number of rows per page" [ref=e838] [cursor=pointer]:
+                - option "5"
+                - option "10" [selected] [ref=e839]
+                - option "25"
+                - option "50"
+                - option "100"
+                - option "250"
+                - option "500"
+            - generic [ref=e840]:
+              - generic [ref=e841]: 1-2 of 2
+              - generic [ref=e842]:
+                - generic [ref=e844]: 
+                - generic [ref=e846]: 

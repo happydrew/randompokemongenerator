@@ -1,0 +1,286 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Main menu" [ref=e7] [cursor=pointer]:
+            - img [ref=e8]
+          - link "Google Search Console" [ref=e12] [cursor=pointer]:
+            - /url: ./search-console?resource_id=sc-domain%3Acompareheights.org
+            - img [ref=e13]
+        - generic [ref=e14]:
+          - search [ref=e16]:
+            - generic [ref=e22]:
+              - textbox [disabled] [ref=e23]: Inspect any URL in "compareheights.org"
+              - combobox "Inspect any URL in compareheights.org" [ref=e24]
+            - button "Search" [ref=e25] [cursor=pointer]:
+              - img [ref=e26]
+          - generic [ref=e29]:
+            - generic [ref=e31]:
+              - button "Help" [ref=e33] [cursor=pointer]:
+                - generic [ref=e36]: 
+              - button "User settings" [ref=e38] [cursor=pointer]:
+                - img [ref=e41]
+            - 'button "Unread messages: 38" [ref=e45] [cursor=pointer]':
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - generic [ref=e1395]: "38"
+        - generic [ref=e52]:
+          - button "Google apps" [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+          - 'button "Google Account: ge zhu (zhugetd@gmail.com)" [ref=e62] [cursor=pointer]':
+            - img [ref=e64]
+    - dialog "navigational drawer" [ref=e68]:
+      - navigation "Primary" [ref=e71]:
+        - button "Search property" [ref=e75] [cursor=pointer]:
+          - img [ref=e77]
+          - combobox "compareheights.org" [ref=e84]
+          - generic [ref=e85]: 
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - link "Overview" [ref=e90] [cursor=pointer]:
+                - /url: ./search-console?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e92]: home
+                - generic [ref=e94]: Overview
+              - link "Insights" [ref=e97] [cursor=pointer]:
+                - /url: ./search-console/performance/insights?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e99]: lightbulb_2
+                - generic [ref=e101]: Insights
+              - link "Performance" [ref=e104] [cursor=pointer]:
+                - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e106]: trending_up
+                - generic [ref=e108]: Performance
+              - button "URL inspection" [ref=e111] [cursor=pointer]:
+                - generic [ref=e113]: search
+                - generic [ref=e115]: URL inspection
+            - generic [ref=e119]:
+              - button "Indexing report section" [expanded] [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - generic [ref=e124]: Indexing
+                  - img [ref=e128]
+              - generic [ref=e133]:
+                - link "Pages" [ref=e135] [cursor=pointer]:
+                  - /url: ./search-console/index?resource_id=sc-domain%3Acompareheights.org
+                  - generic [ref=e137]: file_copy
+                  - generic [ref=e139]: Pages
+                - link "Videos" [ref=e142] [cursor=pointer]:
+                  - /url: ./search-console/video-index?resource_id=sc-domain%3Acompareheights.org
+                  - generic [ref=e144]: video_library
+                  - generic [ref=e146]: Videos
+                - link "Sitemaps" [ref=e149] [cursor=pointer]:
+                  - /url: ./search-console/sitemaps?resource_id=sc-domain%3Acompareheights.org
+                  - generic [ref=e151]: account_tree
+                  - generic [ref=e153]: Sitemaps
+                - link "Removals" [ref=e156] [cursor=pointer]:
+                  - /url: ./search-console/removals?resource_id=sc-domain%3Acompareheights.org
+                  - generic [ref=e158]: visibility_off
+                  - generic [ref=e160]: Removals
+            - generic [ref=e164]:
+              - button "Experience report section" [expanded] [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]:
+                  - generic [ref=e169]: Experience
+                  - img [ref=e173]
+              - generic [ref=e178]:
+                - link "Core Web Vitals" [ref=e180] [cursor=pointer]:
+                  - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Acompareheights.org
+                  - generic [ref=e182]: speed
+                  - generic [ref=e184]: Core Web Vitals
+                - link "HTTPS" [ref=e187] [cursor=pointer]:
+                  - /url: ./search-console/https?resource_id=sc-domain%3Acompareheights.org
+                  - generic [ref=e189]: lock
+                  - generic [ref=e191]: HTTPS
+            - generic [ref=e195]:
+              - button "Enhancements report section" [expanded] [ref=e196] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - generic [ref=e200]: Enhancements
+                  - img [ref=e204]
+              - link "Breadcrumbs" [ref=e211] [cursor=pointer]:
+                - /url: ./search-console/r/breadcrumbs?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e213]: layers
+                - generic [ref=e215]: Breadcrumbs
+            - button "Security & Manual Actions report section" [ref=e220] [cursor=pointer]:
+              - generic [ref=e221]:
+                - generic [ref=e224]: Security & Manual Actions
+                - img [ref=e228]
+            - generic [ref=e230]:
+              - link "Links report" [ref=e232] [cursor=pointer]:
+                - /url: ./search-console/links?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e234]: link_2
+                - generic [ref=e236]: Links
+              - link "Achievements" [ref=e239] [cursor=pointer]:
+                - /url: ./search-console/achievements?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e241]: trophy
+                - generic [ref=e243]: Achievements
+              - link "Settings" [ref=e246] [cursor=pointer]:
+                - /url: ./search-console/settings?resource_id=sc-domain%3Acompareheights.org
+                - generic [ref=e248]: settings
+                - generic [ref=e250]: Settings
+          - generic [ref=e252]:
+            - generic [ref=e254]:
+              - button "Submit feedback" [ref=e256] [cursor=pointer]:
+                - generic [ref=e258]: feedback
+                - generic [ref=e260]: Submit feedback
+              - button "About Search Console" [ref=e263] [cursor=pointer]:
+                - generic [ref=e265]: info
+                - generic [ref=e267]: About Search Console
+            - generic [ref=e271]:
+              - link "Privacy" [ref=e272] [cursor=pointer]:
+                - /url: https://myaccount.google.com/privacypolicy?hl=en
+              - link "Terms" [ref=e273] [cursor=pointer]:
+                - /url: https://myaccount.google.com/termsofservice?hl=en
+    - generic [ref=e1398]:
+      - generic [ref=e1401]:
+        - navigation "Breadcrumbs" [ref=e1403]:
+          - link "Page indexing" [ref=e1405] [cursor=pointer]:
+            - /url: ./search-console/index?resource_id=sc-domain%3Acompareheights.org&pages=ALL_URLS
+          - generic [ref=e1406]: 
+          - heading "Crawled - currently not indexed" [level=1] [ref=e1409]
+        - button "EXPORT" [ref=e1412] [cursor=pointer]:
+          - generic [ref=e1415]:
+            - generic [ref=e1416]: 
+            - generic [ref=e1417]: EXPORT
+        - button "Get shareable link." [ref=e1421] [cursor=pointer]:
+          - generic [ref=e1425]:
+            - generic [ref=e1426]: 
+            - generic [ref=e1427]: SHARE
+      - generic [ref=e1433]:
+        - generic [ref=e1435]:
+          - listbox [ref=e1438] [cursor=pointer]:
+            - option "All known pages" [selected] [ref=e1439]
+            - option "All submitted pages"
+            - option "Unsubmitted pages only"
+            - generic:
+              - option "https://compareheights.org/sitemap.xml"
+          - generic [ref=e1442]: "Last update: 5/25/26"
+        - main [ref=e1444]:
+          - generic [ref=e1445]:
+            - generic [ref=e1447]:
+              - generic [ref=e1448]:
+                - generic [ref=e1449]: info
+                - generic [ref=e1450]:
+                  - generic [ref=e1451]: Crawled - currently not indexed
+                  - generic [ref=e1452]: These pages aren't indexed or served on Google
+                  - link "Link to more extensive documentation" [ref=e1454] [cursor=pointer]:
+                    - /url: https://support.google.com/webmasters/answer/7440203#crawled
+                    - generic [ref=e1457]: Learn more
+              - generic [ref=e1459]:
+                - generic [ref=e1460]: "First detected: 8/30/25"
+                - generic [ref=e1461]: Done fixing?
+                - button "validate fix" [ref=e1462] [cursor=pointer]:
+                  - generic [ref=e1465]: validate fix
+            - generic [ref=e1468]:
+              - generic [ref=e1471]:
+                - generic "Affected pages" [ref=e1472]
+                - generic "32" [ref=e1473]
+              - img [ref=e1477]:
+                - generic [ref=e1478]:
+                  - generic [ref=e1479]:
+                    - generic [ref=e1481]: 3/1/26
+                    - generic [ref=e1483]: 3/12/26
+                    - generic [ref=e1485]: 3/23/26
+                    - generic [ref=e1487]: 4/3/26
+                    - generic [ref=e1489]: 4/14/26
+                    - generic [ref=e1491]: 4/25/26
+                    - generic [ref=e1493]: 5/6/26
+                    - generic [ref=e1495]: 5/17/26
+                  - generic [ref=e1496]:
+                    - generic [ref=e1498]: "45"
+                    - generic [ref=e1500]: "30"
+                    - generic [ref=e1502]: "15"
+                    - generic [ref=e1504]: "0"
+            - generic [ref=e1679]:
+              - generic [ref=e1681]:
+                - generic [ref=e1682]:
+                  - generic [ref=e1683]: Examples
+                  - button "null" [ref=e1687] [cursor=pointer]:
+                    - generic [ref=e1688]: 
+                - button "Filter table rows" [ref=e1693] [cursor=pointer]:
+                  - generic [ref=e1696]: 
+              - table [ref=e1699]:
+                - rowgroup [ref=e1700]:
+                  - row "URL Last crawled" [ref=e1701]:
+                    - columnheader "URL" [ref=e1702]:
+                      - generic [ref=e1704]: URL
+                      - img [ref=e1706] [cursor=pointer]
+                    - columnheader "Last crawled" [ref=e1708]:
+                      - img [ref=e1710] [cursor=pointer]
+                      - generic [ref=e1713]: Last crawled
+                - rowgroup [ref=e1714]:
+                  - row "https://compareheights.org/tools/brave-pink-green-hero?ref=producthunt May 25, 2026" [ref=e1715]:
+                    - cell "https://compareheights.org/tools/brave-pink-green-hero?ref=producthunt" [ref=e1716]:
+                      - generic "https://compareheights.org/tools/brave-pink-green-hero?ref=producthunt" [ref=e1718]:
+                        - generic [ref=e1719]: https://compareheights.org/tools/brave-pink-green-hero?ref=producthunt
+                    - cell "May 25, 2026" [ref=e1720]:
+                      - generic [ref=e1722]: May 25, 2026
+                  - row "https://compareheights.org/tools/brave-pink-green-hero Mar 31, 2026" [ref=e1723]:
+                    - cell "https://compareheights.org/tools/brave-pink-green-hero" [ref=e1724]:
+                      - generic "https://compareheights.org/tools/brave-pink-green-hero" [ref=e1726]:
+                        - generic [ref=e1727]: https://compareheights.org/tools/brave-pink-green-hero
+                    - cell "Mar 31, 2026" [ref=e1728]:
+                      - generic [ref=e1730]: Mar 31, 2026
+                  - row "https://compareheights.org/?ref=DirEasy Demo Mar 30, 2026" [ref=e1731]:
+                    - cell "https://compareheights.org/?ref=DirEasy Demo" [ref=e1732]:
+                      - generic "https://compareheights.org/?ref=DirEasy Demo" [ref=e1734]:
+                        - generic [ref=e1735]: https://compareheights.org/?ref=DirEasy Demo
+                    - cell "Mar 30, 2026" [ref=e1736]:
+                      - generic [ref=e1738]: Mar 30, 2026
+                  - row "https://compareheights.org/blog/compare-my-height-to-average-in-country Mar 22, 2026" [ref=e1739]:
+                    - cell "https://compareheights.org/blog/compare-my-height-to-average-in-country" [ref=e1740]:
+                      - generic "https://compareheights.org/blog/compare-my-height-to-average-in-country" [ref=e1742]:
+                        - generic [ref=e1743]: https://compareheights.org/blog/compare-my-height-to-average-in-country
+                    - cell "Mar 22, 2026" [ref=e1744]:
+                      - generic [ref=e1746]: Mar 22, 2026
+                  - row "https://compareheights.org/en/docs/projects Mar 22, 2026" [ref=e1747]:
+                    - cell "https://compareheights.org/en/docs/projects" [ref=e1748]:
+                      - generic "https://compareheights.org/en/docs/projects" [ref=e1750]:
+                        - generic [ref=e1751]: https://compareheights.org/en/docs/projects
+                    - cell "Mar 22, 2026" [ref=e1752]:
+                      - generic [ref=e1754]: Mar 22, 2026
+                  - row "https://compareheights.org/en/blog/visualize-height-comparison-for-anything-easily Mar 22, 2026" [ref=e1755]:
+                    - cell "https://compareheights.org/en/blog/visualize-height-comparison-for-anything-easily" [ref=e1756]:
+                      - generic "https://compareheights.org/en/blog/visualize-height-comparison-for-anything-easily" [ref=e1758]:
+                        - generic [ref=e1759]: https://compareheights.org/en/blog/visualize-height-comparison-for-anything-easily
+                    - cell "Mar 22, 2026" [ref=e1760]:
+                      - generic [ref=e1762]: Mar 22, 2026
+                  - row "https://compareheights.org/en/docs/custom-characters Mar 22, 2026" [ref=e1763]:
+                    - cell "https://compareheights.org/en/docs/custom-characters" [ref=e1764]:
+                      - generic "https://compareheights.org/en/docs/custom-characters" [ref=e1766]:
+                        - generic [ref=e1767]: https://compareheights.org/en/docs/custom-characters
+                    - cell "Mar 22, 2026" [ref=e1768]:
+                      - generic [ref=e1770]: Mar 22, 2026
+                  - row "https://compareheights.org/?ref=devhunt Mar 16, 2026" [ref=e1771]:
+                    - cell "https://compareheights.org/?ref=devhunt" [ref=e1772]:
+                      - generic "https://compareheights.org/?ref=devhunt" [ref=e1774]:
+                        - generic [ref=e1775]: https://compareheights.org/?ref=devhunt
+                    - cell "Mar 16, 2026" [ref=e1776]:
+                      - generic [ref=e1778]: Mar 16, 2026
+                  - row "https://compareheights.org/privacy-policy/ Mar 15, 2026" [ref=e1779]:
+                    - cell "https://compareheights.org/privacy-policy/" [ref=e1780]:
+                      - generic "https://compareheights.org/privacy-policy/" [ref=e1782]:
+                        - generic [ref=e1783]: https://compareheights.org/privacy-policy/
+                    - cell "Mar 15, 2026" [ref=e1784]:
+                      - generic [ref=e1786]: Mar 15, 2026
+                  - row "https://compareheights.org/?toolai.io Mar 15, 2026" [ref=e1787]:
+                    - cell "https://compareheights.org/?toolai.io" [ref=e1788]:
+                      - generic "https://compareheights.org/?toolai.io" [ref=e1790]:
+                        - generic [ref=e1791]: https://compareheights.org/?toolai.io
+                    - cell "Mar 15, 2026" [ref=e1792]:
+                      - generic [ref=e1794]: Mar 15, 2026
+              - generic [ref=e1797]:
+                - generic [ref=e1799]:
+                  - generic [ref=e1800]: "Rows per page:"
+                  - listbox "Number of rows per page" [ref=e1801] [cursor=pointer]:
+                    - option "5"
+                    - option "10" [selected] [ref=e1802]
+                    - option "25"
+                    - option "50"
+                    - option "100"
+                    - option "250"
+                    - option "500"
+                - generic [ref=e1803]:
+                  - generic [ref=e1804]: 1-10 of 32
+                  - generic [ref=e1805]:
+                    - generic [ref=e1807]: 
+                    - generic [ref=e1809] [cursor=pointer]: 
+  - generic [ref=e1340]: Page indexing
