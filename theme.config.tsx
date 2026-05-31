@@ -175,6 +175,7 @@ function Footer() {
               rel: "noopener noreferrer",
               Icon: () => <img src="https://statics.startupbase.io/site/badges/launched-on-sb.svg" alt="Launched on StartupBase" height="55" style={{ height: "55px", width: "auto" }} />
             },
+            { title: "Z-Image", url: "https://z-image.net/" },
           ]}
         />
         {/* <List
