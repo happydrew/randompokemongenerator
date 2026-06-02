@@ -44,6 +44,7 @@ function List({
     Icon?: React.FC
     content?: JSX.Element
     linkClassName?: string
+    linkStyle?: React.CSSProperties
   }[]
 }) {
   return (
@@ -57,6 +58,7 @@ function List({
             className={item.linkClassName ?? `flex justify-start items-center gap-1 ${classes.link}`}
             target="_blank"
             title={item.title || undefined}
+            style={item.linkStyle}
           >
             {item.content ?? (
               <>
@@ -153,7 +155,24 @@ function Footer() {
             { title: "Directory Website Promote", url: "https://www.promotebusinessdirectory.com/" },
             { title: "Hosting", url: "https://www.ewebdiscussion.com/forums/web-hosting-offers.67/" },
             { title: "Dentists Marketing", url: "https://www.siteswebdirectory.com/Health_Medical/Dentistry/" },
-            { title: "", url: "https://dang.ai/", Icon: () => <img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Dang.ai" className='w-[150px] h-[54px]' width={150} height={54} /> },
+            {
+              title: "Featured on Dang.ai",
+              url: "https://dang.ai",
+              rel: "dofollow noopener",
+              linkClassName: "inline-flex items-center gap-2 no-underline",
+              linkStyle: {
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                border: "1px solid #6a23e7",
+                background: "#050505",
+                color: "#ffffff",
+                font: "700 14px/1.2 Arial,sans-serif",
+                textDecoration: "none",
+                borderRadius: "8px",
+                padding: "10px 12px",
+              },
+            },
             { title: "AiToolGo", url: "https://www.aitoolgo.com" },
             { title: "", url: "https://www.toolpilot.ai", Icon: () => <img src="https://www.toolpilot.ai/cdn/shop/files/tp-b-i_1280x1280_crop_center.svg?v=1695883732" alt="Toolpilot" className='h-[54px]' /> },
             { title: "", url: "https://fazier.com/launches/randompokegen.cc", Icon: () => <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" width={120} alt="Fazier badge" /> },
