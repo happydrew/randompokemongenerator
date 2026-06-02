@@ -46,6 +46,8 @@ export default function App({ Component, pageProps }: AppProps) {
         }
       `}</style>
       <Head>
+        <meta name="_foundr" content="2c4aeac084d3a3ccebca5f1cde783138"></meta>
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
 
