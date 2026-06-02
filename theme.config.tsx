@@ -196,6 +196,12 @@ function Footer() {
             },
             { title: "Z-Image", url: "https://z-image.net/" },
             { title: "TipSeason", url: "https://tipseason.com" },
+            {
+              title: "Discover Random Pokemon Generator on AI Agents Directory",
+              url: "https://aiagentsdirectory.com/agent/random-pokemon-generator",
+              rel: "noopener",
+              content: <img src="https://aiagentsdirectory.com/featured-badge.svg?v=2024" alt="Random Pokemon Generator - Featured on AI Agents Directory" width="200" height="50" />
+            },
           ]}
         />
         {/* <List
