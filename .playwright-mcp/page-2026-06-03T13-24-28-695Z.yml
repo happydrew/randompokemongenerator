@@ -1,0 +1,65 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - img "logo" [ref=e6] [cursor=pointer]
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e12]:
+          - generic [ref=e14]:
+            - generic [ref=e15]: Log In With QR Code
+            - generic [ref=e16]: Scan the QR code with the Feishu mobile app to log in.
+          - img [ref=e22]
+          - link "Switch to Lark to log in" [ref=e25] [cursor=pointer]:
+            - /url: https://www.larksuite.com/accounts/cross_login/auth?app_id=12&origin_web_did=bdb79d755b45849d0a61faf44d9e0107&redirect_uri=https%3A%2F%2Faccounts.feishu.cn%2Foauth%2Fv1%2Fdevice%2Fverify%2F%3Fflow_id%3DOdHIOgTnEa6lOOOOOOOOOO0qkbJo6PFz2-aE-QRgf15E%26user_code%3D3W4Z-HMAT
+          - generic [ref=e26]: Scanned successfully
+        - generic [ref=e27]:
+          - generic:
+            - generic:
+              - img [ref=e30] [cursor=pointer]
+              - generic [ref=e32]: Account Login
+      - generic [ref=e35]:
+        - text: No account yet?
+        - button "Sign up now" [ref=e36] [cursor=pointer]
+    - generic [ref=e37]:
+      - generic [ref=e42] [cursor=pointer]: English
+      - generic:
+        - list:
+          - listitem [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: English
+          - listitem [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: 简体中文
+          - listitem [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]: 繁體中文（中國香港）
+          - listitem [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: 繁體中文（中國台灣）
+          - listitem [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: 日本語
+          - listitem [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: Bahasa Indonesia
+          - listitem [ref=e57] [cursor=pointer]:
+            - generic [ref=e58]: Bahasa Melayu
+          - listitem [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: Deutsch
+          - listitem [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]: Español
+          - listitem [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: Français
+          - listitem [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: Italiano
+          - listitem [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: Português (Brasil)
+          - listitem [ref=e69] [cursor=pointer]:
+            - generic [ref=e70]: Русский
+          - listitem [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]: Tiếng Việt
+          - listitem [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]: ภาษาไทย
+          - listitem [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]: 한국어
+  - generic [ref=e77]:
+    - generic [ref=e79]:
+      - img "pic" [ref=e80]
+      - button "animation" [ref=e82]:
+        - img [ref=e83]
+    - generic [ref=e139]:
+      - generic [ref=e140]: Feishu, first choice for front-runners
+      - generic [ref=e141]: An AI work platform by ByteDance

@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - button "Consent Preferences" [ref=e3] [cursor=pointer]:
+    - img "Revisit consent button" [ref=e4]
+  - link "Skip to content" [ref=e5] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e7]:
+    - link [ref=e10] [cursor=pointer]:
+      - /url: https://aitoolmall.com
+    - generic [ref=e12]:
+      - navigation "Menu" [ref=e13]:
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "Submit AI Tool" [ref=e16] [cursor=pointer]:
+              - /url: https://aitoolmall.com/submit/
+          - listitem [ref=e17]:
+            - link "News" [ref=e18] [cursor=pointer]:
+              - /url: https://aitoolmall.com/category/news/
+          - listitem [ref=e19]:
+            - link "Blog" [ref=e20] [cursor=pointer]:
+              - /url: https://aitoolmall.com/category/blog/
+          - listitem [ref=e21]:
+            - generic [ref=e22]:
+              - text: Best AI Tools
+              - generic [ref=e23]:
+                - generic: 
+          - listitem [ref=e24]:
+            - link "English English " [ref=e25] [cursor=pointer]:
+              - /url: "#pll_switcher"
+              - img "English" [ref=e26]
+              - generic [ref=e27]: English
+              - generic [ref=e28]:
+                - generic: 
+      - text:    
+  - generic [ref=e38]:
+    - heading "Contact Us" [level=1] [ref=e41]
+    - generic [ref=e43]:
+      - paragraph [ref=e44]:
+        - text: Welcome to AIToolMall.com We will be committed to the popularization of AI tools. All kinds of suggestions and questions are welcome, and we will reply within 48 hours.
+        - strong [ref=e45]: business@aitoolmall.com
+        - text: can receive messages from anyone who wants to contact us. Thank you! For more information check out
+        - link "our homepage" [ref=e46] [cursor=pointer]:
+          - /url: https://aitoolmall.com/
+        - text: .
+      - paragraph [ref=e47]:
+        - strong [ref=e48]: "Phone number:"
+        - text: +1 341-213-3554
+        - strong [ref=e49]: "Contact address:"
+        - text: 7731 State Rd, Chicago Illinois United States
+        - strong [ref=e50]: "Postal code:"
+        - text: "60459"
+  - generic [ref=e51]:
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - heading "More AI Tools" [level=4] [ref=e57]
+        - navigation "Menu" [ref=e60]:
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "AI PDF Reader" [ref=e63] [cursor=pointer]:
+                - /url: http://filepower.ai
+            - listitem [ref=e64]:
+              - link "AI Song Generator" [ref=e65] [cursor=pointer]:
+                - /url: http://aisonggenerator.net
+            - listitem [ref=e66]:
+              - link "AI Chatbot" [ref=e67] [cursor=pointer]:
+                - /url: https://aichatbot.pro/
+            - listitem [ref=e68]:
+              - link "AI GIF Generator" [ref=e69] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-gif-generator/
+            - listitem [ref=e70]:
+              - link "AI Rap Generator" [ref=e71] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-rap-generator/
+            - listitem [ref=e72]:
+              - link "AI Girl Generator" [ref=e73] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-girl-generator/
+            - listitem [ref=e74]:
+              - link "AI Selfie Generator" [ref=e75] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-selfie-generator/
+            - listitem [ref=e76]:
+              - link "AI Lyrics Generator" [ref=e77] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-lyrics-generator/
+            - listitem [ref=e78]:
+              - link "AI Anime Generator" [ref=e79] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-anime-generator/
+            - listitem [ref=e80]:
+              - link "Barbie AI Generator" [ref=e81] [cursor=pointer]:
+                - /url: https://aitoolmall.com/barbie-ai-generator/
+            - listitem [ref=e82]:
+              - link "AI Cartoon Generator" [ref=e83] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-cartoon-generator/
+            - listitem [ref=e84]:
+              - link "AI Animation Generator" [ref=e85] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-animation-generator/
+      - generic [ref=e86]:
+        - heading "NSFW AI Tools" [level=4] [ref=e89]
+        - navigation "Menu" [ref=e92]:
+          - list [ref=e93]:
+            - listitem [ref=e94]:
+              - link "Sex Chatbot" [ref=e95] [cursor=pointer]:
+                - /url: https://aitoolmall.com/sex-chatbot/
+            - listitem [ref=e96]:
+              - link "AI Nude Generator" [ref=e97] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-nude-generator/
+            - listitem [ref=e98]:
+              - link "NSFW Character AI" [ref=e99] [cursor=pointer]:
+                - /url: https://aitoolmall.com/top-nsfw-character-ai/
+            - listitem [ref=e100]:
+              - link "AI Waifu Generator" [ref=e101] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-waifu-generator/
+            - listitem [ref=e102]:
+              - link "NSFW AI Generator" [ref=e103] [cursor=pointer]:
+                - /url: https://aitoolmall.com/nsfw-ai-generator/
+            - listitem [ref=e104]:
+              - link "Deepnude Generator" [ref=e105] [cursor=pointer]:
+                - /url: https://aitoolmall.com/deepnude-generator/
+            - listitem [ref=e106]:
+              - link "AI Clothing Remover" [ref=e107] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-clothing-remover/
+            - listitem [ref=e108]:
+              - link "AI Girlfriend Simulator" [ref=e109] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-girlfriend-simulator/
+            - listitem [ref=e110]:
+              - link "NSFW AI Image Generator" [ref=e111] [cursor=pointer]:
+                - /url: https://aitoolmall.com/nsfw-ai-image-generator/
+            - listitem [ref=e112]:
+              - link "Uncensored AI Art Generator" [ref=e113] [cursor=pointer]:
+                - /url: https://aitoolmall.com/uncensored-ai-art-generator/
+      - generic [ref=e114]:
+        - heading "AI Article" [level=4] [ref=e117]
+        - navigation "Menu" [ref=e120]:
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - link "News" [ref=e123] [cursor=pointer]:
+                - /url: https://aitoolmall.com/category/news/
+            - listitem [ref=e124]:
+              - link "Blog" [ref=e125] [cursor=pointer]:
+                - /url: https://aitoolmall.com/category/blog/
+            - listitem [ref=e126]:
+              - link "AI Tool Stats" [ref=e127] [cursor=pointer]:
+                - /url: https://aitoolmall.com/stats/ai-tool-stats/
+            - listitem [ref=e128]:
+              - link "ChatGPT Stats" [ref=e129] [cursor=pointer]:
+                - /url: https://aitoolmall.com/stats/chatgpt-stats/
+            - listitem [ref=e130]:
+              - link "AI Tools Submit" [ref=e131] [cursor=pointer]:
+                - /url: https://aitoolmall.com/submit/
+      - generic [ref=e132]:
+        - heading "Support" [level=4] [ref=e135]
+        - navigation "Menu" [ref=e138]:
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - link "Contact Us" [ref=e141] [cursor=pointer]:
+                - /url: https://aitoolmall.com/contact-us/
+            - listitem [ref=e142]:
+              - link "Privacy Policy" [ref=e143] [cursor=pointer]:
+                - /url: https://aitoolmall.com/privacy-policy/
+            - listitem [ref=e144]:
+              - link "Terms of Service" [ref=e145] [cursor=pointer]:
+                - /url: https://aitoolmall.com/terms-of-service/
+            - listitem [ref=e146]:
+              - link "Twitter" [ref=e147] [cursor=pointer]:
+                - /url: https://twitter.com/AIToolMall
+    - paragraph [ref=e152]: All logos and names in AIToolMall belong to their respective individuals or companies.
+  - generic [ref=e153]: desktop

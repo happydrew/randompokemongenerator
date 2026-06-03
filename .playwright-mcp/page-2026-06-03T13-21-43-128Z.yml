@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - button "Consent Preferences" [ref=e164] [cursor=pointer]:
+    - img "Revisit consent button" [ref=e165]
+  - link "Skip to content" [ref=e13] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e15]:
+    - link [ref=e18] [cursor=pointer]:
+      - /url: https://aitoolmall.com
+    - generic [ref=e20]:
+      - navigation "Menu" [ref=e21]:
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - link "Submit AI Tool" [ref=e24] [cursor=pointer]:
+              - /url: https://aitoolmall.com/submit/
+          - listitem [ref=e25]:
+            - link "News" [ref=e26] [cursor=pointer]:
+              - /url: https://aitoolmall.com/category/news/
+          - listitem [ref=e27]:
+            - link "Blog" [ref=e28] [cursor=pointer]:
+              - /url: https://aitoolmall.com/category/blog/
+          - listitem [ref=e29]:
+            - generic [ref=e30]:
+              - text: Best AI Tools
+              - generic [ref=e31]:
+                - generic: 
+          - listitem [ref=e32]:
+            - link "English English " [ref=e33] [cursor=pointer]:
+              - /url: "#pll_switcher"
+              - img "English" [ref=e34]
+              - generic [ref=e35]: English
+              - generic [ref=e36]:
+                - generic: 
+      - text:    
+  - generic [ref=e46]:
+    - heading "AI Tools APP Submit" [level=1] [ref=e49]
+    - paragraph [ref=e52]:
+      - text: AItoolMall is an AI tool aggregation platform created by a small team. Our goal is to help users quickly find the best AI tools available. Currently, we have sorted and launched hundreds of AI tools, and our user base is rapidly growing. We are proud to have received a lot of positive feedback, which shows that this project is valuable. We welcome everyone to submit various types of AI tools, as long as they meet legal requirements, they will be published. For more information, please contact us at
+      - link "business@aitoolmall.com" [ref=e53] [cursor=pointer]:
+        - /url: business@aitoolmall.com
+      - text: ", and we will reply within 24 hours. Thank you!"
+  - generic [ref=e54]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - heading "More AI Tools" [level=4] [ref=e60]
+        - navigation "Menu" [ref=e63]:
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - link "AI PDF Reader" [ref=e66] [cursor=pointer]:
+                - /url: http://filepower.ai
+            - listitem [ref=e67]:
+              - link "AI Song Generator" [ref=e68] [cursor=pointer]:
+                - /url: http://aisonggenerator.net
+            - listitem [ref=e69]:
+              - link "AI Chatbot" [ref=e70] [cursor=pointer]:
+                - /url: https://aichatbot.pro/
+            - listitem [ref=e71]:
+              - link "AI GIF Generator" [ref=e72] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-gif-generator/
+            - listitem [ref=e73]:
+              - link "AI Rap Generator" [ref=e74] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-rap-generator/
+            - listitem [ref=e75]:
+              - link "AI Girl Generator" [ref=e76] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-girl-generator/
+            - listitem [ref=e77]:
+              - link "AI Selfie Generator" [ref=e78] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-selfie-generator/
+            - listitem [ref=e79]:
+              - link "AI Lyrics Generator" [ref=e80] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-lyrics-generator/
+            - listitem [ref=e81]:
+              - link "AI Anime Generator" [ref=e82] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-anime-generator/
+            - listitem [ref=e83]:
+              - link "Barbie AI Generator" [ref=e84] [cursor=pointer]:
+                - /url: https://aitoolmall.com/barbie-ai-generator/
+            - listitem [ref=e85]:
+              - link "AI Cartoon Generator" [ref=e86] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-cartoon-generator/
+            - listitem [ref=e87]:
+              - link "AI Animation Generator" [ref=e88] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-animation-generator/
+      - generic [ref=e89]:
+        - heading "NSFW AI Tools" [level=4] [ref=e92]
+        - navigation "Menu" [ref=e95]:
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "Sex Chatbot" [ref=e98] [cursor=pointer]:
+                - /url: https://aitoolmall.com/sex-chatbot/
+            - listitem [ref=e99]:
+              - link "AI Nude Generator" [ref=e100] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-nude-generator/
+            - listitem [ref=e101]:
+              - link "NSFW Character AI" [ref=e102] [cursor=pointer]:
+                - /url: https://aitoolmall.com/top-nsfw-character-ai/
+            - listitem [ref=e103]:
+              - link "AI Waifu Generator" [ref=e104] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-waifu-generator/
+            - listitem [ref=e105]:
+              - link "NSFW AI Generator" [ref=e106] [cursor=pointer]:
+                - /url: https://aitoolmall.com/nsfw-ai-generator/
+            - listitem [ref=e107]:
+              - link "Deepnude Generator" [ref=e108] [cursor=pointer]:
+                - /url: https://aitoolmall.com/deepnude-generator/
+            - listitem [ref=e109]:
+              - link "AI Clothing Remover" [ref=e110] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-clothing-remover/
+            - listitem [ref=e111]:
+              - link "AI Girlfriend Simulator" [ref=e112] [cursor=pointer]:
+                - /url: https://aitoolmall.com/ai-girlfriend-simulator/
+            - listitem [ref=e113]:
+              - link "NSFW AI Image Generator" [ref=e114] [cursor=pointer]:
+                - /url: https://aitoolmall.com/nsfw-ai-image-generator/
+            - listitem [ref=e115]:
+              - link "Uncensored AI Art Generator" [ref=e116] [cursor=pointer]:
+                - /url: https://aitoolmall.com/uncensored-ai-art-generator/
+      - generic [ref=e117]:
+        - heading "AI Article" [level=4] [ref=e120]
+        - navigation "Menu" [ref=e123]:
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - link "News" [ref=e126] [cursor=pointer]:
+                - /url: https://aitoolmall.com/category/news/
+            - listitem [ref=e127]:
+              - link "Blog" [ref=e128] [cursor=pointer]:
+                - /url: https://aitoolmall.com/category/blog/
+            - listitem [ref=e129]:
+              - link "AI Tool Stats" [ref=e130] [cursor=pointer]:
+                - /url: https://aitoolmall.com/stats/ai-tool-stats/
+            - listitem [ref=e131]:
+              - link "ChatGPT Stats" [ref=e132] [cursor=pointer]:
+                - /url: https://aitoolmall.com/stats/chatgpt-stats/
+            - listitem [ref=e133]:
+              - link "AI Tools Submit" [ref=e134] [cursor=pointer]:
+                - /url: https://aitoolmall.com/submit/
+      - generic [ref=e135]:
+        - heading "Support" [level=4] [ref=e138]
+        - navigation "Menu" [ref=e141]:
+          - list [ref=e142]:
+            - listitem [ref=e143]:
+              - link "Contact Us" [ref=e144] [cursor=pointer]:
+                - /url: https://aitoolmall.com/contact-us/
+            - listitem [ref=e145]:
+              - link "Privacy Policy" [ref=e146] [cursor=pointer]:
+                - /url: https://aitoolmall.com/privacy-policy/
+            - listitem [ref=e147]:
+              - link "Terms of Service" [ref=e148] [cursor=pointer]:
+                - /url: https://aitoolmall.com/terms-of-service/
+            - listitem [ref=e149]:
+              - link "Twitter" [ref=e150] [cursor=pointer]:
+                - /url: https://twitter.com/AIToolMall
+    - paragraph [ref=e155]: All logos and names in AIToolMall belong to their respective individuals or companies.
+  - generic [ref=e156]: desktop
