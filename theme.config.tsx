@@ -202,6 +202,7 @@ function Footer() {
               rel: "noopener",
               content: <img src="https://aiagentsdirectory.com/featured-badge.svg?v=2024" alt="Random Pokemon Generator - Featured on AI Agents Directory" width="200" height="50" />
             },
+            { title: "aihustle", url: "https://aihustle.tools" },
           ]}
         />
         {/* <List
