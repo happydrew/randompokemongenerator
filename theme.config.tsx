@@ -203,6 +203,12 @@ function Footer() {
               content: <img src="https://aiagentsdirectory.com/featured-badge.svg?v=2024" alt="Random Pokemon Generator - Featured on AI Agents Directory" width="200" height="50" />
             },
             { title: "aihustle", url: "https://aihustle.tools" },
+            {
+              title: "",
+              url: "https://goodaitools.com/ai/random-pokemon-generator",
+              rel: "noopener noreferrer",
+              Icon: () => <img src="https://goodaitools.com/assets/images/badge.png" alt="Good AI Tools" height="54" />
+            }
           ]}
         />
         {/* <List
