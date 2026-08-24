@@ -6,5 +6,10 @@ export default {
   generateIndexSitemap: false,
   generateRobotsTxt: false,
   // output: "export", // Set static output here
-  exclude: ["/icon.svg"]
+  exclude: [
+    "/icon.svg",
+    "/tags/*",
+    "/chrome-extension/privacy-policy",
+    "/chrome-extension-intitle-quick-search/privacy-policy",
+  ],
 }
