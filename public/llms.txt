@@ -11,7 +11,7 @@ This application allows users to create unique Pokémon teams with precision fil
 - [Blog](https://randompokegen.cc/blog)：Pokémon-related articles and generator tips
 
 ## Common Resources
-- [Docs](https://randompokegen.cc/docs/intro)：Documentation on how to use the generator
+- [Docs](https://randompokegen.cc/docs/introduction/)：Documentation on how to use the generator
 - [Filter Options](https://randompokegen.cc/docs/filter-options)：Detailed explanation of all filter options
 - [Display Options](https://randompokegen.cc/docs/display-options)：Guide to customizing Pokémon card displays
 

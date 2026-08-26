@@ -279,7 +279,7 @@ Specialized generator pages include:
 
 Documentation and blog resources:
 
-1. **Documentation Section** [/docs/intro](https://randompokegen.cc/docs/intro):
+1. **Documentation Section** [/docs/introduction/](https://randompokegen.cc/docs/introduction/):
    - Comprehensive user guides
    - Detailed explanations of all features
    - Step-by-step tutorials with screenshots

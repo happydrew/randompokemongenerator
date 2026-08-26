@@ -140,9 +140,9 @@ function Footer() {
         />
         <List
           title="Document"
-          url="/docs"
+          url="/docs/introduction"
           items={[
-            { title: "Introduction", url: "/docs" },
+            { title: "Introduction", url: "/docs/introduction" },
             { title: "Getting Started", url: "/docs/get-start" },
             { title: "Filter Options", url: "/docs/filter-options" },
             { title: "FAQs", url: "/docs/faqs" }
