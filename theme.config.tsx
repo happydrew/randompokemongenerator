@@ -149,68 +149,6 @@ function Footer() {
           ]}
         />
 
-        <List
-          title="Partner Links"
-          items={[
-            { title: "Directory Website Promote", url: "https://www.promotebusinessdirectory.com/" },
-            { title: "Hosting", url: "https://www.ewebdiscussion.com/forums/web-hosting-offers.67/" },
-            { title: "Dentists Marketing", url: "https://www.siteswebdirectory.com/Health_Medical/Dentistry/" },
-            {
-              title: "Featured on Dang.ai",
-              url: "https://dang.ai",
-              rel: "dofollow noopener",
-              linkClassName: "inline-flex items-center gap-2 no-underline",
-              linkStyle: {
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "8px",
-                border: "1px solid #6a23e7",
-                background: "#050505",
-                color: "#ffffff",
-                font: "700 14px/1.2 Arial,sans-serif",
-                textDecoration: "none",
-                borderRadius: "8px",
-                padding: "10px 12px",
-              },
-            },
-            { title: "AiToolGo", url: "https://www.aitoolgo.com" },
-            { title: "", url: "https://www.toolpilot.ai", Icon: () => <img src="https://www.toolpilot.ai/cdn/shop/files/tp-b-i_1280x1280_crop_center.svg?v=1695883732" alt="Toolpilot" className='h-[54px]' /> },
-            { title: "", url: "https://fazier.com/launches/randompokegen.cc", Icon: () => <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" width={120} alt="Fazier badge" /> },
-            { title: "", url: "https://curateclick.com?utm_source=embed-badge&utm_medium=embed&utm_campaign=embed-badge", Icon: () => <img src="https://curateclick.com/featured-badge.svg" alt="Featured on CurateClick" width={175} height={54} /> },
-            { title: "", url: "https://lovableapp.org", rel: "noopener noreferrer", Icon: () => <img src="https://lovableapp.org/lovable-app-badge.svg" width="160" alt="Lovable App Badge" /> },
-            {
-              title: "Tiny Startups",
-              url: "https://www.tinystartups.com/startup/random-pokemon-generator",
-              rel: "noopener noreferrer",
-              linkClassName:
-                "inline-flex items-center gap-[14px] rounded-[14px] border-2 border-transparent bg-[linear-gradient(#fff,#fff)_padding-box,linear-gradient(90deg,#3525E6,#D81FE0,#22B8F0)_border-box] px-[22px] py-[14px] pl-[18px] text-[#0E0B1F] no-underline",
-              content: <TinyStartupsBadge />,
-            },
-            { title: "https://www.promotebusinessdirectory.com/", url: "https://www.promotebusinessdirectory.com/" },
-            { title: "Dentists Marketing", url: "https://www.siteswebdirectory.com/Health_Medical/Dentistry/" },
-            {
-              title: "",
-              url: "https://startupbase.io/products/random-pokemon-generator?utm_source=startupbase&utm_medium=badge&utm_campaign=launch-badge-light",
-              rel: "noopener noreferrer",
-              Icon: () => <img src="https://statics.startupbase.io/site/badges/launched-on-sb.svg" alt="Launched on StartupBase" height="55" style={{ height: "55px", width: "auto" }} />
-            },
-            { title: "Z-Image", url: "https://z-image.net/" },
-            { title: "TipSeason", url: "https://tipseason.com" },
-            {
-              title: "Discover Random Pokemon Generator on AI Agents Directory",
-              url: "https://aiagentsdirectory.com/agent/random-pokemon-generator",
-              rel: "noopener",
-              content: <img src="https://aiagentsdirectory.com/featured-badge.svg?v=2024" alt="Random Pokemon Generator - Featured on AI Agents Directory" width="200" height="50" />
-            },
-            { title: "aihustle", url: "https://aihustle.tools" },
-            {
-              title: "",
-              url: "https://goodaitools.com/ai/random-pokemon-generator",
-              rel: "noopener noreferrer",
-              Icon: () => <img src="https://goodaitools.com/assets/images/badge.png" alt="Good AI Tools" height="54" />
-            }
-          ]}
-        />
         {/* <List
           title="Blog"
           url="/blog"
