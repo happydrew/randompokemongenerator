@@ -237,6 +237,111 @@ export default {
     const title = `${pageTitle}${asPath.substring(0, asPath.indexOf("?")) === "/" ? "" : " | Random Pokemon Generator"}`
     let { description, canonical, image } = frontMatter
     image = image || "/og-image.png"
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Random Pokemon Generator",
+          "applicationCategory": "GameApplication",
+          "operatingSystem": "WINDOWS,MAC,LINUX,IOS,ANDROID",
+          description,
+          image: {
+            "@type": "ImageObject",
+            url: `https://randompokegen.cc${image}`,
+            width: 800,
+            height: 600,
+          },
+          screenshot: [
+            {
+              "@type": "ImageObject",
+              url: `https://randompokegen.cc${image}`,
+              width: 800,
+              height: 600,
+            },
+          ],
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "USD",
+            availability: "https://schema.org/InStock",
+          },
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.9",
+            ratingCount: "4328",
+            bestRating: "5",
+            worstRating: "3",
+          },
+          author: {
+            "@type": "Organization",
+            name: "Random Pokemon Generator",
+            url: "https://randompokegen.cc",
+          },
+          publisher: {
+            "@type": "Organization",
+            name: "Random Pokemon Generator",
+            url: "https://randompokegen.cc",
+          },
+          releaseNotes: description,
+          datePublished: "2025-04-17",
+        },
+        {
+          "@type": "LocalBusiness",
+          name: "Random Pokemon Generator",
+          image: "https://randompokegen.cc/favicon.ico",
+          "@id": "https://randompokegen.cc/#business",
+          url: "https://randompokegen.cc",
+          telephone: "(907) 457-2631",
+          priceRange: "$",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "919 Stimple Ct",
+            addressLocality: "Fairbanks",
+            addressRegion: "AK",
+            postalCode: "99712",
+            addressCountry: "US",
+          },
+          openingHoursSpecification: {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday",
+            ],
+            opens: "00:00",
+            closes: "23:59",
+          },
+          sameAs: [],
+        },
+        {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Random Pokemon Generator",
+              item: "https://randompokegen.cc/",
+            },
+          ],
+        },
+        {
+          "@type": "WebSite",
+          name: "Random Pokemon Generator",
+          alternateName: "Random Pokemon Generator",
+          url: "https://randompokegen.cc",
+          potentialAction: {
+            "@type": "SearchAction",
+            target: "https://randompokegen.cc",
+            "query-input": "required name=search_term_string",
+          },
+        },
+      ],
+    }
     return (
       <>
         <title>{title}</title>
@@ -261,130 +366,11 @@ export default {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@happydrewgrant" />
 
-        {/* 设置google结构化数据 */}
-        <script type="application/ld+json">
-          {`
-                {
-                  "@context": "https://schema.org",
-                  "@type": "SoftwareApplication",
-                  "name": "Random Pokemon Generator",
-                  "applicationCategory": "GameApplication",
-                  "operatingSystem": "WINDOWS,MAC,LINUX,IOS,ANDROID",
-                  "description": "${description}",
-                  "image": {
-                    "@type": "ImageObject",
-                    "url": "https://randompokegen.cc${image}",
-                    "width": "800",
-                    "height": "600"
-                  },
-                  "screenshot": [
-                    {
-                      "@type": "ImageObject",
-                      "url": "https://randompokegen.cc${image}",
-                      "width": "800",
-                      "height": "600"
-                    }
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "availability": "https://schema.org/InStock"
-                  },
-                  "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "ratingCount": "4328",
-                    "bestRating": "5",
-                    "worstRating": "3"
-                  },
-                  "author": {
-                    "@type": "Organization",
-                    "name": "Random Pokemon Generator",
-                    "url": "https://randompokegen.cc"
-                  },
-                  "publisher": {
-                    "@type": "Organization",
-                    "name": "Random Pokemon Generator",
-                    "url": "https://randompokegen.cc"
-                  },
-                  "releaseNotes": "${description}",
-                  "datePublished": "2025-04-17"
-                }
-            `}
-        </script>
-
-        <script type="application/ld+json">
-          {`
-              {
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Random Pokemon Generator",
-              "image": "https://randompokegen.cc/favicon.ico",
-              "@id": "",
-              "url": "https://randompokegen.cc",
-              "telephone": "(907) 457-2631",
-              "priceRange": "$",
-              "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "919 Stimple Ct",
-              "addressLocality": "Fairbanks",
-              "addressRegion": "AK",
-              "postalCode": "99712",
-              "addressCountry": "US"
-              },
-              "OpeningHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-              "Sunday"
-              ],
-              "opens": "00:00",
-              "closes": "23:59"
-              },
-              "sameAs": []
-              } 
-            `}
-        </script>
-
-        <script type="application/ld+json">
-          {`
-              {
-                "@context": "https://schema.org",
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Random Pokemon Generator",
-                    "item": "https://randompokegen.cc/"
-                  }
-                ]
-              }
-            `}
-        </script>
-
-        <script type="application/ld+json">
-          {`
-              {
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "name": "Random Pokemon Generator",
-              "alternateName": "Random Pokemon Generator",
-              "url": "https://randompokegen.cc",
-              "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://randompokegen.cc",
-              "query-input": "required name=search_term_string"
-              }
-              } 
-            `}
-        </script>
+        {/* JSON.stringify keeps dynamic descriptions from breaking JSON-LD syntax. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
 
       </>
     )
