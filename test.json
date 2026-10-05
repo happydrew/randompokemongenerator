@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Random Pokemon Generator",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "WINDOWS,MAC,LINUX,IOS,ANDROID",
+    "description": "${description}",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://randompokegen.cc${image}",
+        "width": "800",
+        "height": "600"
+    },
+    "screenshot": [
+        {
+            "@type": "ImageObject",
+            "url": "https://randompokegen.cc${image}",
+            "width": "800",
+            "height": "600"
+        }
+    ],
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "4328",
+        "bestRating": "5",
+        "worstRating": "3"
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Random Pokemon Generator",
+        "url": "https://randompokegen.cc"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Random Pokemon Generator",
+        "url": "https://randompokegen.cc"
+    },
+    "releaseNotes": "${description}",
+    "datePublished": "2025-04-17"
+}
